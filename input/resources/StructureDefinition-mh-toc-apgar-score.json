@@ -1,0 +1,28 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "mh-toc-apgar-score",
+  "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-apgar-score",
+  "name": "MHTOCApgarScoreProfile",
+  "title": "APGAR Score Profile",
+  "status": "active",
+  "description": "Profile for recording total Apgar score using any of the standard LOINC codes (1, 5, or 10 minutes).",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment",
+  "derivation": "constraint",
+  "snapshot": {
+    "element": [
+      {
+        "id": "Observation.code",
+        "path": "Observation.code",
+        "min": 1,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-apgar-score-codes"
+        }
+      }
+    ]
+  }
+}

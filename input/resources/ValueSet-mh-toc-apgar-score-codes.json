@@ -1,0 +1,21 @@
+{
+  "resourceType": "ValueSet",
+  "id": "mh-toc-apgar-score-codes",
+  "url": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-apgar-score-codes",
+  "name": "Apgar Score ValueSet (LOINC)",
+  "title": "Apgar Score LOINC Codes",
+  "status": "active",
+  "description": "LOINC codes for total Apgar scores at 1, 5, and 10 minutes.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          { "code": "9270-0", "display": "Apgar score at 1 minute" },
+          { "code": "9272-6", "display": "Apgar score at 5 minutes" },
+          { "code": "9274-2", "display": "Apgar score at 10 minutes" }
+        ]
+      }
+    ]
+  }
+}
