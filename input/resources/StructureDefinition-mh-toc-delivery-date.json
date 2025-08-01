@@ -3,7 +3,7 @@
     "id": "mh-toc-delivery-date",
     "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-delivery-date",
     "name": "MHTOCDeliveryDateProfile",
-    "title": "MH TOC Delivery Date Profile",
+    "title": "Delivery Date Profile",
     "status": "active",
     "date": "2025-07-29",
     "description": "Profile for a mother's delivery date based on US Core Simple Observation",
