@@ -3,7 +3,7 @@
     "id": "mh-toc-discharge-summary",
     "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-discharge-summary",
     "name": "MHTOCDischargeSummaryProfile",
-    "title": "MH TOC Discharge Summary Profile",
+    "title": "Discharge Summary Profile",
     "status": "active",
     "date": "2025-07-28",
     "description": "Profile for a Discharge Summary Note",

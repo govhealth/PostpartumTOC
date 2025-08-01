@@ -11,7 +11,6 @@
 |Care Team Member(s)|Care Team Member Role||CareTeam.participant.role|
 |Clinical Notes|Consultation Note|||
 |Clinical Notes|Discharge Summary Note|[Discharge Summary](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-discharge-summary)|DocumentReference.type|
-|Clinical Notes|History & Physical||DocumentReference.type|
 |Clinical Notes|Procedure Note|||
 |Clinical Notes|Progress Note||DocumentReference.code|
 |Clinical Tests|Clinical Test||DocumentReference.type|
