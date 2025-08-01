@@ -5,7 +5,7 @@
   "name": "MHTOCApgarScoreProfile",
   "title": "APGAR Score Profile",
   "status": "active",
-  "description": "Profile for recording total Apgar score using any of the standard LOINC codes (1, 5, or 10 minutes).",
+  "description": "Profile for Apgar scores",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,

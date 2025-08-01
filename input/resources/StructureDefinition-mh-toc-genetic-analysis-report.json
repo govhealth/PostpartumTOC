@@ -3,7 +3,7 @@
     "id": "mh-toc-genetic-analysis-report",
     "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-genetic-analysis-report",
     "name": "MHTOCGeneticAnalysisReportProfile",
-    "title": "MH TOC genetic analysis report profile",
+    "title": "Genetic analysis report profile",
     "status": "active",
     "date": "2025-07-30",
     "description": "Profile for a genetic analysis report",

@@ -3,7 +3,7 @@
     "id": "mh-toc-encounter",
     "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-encounter",
     "name": "MHTOCEncounterProfile",
-    "title": "MH TOC Encounter Profile",
+    "title": "Encounter Profile",
     "status": "active",
     "date": "2025-07-28",
     "description": "Profile for encounter",
