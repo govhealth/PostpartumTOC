@@ -1,0 +1,32 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "mh-toc-labor-type",
+  "url" : "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-labor-type",
+  "version" : "1.0.0",
+  "name" : "ValueSetMHTOCLaborType",
+  "title" : "MH TOC Labor Type",
+  "date" : "2025-07-25",
+  "description" : "This value set includes types of labor for delivery events.",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "84457005"
+          },
+          {
+            "code" : "31208007"
+          },
+          {
+            "code" : "112070001"
+          },
+          {
+            "code" : "53443007"
+          }
+          
+        ]
+      }
+    ]
+  }
+}

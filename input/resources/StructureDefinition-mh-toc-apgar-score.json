@@ -20,8 +20,10 @@
         "min": 1,
         "binding": {
           "strength": "required",
+          "description" : "Values for apgar scores.",
           "valueSet": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-apgar-score-codes"
-        }
+      },
+      "mustSupport": true
       }
     ]
   }
