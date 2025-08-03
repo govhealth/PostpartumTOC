@@ -6,7 +6,8 @@
 id: fhir.astp.postpartum-toc
 canonical: http://fhir.org/guides/astp/postpartum-toc/ImplementationGuide/fhir.astp.postpartum-toc
 name: PostpartumTOC
-title: USCDI+ Maternal Health Postpartum Transitions of Care (TOC) Implementation Guide
+title: USCDI+ Maternal Health Postpartum Transitions of Care (TOC)
+  Implementation Guide
 # description: Example Implementation Guide for getting started with SUSHI
 status: draft # draft | active | retired | unknown
 version: 0.1.0
@@ -31,7 +32,6 @@ dependencies:
 ##    uri: http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode
 ##    version: 1.0.0
 ##    hl7.fhir.uv.sdc: 3.0.0
-
 # The pages property corresponds to IG.definition.page. SUSHI can
 # auto-generate the page list, but if the author includes pages in
 # this file, it is assumed that the author will fully manage the
@@ -50,18 +50,17 @@ pages:
     title: Background
   spec.md:
     title: Specification
-  artifacts.html:    
+  artifacts.html:
     title: Artifacts Summary
-##  conformance.md:
-##    title: conformance
+  ##  conformance.md:
+  ##    title: conformance
   examples.md:
     title: Examples
-  downloads.md: 
+  downloads.md:
     title: Downloads
   change-log.md:
     title: Change Log
 
-#
 # The parameters property represents IG.definition.parameter. Rather
 # than a list of code/value pairs (as in the ImplementationGuide
 # resource), the code is the YAML key. If a parameter allows repeating
@@ -70,7 +69,6 @@ pages:
 # http://build.fhir.org/codesystem-guide-parameter-code.html
 # For parameters defined by the FHIR Tools IG see:
 # http://build.fhir.org/ig/FHIR/fhir-tools-ig/branches/master/CodeSystem-ig-parameters.html
-
 parameters:
   excludettl: true
   show-inherited-invariants: false
@@ -82,7 +80,7 @@ parameters:
     - fsh-generated/resources
   path-pages:
     - input/pagecontent
-    - fsh-generated/includes      
+    - fsh-generated/includes
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │ The menu property will be used to generate the input/menu.xml file. The menu is represented    │
@@ -94,13 +92,13 @@ parameters:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
-  Background: background.html  
+  Background: background.html
   Specification: spec.html
-  FHIR Artifacts: 
+  FHIR Artifacts:
     Artifacts Summary: artifacts.html
     Examples: examples.html
   Downloads: downloads.html
-  Change Log: change-log.html  
+  Change Log: change-log.html
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
 # │  resource. These properties are less commonly needed than those above.                         │
