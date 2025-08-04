@@ -1,6 +1,6 @@
-Instance: newborn-test
+Instance: newborn
 InstanceOf: USCorePatientProfile
-Title: "newborn test"
+Title: "Newborn Patient Example"
 Usage: #example
 * extension.url = "http://hl7.org/fhir/StructureDefinition/patient-mothersMaidenName"
 * extension.valueString = "Everywoman"
@@ -12,9 +12,9 @@ Usage: #example
 * identifier[0].system = "http://hospital.smarthealthit.org"
 * identifier[0].value = "1032704"
 * name.use = #official
-* name.family = "Everywoman"
+* name.family = "Smith"
 * name.given = "bg"
-* gender = #male
+* gender = #female
 * birthDate = "2017-09-05"
 * birthDate.extension.url = "http://hl7.org/fhir/StructureDefinition/patient-birthTime"
 * birthDate.extension.valueDateTime = "2017-09-05T17:11:00+01:00"
