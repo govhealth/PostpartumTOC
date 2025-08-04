@@ -22,7 +22,7 @@
               "fixedCodeableConcept": {
                 "coding": [
                     {
-                        "system": "http://fhir.org/guides/astp/postpartum-toc/CodeSystem/gap-document-types",
+                        "system": "http://fhir.org/guides/astp/postpartum-toc/CodeSystem/mh-toc-postpartum-temp",
                         "code": "mh-toc-postpartum-summary"
                     }
                 ]
