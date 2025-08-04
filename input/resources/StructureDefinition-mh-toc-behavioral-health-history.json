@@ -16,16 +16,19 @@
     "differential": {
         "element": [
             {
-              "id": "DocumentReference.type",
-              "path": "DocumentReference.type",
-              "min": 1,
-              "binding" : {
-                    "strength" : "example",
-                    "description" : "Values for types of labor.",
-                    "valueSet" : "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-labor-type"
+                "id": "DocumentReference.type",
+                "path": "DocumentReference.type",
+                "min": 1,
+                "fixedCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://fhir.org/guides/astp/postpartum-toc/CodeSystem/mh-toc-postpartum-temp",
+                            "code": "mh-toc-behavioral-health-history"
+                        }
+                    ]
                 },
 
-              "mustSupport": true
+                "mustSupport": true
             },
             {
                 "id": "DocumentReference.author",
