@@ -19,15 +19,12 @@
               "id": "DocumentReference.type",
               "path": "DocumentReference.type",
               "min": 1,
-              "fixedCodeableConcept": {
-                "coding": [
-                    {
-                        "system": "http://fhir.org/guides/astp/postpartum-toc/CodeSystem/gap-document-types",
-                        "code": "mh-toc-behavioral-health-history"
-                    }
-                ]
-                
-              },
+              "binding" : {
+                    "strength" : "example",
+                    "description" : "Values for types of labor.",
+                    "valueSet" : "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-labor-type"
+                },
+
               "mustSupport": true
             },
             {
