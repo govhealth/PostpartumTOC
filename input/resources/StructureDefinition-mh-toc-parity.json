@@ -6,7 +6,7 @@
     "title": "MH TOC Parity Profile",
     "status": "active",
     "date": "2024-11-16",
-    "description": "This is an example profile for parity",
+    "description": "Profile for maternal parity, the number of pregnancies in which a patient has carried a fetus to a viable gestational age",
     "fhirVersion": "4.0.1",
     "kind": "resource",
     "abstract": false,
@@ -124,16 +124,7 @@
                                 "valueBoolean": true
                             }
                         ],
-                        "code": "string"
-                    },
-                    {
-                        "code": "time"
-                    },
-                    {
-                        "code": "dateTime"
-                    },
-                    {
-                        "code": "Period"
+                        "code": "integer"
                     }
                 ],
                 "mustSupport": true

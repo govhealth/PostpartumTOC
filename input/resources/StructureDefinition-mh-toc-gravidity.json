@@ -110,7 +110,6 @@
                 ],
                 "mustSupport": true
             },
-
             {
                 "id": "Observation.value[x]",
                 "path": "Observation.value[x]",
@@ -125,15 +124,6 @@
                             }
                         ],
                         "code": "integer"
-                    },
-                    {
-                        "code": "time"
-                    },
-                    {
-                        "code": "dateTime"
-                    },
-                    {
-                        "code": "Period"
                     }
                 ],
                 "mustSupport": true
