@@ -1,0 +1,24 @@
+{
+  "resourceType": "ValueSet",
+  "id": "mh-toc-smm-all",
+  "url": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-all",
+  "name": "MHTOCSMMAll",
+  "title": "MH TOC All Severe Maternal Morbidity Codes",
+  "status": "active",
+  "date": "2025-08-04",
+  "description": "Combined ValueSet including all SMM-related value sets",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-ami"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-aneurysm"
+        ]
+      }
+    ]
+  }
+}
