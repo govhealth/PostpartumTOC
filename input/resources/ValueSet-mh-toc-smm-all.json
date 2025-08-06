@@ -6,7 +6,7 @@
   "title": "MH TOC All Severe Maternal Morbidity Codes",
   "status": "active",
   "date": "2025-08-04",
-  "description": "Combined ValueSet including all SMM-related value sets",
+  "description": "Grouping ValueSet including all SMM-related concepts",
   "compose": {
     "include": [
       {
