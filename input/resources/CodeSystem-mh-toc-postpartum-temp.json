@@ -4,22 +4,22 @@
   "url": "http://fhir.org/guides/astp/postpartum-toc/CodeSystem/mh-toc-postpartum-temp",
   "version": "1.0.0",
   "name": "MHTOCCodeSystem",
-  "title": "MH TOC Temporary Codes",
+  "title": "MH TOC Temporary Code System",
   "status": "active",
   "date": "2025-07-24",
-  "description": "A temporary CodeSystem with temporary values for this IG.",
+  "description": "Codes temporarily defined as part of the Meternal Health Postpartum TOC implementation guide. These will eventually migrate into an officially maintained terminology, for example, when new LOINC codes are established to support the concepts.",
   "caseSensitive": true,
   "content": "complete",
   "concept": [
     {
       "code": "mh-toc-postpartum-summary",
-      "display": "Local code for Postpartum Summary Note  (known gap working on getting a LOINC code established)",
-      "definition": "A document used for summarizing the prenatal and delivery episodes of care."
+      "display": "Postpartum Summary Note",
+      "definition": "A document used for summarizing the prenatal and delivery episodes of care. (Note that a new LOINC document type code is needed to represent this concept.)"
     },
     {
       "code": "mh-toc-behavioral-health-history",
-      "display": "Local code for Behavioral Health History Note  (known gap working on getting a LOINC code established)",
-      "definition": "A document used for summarizing a patient's behavioral health history."
+      "display": "Behavioral Health History Note",
+      "definition": "A document used for summarizing a patient's behavioral health history. (Note that a new LOINC document type code is needed to represent this concept.)"
     }
   ]
 }
