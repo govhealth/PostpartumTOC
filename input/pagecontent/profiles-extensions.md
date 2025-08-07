@@ -2,7 +2,7 @@
 
 
 
-This page defines the **custom profiles** used in the USCDI+ Maternal Health Postpartum Transitions of Care (TOC) Implementation Guide. These artifacts provide constraints and additions to the base FHIR resources to support more precise, interoperable data exchange in postpartum care workflows.
+This page defines the profiles used in the USCDI+ Maternal Health Postpartum Transitions of Care (TOC) Implementation Guide. These artifacts provide constraints and additions to the base FHIR resources to support more precise, interoperable data exchange in postpartum care workflows.
 
 Profiles are used to specify how standard FHIR resources and existing profiles such as `US Core Condition`, `US Core Simple Observation`, `Encounter`, and `Patient` should be used in this IG. They define required elements, fixed values, terminology bindings, and cardinality rules based on clinical and implementation requirements.
 
@@ -10,7 +10,7 @@ This Implementation Guide adopts **US Core version 6.1.0** as the base for profi
 
 ## What You’ll Find on This Page
 
-- A list of custom profiles organized by their parent base resource or profile. 
+- A list of profiles organized by their parent base resource or profile. 
 - Links to full profile definitions and StructureDefinitions
 
 
@@ -28,7 +28,7 @@ This Implementation Guide adopts **US Core version 6.1.0** as the base for profi
 ## Implementation Notes
 
 - Implementers should **validate** data against these profiles to ensure conformance with the guide.
-- US Core 6.1.0 profiles are reused when they meet implementation needs; **custom profiles** are introduced where necessary.
+- US Core 6.1.0 profiles are reused when they meet implementation needs; profiles are introduced where necessary.
 - Each profile links to its full StructureDefinition and example instances to illustrate real-world usage.
 
 ## Usage Guidance
