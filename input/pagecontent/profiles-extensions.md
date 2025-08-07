@@ -64,6 +64,10 @@ When validating resources against these profiles, ensure that:
   	<tr><th>Profile</th><th>Description</th></tr></thead>
   <tbody>
     <tr>
+      <td><a href="StructureDefinition-mh-toc-gravidity.html">MH TOC Maternal Gravidity</a></td>
+      <td>Profile for maternal gravidity, the number of pregnancies regardless of outcome</td>
+    </tr>
+    <tr>
     	<td><a href="StructureDefinition-mh-toc-parity.html">MH TOC Maternal Parity</a></td>
     	<td>Profile for maternal parity, the number of pregnancies in which a fetus to a viable gestational age regardless of outcome</td>
     </tr>

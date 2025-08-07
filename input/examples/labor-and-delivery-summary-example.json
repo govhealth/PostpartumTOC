@@ -1,18 +1,18 @@
 
 {
   "resourceType" : "DocumentReference",
-  "id": "mh-toc-behavioral-health-history-example",
+  "id": "mh-toc-labor-and-delivery-summary-example",
   "meta" : {
     "profile" : [
-      "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-behavioral-health-history"
+      "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-labor-and-delivery-summary"
     ]
   },
   "status" : "current",
   "type" : {
     "coding" : [
       {
-        "system": "http://fhir.org/guides/astp/postpartum-toc/CodeSystem/mh-toc-postpartum-temp",
-        "code": "mh-toc-behavioral-health-history"
+        "system": "http://loinc.org",
+        "code": "57057-2"
       }
     ]
   },

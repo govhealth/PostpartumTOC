@@ -19,7 +19,7 @@
                 "id": "DocumentReference.type",
                 "path": "DocumentReference.type",
                 "min": 1,
-                "fixedCodeableConcept": {
+                "patternCodeableConcept": {
                     "coding": [
                         {
                             "system": "http://loinc.org",
@@ -27,6 +27,32 @@
                         }
                     ]
                 },
+                "mustSupport": true
+            },
+
+            {
+                "id": "DocumentReference.subject",
+                "path": "DocumentReference.subject",
+                "min": 1,
+                "type": [
+                    {
+                        "code": "Reference",
+                        "targetProfile": [
+                            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+                        ],
+                        "_targetProfile": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support",
+                                        "valueBoolean": true
+                                    }
+                                ]
+                            }
+                            
+                        ]
+                    }
+                ],
                 "mustSupport": true
             },
             {
@@ -70,32 +96,6 @@
                                     {
                                         "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support",
                                         "valueBoolean": false
-                                    }
-                                ]
-                            }
-                            
-                        ]
-                    }
-                ],
-                "mustSupport": true
-            },
-
-            {
-                "id": "DocumentReference.subject",
-                "path": "DocumentReference.subject",
-                "min": 1,
-                "type": [
-                    {
-                        "code": "Reference",
-                        "targetProfile": [
-                            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
-                        ],
-                        "_targetProfile": [
-                            {
-                                "extension": [
-                                    {
-                                        "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support",
-                                        "valueBoolean": true
                                     }
                                 ]
                             }
