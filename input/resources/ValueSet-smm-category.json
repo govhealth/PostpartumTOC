@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "id": "mh-toc-smm-category",
+  "url": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-category",
+  "version": "1.0.0",
+  "name": "SMMCategoryValueSet",
+  "title": "ValueSet for SMM Indicators",
+  "status": "active",
+  "experimental": false,
+  "description": "ValueSet for specifying categories for Severe Maternal Morbidity (SMM) indicators.",
+
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.org/guides/astp/postpartum-toc/CodeSystem/smm-category",
+        "concept": [
+          {
+            "code": "ami",
+            "display": "Acute Myocardial Infarction"
+          },
+          {
+            "code": "aneurysm",
+            "display": "Aneurysm"
+          }
+        ]
+      }
+    ]
+  }
+}
