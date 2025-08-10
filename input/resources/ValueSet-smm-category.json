@@ -21,6 +21,10 @@
           {
             "code": "aneurysm",
             "display": "Aneurysm"
+          },
+          {
+            "code": "ventilation",
+            "display": "Ventilation"
           }
         ]
       }
