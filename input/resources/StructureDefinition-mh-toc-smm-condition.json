@@ -1,44 +1,44 @@
 {
-  "resourceType": "StructureDefinition",
-  "id": "mh-toc-smm-condition",
-  "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition",
-  "version": "1.0.0",
-  "name": "MHTOCSMMCondition",
-  "title": "MH TOC Severe Maternal Morbidity Condition",
-  "status": "active",
-  "date": "2025-07-28",
-  "publisher": "Alliance for Innovation on Maternal Health",
-  "description": "Base profile for representing Severe Maternal Morbidity (SMM) conditions using ICD codes.",
-  "fhirVersion": "4.0.1",
-  "kind": "resource",
-  "abstract": false,
-  "type": "Condition",
-  "baseDefinition": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis",
-  "derivation": "constraint",
-  "differential": {
-    "element": [
-      
-    {
-      "id": "Condition.extension:smmIndicator",
-      "path": "Condition.extension",
-      "sliceName": "smmIndicator",
-      "short": "SMM Indicator",
-      "definition": "Identifies the SMM indicator category for this condition.",
-      "min": 1,
-      "max": "1",
-      "mustSupport": true,
-      "type": [{
-        "code": "Extension",
-        "profile": [
-          "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-indicator"
+    "resourceType": "StructureDefinition",
+    "id": "mh-toc-smm-condition",
+    "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition",
+    "version": "1.0.0",
+    "name": "MHTOCSMMCondition",
+    "title": "MH TOC Severe Maternal Morbidity Condition",
+    "status": "active",
+    "date": "2025-07-28",
+    "description": "Base profile for representing Severe Maternal Morbidity (SMM) Indicators.",
+    "fhirVersion": "4.0.1",
+    "kind": "resource",
+    "abstract": false,
+    "type": "Condition",
+    "baseDefinition": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis",
+    "derivation": "constraint",
+    "differential": {
+        "element": [
+            {
+                "id": "Condition.extension:smmIndicator",
+                "path": "Condition.extension",
+                "sliceName": "smmIndicator",
+                "short": "SMM Indicator",
+                "definition": "Identifies the SMM indicator category for this condition.",
+                "min": 1,
+                "max": "1",
+                "mustSupport": true,
+                "type": [
+                    {
+                        "code": "Extension",
+                        "profile": [
+                            "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-indicator"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "Condition.encounter",
+                "path": "Condition.encounter",
+                "min": 1
+            }
         ]
-      }]
-    },
-      {
-        "id": "Condition.encounter",
-        "path": "Condition.encounter",
-        "min": 1
-      }
-    ]
-  }
+    }
 }
