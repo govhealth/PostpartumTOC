@@ -12,10 +12,11 @@
       "coding": [
         {
           "system": "http://terminology.hl7.org/CodeSystem/observation-category",
-          "code": "vital-signs",
-          "display": "Vital Signs"
+          "code": "exam",
+          "display": "Exam"
         }
-      ]
+      ],
+      "text": "Exam"
     }
   ],
   "code": {
