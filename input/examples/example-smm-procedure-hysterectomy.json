@@ -1,0 +1,32 @@
+{
+  "resourceType": "Procedure",
+  "id": "example-smm-procedure-hysterectomy",
+  "meta": {
+    "profile": [
+      "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-procedure-hysterectomy"
+    ]
+  },
+  "status": "completed",
+  "code": {
+    "coding": [
+      {
+        "system": "http://www.cms.gov/Medicare/Coding/ICD10",
+        "code": "0UT90ZZ",
+        "display": "Resection of Uterus, Open Approach"
+      }
+    ],
+    "text": "Hysterectomy (ICD-10-PCS)"
+  },
+  "subject": { "reference": "Patient/mom" },
+  "encounter": { "reference": "Encounter/delivery-encounter-example" },
+  "performedDateTime": "2025-08-10",
+  "extension": [
+    {
+      "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/smmIndicator",
+      "valueCode": "Hysterectomy"
+    }
+  ],
+  "performer": [
+    { "actor": { "reference": "Practitioner/surgeon1", "display": "Dr. Jane Doe" } }
+  ]
+}
