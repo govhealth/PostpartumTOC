@@ -1,9 +1,6 @@
 
 
 
-
-
-
 |Data Class|Postpartum TOC Data Element|FHIR Profile|FHIR Profile Data Element|
 |---|---|---|---|
 |Allergies and Intolerances|Substance (Drug Class)|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
@@ -11,13 +8,16 @@
 |Allergies and Intolerances|Substance (Non-Medication)|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
 |Care Team Member(s)|Care Team Member Name|[US Core CareTeam](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-careteam.html)|CareTeam.participant|
 |Care Team Member(s)|Care Team Member Role|[US Core CareTeam](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-careteam.html)|CareTeam.participant.role|
-
-|Clinical Notes|Antepartum Summary Note|||
-|Clinical Notes|Consultation Note|||
+|Clinical Notes|Antepartum Summary Note|[US Core DocumentReference](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-documentreference.html)|DocumentReference.type|
+|Clinical Notes|Behavioral Health History|[Behavioral Health History](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition-mh-toc-behavioral-health-history)|DocumentReference.type|
+|Clinical Notes|Consultation Note|[US Core DocumentReference](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-documentreference.html)|DocumentReference.type|
+|Clinical Notes|Delivery Summary Note|[Labor and Delivery Summary](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition-mh-toc-labor-and-delivery-summary)|DocumentReference.type|
 |Clinical Notes|Discharge Summary Note|[Discharge Summary](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-discharge-summary)|DocumentReference.type|
-|Clinical Notes|Procedure Note|||
-|Clinical Notes|Progress Note||DocumentReference.code|
-
+|Clinical Notes|History & Physical|[US Core DocumentReference](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-documentreference.html)|DocumentReference.type|
+|Clinical Notes|Postpartum Summary Note|[Postpartum Summary](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition-mh-toc-postpartum-summary)|DocumentReference.type|
+|Clinical Notes|Pregnancy History Note|||
+|Clinical Notes|Procedure Note|[US Core DocumentReference](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-documentreference.html)|DocumentReference.type|
+|Clinical Notes|Progress Note|[US Core DocumentReference](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-documentreference.html)|DocumentReference.type|
 |Clinical Tests|Clinical Test|[US Core DiagnosticReport Profile for Report and Note Exchange](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-diagnosticreport-note.html)|DiagnosticReport.code|
 |Clinical Tests|Clinical Test Result/Report|[US Core DiagnosticReport Profile for Report and Note Exchange](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-diagnosticreport-note.html)|DiagnosticReport.result|
 |Diagnostic Imaging|Diagnostic Imaging Report|[US Core DiagnosticReport Profile for Report and Note Exchange](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-diagnosticreport-note.html)|DiagnosticReport.code|
@@ -27,21 +27,23 @@
 |Encounter Information|Encounter Type|[US Core Encounter](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-encounter.html)|Encounter.type|
 |Facility Information|Facility Name|[US Core Location](https://hl7.org/fhir/us/core/2024Jan/StructureDefinition-us-core-location.html)|Location.name|
 |Facility Information|Facility Name|[US Core Location](https://hl7.org/fhir/us/core/2024Jan/StructureDefinition-us-core-location.html)|Location.type|
-
 |Family Health History|Family Health History|[Family Member History](http://hl7.org/fhir/StructureDefinition/FamilyMemberHistory)|FamilyMemberHistory|
-
+|Education|Education (Maternal Health)|||
+|Genomics|Genetic Screening|[Genetic Analysis Report](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition-mh-toc-genetic-analysis-report)|DocumentReference.type|
+|Genomics|Teratology Counseling|||
 |Health Status Assessment|Alcohol Use|[US Core Observation Screening Assessment](http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment)|observation.code|
-|Health Status Assessments|Clinical Risk Assessment Results|||
-|Health Status Assessments|Mental / Cognitive Status||Observation.code|
+|Health Status Assessments|Clinical Risk Assessment Results|[US Core Observation Screening Assessment](http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment)|Observation.value[x]|
+|Health Status Assessments|GAD-7 Score|[US Core Observation Screening Assessment](http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment)|Observation.value[x]|
+|Health Status Assessments|Mental / Cognitive Status|[US Core Observation Screening Assessment](http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment)|Observation.code|
+|Health Status Assessments|PHQ-9 Score|[US Core Observation Screening Assessment](http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment)|Observation.value[x]|
 |Health Status Assessment|Pregnancy Status|[US Core Observation Pregnancy Status](http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-pregnancystatus)|observation.code|
 |Health Status Assessments|Smoking Status|[US Core Smoking Status](http://hl7.org/fhir/us/core/StructureDefinition/us-core-smokingstatus)|Observation.code|
-|Health Status Assessments|Substance Use||Observation.value[x]|
-
+|Health Status Assessments|Substance Use|[US Core Observation Screening Assessment](http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment)|Observation.code|
 |Immmunizations|Immunization Status|[US Core Immunization](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-immunization.html)|Immunization.status|
 |Immmunizations|Immunizations|[US Core Immunization](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-immunization.html)|Immunization.vaccinecode|
 |Immmunizations|Reason Immunization Not Performed|[US Core Immunization](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-immunization.html)|Immunization.statusreason|
 |Labor and Delivery|Delivery Type|[Birth and Fetal Death ProcedureFinalRouteMethodDelivery](https://build.fhir.org/ig/HL7/fhir-bfdr/StructureDefinition-Procedure-final-route-method-delivery-definitions.html)|Procedure.code|
-|Labor and Delivery|Labor Type|||
+|Labor and Delivery|Labor Type|[Labor Type](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition-mh-toc-labor-type)|Observation.value[x]|
 |Laboratory|Result Reference Range|[US Core Laboratory Result Observation Profile](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-observation-lab.html)|Observation.referenceRange|
 |Laboratory|Result Status|[US Core DiagnosticReport Profile for Laboratory Results Reporting](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-diagnosticreport-lab.html)|DiagnosticReport.status|
 |Laboratory|Specimen Identifier|[US Core Specimen](http://hl7.org/fhir/us/core/StructureDefinition/us-core-specimen)|Specimen.identifier|
@@ -76,22 +78,25 @@
 |Patient Demographics|Sex|[US Core Patient](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.gender|
 |Patient Demographics|Tribal Affiliation|[US Core Patient](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.extension:tribalAffiliation|
 |Patient Summary and Plan|Assessment and Plan of Treatment|[US Core](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-careplan.html)|CarePlan.text|
-
-|Pregnancy Information|Delivery Date||Procedure.code|
-
+|Pregnancy Information|Delivery Date|[Delivery Date](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition-mh-toc-delivery-date)|Observation.date|
 |Pregnancy Information|Estimated Date of Delivery|[International Patient Summary Expected Delivery Observation - Pregnancy: EDD](http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-pregnancy-edd-uv-ips)|Observation.code|
 |Pregnancy Information|Estimated Date of Delivery Determination Method|[International Patient Summary Expected Delivery Observation - Pregnancy: EDD](http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-pregnancy-edd-uv-ips)|Observation.code|
 |Pregnancy Information|Gestational Age|[Gestational Age](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-gestation-age)|Obversation.code|
 |Pregnancy Information|Gestational Age at Delivery|[Birth and Fetal Death Observation - Gestational Age at Delivery](https://build.fhir.org/ig/HL7/fhir-bfdr/StructureDefinition-Observation-gestational-age-at-delivery.html)|Obversation.code|
+|Pregnancy Information|Gestational Age Determination Date|[US Public Health Pregnancy Status Observation](https://build.fhir.org/ig/HL7/fhir-us-ph-common-library-ig/StructureDefinition-us-ph-pregnancy-status-observation.html)|Observation.extension:extensionPregnancyStatusDeterminationDate|
+|Pregnancy Information|Gestational Age Determination Method|[US Public Health Pregnancy Status Observation](https://build.fhir.org/ig/HL7/fhir-us-ph-common-library-ig/StructureDefinition-us-ph-pregnancy-status-observation.html)|Observation.component:sliceEstimatedGestationalAgeOfPregnancy|
+|Pregnancy Information|Gravidity|[Gravidity](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-gravidity)|Obversation.code|
 |Pregnancy Information|Last Menstrual Period (LMP)|[Birth and Fetal Death Observation - Last Menstrual Period](https://build.fhir.org/ig/HL7/fhir-bfdr/StructureDefinition-Observation-last-menstrual-period.html)|Observation.code|
 |Pregnancy Information|Multiple Gestation|[US Core Patient](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|patient.multiplebirth[x]|
-|Pregnancy Information|Pregnancy Outcome|Estimated Date of Delivery|[International Patient Summary Expected Delivery Observation - Pregnancy: EDD](http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-pregnancy-edd-uv-ips)|Observation.code|
+|Pregnancy Information|Parity|[Parity](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-parity)|Obversation.code|
+|Pregnancy Information|Pregnancy Outcome|[International Patient Summary Expected Delivery Observation - Pregnancy: EDD](http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-pregnancy-edd-uv-ips)|Observation.code|
+|Pregnancy Information|Pregnancy Status Determination Date|[US Public Health Pregnancy Status Observation](https://build.fhir.org/ig/HL7/fhir-us-ph-common-library-ig/StructureDefinition-us-ph-pregnancy-status-observation.html)|Observation.extension:extensionPregnancyStatusDeterminationDate|
+|Pregnancy Information|Pregnancy Status Determination Method|[US Public Health Pregnancy Status Observation](https://build.fhir.org/ig/HL7/fhir-us-ph-common-library-ig/StructureDefinition-us-ph-pregnancy-status-observation.html)|Observation.method|
+|Pregnancy Information|Postpartum Status|[US Public Health Postpartum Status](https://build.fhir.org/ig/HL7/case-reporting/StructureDefinition-us-ph-postpartum-status.html)|Observation.code|
 |Problems|Date of Diagnosis|[US Core Condition Problems and Health Concerns](http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-problems-health-concerns)|Condition.onset[x]|
 |Problems|Date of Resolution|[US Core Condition Problems and Health Concerns](http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-problems-health-concerns)|Condition.abatement[x]|
-
-|Problems|Hypertensive Disorders of Pregnancy|||
-|Problems|Indicators of Severe Maternal Morbidity|||
-
+|Problems|Hypertensive Disorders of Pregnancy|[Longitudinal Maternal & Infant Health Information for Research Library for Hypertensive Disorders of Pregnancy](https://build.fhir.org/ig/HL7/fhir-mmm-ig/Library-PIHCohort.html)|Condition.code|
+|Problems|Indicators of Severe Maternal Morbidity|[Severe Maternal Morbidity](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition-mh-toc-severe-maternal-morbidity)|Observation.code|
 |Problems|Problems|[US Core Condition Problems and Health Concerns](http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-problems-health-concerns)|Condition.code|
 |Problems|SDOH Problems/Health Concerns|[SDOHCC Condition](http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-Condition)|Condition.code|
 |Procedures|Performance Time|[US Core Procedure](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-procedure.html)|Procedure.performed[x]|
@@ -100,7 +105,6 @@
 |Procedures|Reason for Referral|[US Core Procedure](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-procedure.html)|ServiceRequest.reasonReference|
 |Provenance|Author Organization|[US Core Provenance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-provenance.html)|Provenance.agent|
 |Provenance|Author Time Stamp|[US Core Provenance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-provenance.html)|Provenance.occured[x]|
-
 |Vital Signs|Average Blood Pressure|[US Core Average Blood Pressure](http://hl7.org/fhir/us/core/StructureDefinition/us-core-average-blood-pressure)|Observation.value[x]|
 |Vital Signs|BMI|[US Core BMI](http://hl7.org/fhir/us/core/StructureDefinition/us-core-bmi)|Observation.code|
 |Vital Signs|Body Height|[US Core Body Height](http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-height)|Observation.code|
