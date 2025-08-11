@@ -29,6 +29,12 @@
                 },
                 "mustSupport": true
             },
+            {
+              "id": "DocumentReference.category:uscore",
+              "path": "DocumentReference.category",
+              "sliceName": "uscore",
+              "mustSupport": true
+            },
 
             {
                 "id": "DocumentReference.subject",

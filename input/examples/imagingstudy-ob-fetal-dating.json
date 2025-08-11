@@ -1,0 +1,31 @@
+{
+  "resourceType": "ImagingStudy",
+  "id": "imagingstudy-ob-fetal-dating",
+  "status": "available",
+  "subject": { "reference": "Patient/mom" },
+  "started": "2025-08-05T10:15:00Z",
+  "modality": [
+    { "system": "http://dicom.nema.org/resources/ontology/DCM", "code": "US" }
+  ],
+  "numberOfSeries": 1,
+  "numberOfInstances": 1,
+  "series": [
+    {
+      "uid": "1.2.840.113619.2.55.3.123456789.20250805.101500.1",
+      "number": 1,
+      "modality": { "system": "http://dicom.nema.org/resources/ontology/DCM", "code": "US" },
+      "numberOfInstances": 1,
+      "instance": [
+        {
+          "uid": "1.2.840.113619.2.55.3.123456789.20250805.101500.1.1",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "urn:oid:1.2.840.10008.5.1.4.1.1.6.1",
+            "display": "Ultrasound Image Storage"
+          },
+          "number": 1
+        }
+      ]
+    }
+  ]
+}

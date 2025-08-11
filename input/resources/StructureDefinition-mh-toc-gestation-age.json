@@ -1,135 +1,136 @@
 {
-    "resourceType": "StructureDefinition",
-    "id": "mh-toc-gestation-age",
-    "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-gestation-age",
-    "name": "MHTOCGestationalAgeProfile",
-    "title": "MH TOC Gestational Age Profile",
-    "status": "active",
-    "date": "2024-11-16",
-    "description": "Profile for gestation age at a prenatal encounter",
-    "fhirVersion": "4.0.1",
-    "kind": "resource",
-    "abstract": false,
-    "type": "Observation",
-    "baseDefinition": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-simple-observation",
-    "derivation": "constraint",
-    "differential": {
-        "element": [
-            
+  "resourceType": "StructureDefinition",
+  "id": "mh-toc-gestation-age",
+  "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-gestation-age",
+  "version": "1.0.0",
+  "name": "MHTOCGestationalAgeProfile",
+  "title": "MH TOC Gestational Age Profile",
+  "status": "active",
+  "date": "2024-11-16",
+  "description": "Profile for gestation age at a prenatal encounter",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-simple-observation",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation.code",
+        "path": "Observation.code",
+        "short": "Gestational Age",
+        "type": [
+          { "code": "CodeableConcept" }
+        ],
+        "patternCodeableConcept": {
+          "coding": [
             {
-                "id": "Observation.code",
-                "path": "Observation.code",
-                "short": "Gestational Age",
-                "type": [
-                    {
-                        "code": "CodeableConcept"
-                    }
-                ],
-                "patternCodeableConcept": {
-                    "coding": [
-                        {
-                            "system": "http://loinc.org",
-                            "code": "11977-6"
-                        }
-                    ]
-                },
-                "mustSupport": true
-            },
-
-            {
-                "id": "Observation.encounter",
-                "path": "Observation.encounter",
-                "type": [
-                    {
-                        "code": "Reference",
-                        "targetProfile": [
-                            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
-              
-                        ],
-                        "_targetProfile": [
-                            {
-                                "extension": [
-                                    
-
-                                    {
-                                        "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support",
-                                        "valueBoolean": true
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "id": "Observation.performer",
-                "path": "Observation.performer",
-                "type": [
-                    {
-                        "code": "Reference",
-                        "targetProfile": [
-                            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner",
-                            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization",
-                            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"
-              
-                        ],
-                        "_targetProfile": [
-                            {
-                                "extension": [
-                                    
-
-                                    {
-                                        "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support",
-                                        "valueBoolean": true
-                                    }
-                                ]
-                            },
-                            {
-                                "extension": [
-                                    
-
-                                    {
-                                        "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support",
-                                        "valueBoolean": false
-                                    }
-                                ]
-                            },
-                            {
-                                "extension": [
-                                    
-
-                                    {
-                                        "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support",
-                                        "valueBoolean": false
-                                    }
-                                ]
-                            }
-                            
-                        ]
-                    }
-                ],
-                "mustSupport": true
-            },
-
-            {
-                "id": "Observation.value[x]",
-                "path": "Observation.value[x]",
-                "min": 1,
-                "max": "1",
-                "type": [
-                    {
-                        "extension": [
-                            {
-                                "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support",
-                                "valueBoolean": true
-                            }
-                        ],
-                        "code": "string"
-                    }
-                ],
-                "mustSupport": true
+              "system": "http://loinc.org",
+              "code": "11977-6"
             }
-            
-        ]
-    }
+          ]
+        },
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.encounter",
+        "path": "Observation.encounter",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ],
+            "_targetProfile": [
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support",
+                    "valueBoolean": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.performer",
+        "path": "Observation.performer",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner",
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization",
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"
+            ],
+            "_targetProfile": [
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support",
+                    "valueBoolean": true
+                  }
+                ]
+              },
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support",
+                    "valueBoolean": false
+                  }
+                ]
+              },
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support",
+                    "valueBoolean": false
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.value[x]",
+        "path": "Observation.value[x]",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Quantity",
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support",
+                "valueBoolean": true
+              }
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.valueQuantity.system",
+        "path": "Observation.valueQuantity.system",
+        "fixedUri": "http://unitsofmeasure.org",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.valueQuantity.code",
+        "path": "Observation.valueQuantity.code",
+        "short": "UCUM unit (e.g., wk, d) bound to BFDR units of gestational age",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.org/fhir/us/bfdr/ValueSet/units-of-gestational-age"
+        },
+        "mustSupport": true
+      }
+    ]
+  }
 }

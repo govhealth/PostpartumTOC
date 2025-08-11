@@ -19,7 +19,7 @@
                 "id": "DocumentReference.type",
                 "path": "DocumentReference.type",
                 "min": 1,
-                "fixedCodeableConcept": {
+                "patternCodeableConcept": {
                     "coding": [
                         {
                             "system": "http://loinc.org",
@@ -28,6 +28,12 @@
                     ]
                 },
                 "mustSupport": true
+            },
+            {
+              "id": "DocumentReference.category:uscore",
+              "path": "DocumentReference.category",
+              "sliceName": "uscore",
+              "mustSupport": true
             },
             {
                 "id": "DocumentReference.subject",

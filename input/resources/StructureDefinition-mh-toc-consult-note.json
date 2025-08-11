@@ -24,12 +24,16 @@
           "coding": [
             {
               "system": "http://loinc.org",
-              "code": "11488-4",
-              "display": "Consult note"
-            }
-          ],
-          "text": "Consult note"
+              "code": "11488-4"
+              }
+          ]
         }
+      },
+      {
+        "id": "DocumentReference.category:uscore",
+        "path": "DocumentReference.category",
+        "sliceName": "uscore",
+        "mustSupport": true
       },
       {
         "id": "DocumentReference.author",
