@@ -21,7 +21,7 @@
         "path": "Procedure.extension.valueCode",
         "min": 1,
         "max": "1",
-        "fixedCode": "Hysterectomy"
+        "fixedCode": "hysterectomy"
       },
       {
         "id": "Procedure.code",

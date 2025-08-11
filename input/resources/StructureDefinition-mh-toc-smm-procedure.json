@@ -35,6 +35,14 @@
                 ]
             },
             {
+                "id": "Procedure.code",
+                "path": "Procedure.code",
+                "binding": {
+                "strength": "extensible",
+                "valueSet": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm"
+                } 
+            }, 
+            {
                 "id": "Procedure.encounter",
                 "path": "Procedure.encounter",
                 "min": 1

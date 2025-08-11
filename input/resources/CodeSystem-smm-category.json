@@ -22,6 +22,10 @@
     {
       "code": "ventilation",
       "display": "Ventilation"
+    },
+    {
+      "code": "hysterectomy",
+      "display": "Hysterectomy"
     }
   ]
 }

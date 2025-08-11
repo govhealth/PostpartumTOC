@@ -11,22 +11,29 @@
     "coding": [
       {
         "system": "http://www.cms.gov/Medicare/Coding/ICD10",
-        "code": "0UT90ZZ",
-        "display": "Resection of Uterus, Open Approach"
+        "code": "0UT90ZZ"
       }
-    ],
-    "text": "Hysterectomy (ICD-10-PCS)"
+    ]
   },
-  "subject": { "reference": "Patient/mom" },
-  "encounter": { "reference": "Encounter/delivery-encounter-example" },
+  "subject": {
+    "reference": "Patient/mom"
+  },
+  "encounter": {
+    "reference": "Encounter/delivery-encounter-example"
+  },
   "performedDateTime": "2025-08-10",
   "extension": [
     {
-      "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/smmIndicator",
-      "valueCode": "Hysterectomy"
+      "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-indicator",
+      "valueCode": "hysterectomy"
     }
   ],
   "performer": [
-    { "actor": { "reference": "Practitioner/surgeon1", "display": "Dr. Jane Doe" } }
+    {
+      "actor": {
+        "reference": "Practitioner/surgeon1",
+        "display": "Dr. Jane Doe"
+      }
+    }
   ]
 }

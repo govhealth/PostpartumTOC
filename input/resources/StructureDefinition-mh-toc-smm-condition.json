@@ -7,7 +7,7 @@
     "title": "MH TOC Severe Maternal Morbidity Condition",
     "status": "active",
     "date": "2025-07-28",
-    "description": "Base profile for representing Severe Maternal Morbidity (SMM) Indicators.",
+    "description": "The MH TOC Severe Maternal Morbidity Condition Profile is derived from the USCore Condition Enounter Diagnosis Profile. It defines the common requirements for representing an encounter diagnosis that is a Severe Maternal Morbidity (SMM) condition, with an indicator indicating which SMM category this SMM condition is categorized as.",
     "fhirVersion": "4.0.1",
     "kind": "resource",
     "abstract": false,
@@ -34,6 +34,14 @@
                     }
                 ]
             },
+            {
+                "id": "Condition.code",
+                "path": "Condition.code",
+                "binding": {
+                "strength": "extensible",
+                "valueSet": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm"
+                } 
+            },           
             {
                 "id": "Condition.encounter",
                 "path": "Condition.encounter",
