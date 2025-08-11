@@ -15,7 +15,7 @@ Usage: #example
       * code = #MR
       * display = "Medical Record Number"
     * text = "Medical Record Number"
-  * system = "http://hospital.smarthealthit.org"
+  * system = "http://example.org/fhir/identifier/hospital"
   * value = "1032704"
 * active = true
 * name.use = #official

@@ -17,6 +17,19 @@
   "differential": {
     "element": [
       {
+        "id": "DiagnosticReport.result",
+        "path": "DiagnosticReport.result",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-clinical-result"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
         "id": "DiagnosticReport.imagingStudy",
         "path": "DiagnosticReport.imagingStudy",
         "min": 1,
@@ -26,19 +39,6 @@
             "code": "Reference",
             "targetProfile": [
               "http://hl7.org/fhir/StructureDefinition/ImagingStudy"
-            ]
-          }
-        ],
-        "mustSupport": true
-      },
-      {
-        "id": "DiagnosticReport.result",
-        "path": "DiagnosticReport.result",
-        "type": [
-          {
-            "code": "Reference",
-            "targetProfile": [
-              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-clinical-result"
             ]
           }
         ],

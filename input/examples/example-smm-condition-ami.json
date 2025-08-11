@@ -49,7 +49,7 @@
     "reference": "Patient/example"
   },
   "encounter": {
-    "reference": "Encounter/example"
+    "reference": "Encounter/delivery-encounter-example"
   },
   "onsetDateTime": "2025-07-01",
   "extension": [

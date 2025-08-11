@@ -9,6 +9,7 @@
   "date": "2025-07-24",
   "description": "Codes temporarily defined as part of the Meternal Health Postpartum TOC implementation guide. These will eventually migrate into an officially maintained terminology, for example, when new LOINC codes are established to support the concepts.",
   "caseSensitive": true,
+  "experimental": false,
   "content": "complete",
   "concept": [
     {

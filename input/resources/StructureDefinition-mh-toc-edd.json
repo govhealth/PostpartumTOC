@@ -59,6 +59,20 @@
         ]
       },
       {
+        "id": "Observation.encounter",
+        "path": "Observation.encounter",
+        "min": 0,
+        "mustSupport": true,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          }
+        ]
+      },
+      {
         "id": "Observation.effective[x]",
         "path": "Observation.effective[x]",
         "min": 1,
@@ -85,20 +99,6 @@
             "code": "Reference",
             "targetProfile": [
               "http://hl7.org/fhir/StructureDefinition/ImagingStudy"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "Observation.encounter",
-        "path": "Observation.encounter",
-        "min": 0,
-        "mustSupport": true,
-        "type": [
-          {
-            "code": "Reference",
-            "targetProfile": [
-              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
             ]
           }
         ]
