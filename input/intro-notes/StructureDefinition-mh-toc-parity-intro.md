@@ -1,1 +1,0 @@
-The **MH TOC Parity** profile is based on the [US Core Simple Observation](http://hl7.org/fhir/us/core/StructureDefinition/us-core-simple-observation) profile.
