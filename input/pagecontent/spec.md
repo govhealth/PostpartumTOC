@@ -1,5 +1,5 @@
 
-
+The following profiles have been defined as part of the [Name of the FHIR IG] Implementation Guide. A registry of US Core profiles may be found within the US Core FHIR IG. A registry of standard profiles can be found in the FHIR specification, and additional profiles may be registered on the HL7 FHIR registry at http://hl7.org/fhir/registry.
 
 |Data Class|Postpartum TOC Data Element|FHIR Profile|FHIR Profile Data Element|
 |---|---|---|---|
