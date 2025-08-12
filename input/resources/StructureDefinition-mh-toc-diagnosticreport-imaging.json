@@ -4,7 +4,7 @@
   "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-diagnosticreport-imaging",
   "version": "1.0.1",
   "name": "MHTOCDiagnosticReportImaging",
-  "title": "Profile for an Imaging Report",
+  "title": "MH TOC Diagnostic Imaging Report",
   "status": "active",
   "date": "2025-08-10",
   "description": "A US Core–derived DiagnosticReport profile for interpreted studies that generate imaging results.",
