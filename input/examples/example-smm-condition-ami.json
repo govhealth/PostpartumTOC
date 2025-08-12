@@ -46,7 +46,7 @@
     "text": "Acute Myocardial Infarction"
   },
   "subject": {
-    "reference": "Patient/example"
+    "reference": "Patient/mom"
   },
   "encounter": {
     "reference": "Encounter/delivery-encounter-example"

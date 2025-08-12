@@ -1,5 +1,21 @@
 
 
+### Severe Maternal Morbidity Implementation Guidance
+
+For Severe Maternal Morbidity (SMM), we elected to model diagnoses and procedures as separate but related profiles rather than as a single composite profile. This approach follows the FHIR principle of reusing existing resources and profiles while applying use-case–specific constraints. Advantages to this model include:
+
+- Semantic separation: Conditions capture diagnoses that indicate severe maternal morbidity events  while procedures capture interventions related to severe morbidity.  Keeping them in separate parent profiles improves specificity and allows for reuse of existing FHIR design patterns.
+
+- Strong terminology binding: Each derived profile binds to a specific ValueSet for that SMM category, ensuring that only valid SMM-related codes can be used. 
+
+- Categorization for grouping: The SMM parent profiles include a Condition.category or Procedure.category element fixed to a custom SMM category code which allows grouping across SMM categories without relying solely on code lookups.  Additionally, there is an SMM Indicator extension to provide a consistent, discrete field that explicitly identifies the specific SMM category or subcategory represented by the resource.
+
+- Support for future updates: By organizing SMM codes into modular sub-ValueSets and referencing them, implementers can update a single indicators ValueSet when CDC codes change without having to modify the profiles individually.
+
+
+
+
+
 
 
 This page defines the profiles used in the USCDI+ Maternal Health Postpartum Transitions of Care (TOC) Implementation Guide. These artifacts provide constraints and additions to the base FHIR resources to support more precise, interoperable data exchange in postpartum care workflows.
@@ -7,6 +23,10 @@ This page defines the profiles used in the USCDI+ Maternal Health Postpartum Tra
 Profiles are used to specify how standard FHIR resources and existing profiles such as `US Core Condition`, `US Core Simple Observation`, `Encounter`, and `Patient` should be used in this IG. They define required elements, fixed values, terminology bindings, and cardinality rules based on clinical and implementation requirements.
 
 This Implementation Guide adopts **US Core version 6.1.0** as the base for profiles to align with the latest ONC-certified interoperability standards required under the 21st Century Cures Act. US Core 6.1.0 provides a consistent, well-tested foundation for common clinical data elements, such as vital signs, conditions, observations, and encounters, and ensures compatibility with federal certification requirements and EHR vendor implementations.
+
+
+
+
 
 ## What You’ll Find on This Page
 

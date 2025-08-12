@@ -1,6 +1,7 @@
 Instance: example-imaging-result
 InstanceOf: USCoreObservationClinicalResultProfile
 Title: "Example Imaging Observation Result"
+Description: "An example observation representing the textual result of a chest CT, showing no evidence of pulmonary embolism or acute cardiopulmonary abnormality."
 Usage: #example
 
 * status = #final

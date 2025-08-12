@@ -1,6 +1,7 @@
 Instance: mom
 InstanceOf: USCorePatientProfile
 Title: "Mom Patient Example"
+Description: "An example patient resource representing the mother in the postpartum transition of care use case."
 Usage: #example
 * identifier[0]
   * use = #official

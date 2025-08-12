@@ -1,6 +1,7 @@
 Instance: newborn-mom
 InstanceOf: USCoreRelatedPersonProfile
 Title: "Mom/Newborn Related Person"
+Description: "Example of a RelatedPerson resource representing the linkage between the mother and the baby."
 Usage: #example
 * identifier.type = $v2-0203#SS
 * identifier.system = "http://hl7.org/fhir/sid/us-ssn"
