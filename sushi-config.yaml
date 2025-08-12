@@ -62,6 +62,8 @@ pages:
     title: Examples
   profiles-extensions.md:
     title: Profiles and Extensions
+  use-case-examples.md: 
+    title: Use Case Examples
   downloads.md:
     title: Downloads
   change-log.md:
@@ -104,6 +106,7 @@ menu:
     Artifacts Summary: artifacts.html
     Profiles and Extensions: profiles-extensions.html
     Examples: examples.html
+  Use Case Examples: use-case-examples.html
   Downloads: downloads.html
   Change Log: change-log.html
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
