@@ -6,8 +6,6 @@
     ]
   },
   "id": "edd-example",
-  "title": "Estimated Date of Delivery Example",
-  "description": "Example Observation representing the estimated date of delivery (EDD) based on prenatal assessment and linked to an ultrasound imaging study for fetal dating.",
   "status": "final",
   "category": [
     {

@@ -1,5 +1,6 @@
 
 
+
 ### Data Element Mapping
 
 The following profiles have been defined as part of the MH TOC Implementation Guide. A registry of US Core profiles may be found within the [US Core FHIR IG](https://hl7.org/fhir/us/core/STU6.1). A registry of standard profiles can be found in the FHIR specification, and additional profiles may be registered on the HL7 FHIR registry at http://hl7.org/fhir/registry.
@@ -12,12 +13,12 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 |Care Team Member(s)|Care Team Member Name|[US Core CareTeam](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-careteam.html)|CareTeam.participant|
 |Care Team Member(s)|Care Team Member Role|[US Core CareTeam](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-careteam.html)|CareTeam.participant.role|
 |Clinical Notes|Antepartum Summary Note|[US Core DocumentReference](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-documentreference.html)|DocumentReference.type|
-|Clinical Notes|Behavioral Health History|[Behavioral Health History](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition-mh-toc-behavioral-health-history)|DocumentReference.type|
+|Clinical Notes|Behavioral Health History|[Behavioral Health History](StructureDefinition-mh-toc-behavioral-health-history.html)|DocumentReference.type|
 |Clinical Notes|Consultation Note|[Consultation Note](StructureDefinition-mh-toc-consult-note.html)|DocumentReference.type|
-|Clinical Notes|Delivery Summary Note|[Labor and Delivery Summary](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition-mh-toc-labor-and-delivery-summary)|DocumentReference.type|
-|Clinical Notes|Discharge Summary Note|[Discharge Summary](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-discharge-summary)|DocumentReference.type|
+|Clinical Notes|Delivery Summary Note|[Labor and Delivery Summary](StructureDefinition-mh-toc-labor-and-delivery-summary.html)|DocumentReference.type|
+|Clinical Notes|Discharge Summary Note|[Discharge Summary](StructureDefinition-mh-toc-discharge-summary.html)|DocumentReference.type|
 |Clinical Notes|History & Physical||DocumentReference.type|
-|Clinical Notes|Postpartum Summary Note|[Postpartum Summary](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition-mh-toc-postpartum-summary)|DocumentReference.type|
+|Clinical Notes|Postpartum Summary Note|[Postpartum Summary](StructureDefinition-mh-toc-postpartum-summary.html)|DocumentReference.type|
 |Clinical Notes|Pregnancy History Note|||
 |Clinical Notes|Procedure Note|[US Core DocumentReference](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-documentreference.html)|DocumentReference.type|
 |Clinical Notes|Progress Note|[US Core DocumentReference](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-documentreference.html)|DocumentReference.type|
@@ -81,17 +82,17 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 |Patient Demographics|Sex|[US Core Patient](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.gender|
 |Patient Demographics|Tribal Affiliation|[US Core Patient](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.extension:tribalAffiliation|
 |Patient Summary and Plan|Assessment and Plan of Treatment|[US Core CarePlan](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-careplan.html)|CarePlan.text|
-|Pregnancy Information|Delivery Date|[Delivery Date](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition-mh-toc-delivery-date)|Observation.date|
+|Pregnancy Information|Delivery Date|[Delivery Date](StructureDefinition-mh-toc-delivery-date.html)|Observation.date|
 |Pregnancy Information|Estimated Date of Delivery|[Estimated Date of Delivery](StructureDefinition-mh-toc-edd.html)|Observation.code|
 |Pregnancy Information|Estimated Date of Delivery Determination Method|[International Patient Summary Expected Delivery Observation - Pregnancy: EDD](http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-pregnancy-edd-uv-ips)|Observation.code|
-|Pregnancy Information|Gestational Age|[Gestational Age](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-gestation-age)|Obversation.code|
+|Pregnancy Information|Gestational Age|[Gestational Age](StructureDefinition-mh-toc-gestational-age.html)|Obversation.code|
 |Pregnancy Information|Gestational Age at Delivery|[Birth and Fetal Death Observation - Gestational Age at Delivery](https://build.fhir.org/ig/HL7/fhir-bfdr/StructureDefinition-Observation-gestational-age-at-delivery.html)|Obversation.code|
 |Pregnancy Information|Gestational Age Determination Date|[US Public Health Pregnancy Status Observation](https://build.fhir.org/ig/HL7/fhir-us-ph-common-library-ig/StructureDefinition-us-ph-pregnancy-status-observation.html)|Observation.extension:extensionPregnancyStatusDeterminationDate|
 |Pregnancy Information|Gestational Age Determination Method|[US Public Health Pregnancy Status Observation](https://build.fhir.org/ig/HL7/fhir-us-ph-common-library-ig/StructureDefinition-us-ph-pregnancy-status-observation.html)|Observation.component:sliceEstimatedGestationalAgeOfPregnancy|
-|Pregnancy Information|Gravidity|[Gravidity](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-gravidity)|Obversation.code|
+|Pregnancy Information|Gravidity|[Gravidity](StructureDefinition-mh-toc-gravidity.html)|Obversation.code|
 |Pregnancy Information|Last Menstrual Period (LMP)|[Birth and Fetal Death Observation - Last Menstrual Period](https://build.fhir.org/ig/HL7/fhir-bfdr/StructureDefinition-Observation-last-menstrual-period.html)|Observation.code|
 |Pregnancy Information|Multiple Gestation|[US Core Patient](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|patient.multiplebirth[x]|
-|Pregnancy Information|Parity|[Parity](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-parity)|Obversation.code|
+|Pregnancy Information|Parity|[Parity](StructureDefinition-mh-toc-parity.html)|Obversation.code|
 |Pregnancy Information|Pregnancy Outcome|[International Patient Summary Expected Delivery Observation - Pregnancy: EDD](http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-pregnancy-edd-uv-ips)|Observation.code|
 |Pregnancy Information|Pregnancy Status Determination Date|[US Public Health Pregnancy Status Observation](https://build.fhir.org/ig/HL7/fhir-us-ph-common-library-ig/StructureDefinition-us-ph-pregnancy-status-observation.html)|Observation.extension:extensionPregnancyStatusDeterminationDate|
 |Pregnancy Information|Pregnancy Status Determination Method|[US Public Health Pregnancy Status Observation](https://build.fhir.org/ig/HL7/fhir-us-ph-common-library-ig/StructureDefinition-us-ph-pregnancy-status-observation.html)|Observation.method|
@@ -99,7 +100,7 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 |Problems|Date of Diagnosis|[US Core Condition Problems and Health Concerns](http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-problems-health-concerns)|Condition.onset[x]|
 |Problems|Date of Resolution|[US Core Condition Problems and Health Concerns](http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-problems-health-concerns)|Condition.abatement[x]|
 |Problems|Hypertensive Disorders of Pregnancy|[Longitudinal Maternal & Infant Health Information for Research Library for Hypertensive Disorders of Pregnancy](https://build.fhir.org/ig/HL7/fhir-mmm-ig/Library-PIHCohort.html)|Condition.code|
-|Problems|Indicators of Severe Maternal Morbidity|[Severe Maternal Morbidity](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition-mh-toc-severe-maternal-morbidity)|Observation.code|
+|Problems|Indicators of Severe Maternal Morbidity|[Severe Maternal Morbidity](StructureDefinition-mh-toc-smm-condition.html)|Observation.code|
 |Problems|Problems|[US Core Condition Problems and Health Concerns](http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-problems-health-concerns)|Condition.code|
 |Problems|SDOH Problems/Health Concerns|[SDOHCC Condition](http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-Condition)|Condition.code|
 |Procedures|Performance Time|[US Core Procedure](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-procedure.html)|Procedure.performed[x]|
