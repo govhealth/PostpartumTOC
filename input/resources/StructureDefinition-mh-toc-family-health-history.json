@@ -5,6 +5,7 @@
   "version": "1.0.1",
   "name": "MHTOCFamilyHealthHistory",
   "title": "MH TOC Family Health History",
+  "description": "The MH TOC Family Health History profile constrains the base FHIR FamilyMemberHistory resource to capture relevant family health conditions.",
   "status": "active",
   "date": "2025-08-10",
   "fhirVersion": "4.0.1",
