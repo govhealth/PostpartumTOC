@@ -58,10 +58,8 @@ pages:
     title: Artifacts Summary
   ##  conformance.md:
   ##    title: conformance
-  examples.md:
-    title: Examples
-  profiles-extensions.md:
-    title: Profiles and Extensions
+  guidance.md:
+    title: Guidance
   use-case-examples.md: 
     title: Use Case Examples
   downloads.md:
@@ -102,10 +100,9 @@ menu:
   Home: index.html
   Background: background.html
   Specification: spec.html
+  Guidance: guidance.html
   FHIR Artifacts:
     Artifacts Summary: artifacts.html
-    Profiles and Extensions: profiles-extensions.html
-    Examples: examples.html
   Use Case Examples: use-case-examples.html
   Downloads: downloads.html
   Change Log: change-log.html
