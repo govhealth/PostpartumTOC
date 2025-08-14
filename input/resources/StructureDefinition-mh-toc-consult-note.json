@@ -7,7 +7,7 @@
   "title": "Consult Note",
   "status": "active",
   "date": "2025-08-10",
-  "description": "A US Core–derived profile for Consultation Notes.",
+  "description": "The MH TOC Consult Note History Profile is derived from the US Core DocumentReference Profile. It defines requirements for exchanging the Consultation Notes, widely used in healthcare to document clinical opinions from a secondary care provider.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
