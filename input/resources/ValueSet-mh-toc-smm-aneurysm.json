@@ -4,7 +4,7 @@
   "url": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-aneurysm",
   "name": "MHTOCSMMAneurysm",
   "title": "SMM ValueSet for Aneurysm Indicator",
-  "description": "A list of possible ICD codes for the SMM Aneurysm Indicator",
+  "description": "A list of ICD-10-CM and ICD-9-CM diagnosis codes for the SMM Aneurysm Indicator. The codes in the ValueSet should be monitored for changes as they vary by source and may be updated.",
   "experimental": false,
   "compose": {
     "include": [
