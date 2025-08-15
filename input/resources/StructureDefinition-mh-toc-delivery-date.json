@@ -6,7 +6,7 @@
     "title": "Delivery Date Profile",
     "status": "active",
     "date": "2025-07-29",
-    "description": "Profile for a mother's delivery date based on US Core Simple Observation",
+    "description": "The MH TOC Delivery Date Profile is derived from the US Core Simple Observation Profile. It defines It defines additional constraints, terminology, and bindings for standardized representation of the date and time of the patient’s delivery.",
     "fhirVersion": "4.0.1",
     "kind": "resource",
     "abstract": false,

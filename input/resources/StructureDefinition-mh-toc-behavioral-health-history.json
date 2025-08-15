@@ -6,7 +6,7 @@
     "title": "Behavioral Health History Profile",
     "status": "active",
     "date": "2025-07-28",
-    "description": "Profile for a Behavioral Health History note",
+    "description": "The MH TOC Behavioral Health History Profile is derived from the US Core DocumentReference Profile. It defines requirements for exchanging the Behavioral Health History note which commonly records information including but not limited to the patient's past and present mental health, substance use, trauma, or any relevant social and family history.",
     "fhirVersion": "4.0.1",
     "kind": "resource",
     "abstract": false,
