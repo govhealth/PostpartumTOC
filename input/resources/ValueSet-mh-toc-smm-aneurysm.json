@@ -12,121 +12,112 @@
         "system": "http://hl7.org/fhir/sid/icd-10-cm",
         "concept": [
           {
-            "code": "I71.00"
+            "code": "I71.00",
+            "display": "Dissection of unspecified site of aorta"
           },
           {
-            "code": "I71.01"
+            "code": "I71.01",
+            "display": "Dissection of thoracic aorta"
           },
           {
-            "code": "I71.010"
+            "code": "I71.02",
+            "display": "Dissection of abdominal aorta"
           },
           {
-            "code": "I71.011"
+            "code": "I71.03",
+            "display": "Dissection of thoracoabdominal aorta"
           },
           {
-            "code": "I71.012"
+            "code": "I71.10",
+            "display": "Thoracic aortic aneurysm, ruptured, unspecified"
           },
           {
-            "code": "I71.019"
+            "code": "I71.11",
+            "display": "Aneurysm of the ascending aorta, ruptured"
           },
           {
-            "code": "I71.02"
+            "code": "I71.12",
+            "display": "Aneurysm of the aortic arch, ruptured"
           },
           {
-            "code": "I71.03"
+            "code": "I71.13",
+            "display": "Aneurysm of the descending thoracic aorta, ruptured"
           },
           {
-            "code": "I71.1"
+            "code": "I71.20",
+            "display": "Thoracic aortic aneurysm, without rupture, unspecified"
           },
           {
-            "code": "I71.10"
+            "code": "I71.21",
+            "display": "Aneurysm of the ascending aorta, without rupture"
           },
           {
-            "code": "I71.11"
+            "code": "I71.22",
+            "display": "Aneurysm of the aortic arch, without rupture"
           },
           {
-            "code": "I71.12"
+            "code": "I71.23",
+            "display": "Aneurysm of the descending thoracic aorta, without rupture"
           },
           {
-            "code": "I71.13"
+            "code": "I71.30",
+            "display": "Abdominal aortic aneurysm, ruptured, unspecified"
           },
           {
-            "code": "I71.2"
+            "code": "I71.31",
+            "display": "Pararenal abdominal aortic aneurysm, ruptured"
           },
           {
-            "code": "I71.20"
+            "code": "I71.32",
+            "display": "Juxtarenal abdominal aortic aneurysm, ruptured"
           },
           {
-            "code": "I71.21"
+            "code": "I71.33",
+            "display": "Infrarenal abdominal aortic aneurysm, ruptured"
           },
           {
-            "code": "I71.22"
+            "code": "I71.40",
+            "display": "Abdominal aortic aneurysm, without rupture, unspecified"
           },
           {
-            "code": "I71.23"
+            "code": "I71.41",
+            "display": "Pararenal abdominal aortic aneurysm, without rupture"
           },
           {
-            "code": "I71.3"
+            "code": "I71.42",
+            "display": "Juxtarenal abdominal aortic aneurysm, without rupture"
           },
           {
-            "code": "I71.30"
+            "code": "I71.43",
+            "display": "Infrarenal abdominal aortic aneurysm, without rupture"
           },
           {
-            "code": "I71.31"
+            "code": "I71.50",
+            "display": "Thoracoabdominal aortic aneurysm, ruptured, unspecified"
           },
           {
-            "code": "I71.32"
+            "code": "I71.51",
+            "display": "Supraceliac aneurysm of the thoracoabdominal aorta, ruptured"
           },
           {
-            "code": "I71.33"
+            "code": "I71.52",
+            "display": "Paravisceral aneurysm of the thoracoabdominal aorta, ruptured"
           },
           {
-            "code": "I71.4"
+            "code": "I71.60",
+            "display": "Thoracoabdominal aortic aneurysm, without rupture, unspecified"
           },
           {
-            "code": "I71.40"
+            "code": "I71.61",
+            "display": "Supraceliac aneurysm of the thoracoabdominal aorta, without rupture"
           },
           {
-            "code": "I71.41"
+            "code": "I71.62",
+            "display": "Paravisceral aneurysm of the thoracoabdominal aorta, without rupture"
           },
           {
-            "code": "I71.42"
-          },
-          {
-            "code": "I71.43"
-          },
-          {
-            "code": "I71.5"
-          },
-          {
-            "code": "I71.50"
-          },
-          {
-            "code": "I71.51"
-          },
-          {
-            "code": "I71.52"
-          },
-          {
-            "code": "I71.6"
-          },
-          {
-            "code": "I71.60"
-          },
-          {
-            "code": "I71.61"
-          },
-          {
-            "code": "I71.62"
-          },
-          {
-            "code": "I71.8"
-          },
-          {
-            "code": "I71.9"
-          },
-          {
-            "code": "I79.0"
+            "code": "I79.0",
+            "display": "Aneurysm of aorta in diseases classified elsewhere"
           }
         ]
       },
@@ -134,40 +125,16 @@
         "system": "http://hl7.org/fhir/sid/icd-9-cm",
         "concept": [
           {
-            "code": "441.00"
+            "code": "441.01",
+            "display": "Dissection of aorta, thoracic"
           },
           {
-            "code": "441.01"
+            "code": "441.02",
+            "display": "Dissection of aorta, abdominal"
           },
           {
-            "code": "441.02"
-          },
-          {
-            "code": "441.03"
-          },
-          {
-            "code": "441.1"
-          },
-          {
-            "code": "441.2"
-          },
-          {
-            "code": "441.3"
-          },
-          {
-            "code": "441.4"
-          },
-          {
-            "code": "441.5"
-          },
-          {
-            "code": "441.6"
-          },
-          {
-            "code": "441.7"
-          },
-          {
-            "code": "441.9"
+            "code": "441.03",
+            "display": "Dissection of aorta, thoracoabdominal"
           }
         ]
       }
