@@ -1,0 +1,89 @@
+{
+  "resourceType": "ValueSet",
+  "id": "mh-toc-smm-renal-failure",
+  "url": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-renal-failure",
+  "name": "MHTOCSMRenalFailure",
+  "title": "MH TOC SMM ValueSet for the Acute Renal Failure Indicator",
+  "status": "active",
+  "experimental": false,
+  "date": "2025-08-15",
+  "description": "A list of ICD-10-CM and ICD-9-CM diagnosis codes for the Severe Maternal Morbidity Acute Renal Failure Indicator. The codes in the ValueSet should be monitored for changes as they vary by source and may be updated.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "concept": [
+          {
+            "code": "N17.0",
+            "display": "Acute kidney failure with tubular necrosis"
+          },
+          {
+            "code": "N17.1",
+            "display": "Acute kidney failure with acute cortical necrosis"
+          },
+          {
+            "code": "N17.2",
+            "display": "Acute kidney failure with medullary necrosis"
+          },
+          {
+            "code": "N17.8",
+            "display": "Other acute kidney failure"
+          },
+          {
+            "code": "N17.9",
+            "display": "Acute kidney failure, unspecified"
+          },
+          {
+            "code": "O90.4",
+            "display": "Postpartum acute kidney failure"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "concept": [
+          {
+            "code": "584.5",
+            "display": "Acute kidney failure with lesion of tubular necrosis"
+          },
+          {
+            "code": "584.6",
+            "display": "Acute kidney failure with lesion of renal cortical necrosis"
+          },
+          {
+            "code": "584.7",
+            "display": "Acute kidney failure with lesion of renal medullary necrosis"
+          },
+          {
+            "code": "584.8",
+            "display": "Acute kidney failure with other specified pathological lesion in kidney"
+          },
+          {
+            "code": "584.9",
+            "display": "Acute kidney failure, unspecified"
+          },
+          {
+            "code": "669.30",
+            "display": "Acute kidney failure following labor and delivery, unspecified as to episode of care or not applicable"
+          },
+          {
+            "code": "669.31",
+            "display": "Acute kidney failure following labor and delivery, delivered, with or without mention of antepartum condition"
+          },
+          {
+            "code": "669.32",
+            "display": "Acute kidney failure following labor and delivery, delivered, with mention of postpartum complication"
+          },
+          {
+            "code": "669.33",
+            "display": "Acute kidney failure following labor and delivery, antepartum condition or complication"
+          },
+          {
+            "code": "669.34",
+            "display": "Acute kidney failure following labor and delivery, postpartum condition or complication"
+          }
+        ]
+      }
+    ]
+  }
+}

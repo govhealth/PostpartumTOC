@@ -3,7 +3,7 @@
   "id": "mh-toc-smm-ami",
   "url": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-ami",
   "name" : "ValueSetMHTOCAMI",
-  "title": "MH TOC SMM Acute Myocardial Infarction",
+  "title": "MH TOC SMM ValueSet for the Acute Myocardial Infarction",
   "status": "active",
   "experimental": false,
   "date": "2025-08-04",

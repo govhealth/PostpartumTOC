@@ -4,7 +4,7 @@
   "url": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-hysterectomy",
   "version": "2025.0.1",
   "name": "ValueSetMHTOCHysterectomy",
-  "title": "MH TOC SMM Hysterectomy procedure codes",
+  "title": "MH TOC SMM ValueSet for the Hysterectomy Indicator",
   "status": "active",
   "experimental": false,
   "date": "2025-08-10",
