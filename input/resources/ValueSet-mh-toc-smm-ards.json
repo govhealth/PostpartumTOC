@@ -1,0 +1,125 @@
+{
+  "resourceType": "ValueSet",
+  "id": "mh-toc-smm-ards",
+  "url": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-ards",
+  "name": "MHTOCSMMARDS",
+  "title": "MH TOC SMM ValueSet for the Acute Respiratory Distress Syndrome Indicator",
+  "status": "active",
+  "experimental": false,
+  "date": "2025-08-15",
+  "description": "A list of ICD-10-CM and ICD-9-CM diagnosis codes for the Severe Maternal Morbidity Acute Respiratory Distress Syndrome Indicator. The codes in the ValueSet should be monitored for changes as they vary by source and may be updated.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "concept": [
+          {
+            "code": "J80",
+            "display": "Acute respiratory distress syndrome"
+          },
+          {
+            "code": "J95.1",
+            "display": "Acute pulmonary insufficiency following thoracic surgery"
+          },
+          {
+            "code": "J95.2",
+            "display": "Acute pulmonary insufficiency following nonthoracic surgery"
+          },
+          {
+            "code": "J95.3",
+            "display": "Chronic pulmonary insufficiency following surgery"
+          },
+          {
+            "code": "J95.821",
+            "display": "Acute pulmonary insufficiency following trauma and surgery, delivered, with or without mention of antepartum condition"
+          },
+          {
+            "code": "J95.822",
+            "display": "Acute pulmonary insufficiency following trauma and surgery, delivered, with mention of postpartum complication"
+          },
+          {
+            "code": "J96.00",
+            "display": "Acute respiratory failure, unspecified whether with hypoxia or hypercapnia"
+          },
+          {
+            "code": "J96.01",
+            "display": "Acute respiratory failure with hypoxia"
+          },
+          {
+            "code": "J96.02",
+            "display": "Acute respiratory failure with hypercapnia"
+          },
+          {
+            "code": "J96.20",
+            "display": "Acute and chronic respiratory failure, unspecified whether with hypoxia or hypercapnia"
+          },
+          {
+            "code": "J96.21",
+            "display": "Acute and chronic respiratory failure with hypoxia"
+          },
+          {
+            "code": "J96.22",
+            "display": "Acute and chronic respiratory failure with hypercapnia"
+          },
+          {
+            "code": "J96.90",
+            "display": "Respiratory failure, unspecified, unspecified whether with hypoxia or hypercapnia"
+          },
+          {
+            "code": "J96.91",
+            "display": "Respiratory failure, unspecified with hypoxia"
+          },
+          {
+            "code": "J96.92",
+            "display": "Respiratory failure, unspecified with hypercapnia"
+          },
+          {
+            "code": "R06.03",
+            "display": "Acute respiratory distress"
+          },
+          {
+            "code": "R09.2",
+            "display": "Respiratory arrest"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "concept": [
+          {
+            "code": "518.50",
+            "display": "Acute respiratory failure, unspecified"
+          },
+          {
+            "code": "518.51",
+            "display": "Acute respiratory failure following trauma and surgery"
+          },
+          {
+            "code": "518.52",
+            "display": "Other pulmonary insufficiency, not elsewhere classified, following trauma and surgery"
+          },
+          {
+            "code": "518.53",
+            "display": "Acute and chronic respiratory failure following trauma and surgery"
+          },
+          {
+            "code": "518.81",
+            "display": "Acute respiratory failure"
+          },
+          {
+            "code": "518.82",
+            "display": "Other pulmonary insufficiency, not elsewhere classified"
+          },
+          {
+            "code": "518.84",
+            "display": "Acute and chronic respiratory failure"
+          },
+          {
+            "code": "799.1",
+            "display": "Respiratory arrest"
+          }
+        ]
+      }
+    ]
+  }
+}
