@@ -2,7 +2,6 @@
   "resourceType": "ValueSet",
   "id": "mh-toc-smm-ami",
   "url": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-ami",
-  "version": "2025.0.1",
   "name" : "ValueSetMHTOCAMI",
   "title": "MH TOC SMM Acute Myocardial Infarction",
   "status": "active",
@@ -15,58 +14,52 @@
         "system": "http://hl7.org/fhir/sid/icd-10-cm",
         "concept": [
           {
-            "code": "I21.01"
+            "code": "I21.01",
+            "display": "ST elevation (STEMI) myocardial infarction involving left main coronary artery"
           },
           {
-            "code": "I21.02"
+            "code": "I21.02",
+            "display": "ST elevation (STEMI) myocardial infarction involving left anterior descending coronary artery"
           },
           {
-            "code": "I21.09"
+            "code": "I21.09",
+            "display": "ST elevation (STEMI) myocardial infarction involving other coronary artery of anterior wall"
           },
           {
-            "code": "I21.11"
+            "code": "I21.11",
+            "display": "ST elevation (STEMI) myocardial infarction involving right coronary artery"
           },
           {
-            "code": "I21.19"
+            "code": "I21.19",
+            "display": "ST elevation (STEMI) myocardial infarction involving other coronary artery of inferior wall"
           },
           {
-            "code": "I21.21"
+            "code": "I21.21",
+            "display": "ST elevation (STEMI) myocardial infarction involving left circumflex coronary artery"
           },
           {
-            "code": "I21.29"
+            "code": "I21.29",
+            "display": "ST elevation (STEMI) myocardial infarction involving other sites"
           },
           {
-            "code": "I21.3"
+            "code": "I22.0",
+            "display": "Subsequent ST elevation (STEMI) myocardial infarction of anterior wall"
           },
           {
-            "code": "I21.4"
+            "code": "I22.1",
+            "display": "Subsequent ST elevation (STEMI) myocardial infarction of inferior wall"
           },
           {
-            "code": "I21.9"
+            "code": "I22.2",
+            "display": "Subsequent non-ST elevation (NSTEMI) myocardial infarction"
           },
           {
-            "code": "I21.A1"
+            "code": "I22.8",
+            "display": "Subsequent ST elevation (STEMI) myocardial infarction of other sites"
           },
           {
-            "code": "I21.A9"
-          },
-          {
-            "code": "I21.B"
-          },
-          {
-            "code": "I22.0"
-          },
-          {
-            "code": "I22.1"
-          },
-          {
-            "code": "I22.2"
-          },
-          {
-            "code": "I22.8"
-          },
-          {
-            "code": "I22.9"
+            "code": "I22.9",
+            "display": "Subsequent ST elevation (STEMI) myocardial infarction of unspecified site"
           }
         ]
       },
@@ -74,94 +67,84 @@
         "system": "http://hl7.org/fhir/sid/icd-9-cm",
         "concept": [
           {
-            "code": "410.00"
+            "code": "410.01",
+            "display": "Acute myocardial infarction of anterolateral wall, initial episode of care"
           },
           {
-            "code": "410.01"
+            "code": "410.02",
+            "display": "Acute myocardial infarction of anterolateral wall, subsequent episode of care"
           },
           {
-            "code": "410.02"
+            "code": "410.11",
+            "display": "Acute myocardial infarction of other anterior wall, initial episode of care"
           },
           {
-            "code": "410.10"
+            "code": "410.12",
+            "display": "Acute myocardial infarction of other anterior wall, subsequent episode of care"
           },
           {
-            "code": "410.11"
+            "code": "410.21",
+            "display": "Acute myocardial infarction of inferolateral wall, initial episode of care"
           },
           {
-            "code": "410.12"
+            "code": "410.22",
+            "display": "Acute myocardial infarction of inferolateral wall, subsequent episode of care"
           },
           {
-            "code": "410.20"
+            "code": "410.31",
+            "display": "Acute myocardial infarction of inferoposterior wall, initial episode of care"
           },
           {
-            "code": "410.21"
+            "code": "410.32",
+            "display": "Acute myocardial infarction of inferoposterior wall, subsequent episode of care"
           },
           {
-            "code": "410.22"
+            "code": "410.41",
+            "display": "Acute myocardial infarction of other inferior wall, initial episode of care"
           },
           {
-            "code": "410.30"
+            "code": "410.42",
+            "display": "Acute myocardial infarction of other inferior wall, subsequent episode of care"
           },
           {
-            "code": "410.31"
+            "code": "410.51",
+            "display": "Acute myocardial infarction of other lateral wall, initial episode of care"
           },
           {
-            "code": "410.32"
+            "code": "410.52",
+            "display": "Acute myocardial infarction of other lateral wall, subsequent episode of care"
           },
           {
-            "code": "410.40"
+            "code": "410.61",
+            "display": "True posterior wall infarction, initial episode of care"
           },
           {
-            "code": "410.41"
+            "code": "410.62",
+            "display": "True posterior wall infarction, subsequent episode of care"
           },
           {
-            "code": "410.42"
+            "code": "410.71",
+            "display": "Subendocardial infarction, initial episode of care"
           },
           {
-            "code": "410.50"
+            "code": "410.72",
+            "display": "Subendocardial infarction, subsequent episode of care"
           },
           {
-            "code": "410.51"
+            "code": "410.81",
+            "display": "Acute myocardial infarction of other specified sites, initial episode of care"
           },
           {
-            "code": "410.52"
+            "code": "410.82",
+            "display": "Acute myocardial infarction of other specified sites, subsequent episode of care"
           },
           {
-            "code": "410.60"
+            "code": "410.91",
+            "display": "Acute myocardial infarction of unspecified site, initial episode of care"
           },
           {
-            "code": "410.61"
-          },
-          {
-            "code": "410.62"
-          },
-          {
-            "code": "410.70"
-          },
-          {
-            "code": "410.71"
-          },
-          {
-            "code": "410.72"
-          },
-          {
-            "code": "410.80"
-          },
-          {
-            "code": "410.81"
-          },
-          {
-            "code": "410.82"
-          },
-          {
-            "code": "410.90"
-          },
-          {
-            "code": "410.91"
-          },
-          {
-            "code": "410.92"
+            "code": "410.92",
+            "display": "Acute myocardial infarction of unspecified site, subsequent episode of care"
           }
         ]
       }
