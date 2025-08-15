@@ -1,0 +1,57 @@
+ValueSet: MHTOCSMMAneurysm
+Id: mh-toc-smm-aneurysm
+Title: "SMM ValueSet for Aneurysm Indicator"
+Description: "A list of possible ICD codes for the SMM Aneurysm Indicator"
+* ^url = "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-aneurysm"
+* ^experimental = false
+* Icd10CM#I71.00
+* Icd10CM#I71.01
+* Icd10CM#I71.010
+* Icd10CM#I71.011
+* Icd10CM#I71.012
+* Icd10CM#I71.019
+* Icd10CM#I71.02
+* Icd10CM#I71.03
+* Icd10CM#I71.1
+* Icd10CM#I71.10
+* Icd10CM#I71.11
+* Icd10CM#I71.12
+* Icd10CM#I71.13
+* Icd10CM#I71.2
+* Icd10CM#I71.20
+* Icd10CM#I71.21
+* Icd10CM#I71.22
+* Icd10CM#I71.23
+* Icd10CM#I71.3
+* Icd10CM#I71.30
+* Icd10CM#I71.31
+* Icd10CM#I71.32
+* Icd10CM#I71.33
+* Icd10CM#I71.4
+* Icd10CM#I71.40
+* Icd10CM#I71.41
+* Icd10CM#I71.42
+* Icd10CM#I71.43
+* Icd10CM#I71.5
+* Icd10CM#I71.50
+* Icd10CM#I71.51
+* Icd10CM#I71.52
+* Icd10CM#I71.6
+* Icd10CM#I71.60
+* Icd10CM#I71.61
+* Icd10CM#I71.62
+* Icd10CM#I71.8
+* Icd10CM#I71.9
+* Icd10CM#I79.0
+* ICD9CMProcedureCodes#441.00
+* ICD9CMProcedureCodes#441.01
+* ICD9CMProcedureCodes#441.02
+* ICD9CMProcedureCodes#441.03
+* ICD9CMProcedureCodes#441.1
+* ICD9CMProcedureCodes#441.2
+* ICD9CMProcedureCodes#441.3
+* ICD9CMProcedureCodes#441.4
+* ICD9CMProcedureCodes#441.5
+* ICD9CMProcedureCodes#441.6
+* ICD9CMProcedureCodes#441.7
+* ICD9CMProcedureCodes#441.9
