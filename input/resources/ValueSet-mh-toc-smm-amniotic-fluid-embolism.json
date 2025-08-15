@@ -1,0 +1,65 @@
+{
+  "resourceType": "ValueSet",
+  "id": "mh-toc-smm-amniotic-fluid-embolism", 
+  "url": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-amniotic-fluid-embolism",
+  "name": "MHTOCSMMAmnioticFluidEmbolism",
+  "title": "MH TOC SMM ValueSet for the Amniotic Fluid Embolism Indicator",
+  "status": "active",
+  "date": "2025-08-15",
+  "experimental": false,
+  "description": "A list of ICD-10-CM and ICD-9-CM diagnosis codes for the Severe Maternal Morbidity Amniotic Fluid Embolism Indicator. The codes in the ValueSet should be monitored for changes as they vary by source and may be updated.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "concept": [
+          {
+            "code": "673.10",
+            "display": "Obstetrical pulmonary embolism, unspecified as to episode of care or not applicable"
+          },
+          {
+            "code": "673.11",
+            "display": "Obstetrical pulmonary embolism, delivered, with or without mention of antepartum condition"
+          },
+          {
+            "code": "673.12",
+            "display": "Obstetrical pulmonary embolism, delivered, with mention of postpartum complication"
+          },
+          {
+            "code": "673.13",
+            "display": "Obstetrical pulmonary embolism, antepartum condition or complication"
+          },
+          {
+            "code": "673.14",
+            "display": "Obstetrical pulmonary embolism, postpartum condition or complication"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "concept": [
+          {
+            "code": "O88.112",
+            "display": "Obstetric blood-clot embolism, delivered, with postpartum complication"
+          },
+          {
+            "code": "O88.113",
+            "display": "Obstetric blood-clot embolism, antepartum"
+          },
+          {
+            "code": "O88.119",
+            "display": "Obstetric blood-clot embolism, unspecified as to episode of care or not applicable"
+          },
+          {
+            "code": "O88.12",
+            "display": "Obstetric air embolism"
+          },
+          {
+            "code": "O88.13",
+            "display": "Obstetric amniotic fluid embolism"
+          }
+        ]
+      }
+    ]
+  }
+}
