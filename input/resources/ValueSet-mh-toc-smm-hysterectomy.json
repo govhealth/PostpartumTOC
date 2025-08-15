@@ -15,16 +15,20 @@
         "system": "http://www.cms.gov/Medicare/Coding/ICD10",
         "concept": [
           {
-            "code": "0UT90ZL"
+            "code": "0UT90ZL",
+            "display": "Resection of Uterus, Supracervical, Open Approach"
           },
           {
-            "code": "0UT90ZZ"
+            "code": "0UT90ZZ",
+            "display": "Resection of Uterus, Open Approach"
           },
           {
-            "code": "0UT97ZL"
+            "code": "0UT97ZL",
+            "display": "Resection of Uterus, Supracervical, Via Natural or Artificial Opening"
           },
           {
-            "code": "0UT97ZZ"
+            "code": "0UT97ZZ",
+            "display": "Resection of Uterus, Via Natural or Artificial Opening"
           }
         ]
       },
@@ -32,37 +36,48 @@
         "system": "http://hl7.org/fhir/sid/icd-9-cm",
         "concept": [
           {
-            "code": "68.3"
+            "code": "68.3",
+            "display": "Subtotal abdominal hysterectomy"
           },
           {
-            "code": "68.39"
+            "code": "68.39",
+            "display": "Other and unspecified subtotal abdominal hysterectomy"
           },
           {
-            "code": "68.4"
+            "code": "68.4",
+            "display": "Total abdominal hysterectomy"
           },
           {
-            "code": "68.49"
+            "code": "68.49",
+            "display": "Other and unspecified total abdominal hysterectomy"
           },
           {
-            "code": "68.5"
+            "code": "68.5",
+            "display": "Vaginal hysterectomy"
           },
           {
-            "code": "68.59"
+            "code": "68.59",
+            "display": "Other and unspecified vaginal hysterectomy"
           },
           {
-            "code": "68.6"
+            "code": "68.6",
+            "display": "Radical abdominal hysterectomy"
           },
           {
-            "code": "68.69"
+            "code": "68.69",
+            "display": "Other and unspecified radical abdominal hysterectomy"
           },
           {
-            "code": "68.7"
+            "code": "68.7",
+            "display": "Radical vaginal hysterectomy"
           },
           {
-            "code": "68.79"
+            "code": "68.79",
+            "display": "Other and unspecified radical vaginal hysterectomy"
           },
           {
-            "code": "68.9"
+            "code": "68.9",
+            "display": "Other and unspecified hysterectomy"
           }
         ]
       }
