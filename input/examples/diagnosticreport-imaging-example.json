@@ -1,0 +1,45 @@
+{
+  "resourceType": "DiagnosticReport",
+  "id": "diagnosticreport-imaging-example",
+  "meta": {
+    "profile": [
+      "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-diagnosticreport-imaging"
+    ]
+  },
+  "status": "final",
+  "category" : [
+    {
+      "coding" : [
+        {
+          "system" : "http://loinc.org",
+          "code" : "LP29684-5",
+          "display" : "Radiology"
+        }
+      ],
+      "text" : "Radiology"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "30745-4"
+       }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/example"
+  },
+  "effectiveDateTime": "2025-08-10T09:00:00Z",
+  "issued": "2025-08-10T10:30:00Z",
+  "result": [
+    {
+      "reference": "Observation/example-imaging-result"
+    }
+  ],
+  "imagingStudy": [
+    {
+      "reference": "ImagingStudy/example-chest-ct"
+    }
+  ]
+}

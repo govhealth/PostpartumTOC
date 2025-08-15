@@ -1,0 +1,45 @@
+{
+  "resourceType": "DocumentReference",
+  "meta": {
+    "profile": [
+      "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-discharge-summary"
+    ]
+  },
+  "id": "discharge-summary-example",
+  "status": "current",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "101005-7"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "101005-7"
+        }
+      ]
+    }
+  ],
+  "subject": {
+    "reference": "Patient/example"
+  },
+  "author": [
+    {
+      "reference": "Practitioner/practitioner-1"
+    }
+  ],
+  "date": "2025-08-11T09:30:00Z",
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/pdf",
+        "url": "Binary/example-binary"
+      }
+    }
+  ]
+}

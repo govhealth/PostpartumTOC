@@ -1,0 +1,37 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "mh-toc-smm-procedure-hysterectomy",
+  "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-procedure-hysterectomy",
+  "version": "1.0.0",
+  "name": "MHTOCSMMHysterectomy",
+  "title": "MH TOC Severe Maternal Morbidity Procedure Hysterectomy",
+  "status": "active",
+  "date": "2025-08-10",
+  "description": "Profile for SMM Hysterectomy procedures",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Procedure",
+  "baseDefinition": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-procedure",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Procedure.extension:smmIndicator.valueCode",
+        "path": "Procedure.extension.valueCode",
+        "min": 1,
+        "max": "1",
+        "fixedCode": "hysterectomy"
+      },
+      {
+        "id": "Procedure.code",
+        "path": "Procedure.code",
+        "min": 1,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-hysterectomy"
+        }
+      }
+    ]
+  }
+}
