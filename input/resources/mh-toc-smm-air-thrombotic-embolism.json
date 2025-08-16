@@ -2,7 +2,6 @@
   "resourceType": "ValueSet",
   "id": "mh-toc-smm-air-thrombotic-embolism",
   "url": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-air-thrombotic-embolism",
-  "version": "2025.0.1",
   "name": "MHTOCSMMEmbolism",
   "title": "MH TOC SMM ValueSet for the Air and Thrombotic Embolism Indicator",
   "status": "active",
