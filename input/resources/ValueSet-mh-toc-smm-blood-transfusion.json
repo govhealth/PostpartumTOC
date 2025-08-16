@@ -1,0 +1,302 @@
+{
+    "resourceType": "ValueSet",
+    "id": "mh-toc-smm-blood-transfusion",
+    "url": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-blood-transfusion",
+    "version": "1.0.0",
+    "name": "MHTOCSMMBloodTransfusion",
+    "title": "MH TOC SMM ValueSet for the Blood Transfusion Indicator",
+    "status": "active",
+    "experimental": false,
+    "date": "2025-08-16",
+    "description": "ValueSet for Severe Maternal Morbidity (SMM) indicator: Blood Transfusion. Includes relevant ICD-9-CM and ICD-10-PCS procedure codes.",
+    "compose": {
+        "include": [
+            {
+                "system": "http://hl7.org/fhir/sid/icd-9-cm",
+                "concept": [
+                    {
+                        "code": "99.00",
+                        "display": "Perioperative autologous transfusion of whole blood or blood components"
+                    },
+                    {
+                        "code": "99.01",
+                        "display": "Exchange transfusion"
+                    },
+                    {
+                        "code": "99.02",
+                        "display": "Transfusion of previously collected autologous blood"
+                    },
+                    {
+                        "code": "99.03",
+                        "display": "Other transfusion of whole blood"
+                    },
+                    {
+                        "code": "99.04",
+                        "display": "Transfusion of packed cells"
+                    }
+                ]
+            },
+            {
+                "system": "http://www.cms.gov/Medicare/Coding/ICD10PCS",
+                "concept": [
+                    {
+                        "code": "30233H0",
+                        "display": "Transfusion of Autologous Whole Blood into Peripheral Vein, Percutaneous Approach"
+                    },
+                    {
+                        "code": "30233H1",
+                        "display": "Transfusion of Nonautologous Whole Blood into Peripheral Vein, Percutaneous Approach"
+                    },
+                    {
+                        "code": "30233K0",
+                        "display": "Transfusion of Autologous Frozen Plasma into Peripheral Vein, Percutaneous Approach"
+                    },
+                    {
+                        "code": "30233K1",
+                        "display": "Transfusion of Nonautologous Frozen Plasma into Peripheral Vein, Percutaneous Approach"
+                    },
+                    {
+                        "code": "30233L0",
+                        "display": "Transfusion of Autologous Fresh Plasma into Peripheral Vein, Percutaneous Approach"
+                    },
+                    {
+                        "code": "30233L1",
+                        "display": "Transfusion of Nonautologous Fresh Plasma into Peripheral Vein, Percutaneous Approach"
+                    },
+                    {
+                        "code": "30233M0",
+                        "display": "Transfusion of Autologous Plasma Cryoprecipitate into Peripheral Vein, Percutaneous Approach"
+                    },
+                    {
+                        "code": "30233M1",
+                        "display": "Transfusion of Nonautologous Plasma Cryoprecipitate into Peripheral Vein, Percutaneous Approach"
+                    },
+                    {
+                        "code": "30233N0",
+                        "display": "Transfusion of Autologous Red Blood Cells into Peripheral Vein, Percutaneous Approach"
+                    },
+                    {
+                        "code": "30233N1",
+                        "display": "Transfusion of Nonautologous Red Blood Cells into Peripheral Vein, Percutaneous Approach"
+                    },
+                    {
+                        "code": "30233P0",
+                        "display": "Transfusion of Autologous Frozen Red Cells into Peripheral Vein, Percutaneous Approach"
+                    },
+                    {
+                        "code": "30233P1",
+                        "display": "Transfusion of Nonautologous Frozen Red Cells into Peripheral Vein, Percutaneous Approach"
+                    },
+                    {
+                        "code": "30233R0",
+                        "display": "Transfusion of Autologous Platelets into Peripheral Vein, Percutaneous Approach"
+                    },
+                    {
+                        "code": "30233R1",
+                        "display": "Transfusion of Nonautologous Platelets into Peripheral Vein, Percutaneous Approach"
+                    },
+                    {
+                        "code": "30233T0",
+                        "display": "Transfusion of Autologous Fibrinogen into Peripheral Vein, Percutaneous Approach"
+                    },
+                    {
+                        "code": "30233T1",
+                        "display": "Transfusion of Nonautologous Fibrinogen into Peripheral Vein, Percutaneous Approach"
+                    },
+                    {
+                        "code": "30243H0",
+                        "display": "Transfusion of Autologous Whole Blood into Central Vein, Percutaneous Approach"
+                    },
+                    {
+                        "code": "30243H1",
+                        "display": "Transfusion of Nonautologous Whole Blood into Central Vein, Percutaneous Approach"
+                    },
+                    {
+                        "code": "30243K0",
+                        "display": "Transfusion of Autologous Frozen Plasma into Central Vein, Percutaneous Approach"
+                    },
+                    {
+                        "code": "30243K1",
+                        "display": "Transfusion of Nonautologous Frozen Plasma into Central Vein, Percutaneous Approach"
+                    },
+                    {
+                        "code": "30243L0",
+                        "display": "Transfusion of Autologous Fresh Plasma into Central Vein, Percutaneous Approach"
+                    },
+                    {
+                        "code": "30243L1",
+                        "display": "Transfusion of Nonautologous Fresh Plasma into Central Vein, Percutaneous Approach"
+                    },
+                    {
+                        "code": "30243M0",
+                        "display": "Transfusion of Autologous Plasma Cryoprecipitate into Central Vein, Percutaneous Approach"
+                    },
+                    {
+                        "code": "30243M1",
+                        "display": "Transfusion of Nonautologous Plasma Cryoprecipitate into Central Vein, Percutaneous Approach"
+                    },
+                    {
+                        "code": "30243N0",
+                        "display": "Transfusion of Autologous Red Blood Cells into Central Vein, Percutaneous Approach"
+                    },
+                    {
+                        "code": "30243N1",
+                        "display": "Transfusion of Nonautologous Red Blood Cells into Central Vein, Percutaneous Approach"
+                    },
+                    {
+                        "code": "30243P0",
+                        "display": "Transfusion of Autologous Frozen Red Cells into Central Vein, Percutaneous Approach"
+                    },
+                    {
+                        "code": "30243P1",
+                        "display": "Transfusion of Nonautologous Frozen Red Cells into Central Vein, Percutaneous Approach"
+                    },
+                    {
+                        "code": "30243R0",
+                        "display": "Transfusion of Autologous Platelets into Central Vein, Percutaneous Approach"
+                    },
+                    {
+                        "code": "30243R1",
+                        "display": "Transfusion of Nonautologous Platelets into Central Vein, Percutaneous Approach"
+                    },
+                    {
+                        "code": "30243T0",
+                        "display": "Transfusion of Autologous Fibrinogen into Central Vein, Percutaneous Approach"
+                    },
+                    {
+                        "code": "30243T1",
+                        "display": "Transfusion of Nonautologous Fibrinogen into Central Vein, Percutaneous Approach"
+                    },
+                    {
+                        "code": "30230H0",
+                        "display": "Transfusion of Nonautologous Red Blood Cells into Peripheral Vein, Open Approach"
+                    },
+                    {
+                        "code": "30230H1",
+                        "display": "Transfusion of Autologous Red Blood Cells into Peripheral Vein, Open Approach"
+                    },
+                    {
+                        "code": "30230K0",
+                        "display": "Transfusion of Nonautologous Frozen Red Blood Cells into Peripheral Vein, Open Approach"
+                    },
+                    {
+                        "code": "30230K1",
+                        "display": "Transfusion of Autologous Frozen Red Blood Cells into Peripheral Vein, Open Approach"
+                    },
+                    {
+                        "code": "30230L0",
+                        "display": "Transfusion of Nonautologous Leukocytes into Peripheral Vein, Open Approach"
+                    },
+                    {
+                        "code": "30230L1",
+                        "display": "Transfusion of Autologous Leukocytes into Peripheral Vein, Open Approach"
+                    },
+                    {
+                        "code": "30230M0",
+                        "display": "Transfusion of Nonautologous Platelets into Peripheral Vein, Open Approach"
+                    },
+                    {
+                        "code": "30230M1",
+                        "display": "Transfusion of Autologous Platelets into Peripheral Vein, Open Approach"
+                    },
+                    {
+                        "code": "30230N0",
+                        "display": "Transfusion of Nonautologous Plasma into Peripheral Vein, Open Approach"
+                    },
+                    {
+                        "code": "30230N1",
+                        "display": "Transfusion of Autologous Plasma into Peripheral Vein, Open Approach"
+                    },
+                    {
+                        "code": "30230P0",
+                        "display": "Transfusion of Nonautologous Cryoprecipitate into Peripheral Vein, Open Approach"
+                    },
+                    {
+                        "code": "30230P1",
+                        "display": "Transfusion of Autologous Cryoprecipitate into Peripheral Vein, Open Approach"
+                    },
+                    {
+                        "code": "30230R0",
+                        "display": "Transfusion of Nonautologous Other Therapeutic Substance into Peripheral Vein, Open Approach"
+                    },
+                    {
+                        "code": "30230R1",
+                        "display": "Transfusion of Autologous Other Therapeutic Substance into Peripheral Vein, Open Approach"
+                    },
+                    {
+                        "code": "30230T0",
+                        "display": "Transfusion of Nonautologous Stem Cells into Peripheral Vein, Open Approach"
+                    },
+                    {
+                        "code": "30230T1",
+                        "display": "Transfusion of Autologous Stem Cells into Peripheral Vein, Open Approach"
+                    },
+                    {
+                        "code": "30240H0",
+                        "display": "Transfusion of Nonautologous Red Blood Cells into Central Vein, Open Approach"
+                    },
+                    {
+                        "code": "30240H1",
+                        "display": "Transfusion of Autologous Red Blood Cells into Central Vein, Open Approach"
+                    },
+                    {
+                        "code": "30240K0",
+                        "display": "Transfusion of Nonautologous Frozen Red Blood Cells into Central Vein, Open Approach"
+                    },
+                    {
+                        "code": "30240K1",
+                        "display": "Transfusion of Autologous Frozen Red Blood Cells into Central Vein, Open Approach"
+                    },
+                    {
+                        "code": "30240L0",
+                        "display": "Transfusion of Nonautologous Leukocytes into Central Vein, Open Approach"
+                    },
+                    {
+                        "code": "30240L1",
+                        "display": "Transfusion of Autologous Leukocytes into Central Vein, Open Approach"
+                    },
+                    {
+                        "code": "30240M0",
+                        "display": "Transfusion of Nonautologous Platelets into Central Vein, Open Approach"
+                    },
+                    {
+                        "code": "30240M1",
+                        "display": "Transfusion of Autologous Platelets into Central Vein, Open Approach"
+                    },
+                    {
+                        "code": "30240N0",
+                        "display": "Transfusion of Nonautologous Plasma into Central Vein, Open Approach"
+                    },
+                    {
+                        "code": "30240N1",
+                        "display": "Transfusion of Autologous Plasma into Central Vein, Open Approach"
+                    },
+                    {
+                        "code": "30240P0",
+                        "display": "Transfusion of Nonautologous Cryoprecipitate into Central Vein, Open Approach"
+                    },
+                    {
+                        "code": "30240P1",
+                        "display": "Transfusion of Autologous Cryoprecipitate into Central Vein, Open Approach"
+                    },
+                    {
+                        "code": "30240R0",
+                        "display": "Transfusion of Nonautologous Other Therapeutic Substance into Central Vein, Open Approach"
+                    },
+                    {
+                        "code": "30240R1",
+                        "display": "Transfusion of Autologous Other Therapeutic Substance into Central Vein, Open Approach"
+                    },
+                    {
+                        "code": "30240T0",
+                        "display": "Transfusion of Nonautologous Stem Cells into Central Vein, Open Approach"
+                    },
+                    {
+                        "code": "30240T1",
+                        "display": "Transfusion of Autologous Stem Cells into Central Vein, Open Approach"
+                    }
+                ]
+            }
+        ]
+    }
+}
