@@ -1,0 +1,42 @@
+{
+    "resourceType": "ValueSet",
+    "id": "mh-toc-smm-temporary-tracheostomy",
+    "url": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-temporary-tracheostomy",
+    "version": "1.0.0",
+    "name": "MHTOCSMMTemporaryTracheostomy",
+    "title": "MH TOC SMM ValueSet for Temporary Tracheostomy Indicator",
+    "status": "active",
+    "experimental": false,
+    "date": "2025-08-16",
+    "description": "ICD-10-PCS and ICD-9-CM codes for the Severe Maternal Morbidity indicator: Temporary Tracheostomy. This value set includes procedure codes representing temporary tracheostomy procedures.",
+    "compose": {
+        "include": [
+            {
+                "system": "http://www.cms.gov/Medicare/Coding/ICD10",
+                "concept": [
+                    {
+                        "code": "0B110F4",
+                        "display": "Bypass Trachea to Cutaneous with Tracheostomy Device, Open Approach"
+                    },
+                    {
+                        "code": "0B113F4",
+                        "display": "Bypass Trachea to Cutaneous with Tracheostomy Device, Percutaneous Approach"
+                    },
+                    {
+                        "code": "0B114F4",
+                        "display": "Bypass Trachea to Cutaneous with Tracheostomy Device, Percutaneous Endoscopic Approach"
+                    }
+                ]
+            },
+            {
+                "system": "http://hl7.org/fhir/sid/icd-9-cm",
+                "concept": [
+                    {
+                        "code": "31.1",
+                        "display": "Temporary tracheostomy"
+                    }
+                ]
+            }
+        ]
+    }
+}

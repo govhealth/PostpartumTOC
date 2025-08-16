@@ -4,7 +4,7 @@
     "url": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-sickle-cell-crisis",
     "version": "1.0.0",
     "name": "MHTOCSMMSickleCellCrisis",
-    "title": "MH TOC SMM ValueSet for Sickle Cell Disease With Crisis",
+    "title": "MH TOC SMM ValueSet for Sickle Cell Disease With Crisis Indicator",
     "status": "active",
     "experimental": false,
     "date": "2025-08-16",
