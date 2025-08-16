@@ -7,7 +7,7 @@
   "status": "active",
   "experimental": false,
   "date": "2025-08-10",
-  "description": "A list of ICD-10-CM and ICD-9-CM procedure codes for the SMM Hysterectomy Indicator. The codes in the ValueSet should be monitored for changes as they vary by source and may be updated.",
+  "description": "A ValueSet comprised of ICD-10-CM and ICD-9-CM procedure codes for the SMM Hysterectomy Indicator. The codes in the ValueSet should be monitored for changes as they vary by source and may be updated.",
   "compose": {
     "include": [
       {

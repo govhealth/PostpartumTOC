@@ -8,7 +8,7 @@
     "status": "active",
     "experimental": false,
     "date": "2025-08-16",
-    "description": "ICD-10-PCS and ICD-9-CM codes for the Severe Maternal Morbidity indicator: Temporary Tracheostomy. This value set includes procedure codes representing temporary tracheostomy procedures.",
+    "description": "A ValueSet comprised of ICD-10-PCS and ICD-9-CM codes for the Severe Maternal Morbidity Temporary Tracheostomy Indicator. This value set includes procedure codes representing temporary tracheostomy procedures.",
     "compose": {
         "include": [
             {

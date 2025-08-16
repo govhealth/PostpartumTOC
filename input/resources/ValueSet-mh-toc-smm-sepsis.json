@@ -7,7 +7,7 @@
     "title": "MH TOC SMM ValueSet for the Sepsis Indicator",
     "status": "active",
     "experimental": false,
-    "description": "A list of ICD-10-CM and ICD-9-CM diagnosis codes for the Severe Maternal Morbidity Sepsis Indicator. The codes in the ValueSet should be monitored for changes as they vary by source and may be updated.",
+    "description": "A ValueSet comprised of ICD-10-CM and ICD-9-CM diagnosis codes for the Severe Maternal Morbidity Sepsis Indicator. The codes in the ValueSet should be monitored for changes as they vary by source and may be updated.",
     "compose": {
         "include": [
             {

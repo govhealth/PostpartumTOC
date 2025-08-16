@@ -8,7 +8,7 @@
     "status": "active",
     "experimental": false,
     "date": "2025-08-16",
-    "description": "ValueSet for Severe Maternal Morbidity (SMM) indicator: Blood Transfusion. Includes relevant ICD-9-CM and ICD-10-PCS procedure codes.",
+    "description": "A ValueSet comprised of ICD-10-PCS and ICD-9-CM codes for the Severe Maternal Morbidity Blood Transfusion Indicator. The codes in the ValueSet should be monitored for changes as they vary by source and may be updated.",
     "compose": {
         "include": [
             {
