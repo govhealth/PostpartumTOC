@@ -1,0 +1,146 @@
+{
+    "resourceType": "ValueSet",
+    "id": "mh-toc-smm-shock",
+    "url": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-shock",
+    "version": "1.0.0",
+    "name": "MHTOCSMMShock",
+    "title": "MH TOC SMM ValueSet for the Shock Indicator",
+    "status": "active",
+    "experimental": false,
+    "date": "2025-08-16",
+    "description": "A ValueSet comprised of ICD-10-CM and ICD-9-CM diagnosis codes for the Severe Maternal Morbidity Shock Indicator. The codes in the ValueSet should be monitored for changes as they vary by source and may be updated.",
+    "compose": {
+        "include": [
+            {
+                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                "concept": [
+                    {
+                        "code": "O75.1",
+                        "display": "Shock during or following labor and delivery"
+                    },
+                    {
+                        "code": "R57.0",
+                        "display": "Cardiogenic shock"
+                    },
+                    {
+                        "code": "R57.1",
+                        "display": "Hypovolemic shock"
+                    },
+                    {
+                        "code": "R57.8",
+                        "display": "Other shock"
+                    },
+                    {
+                        "code": "R57.9",
+                        "display": "Shock, unspecified"
+                    },
+                    {
+                        "code": "T78.2XXA",
+                        "display": "Anaphylactic shock, unspecified, initial encounter"
+                    },
+                    {
+                        "code": "T81.10XA",
+                        "display": "Postprocedural shock unspecified, initial encounter"
+                    },
+                    {
+                        "code": "T81.11XA",
+                        "display": "Postprocedural cardiogenic shock, initial encounter"
+                    },
+                    {
+                        "code": "T81.19XA",
+                        "display": "Other postprocedural shock, initial encounter"
+                    },
+                    {
+                        "code": "T88.6XXA",
+                        "display": "Anaphylactic reaction due to adverse effect of correct drug or medicament properly administered, initial encounter"
+                    }
+                ]
+            },
+            {
+                "system": "http://hl7.org/fhir/sid/icd-9-cm",
+                "concept": [
+                    {
+                        "code": "668.0",
+                        "display": "Major complications of anesthesia or sedation during labor and delivery"
+                    },
+                    {
+                        "code": "668.00",
+                        "display": "Major complications of anesthesia or sedation during labor and delivery, unspecified as to episode of care or not applicable"
+                    },
+                    {
+                        "code": "668.01",
+                        "display": "Major complications of anesthesia or sedation during labor and delivery, delivered, with or without mention of antepartum condition"
+                    },
+                    {
+                        "code": "668.02",
+                        "display": "Major complications of anesthesia or sedation during labor and delivery, delivered, with mention of postpartum complication"
+                    },
+                    {
+                        "code": "668.03",
+                        "display": "Major complications of anesthesia or sedation during labor and delivery, antepartum condition or complication"
+                    },
+                    {
+                        "code": "668.04",
+                        "display": "Major complications of anesthesia or sedation during labor and delivery, postpartum condition or complication"
+                    },
+                    {
+                        "code": "668.1",
+                        "display": "Other complications of anesthesia or sedation during labor and delivery"
+                    },
+                    {
+                        "code": "668.10",
+                        "display": "Other complications of anesthesia or sedation during labor and delivery, unspecified as to episode of care or not applicable"
+                    },
+                    {
+                        "code": "668.11",
+                        "display": "Other complications of anesthesia or sedation during labor and delivery, delivered, with or without mention of antepartum condition"
+                    },
+                    {
+                        "code": "668.12",
+                        "display": "Other complications of anesthesia or sedation during labor and delivery, delivered, with mention of postpartum complication"
+                    },
+                    {
+                        "code": "668.13",
+                        "display": "Other complications of anesthesia or sedation during labor and delivery, antepartum condition or complication"
+                    },
+                    {
+                        "code": "668.14",
+                        "display": "Other complications of anesthesia or sedation during labor and delivery, postpartum condition or complication"
+                    },
+                    {
+                        "code": "668.2",
+                        "display": "Anesthesia or sedation-induced hypotension during labor and delivery"
+                    },
+                    {
+                        "code": "668.20",
+                        "display": "Anesthesia or sedation-induced hypotension during labor and delivery, unspecified as to episode of care or not applicable"
+                    },
+                    {
+                        "code": "668.21",
+                        "display": "Anesthesia or sedation-induced hypotension during labor and delivery, delivered, with or without mention of antepartum condition"
+                    },
+                    {
+                        "code": "668.22",
+                        "display": "Anesthesia or sedation-induced hypotension during labor and delivery, delivered, with mention of postpartum complication"
+                    },
+                    {
+                        "code": "668.23",
+                        "display": "Anesthesia or sedation-induced hypotension during labor and delivery, antepartum condition or complication"
+                    },
+                    {
+                        "code": "668.24",
+                        "display": "Anesthesia or sedation-induced hypotension during labor and delivery, postpartum condition or complication"
+                    },
+                    {
+                        "code": "995.4",
+                        "display": "Shock due to anesthesia"
+                    },
+                    {
+                        "code": "995.86",
+                        "display": "Anaphylactic reaction due to correct medicinal substance properly administered"
+                    }
+                ]
+            }
+        ]
+    }
+}

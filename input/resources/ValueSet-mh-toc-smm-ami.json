@@ -3,11 +3,11 @@
   "id": "mh-toc-smm-ami",
   "url": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-ami",
   "name" : "ValueSetMHTOCAMI",
-  "title": "MH TOC SMM Acute Myocardial Infarction",
+  "title": "MH TOC SMM ValueSet for the Acute Myocardial Infarction",
   "status": "active",
   "experimental": false,
   "date": "2025-08-04",
-  "description": "A list of possible ICD codes for the SMM Acute Myocardial Infarction Indicator.",
+  "description": "A ValueSet comprised of ICD-10-CM and ICD-9-CM diagnosis codes for the SMM Acute Myocardial Infarction Indicator. The codes in the ValueSet should be monitored for changes as they vary by source and may be updated.",
   "compose": {
     "include": [
       {

@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "mh-toc-smm-cardiac-arrest",
+  "url": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-cardiac-arrest",
+  "name": "MHTOCSMMCardiacArrest",
+  "title": "MH TOC ValueSet for the Severe Maternal Morbidity Cardiac Arrest / Ventricular Fibrillation Indicator",
+  "status": "active",
+  "experimental": false,
+  "date": "2025-08-15",
+  "description": "A ValueSet comprised of ICD-10-CM and ICD-9-CM diagnosis codes for the Severe Maternal Morbidity Cardiac Arrest / Ventricular Fibrillation Indicator. The codes in the ValueSet should be monitored for changes as they vary by source and may be updated.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "concept": [
+          {
+            "code": "427.41",
+            "display": "Ventricular fibrillation"
+          },
+          {
+            "code": "427.42",
+            "display": "Ventricular flutter"
+          },
+          {
+            "code": "427.5",
+            "display": "Cardiac arrest"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "concept": [
+          {
+            "code": "I46.2",
+            "display": "Cardiac arrest due to underlying cardiac condition"
+          },
+          {
+            "code": "I46.8",
+            "display": "Cardiac arrest due to other underlying condition"
+          },
+          {
+            "code": "I46.9",
+            "display": "Cardiac arrest, unspecified"
+          },
+          {
+            "code": "I49.01",
+            "display": "Ventricular fibrillation"
+          },
+          {
+            "code": "I49.02",
+            "display": "Ventricular flutter"
+          }
+        ]
+      }
+    ]
+  }
+}
