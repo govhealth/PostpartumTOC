@@ -1,0 +1,31 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "mh-toc-smm-category-codes",
+    "url": "http://fhir.org/guides/astp/postpartum-toc/CodeSystem/mh-toc-smm-category-codes",
+    "version": "1.0.0",
+    "name": "MHTOCSMMCategory",
+    "title": "CodeSystem SMM Category Codes",
+    "status": "active",
+    "content": "complete",
+    "caseSensitive": true,
+    "experimental": false,
+    "description": "Code system defining categories for Severe Maternal Morbidity indicators. These codes are used in the SMMCategoryValueSet and individual profiles for each individual indicator.",
+    "concept": [
+        {
+            "code": "acute-myocardial-infarction",
+            "display": "Acute Myocardial Infarction"
+        },
+        {
+            "code": "aneurysm",
+            "display": "Aneurysm"
+        },
+        {
+            "code": "ventilation",
+            "display": "Ventilation"
+        },
+        {
+            "code": "hysterectomy",
+            "display": "Hysterectomy"
+        }
+    ]
+}

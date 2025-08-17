@@ -3,10 +3,10 @@
   "id": "mh-toc-smm-indicator",
   "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-indicator",
   "name": "MHTOCSMMIndicators",
-  "title": "MHTOC Extension Specifying SMM Indicator",
+  "title": "MH TOC Extension Specifying SMM Indicator",
   "status": "active",
   "date": "2025-07-29",
-  "description": "Extension to allow profiles to specify the SMM Indicator",
+  "description": "MH TOC extension to allow profiles to specify a specific Severe Maternal Morbidity Indicator. Used in SMM procedure and condition profiles as well as those derived from them.",
   "fhirVersion": "4.0.1",
   "kind": "complex-type", 
   "abstract": false,
@@ -52,7 +52,7 @@
         "binding": 
           {
             "strength": "required",
-            "valueSet": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-category"
+            "valueSet": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-category-values"
           }
       }
     ]

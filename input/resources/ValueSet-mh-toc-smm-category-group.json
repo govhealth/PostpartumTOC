@@ -1,8 +1,8 @@
 {
   "resourceType": "ValueSet",
-  "id": "mh-toc-smm",
-  "url": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm",
-  "name": "MHTOCSevereMaternalMorbidityValueSet",
+  "id": "mh-toc-smm-category-group",
+  "url": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-category-group",
+  "name": "MHTOCSMMCategoryGroup",
   "title": "MH TOC Severe Maternal Morbidity ValueSet",
   "status": "active",
   "experimental": false,
@@ -12,7 +12,7 @@
     "include": [
       {
         "valueSet": [
-          "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-ami"
+          "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-acute-myocardial-infarction"
         ]
       },
       {
