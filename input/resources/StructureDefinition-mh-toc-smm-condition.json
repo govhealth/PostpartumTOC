@@ -7,7 +7,7 @@
     "title": "MH TOC Severe Maternal Morbidity Condition",
     "status": "active",
     "date": "2025-07-28",
-    "description": "The MH TOC Severe Maternal Morbidity Condition Profile is derived from the US Core Condition Enounter Diagnosis Profile. It defines the common requirements for representing groups of diagnoses and their constituent mappings to a single Severe Maternal Morbidity Indicator.",
+    "description": "The MH TOC Severe Maternal Morbidity Condition Profile is derived from the US Core Condition Enounter Diagnosis Profile. It defines the common requirements for representing groups of diagnoses and their constituent mappings to a single Severe Maternal Morbidity Indicator.  For examples, please see the instances of the individual derivative profiles.",
     "fhirVersion": "4.0.1",
     "kind": "resource",
     "abstract": false,
@@ -39,7 +39,7 @@
                 "path": "Condition.code",
                 "binding": {
                 "strength": "extensible",
-                "valueSet": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm"
+                "valueSet": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-category-group"
                 } 
             },           
             {

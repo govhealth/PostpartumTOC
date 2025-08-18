@@ -1,9 +1,9 @@
 {
   "resourceType": "Condition",
-  "id": "example-smm-condition-ami",
+  "id": "example-smm-condition-acute-myocardial-infarction",
   "meta": {
     "profile": [
-      "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition-ami"
+      "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition-acute-myocardial-infarction"
     ]
   },
   "clinicalStatus": {
@@ -39,11 +39,13 @@
     "coding": [
       {
         "system": "http://hl7.org/fhir/sid/icd-10-cm",
-        "code": "I21.9",
-        "display": "Acute myocardial infarction, unspecified"
+        "code": "I22.0"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "code": "I22.9"
       }
-    ],
-    "text": "Acute Myocardial Infarction"
+    ]
   },
   "subject": {
     "reference": "Patient/mom"
@@ -55,7 +57,7 @@
   "extension": [
     {
       "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-indicator",
-      "valueCode": "ami"
+      "valueCode": "acute-myocardial-infarction"
     }
   ]
 }

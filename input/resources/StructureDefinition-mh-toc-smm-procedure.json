@@ -7,7 +7,7 @@
     "title": "MH TOC Severe Maternal Morbidity Procedure",
     "status": "active",
     "date": "2025-07-28",
-    "description": "Profile for representing Severe Maternal Morbidity (SMM) Indicators in procedures.",
+    "description": "The MH TOC Severe Maternal Morbidity Condition Procedure Profile is derived from the US Core Procedure Profile. It defines the common requirements for representing groups of procedures and their constituent mappings to a single Severe Maternal Morbidity Indicator. For examples, please see the instances of the individual derivative profiles.",
     "fhirVersion": "4.0.1",
     "kind": "resource",
     "abstract": false,
@@ -21,7 +21,7 @@
                 "path": "Procedure.extension",
                 "sliceName": "smmIndicator",
                 "short": "SMM Indicator",
-                "definition": "Identifies the SMM indicator category for this condition.",
+                "definition": "Identifies the SMM indicator category for this procedure.",
                 "min": 1,
                 "max": "1",
                 "mustSupport": true,
@@ -39,7 +39,7 @@
                 "path": "Procedure.code",
                 "binding": {
                 "strength": "extensible",
-                "valueSet": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm"
+                "valueSet": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-category-group"
                 } 
             }, 
             {

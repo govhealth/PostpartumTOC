@@ -1,0 +1,104 @@
+{
+    "resourceType": "ValueSet",
+    "id": "mh-toc-smm-category-values",
+    "url": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-category-values",
+    "version": "1.0.0",
+    "name": "MHTOCSMMCategoryValues",
+    "title": "ValueSet for SMM Indicators",
+    "status": "active",
+    "experimental": false,
+    "description": "ValueSet for specifying categories for Severe Maternal Morbidity (SMM) indicators. These are used as values for individual subprofiles of SMM Condition and Procedure as an extension's code.",
+    "compose": {
+        "include": [
+            {
+                "system": "http://fhir.org/guides/astp/postpartum-toc/CodeSystem/mh-toc-smm-category-codes",
+                "concept": [
+                    {
+                        "code": "acute-myocardial-infarction",
+                        "display": "Acute Myocardial Infarction"
+                    },
+                    {
+                        "code": "acute-renal-failure",
+                        "display": "Acute Renal Failure"
+                    },
+                    {
+                        "code": "acute-respiratory-distress",
+                        "display": "Acute Respiratory Distress Syndrome"
+                    },
+                    {
+                        "code": "air-thrombotic-embolism",
+                        "display": "Air and Thrombotic Embolism"
+                    },
+                    {
+                        "code": "amniotic-fluid-embolism",
+                        "display": "Amniotic Fluid Embolism"
+                    },
+                    {
+                        "code": "anesthesia-complications",
+                        "display": "Severe Anesthesia Complications"
+                    },
+                    {
+                        "code": "aneurysm",
+                        "display": "Aneurysm"
+                    },
+                    {
+                        "code": "blood-transfusion",
+                        "display": "Blood Transfusion"
+                    },
+                    {
+                        "code": "cardiac-arrest",
+                        "display": "Severe Maternal Morbidity Cardiac Arrest / Ventricular Fibrillation"
+                    },
+                    {
+                        "code": "conversion-cardiac-rhythm",
+                        "display": "Conversion of Cardiac Rhythm"
+                    },
+                    {
+                        "code": "disseminated-intravascular-coagulation",
+                        "display": "Disseminated Intravascular Coagulation"
+                    },
+                    {
+                        "code": "eclampsia",
+                        "display": "Eclampsia"
+                    },
+                    {
+                        "code": "heart-failure-arrest",
+                        "display": "Heart Failure / Arrest During Surgery or Procedure"
+                    },
+                    {
+                        "code": "hysterectomy",
+                        "display": "Hysterectomy"
+                    },
+                    {
+                        "code": "puerperal-cerebrovascular-disorders",
+                        "display": "Puerperal Cerebrovascular Disorders"
+                    },
+                    {
+                        "code": "pulmonary-edema-acute-heart-failure",
+                        "display": "Pulmonary Edema / Acute Heart Failure"
+                    },
+                    {
+                        "code": "sepsis",
+                        "display": "Sepsis"
+                    },
+                    {
+                        "code": "shock",
+                        "display": "Shock"
+                    },
+                    {
+                        "code": "sickle-cell-crisis",
+                        "display": "Sickle Cell Disease With Crisis"
+                    },
+                    {
+                        "code": "temporary-tracheostomy",
+                        "display": "Temporary Tracheostomy"
+                    },
+                    {
+                        "code": "ventilation",
+                        "display": "Ventilation"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
-  "id": "mh-toc-smm-ards",
-  "url": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-ards",
+  "id": "mh-toc-smm-acute-respiratory-distress",
+  "url": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-acute-respiratory-distress",
   "name": "MHTOCSMMARDS",
   "title": "MH TOC SMM ValueSet for the Acute Respiratory Distress Syndrome Indicator",
   "status": "active",
