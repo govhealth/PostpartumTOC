@@ -1,6 +1,7 @@
 
 
 
+
 ### Data Element Mapping
 
 The following profiles have been defined as part of the MH TOC Implementation Guide. A registry of US Core profiles may be found within the [US Core FHIR IG](https://hl7.org/fhir/us/core/STU6.1). A registry of standard profiles can be found in the FHIR specification, and additional profiles may be registered on the HL7 FHIR registry at http://hl7.org/fhir/registry.
@@ -29,20 +30,18 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 |Encounter Information|Encounter Diagnosis|[US Core Condition Problems and Health Concerns](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-condition-problems-health-concerns.html)|Condition.code|
 |Encounter Information|Encounter Location|[US Core Encounter](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-encounter.html)|Encounter.location|
 |Encounter Information|Encounter Type|[US Core Encounter](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-encounter.html)|Encounter.type|
-|Facility Information|Facility Name|[US Core Location](https://hl7.org/fhir/us/core/2024Jan/StructureDefinition-us-core-location.html)|Location.name|
-|Facility Information|Facility Name|[US Core Location](https://hl7.org/fhir/us/core/2024Jan/StructureDefinition-us-core-location.html)|Location.type|
+|Facility Information|Facility Name|[US Core Location](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-location.html)|Location.name|
+|Facility Information|Facility Name|[US Core Location](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-location.html)|Location.type|
 |Family Health History|Family Health History|[Family Health History](StructureDefinition-mh-toc-family-health-history.html)|FamilyMemberHistory|
 |Education|Education (Maternal Health)|||
 |Genomics|Genetic Screening||DocumentReference.type|
 |Genomics|Teratology Counseling|||
-|Health Status Assessment|Alcohol Use|[US Core Observation Screening Assessment](http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment)|observation.code|
-|Health Status Assessments|Clinical Risk Assessment Results|[US Core Observation Screening Assessment](http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment)|Observation.value[x]|
-|Health Status Assessments|GAD-7 Score|[US Core Observation Screening Assessment](http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment)|Observation.value[x]|
-|Health Status Assessments|Mental / Cognitive Status|[US Core Observation Screening Assessment](http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment)|Observation.code|
-|Health Status Assessments|PHQ-9 Score|[US Core Observation Screening Assessment](http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment)|Observation.value[x]|
-|Health Status Assessment|Pregnancy Status|[US Core Observation Pregnancy Status](http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-pregnancystatus)|observation.code|
-|Health Status Assessments|Smoking Status|[US Core Smoking Status](http://hl7.org/fhir/us/core/StructureDefinition/us-core-smokingstatus)|Observation.code|
-|Health Status Assessments|Substance Use|[US Core Observation Screening Assessment](http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment)|Observation.code|
+|Health Status Assessment|Alcohol Use|[US Core Observation Screening Assessment](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-observation-screening-assessment.html)|observation.code|
+|Health Status Assessments|Clinical Risk Assessment Results|[US Core Observation Screening Assessment](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-observation-screening-assessment.html)|Observation.value[x]|
+|Health Status Assessments|Mental / Cognitive Status|[US Core Observation Screening Assessment](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-observation-screening-assessment.html)|Observation.code|
+|Health Status Assessment|Pregnancy Status|[US Core Observation Pregnancy Status](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-observation-pregnancystatus.html)|observation.code|
+|Health Status Assessments|Smoking Status|[US Core Smoking Status](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-smokingstatus.html)|Observation.code|
+|Health Status Assessments|Substance Use|[US Core Observation Screening Assessment](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-observation-screening-assessment.html)|Observation.code|
 |Immmunizations|Immunization Status|[US Core Immunization](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-immunization.html)|Immunization.status|
 |Immmunizations|Immunizations|[US Core Immunization](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-immunization.html)|Immunization.vaccinecode|
 |Immmunizations|Reason Immunization Not Performed|[US Core Immunization](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-immunization.html)|Immunization.statusreason|
@@ -50,37 +49,37 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 |Labor and Delivery|Labor Type||Observation.value[x]|
 |Laboratory|Result Reference Range|[US Core Laboratory Result Observation Profile](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-observation-lab.html)|Observation.referenceRange|
 |Laboratory|Result Status|[US Core DiagnosticReport Profile for Laboratory Results Reporting](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-diagnosticreport-lab.html)|DiagnosticReport.status|
-|Laboratory|Specimen Identifier|[US Core Specimen](http://hl7.org/fhir/us/core/StructureDefinition/us-core-specimen)|Specimen.identifier|
-|Laboratory|Specimen Source Site|[US Core Specimen](http://hl7.org/fhir/us/core/StructureDefinition/us-core-specimen)|Specimen.collection.bodySite|
-|Laboratory|Specimen Type|[US Core Specimen](http://hl7.org/fhir/us/core/StructureDefinition/us-core-specimen)|Specimen.type|
+|Laboratory|Specimen Identifier|[US Core Specimen](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-specimen.html)|Specimen.identifier|
+|Laboratory|Specimen Source Site|[US Core Specimen](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-specimen.html)|Specimen.collection.bodySite|
+|Laboratory|Specimen Type|[US Core Specimen](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-specimen.html)|Specimen.type|
 |Laboratory|Tests|[US Core DiagnosticReport Profile for Laboratory Results Reporting](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-diagnosticreport-lab.html)|DiagnosticReport.code|
 |Laboratory|Values/Results|[US Core DiagnosticReport Profile for Laboratory Results Reporting](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-diagnosticreport-lab.html)|DiagnosticReport.result|
 |Medications|Discharge Medications|[US Core MedicationRequest](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-medicationrequest.html)|MedicationRequest.category:us-core|
 |Medications|Dose|[US Core MedicationRequest](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-medicationrequest.html)|MedicationRequest.dosageInstruction|
 |Medications|Dose Unit of Measure|[US Core MedicationRequest](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-medicationrequest.html)|MedicationRequest.dosageInstruction|
 |Medications|Medications|[US Core MedicationRequest](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-medicationrequest.html)|MedicationRequest.medication[x]|
-|Newborn's Delivery Information|APGAR Score|[US Core Observation Screening Assessment Profile](http://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-observation-screening-assessment.html)|Observation.code|
-|Newborn's Delivery Information|Birth Weight|[BFDR Observation Birth Weight](http://hl7.org/fhir/us/bfdr/StructureDefinition/Observation-birth-weight)|Observation.value[x]|
-|Newborn's Delivery Information|Multiple Birth Order|[US Core Patient](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|patient.multiplebirth[x]|
-|Patient Demographics|Current Address|[US Core Patient](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.address|
-|Patient Demographics|Date of Birth|[US Core Patient](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.birthDate|
-|Patient Demographics|Email Address|[US Core Patient](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.telecom|
-|Patient Demographics|Ethnicity|[US Core Patient](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Extension.extension:ombCategory.value[x]|
-|Patient Demographics|First Name|[US Core Patient](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.name|
-|Patient Demographics|Gender Identity|[US Core Patient](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.gender|
-|Patient Demographics|Last Name|[US Core Patient](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.name|
-|Patient Demographics|Middle Name (Including middle initial)|[US Core Patient](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.name|
-|Patient Demographics|Name Suffix|[US Core Patient](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.name|
-|Patient Demographics|Phone Number|[US Core Patient](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.telecom|
-|Patient Demographics|Phone Number Type|[US Core Patient](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.telecom|
-|Patient Demographics|Preferred Language|[US Core Patient](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.communication|
-|Patient Demographics|Previous Address|[US Core Patient](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.address|
-|Patient Demographics|Previous Name|[US Core Patient](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.name|
-|Patient Demographics|Race|[US Core Patient](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Extension.extension:ombCategory.value[x]|
-|Patient Demographics|Related Person's Name|[US Core RelatedPerson](http://hl7.org/fhir/us/core/StructureDefinition/us-core-relatedperson)|RelatedPerson.name|
-|Patient Demographics|Relationship Type|[US Core RelatedPerson](http://hl7.org/fhir/us/core/StructureDefinition/us-core-relatedperson)|RelatedPerson.relationship|
-|Patient Demographics|Sex|[US Core Patient](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.gender|
-|Patient Demographics|Tribal Affiliation|[US Core Patient](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|Patient.extension:tribalAffiliation|
+|Newborn's Delivery Information|APGAR Score|[US Core Observation Screening Assessment Profile](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-observation-screening-assessment.html)|Observation.code|
+|Newborn's Delivery Information|Birth Weight|[BFDR Observation Birth Weight](https://build.fhir.org/ig/HL7/fhir-bfdr/StructureDefinition-Observation-birth-weight.html)|Observation.value[x]|
+|Newborn's Delivery Information|Multiple Birth Order|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|patient.multiplebirth[x]|
+|Patient Demographics|Current Address|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Patient.address|
+|Patient Demographics|Date of Birth|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Patient.birthDate|
+|Patient Demographics|Email Address|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Patient.telecom|
+|Patient Demographics|Ethnicity|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Extension.extension:ombCategory.value[x]|
+|Patient Demographics|First Name|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Patient.name|
+|Patient Demographics|Gender Identity|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Patient.gender|
+|Patient Demographics|Last Name|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Patient.name|
+|Patient Demographics|Middle Name (Including middle initial)|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Patient.name|
+|Patient Demographics|Name Suffix|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Patient.name|
+|Patient Demographics|Phone Number|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Patient.telecom|
+|Patient Demographics|Phone Number Type|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Patient.telecom|
+|Patient Demographics|Preferred Language|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Patient.communication|
+|Patient Demographics|Previous Address|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Patient.address|
+|Patient Demographics|Previous Name|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Patient.name|
+|Patient Demographics|Race|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Extension.extension:ombCategory.value[x]|
+|Patient Demographics|Related Person's Name|[US Core RelatedPerson](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-relatedperson.html)|RelatedPerson.name|
+|Patient Demographics|Relationship Type|[US Core RelatedPerson](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-relatedperson.html)|RelatedPerson.relationship|
+|Patient Demographics|Sex|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Patient.gender|
+|Patient Demographics|Tribal Affiliation|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Patient.extension:tribalAffiliation|
 |Patient Summary and Plan|Assessment and Plan of Treatment|[US Core CarePlan](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-careplan.html)|CarePlan.text|
 |Pregnancy Information|Delivery Date|[Delivery Date](StructureDefinition-mh-toc-delivery-date.html)|Observation.date|
 |Pregnancy Information|Estimated Date of Delivery|[Estimated Date of Delivery](StructureDefinition-mh-toc-edd.html)|Observation.code|
@@ -91,17 +90,17 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 |Pregnancy Information|Gestational Age Determination Method|[US Public Health Pregnancy Status Observation](https://build.fhir.org/ig/HL7/fhir-us-ph-common-library-ig/StructureDefinition-us-ph-pregnancy-status-observation.html)|Observation.component:sliceEstimatedGestationalAgeOfPregnancy|
 |Pregnancy Information|Gravidity|[Gravidity](StructureDefinition-mh-toc-gravidity.html)|Obversation.code|
 |Pregnancy Information|Last Menstrual Period (LMP)|[Birth and Fetal Death Observation - Last Menstrual Period](https://build.fhir.org/ig/HL7/fhir-bfdr/StructureDefinition-Observation-last-menstrual-period.html)|Observation.code|
-|Pregnancy Information|Multiple Gestation|[US Core Patient](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)|patient.multiplebirth[x]|
+|Pregnancy Information|Multiple Gestation|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition/us-core-patient)|patient.multiplebirth[x]|
 |Pregnancy Information|Parity|[Parity](StructureDefinition-mh-toc-parity.html)|Obversation.code|
 |Pregnancy Information|Pregnancy Outcome|[International Patient Summary Expected Delivery Observation - Pregnancy: EDD](http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-pregnancy-edd-uv-ips)|Observation.code|
 |Pregnancy Information|Pregnancy Status Determination Date|[US Public Health Pregnancy Status Observation](https://build.fhir.org/ig/HL7/fhir-us-ph-common-library-ig/StructureDefinition-us-ph-pregnancy-status-observation.html)|Observation.extension:extensionPregnancyStatusDeterminationDate|
 |Pregnancy Information|Pregnancy Status Determination Method|[US Public Health Pregnancy Status Observation](https://build.fhir.org/ig/HL7/fhir-us-ph-common-library-ig/StructureDefinition-us-ph-pregnancy-status-observation.html)|Observation.method|
 |Pregnancy Information|Postpartum Status|[US Public Health Postpartum Status](https://build.fhir.org/ig/HL7/case-reporting/StructureDefinition-us-ph-postpartum-status.html)|Observation.code|
-|Problems|Date of Diagnosis|[US Core Condition Problems and Health Concerns](http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-problems-health-concerns)|Condition.onset[x]|
-|Problems|Date of Resolution|[US Core Condition Problems and Health Concerns](http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-problems-health-concerns)|Condition.abatement[x]|
+|Problems|Date of Diagnosis|[US Core Condition Problems and Health Concerns](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-condition-problems-health-concerns.html)|Condition.onset[x]|
+|Problems|Date of Resolution|[US Core Condition Problems and Health Concerns](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-condition-problems-health-concerns.html)|Condition.abatement[x]|
 |Problems|Hypertensive Disorders of Pregnancy|[Longitudinal Maternal & Infant Health Information for Research Library for Hypertensive Disorders of Pregnancy](https://build.fhir.org/ig/HL7/fhir-mmm-ig/Library-PIHCohort.html)|Condition.code|
 |Problems|Indicators of Severe Maternal Morbidity|[Severe Maternal Morbidity](StructureDefinition-mh-toc-smm-condition.html)|Observation.code|
-|Problems|Problems|[US Core Condition Problems and Health Concerns](http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-problems-health-concerns)|Condition.code|
+|Problems|Problems|[US Core Condition Problems and Health Concerns](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition/us-core-condition-problems-health-concerns)|Condition.code|
 |Problems|SDOH Problems/Health Concerns|[SDOHCC Condition](http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-Condition)|Condition.code|
 |Procedures|Performance Time|[US Core Procedure](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-procedure.html)|Procedure.performed[x]|
 |Procedures|Procedure Status|[US Core Procedure](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-procedure.html)|Procedure.status|
@@ -109,17 +108,18 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 |Procedures|Reason for Referral|[US Core Procedure](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-procedure.html)|ServiceRequest.reasonReference|
 |Provenance|Author Organization|[US Core Provenance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-provenance.html)|Provenance.agent|
 |Provenance|Author Time Stamp|[US Core Provenance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-provenance.html)|Provenance.occured[x]|
-|Vital Signs|Average Blood Pressure|[US Core Average Blood Pressure](http://hl7.org/fhir/us/core/StructureDefinition/us-core-average-blood-pressure)|Observation.value[x]|
-|Vital Signs|BMI|[US Core BMI](http://hl7.org/fhir/us/core/StructureDefinition/us-core-bmi)|Observation.code|
-|Vital Signs|Body Height|[US Core Body Height](http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-height)|Observation.code|
-|Vital Signs|Body Temperature|[US Core Body Temperature](http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-temperature)|Observation.code|
-|Vital Signs|Body Weight|[US Core Body Weight](http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-weight)|Observation.code|
-|Vital Signs|Diastolic Blood Pressure|[US Core Blood Pressure](http://hl7.org/fhir/us/core/StructureDefinition/us-core-blood-pressure)|Observation.component:diastolic.code|
-|Vital Signs|Head Occipital-frontal Circumference Percentile (Birth - 36 Months)|[US Core Pediatric Head Occipital Frontal Circumference Percentile](http://hl7.org/fhir/us/core/StructureDefinition/head-occipital-frontal-circumference-percentile)|Observation.code|
-|Vital Signs|Heart Rate|[US Core Heart Rate](http://hl7.org/fhir/us/core/StructureDefinition/us-core-heart-rate)|Observation.code|
-|Vital Signs|Inhaled Oxygen Concentration|[US Core Pulse Oximetry](http://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-pulse-oximetry)|Observation.code.coding:O2Sat|
-|Vital Signs|Pulse Oximetry|[US Core Pulse Oximetry](http://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-pulse-oximetry)|Observation.code.coding:PulseOx|
-|Vital Signs|Respiratory Rate|[US Core Respiratory Rate](http://hl7.org/fhir/us/core/StructureDefinition/us-core-respiratory-rate)|Observation.code|
-|Vital Signs|Systolic Blood Pressure|[US Core Blood Pressure](http://hl7.org/fhir/us/core/StructureDefinition/us-core-blood-pressure)|Observation.component:systolic.code|
-|Vital Signs|Weight-for-length Percentile (Birth - 36 Months)|[US Core Pediatric Weight for Height Observation](http://hl7.org/fhir/us/core/StructureDefinition/pediatric-weight-for-height)|Observation.code|
+|Vital Signs|Average Blood Pressure|[US Core Average Blood Pressure](https://build.fhir.org/ig/HL7/US-Core/StructureDefinition-us-core-average-blood-pressure.html)|Observation.value[x]|
+|Vital Signs|BMI|[US Core BMI](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-bmi.html)|Observation.code|
+|Vital Signs|Body Height|[US Core Body Height](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-body-height.html)|Observation.code|
+|Vital Signs|Body Temperature|[US Core Body Temperature](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-body-temperature.html)|Observation.code|
+|Vital Signs|Body Weight|[US Core Body Weight](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition/us-core-body-weight.html)|Observation.code|
+|Vital Signs|Diastolic Blood Pressure|[US Core Blood Pressure](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition/us-core-blood-pressure.html)|Observation.component:diastolic.code|
+|Vital Signs|Head Occipital-frontal Circumference Percentile (Birth - 36 Months)|[US Core Pediatric Head Occipital Frontal Circumference Percentile](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-head-occipital-frontal-circumference-percentile.html)|Observation.code|
+|Vital Signs|Heart Rate|[US Core Heart Rate](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-heart-rate.html)|Observation.code|
+|Vital Signs|Inhaled Oxygen Concentration|[US Core Pulse Oximetry](http://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-pulse-oximetry.html)|Observation.code.coding:O2Sat|
+|Vital Signs|Pulse Oximetry|[US Core Pulse Oximetry](http://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-pulse-oximetry.html)|Observation.code.coding:PulseOx|
+|Vital Signs|Respiratory Rate|[US Core Respiratory Rate](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-respiratory-rate.html)|Observation.code|
+|Vital Signs|Systolic Blood Pressure|[US Core Blood Pressure](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-blood-pressure.html)|Observation.component:systolic.code|
+|Vital Signs|Weight-for-length Percentile (Birth - 36 Months)|[US Core Pediatric Weight for Height Observation](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-pediatric-weight-for-height.html)|Observation.code|
 {: .grid}
+
