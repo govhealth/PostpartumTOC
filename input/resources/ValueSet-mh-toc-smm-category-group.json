@@ -17,12 +17,97 @@
       },
       {
         "valueSet": [
+          "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-acute-renal-failure"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-acute-respiratory-distress"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-air-thrombotic-embolism"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-amniotic-fluid-embolism"
+        ]
+      },
+      {
+        "valueSet": [
           "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-aneurysm"
         ]
       },
       {
         "valueSet": [
+          "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-anesthesia-complications"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-blood-transfusion"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-cardiac-arrest"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-conversion-cardiac-rhythm"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-eclampsia"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-heart-failure-arrest"
+        ]
+      },
+      {
+        "valueSet": [
           "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-hysterectomy"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-intravascular-coagulation"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-puerperal-cerebrovascular-disorders"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-pulmonary-edema-acute-heart-failure"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-sepsis"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-shock"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-sickle-cell-crisis"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-temporary-tracheostomy"
         ]
       },
       {
