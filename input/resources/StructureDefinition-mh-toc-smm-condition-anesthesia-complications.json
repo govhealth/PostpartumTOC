@@ -1,0 +1,37 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "mh-toc-smm-condition-anesthesia-complications",
+  "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition-anesthesia-complications",
+  "version": "1.0.0",
+  "name": "MHTOCSMMConditionAnesthesiaComplications",
+  "title": "MH TOC Severe Maternal Morbidity Condition Severe Anesthesia Complications",
+  "status": "active",
+  "date": "2025-07-28",
+  "description": "Derived from the MH TOC Severe Maternal Morbidity Condition profile. Constrains the SMM indicator extension to 'anesthesia-complications' and requires Condition.code to bind to the 'MH TOC SMM ValueSet for the Severe Anesthesia Complications Indicator'.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Condition",
+  "baseDefinition": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Condition.extension:smmIndicator.valueCode",
+        "path": "Condition.extension.valueCode",
+        "min": 1,
+        "max": "1",
+        "fixedCode": "anesthesia-complications"
+      },
+      {
+        "id": "Condition.code",
+        "path": "Condition.code",
+        "min": 1,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-anesthesia-complications"
+        }
+      }
+    ]
+  }
+}

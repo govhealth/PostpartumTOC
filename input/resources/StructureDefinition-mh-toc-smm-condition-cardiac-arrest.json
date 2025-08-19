@@ -1,0 +1,37 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "mh-toc-smm-condition-cardiac-arrest",
+  "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition-cardiac-arrest",
+  "version": "1.0.0",
+  "name": "MHTOCSMMConditionCardiacArrest",
+  "title": "MH TOC Severe Maternal Morbidity Condition Cardiac Arrest / Ventricular Fibrillation",
+  "status": "active",
+  "date": "2025-08-19",
+  "description": "Derived subprofile of the MH TOC Severe Maternal Morbidity Condition to represent the Cardiac Arrest / Ventricular Fibrillation indicator. It fixes the SMM indicator extension code and binds Condition.code to the corresponding ValueSet.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Condition",
+  "baseDefinition": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Condition.extension:smmIndicator.valueCode",
+        "path": "Condition.extension.valueCode",
+        "min": 1,
+        "max": "1",
+        "fixedCode": "cardiac-arrest"
+      },
+      {
+        "id": "Condition.code",
+        "path": "Condition.code",
+        "min": 1,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-cardiac-arrest"
+        }
+      }
+    ]
+  }
+}

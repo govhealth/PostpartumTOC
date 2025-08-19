@@ -1,0 +1,37 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "mh-toc-smm-procedure-blood-transfusion",
+  "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-procedure-blood-transfusion",
+  "version": "1.0.0",
+  "name": "MHTOCSMMProcedureBloodTransfusion",
+  "title": "MH TOC Severe Maternal Morbidity Procedure Blood Transfusion",
+  "status": "active",
+  "date": "2025-07-28",
+  "description": "The MH TOC Severe Maternal Morbidity Procedure Blood Transfusion Profile is derived from the MH TOC Severe Maternal Morbidity Procedure Profile. This derived profile specifies an individual SMM indicator code by binding to an extension, ValueSet, and CodeSystem.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Procedure",
+  "baseDefinition": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-procedure",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Procedure.extension:smmIndicator.valueCode",
+        "path": "Procedure.extension.valueCode",
+        "min": 1,
+        "max": "1",
+        "fixedCode": "temporary-tracheostomy"
+      },
+      {
+        "id": "Procedure.code",
+        "path": "Procedure.code",
+        "min": 1,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-temporary-tracheostomy"
+        }
+      }
+    ]
+  }
+}
