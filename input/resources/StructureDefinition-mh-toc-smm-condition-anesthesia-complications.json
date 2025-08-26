@@ -7,7 +7,7 @@
   "title": "MH TOC Severe Maternal Morbidity Condition Severe Anesthesia Complications",
   "status": "active",
   "date": "2025-07-28",
-  "description": "Derived from the MH TOC Severe Maternal Morbidity Condition profile. Constrains the SMM indicator extension to 'anesthesia-complications' and requires Condition.code to bind to the 'MH TOC SMM ValueSet for the Severe Anesthesia Complications Indicator'.",
+  "description": "The MH TOC Severe Maternal Morbidity Condition Severe Anesthesia Complications Profile is derived from the MH TOC Severe Maternal Morbidity Condition Profile. This derived profile specifies an individual SMM indicator code by binding to an extension, ValueSet, and CodeSystem.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
