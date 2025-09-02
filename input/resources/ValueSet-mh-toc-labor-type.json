@@ -6,6 +6,8 @@
   "name" : "ValueSetMHTOCLaborType",
   "title" : "MH TOC Labor Type",
   "date" : "2025-07-25",
+  "status": "active",
+  "experimental": false,
   "description" : "This value set includes types of labor for delivery events.",
   "compose" : {
     "include" : [
