@@ -2,7 +2,7 @@
     "resourceType": "StructureDefinition",
     "id": "mh-toc-labor-type",
     "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-labor-type",
-    "name": "MHTOCLaborTypeProfile",
+    "name": "MHTOCLaborType",
     "title": "MH TOC Labor Type Profile",
     "status": "active",
     "date": "2025-07-28",
@@ -15,6 +15,34 @@
     "derivation": "constraint",
     "differential": {
         "element": [
+            {
+                "id": "Observation.category",
+                "path": "Observation.category",
+                "min": 1,
+                "max": "*",
+                "patternCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                            "code": "exam"
+                        }
+                    ]
+                },
+                "mustSupport": true
+            },
+            {
+                "id": "Observation.code",
+                "path": "Observation.code",
+                "patternCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "73771-8"
+                        }
+                    ]
+                },
+                "mustSupport": true
+            },
             {
                 "id": "Observation.subject",
                 "path": "Observation.subject",
@@ -34,7 +62,6 @@
                                     }
                                 ]
                             }
-                            
                         ]
                     }
                 ],
@@ -50,13 +77,10 @@
                             "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner",
                             "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization",
                             "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"
-              
                         ],
                         "_targetProfile": [
                             {
                                 "extension": [
-                                    
-
                                     {
                                         "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support",
                                         "valueBoolean": true
@@ -65,8 +89,6 @@
                             },
                             {
                                 "extension": [
-                                    
-
                                     {
                                         "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support",
                                         "valueBoolean": false
@@ -75,15 +97,12 @@
                             },
                             {
                                 "extension": [
-                                    
-
                                     {
                                         "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support",
                                         "valueBoolean": false
                                     }
                                 ]
                             }
-                            
                         ]
                     }
                 ],
@@ -96,32 +115,22 @@
                 "max": "1",
                 "type": [
                     {
-                        "extension" : [
+                        "extension": [
                             {
-                                "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support",
-                                "valueBoolean" : true
+                                "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support",
+                                "valueBoolean": true
                             }
                         ],
-                    "code" : "CodeableConcept"
-                    },
-                    {
-                        "extension" : [
-                            {
-                                "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support",
-                                "valueBoolean" : true
-                            }
-                        ],
-                        "code" : "string"
+                        "code": "CodeableConcept"
                     }
                 ],
-                "binding" : {
-                    "strength" : "example",
-                    "description" : "Values for types of labor.",
-                    "valueSet" : "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-labor-type"
+                "binding": {
+                    "strength": "preferred",
+                    "description": "Values for types of labor.",
+                    "valueSet": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-labor-type"
                 },
                 "mustSupport": true
             }
-            
         ]
     }
 }
