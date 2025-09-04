@@ -6,7 +6,7 @@
     "title": "MH TOC Gravidity Profile",
     "status": "active",
     "date": "2025-07-28",
-    "description": "Profile for maternal gravidity",
+    "description": "This profile sets minimum expectations for the Observation resource for identifying a individual’s gravidity score. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases. /n Gravidity is defined as the number of pregnancies, current and past, regardless of the pregnancy outcome, including the present pregnancy (ACOG). Gravidity is typically assessed during the initial prenatal visit or delivery encounter and includes the current pregnancy.",
     "fhirVersion": "4.0.1",
     "kind": "resource",
     "abstract": false,
