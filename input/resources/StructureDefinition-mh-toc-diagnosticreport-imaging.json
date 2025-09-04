@@ -7,7 +7,7 @@
   "title": "MH TOC Diagnostic Imaging Report Profile",
   "status": "active",
   "date": "2025-08-10",
-  "description": "The MH TOC Diagnostic Imaging Report Profile is derived from the US US Core DiagnosticReport Profile for Report and Note Exchange profile. It defines requirements for exchanging tests that result in generating visual images and require interpretation by qualified professionals by requiring a reference to an ImagingStudy.",
+  "description": "This profile sets minimum expectations for the Observation resource for querying diagnostic imaging reports related to an individual’s pregnancy episode(s) of care. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases. /n The MH TOC Delivery Date Profile is derived from the US Core Simple Observation Profile. It defines additional constraints, terminology, and bindings for standardized representation of the date and time of the patient’s delivery.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
