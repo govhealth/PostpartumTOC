@@ -6,7 +6,7 @@
     "title": "MH TOC Parity Profile",
     "status": "active",
     "date": "2024-11-16",
-    "description": "Profile for maternal parity, the number of pregnancies in which a patient has carried a fetus to a viable gestational age",
+    "description": "This profile sets minimum expectations for the Observation resource for identifying an individual’s parity score. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases. /n Parity is defined as the number of pregnancies reaching 20 weeks and 0 days of gestation or beyond, including the present pregnancy (ACOG). In case of multiple pregnancies (e.g., twins, triplets, quadruplets), the parity value is only increased by one after the birth of the last fetus. This is typically assessed during initial prenatal visit or delivery encounter (if the patient did not receive prenatal care within the system delivering).",
     "fhirVersion": "4.0.1",
     "kind": "resource",
     "abstract": false,
