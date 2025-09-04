@@ -7,7 +7,7 @@
   "title": "Estimated Date of Delivery (EDD)",
   "status": "active",
   "date": "2025-08-10",
-  "description": "Clinical Result profile for estimated date of delivery.",
+  "description": ""This profile sets minimum expectations for the Observation resource for querying a pregnant individual’s estimated date of delivery (EDD) for the current pregnancy episode of care. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases. /n The MH TOC Estimated Date of Delivery (EDD) is derived from the US Core Observation Clinical Result Profile. It defines additional constraints, terminology, and bindings for standardized representation of the date and time of the patient’s delivery."",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
