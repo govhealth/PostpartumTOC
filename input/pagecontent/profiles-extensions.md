@@ -197,7 +197,33 @@
 
 ### Problems
 
-## Conditions
+#### Severe Maternal Morbidity: Base Profiles
+<table class="profile-table">
+  <thead>
+    <tr>
+      <th class="profile-table-name">Profile</th>
+      <th class= "profile-table-description">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+  <td><a href="StructureDefinition-mh-toc-smm-condition.html">MH TOC Severe Maternal Morbidity Condition</a></td>
+  <td>
+    This profile is derived from the US Core Condition Encounter Diagnosis Profile. 
+    It defines the common requirements for representing groups of diagnoses and their mappings to a single Severe Maternal Morbidity (SMM) indicator. 
+    Individual derivative profiles provide specific examples.
+  </td>
+</tr>
+<tr>
+  <td><a href="StructureDefinition-mh-toc-smm-procedure.html">MH TOC Severe Maternal Morbidity Procedure</a></td>
+  <td>
+    Derived from the US Core Procedure Profile, this defines common requirements for representing groups of procedures and their mappings to a single Severe Maternal Morbidity (SMM) indicator.
+  </td>
+</tr>
+  </tbody>
+</table>
+
+#### Severe Maternal Morbidity: Conditions
 
 <table class="profile-table">
   <thead>
@@ -208,36 +234,129 @@
   </thead>
   <tbody>
     <tr>
-      <td><a href="StructureDefinition-mh-toc-gravidity.html">MH TOC Maternal Gravidity</a></td>
-      <td>Profile for maternal gravidity, the number of pregnancies regardless of outcome</td>
-    </tr>
-    <tr>
-      <td><a href="StructureDefinition-mh-toc-parity.html">MH TOC Maternal Parity</a></td>
-      <td>Profile for maternal parity, the number of pregnancies in which a fetus to a viable gestational age regardless of outcome</td>
-    </tr>
-    <tr>
-      <td><a href="StructureDefinition-mh-toc-edd.html">MH TOC Estimated Date of Delivery</a></td>
+      <td><a href="StructureDefinition-mh-toc-smm-condition-acute-myocardial-infarction.html">MH TOC Severe Maternal Morbidity Condition Acute Myocardial Infarction</a></td>
       <td>
-        This profile sets minimum expectations for the Observation resource for querying a pregnant individual’s estimated date of delivery (EDD) during the current pregnancy episode of care. 
-        It is derived from the US Core Observation Clinical Result Profile and defines additional constraints, terminology, and bindings for standardized representation of the patient’s estimated date of delivery.
+        This profile is a derived specialization of the MH TOC Severe Maternal Morbidity Condition Profile. 
+        It specifies an individual SMM indicator code for Acute Myocardial Infarction by binding to an extension, ValueSet, and CodeSystem.
       </td>
     </tr>
     <tr>
-      <td><a href="StructureDefinition-mh-toc-delivery-date.html">MH TOC Delivery Date</a></td>
-      <td>
-        This profile sets minimum expectations for the Observation resource for querying a delivery date for an individual’s pregnancy episode of care. 
-        It is derived from the US Core Simple Observation Profile and defines additional constraints, terminology, and bindings for standardized representation of the date and time of a patient’s delivery.
-      </td>
-    </tr>
-    <tr>
-      <td><a href="StructureDefinition-mh-toc-gestational-age.html">MH TOC Gestational Age</a></td>
-      <td>
-        This profile sets minimum expectations for the Observation resource for querying gestational age in pregnancy episodes of care. 
-        It is derived from the US Core Simple Observation Profile and modifies it to capture gestational age in weeks (and fractions of weeks). 
-        The profile defines additional constraints, terminology, and bindings for standardized representation. 
-        Gestational age must be correlated with the date documented, typically calculated from the best obstetrical estimated delivery date (EDD).
-      </td>
-    </tr>
+  <td><a href="StructureDefinition-mh-toc-smm-condition-acute-renal-failure.html">MH TOC Severe Maternal Morbidity Condition Acute Renal Failure</a></td>
+  <td>
+    This derived profile specializes the MH TOC Severe Maternal Morbidity Condition Profile for Acute Renal Failure. 
+    It specifies an individual SMM indicator code through bindings to an extension, ValueSet, and CodeSystem.
+  </td>
+</tr>
+
+<tr>
+  <td><a href="StructureDefinition-mh-toc-smm-condition-acute-respiratory-distress.html">MH TOC Severe Maternal Morbidity Condition Acute Respiratory Distress</a></td>
+  <td>
+    This derived profile specializes the MH TOC Severe Maternal Morbidity Condition Profile for Acute Respiratory Distress. 
+    It specifies an individual SMM indicator code through bindings to an extension, ValueSet, and CodeSystem.
+  </td>
+</tr>
+
+<tr>
+  <td><a href="StructureDefinition-mh-toc-smm-condition-air-thrombotic-embolism.html">MH TOC Severe Maternal Morbidity Condition Air and Thrombotic Embolism</a></td>
+  <td>
+    This derived profile specializes the MH TOC Severe Maternal Morbidity Condition Profile for Air and Thrombotic Embolism. 
+    It specifies an individual SMM indicator code through bindings to an extension, ValueSet, and CodeSystem.
+  </td>
+</tr>
+
+<tr>
+  <td><a href="StructureDefinition-mh-toc-smm-condition-amniotic-fluid-embolism.html">MH TOC Severe Maternal Morbidity Condition Amniotic Fluid Embolism</a></td>
+  <td>
+    This derived profile specializes the MH TOC Severe Maternal Morbidity Condition Profile for Amniotic Fluid Embolism. 
+    It specifies an individual SMM indicator code through bindings to an extension, ValueSet, and CodeSystem.
+  </td>
+</tr>
+
+<tr>
+  <td><a href="StructureDefinition-mh-toc-smm-condition-anesthesia-complications.html">MH TOC Severe Maternal Morbidity Condition Severe Anesthesia Complications</a></td>
+  <td>
+    This derived profile specializes the MH TOC Severe Maternal Morbidity Condition Profile for Severe Anesthesia Complications. 
+    It specifies an individual SMM indicator code through bindings to an extension, ValueSet, and CodeSystem.
+  </td>
+</tr>
+<tr>
+  <td><a href="StructureDefinition-mh-toc-smm-condition-aneurysm.html">MH TOC Severe Maternal Morbidity Condition Aneurysm</a></td>
+  <td>
+    This derived profile specializes the MH TOC Severe Maternal Morbidity Condition Profile for Aneurysm. 
+    It specifies an individual SMM indicator code through bindings to an extension, ValueSet, and CodeSystem.
+  </td>
+</tr>
+
+<tr>
+  <td><a href="StructureDefinition-mh-toc-smm-condition-cardiac-arrest.html">MH TOC Severe Maternal Morbidity Condition Cardiac Arrest / Ventricular Fibrillation</a></td>
+  <td>
+    This derived profile represents the Cardiac Arrest / Ventricular Fibrillation indicator. It specifies an individual SMM indicator code through bindings to an extension, ValueSet, and CodeSystem..
+  </td>
+</tr>
+
+<tr>
+  <td><a href="StructureDefinition-mh-toc-smm-condition-eclampsia.html">MH TOC Severe Maternal Morbidity Condition Eclampsia</a></td>
+  <td>
+    This derived profile specializes the MH TOC Severe Maternal Morbidity Condition Profile for Eclampsia. 
+    It specifies an individual SMM indicator code through bindings to an extension, ValueSet, and CodeSystem.
+  </td>
+</tr>
+
+<tr>
+  <td><a href="StructureDefinition-mh-toc-smm-condition-heart-failure-arrest.html">MH TOC Severe Maternal Morbidity Condition Heart Failure / Arrest During Surgery or Procedure</a></td>
+  <td>
+    This derived profile specializes the MH TOC Severe Maternal Morbidity Condition Profile for Heart Failure / Arrest During Surgery or Procedure. 
+    It specifies an individual SMM indicator code through bindings to an extension, ValueSet, and CodeSystem.
+  </td>
+</tr>
+
+<tr>
+  <td><a href="StructureDefinition-mh-toc-smm-condition-intravascular-coagulation.html">MH TOC Severe Maternal Morbidity Condition Disseminated Intravascular Coagulation</a></td>
+  <td>
+    This derived profile specializes the MH TOC Severe Maternal Morbidity Condition Profile for Disseminated Intravascular Coagulation. 
+    It specifies an individual SMM indicator code through bindings to an extension, ValueSet, and CodeSystem.
+  </td>
+</tr>
+<tr>
+  <td><a href="StructureDefinition-mh-toc-smm-condition-puerperal-cerebrovascular-disorders.html">MH TOC Severe Maternal Morbidity Condition Puerperal Cerebrovascular Disorders</a></td>
+  <td>
+    This derived profile specializes the MH TOC Severe Maternal Morbidity Condition Profile for Puerperal Cerebrovascular Disorders. 
+    It specifies an individual SMM indicator code through bindings to an extension, ValueSet, and CodeSystem.
+  </td>
+</tr>
+
+<tr>
+  <td><a href="StructureDefinition-mh-toc-smm-condition-pulmonary-edema-acute-heart-failure.html">MH TOC Severe Maternal Morbidity Condition Pulmonary Edema / Acute Heart Failure</a></td>
+  <td>
+    This derived profile specializes the MH TOC Severe Maternal Morbidity Condition Profile for Pulmonary Edema / Acute Heart Failure. 
+    It specifies an individual SMM indicator code through bindings to an extension, ValueSet, and CodeSystem.
+  </td>
+</tr>
+
+<tr>
+  <td><a href="StructureDefinition-mh-toc-smm-condition-sepsis.html">MH TOC Severe Maternal Morbidity Condition Sepsis</a></td>
+  <td>
+    This derived profile specializes the MH TOC Severe Maternal Morbidity Condition Profile for Sepsis. 
+    It specifies an individual SMM indicator code through bindings to an extension, ValueSet, and CodeSystem.
+  </td>
+</tr>
+
+<tr>
+  <td><a href="StructureDefinition-mh-toc-smm-condition-shock.html">MH TOC Severe Maternal Morbidity Condition Shock</a></td>
+  <td>
+    This derived profile specializes the MH TOC Severe Maternal Morbidity Condition Profile for Shock. 
+    It specifies an individual SMM indicator code through bindings to an extension, ValueSet, and CodeSystem.
+  </td>
+</tr>
+
+<tr>
+  <td><a href="StructureDefinition-mh-toc-smm-condition-sickle-cell-crisis.html">MH TOC Severe Maternal Morbidity Condition Sickle Cell Disease With Crisis</a></td>
+  <td>
+    This derived profile specializes the MH TOC Severe Maternal Morbidity Condition Profile for Sickle Cell Disease with Crisis. 
+    It specifies an individual SMM indicator code through bindings to an extension, ValueSet, and CodeSystem.
+  </td>
+</tr>
+
   </tbody>
 </table>
 
