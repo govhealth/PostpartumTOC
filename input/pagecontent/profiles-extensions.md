@@ -82,6 +82,27 @@
 </table>
 
 
+### Diagnostic Imaging
+
+<table class="profile-table">
+  <thead>
+    <tr>
+      <th class="profile-table-name">Profile</th>
+      <th class= "profile-table-description">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+   <tr>
+      <td><a href="StructureDefinition-mh-toc-diagnosticreport-imaging.html">MH TOC Diagnostic Imaging Report Profile</a></td>
+      <td>
+        This profile sets minimum expectations for the DiagnosticReport resource for querying imaging reports related to a pregnancy episode of care. 
+        It is derived from the US Core Diagnostic Report for Report and Note Exchange Profile and adds constraints, terminology, and bindings for standardized representation of imaging within diagnostic imaging reports.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
 ### Family Health History
 
 
@@ -117,7 +138,7 @@
   </thead>
   <tbody>
     <tr>
-      <td><a href="StructureDefinition-mh-toc-labor-type.html">MH TOC Labor Type Profile</a></td>
+      <td><a href="StructureDefinition-mh-toc-labor-type.html">MH TOC Labor Type</a></td>
       <td>
         This profile sets minimum expectations for the Observation resource for querying the Labor Type of an individual’s delivery. 
         It focuses on whether labor was planned or not and includes examples such as Spontaneous, Augmented, Induction, and Scheduled C-Section. 
@@ -134,8 +155,8 @@
 <table class="profile-table">
   <thead>
     <tr>
-      <th>Profile</th>
-      <th>Description</th>
+      <th class="profile-table-name">Profile</th>
+      <th class= "profile-table-description">Description</th>
     </tr>
   </thead>
   <tbody>
@@ -161,17 +182,73 @@
         It is derived from the US Core Simple Observation Profile and defines additional constraints, terminology, and bindings for standardized representation of the date and time of a patient’s delivery.
       </td>
     </tr>
+    <tr>
+      <td><a href="StructureDefinition-mh-toc-gestational-age.html">MH TOC Gestational Age</a></td>
+      <td>
+        This profile sets minimum expectations for the Observation resource for querying gestational age in pregnancy episodes of care. 
+        It is derived from the US Core Simple Observation Profile and modifies it to capture gestational age in weeks (and fractions of weeks). 
+        The profile defines additional constraints, terminology, and bindings for standardized representation. 
+        Gestational age must be correlated with the date documented, typically calculated from the best obstetrical estimated delivery date (EDD).
+      </td>
+    </tr>
   </tbody>
 </table>
 
-### Extensions
 
+### Problems
+
+## Conditions
 
 <table class="profile-table">
   <thead>
     <tr>
-      <th>Profile</th>
-      <th>Description</th>
+      <th class="profile-table-name">Profile</th>
+      <th class= "profile-table-description">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="StructureDefinition-mh-toc-gravidity.html">MH TOC Maternal Gravidity</a></td>
+      <td>Profile for maternal gravidity, the number of pregnancies regardless of outcome</td>
+    </tr>
+    <tr>
+      <td><a href="StructureDefinition-mh-toc-parity.html">MH TOC Maternal Parity</a></td>
+      <td>Profile for maternal parity, the number of pregnancies in which a fetus to a viable gestational age regardless of outcome</td>
+    </tr>
+    <tr>
+      <td><a href="StructureDefinition-mh-toc-edd.html">MH TOC Estimated Date of Delivery</a></td>
+      <td>
+        This profile sets minimum expectations for the Observation resource for querying a pregnant individual’s estimated date of delivery (EDD) during the current pregnancy episode of care. 
+        It is derived from the US Core Observation Clinical Result Profile and defines additional constraints, terminology, and bindings for standardized representation of the patient’s estimated date of delivery.
+      </td>
+    </tr>
+    <tr>
+      <td><a href="StructureDefinition-mh-toc-delivery-date.html">MH TOC Delivery Date</a></td>
+      <td>
+        This profile sets minimum expectations for the Observation resource for querying a delivery date for an individual’s pregnancy episode of care. 
+        It is derived from the US Core Simple Observation Profile and defines additional constraints, terminology, and bindings for standardized representation of the date and time of a patient’s delivery.
+      </td>
+    </tr>
+    <tr>
+      <td><a href="StructureDefinition-mh-toc-gestational-age.html">MH TOC Gestational Age</a></td>
+      <td>
+        This profile sets minimum expectations for the Observation resource for querying gestational age in pregnancy episodes of care. 
+        It is derived from the US Core Simple Observation Profile and modifies it to capture gestational age in weeks (and fractions of weeks). 
+        The profile defines additional constraints, terminology, and bindings for standardized representation. 
+        Gestational age must be correlated with the date documented, typically calculated from the best obstetrical estimated delivery date (EDD).
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+### Extensions
+
+<table class="profile-table">
+  <thead>
+    <tr>
+      <th class="profile-table-name">Profile</th>
+      <th class= "profile-table-description">Description</th>
     </tr>
   </thead>
   <tbody>
