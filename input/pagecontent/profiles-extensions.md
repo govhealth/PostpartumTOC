@@ -62,40 +62,31 @@
       <tr>
          <td><a href="StructureDefinition-mh-toc-consult-note.html">Consult Note</a></td>
          <td>
-            This profile sets minimum expectations for the DocumentReference resource for querying an individual’s consultation notes for postpartum transitions of care. 
-            It identifies which core elements, extensions, vocabularies, and value sets <strong>SHALL</strong> be present in the resource and constrains the way the elements are used. 
-            The MH TOC Consult Note Profile is derived from the US Core DocumentReference Profile and defines requirements for exchanging Consultation Notes, widely used to document clinical opinions from secondary care providers.
+           The MH TOC Consult Note Profile is derived from the US Core DocumentReference Profile and defines requirements for exchanging Consultation Notes, widely used to document clinical opinions from secondary care providers.
          </td>
       </tr>
       <tr>
          <td><a href="StructureDefinition-mh-toc-behavioral-health-history.html">Behavioral Health History</a></td>
          <td>
-            This profile sets minimum expectations for the DocumentReference resource for querying an individual’s historical behavioral health notes/documents. 
-            It identifies which core elements, extensions, vocabularies, and value sets <strong>SHALL</strong> be present in the resource and constrains the way the elements are used. 
-            The MH TOC Behavioral Health History Profile is derived from the US Core DocumentReference Profile and defines requirements for exchanging Behavioral Health History notes, which may include information on mental health, substance use, trauma, or relevant social and family history.
+            The MH TOC Behavioral Health History Profile is derived from the US Core DocumentReference Profile. A behavioral health history note may include information on mental health, substance use, trauma, or relevant social and family history.
          </td>
       </tr>
       <tr>
          <td><a href="StructureDefinition-mh-toc-labor-and-delivery-summary.html">Labor and Delivery Summary</a></td>
          <td>
-            This profile sets minimum expectations for the DocumentReference resource for querying Labor and Delivery Summary note(s) related to an individual’s pregnancy episode(s) of care. 
-            It is derived from the US Core DocumentReference Profile and defines additional constraints, terminology, and bindings for standardized representation. 
-            A labor and delivery summary represents the most critical information concerning care during labor and delivery in a birthing facility.
+            The MH TOC Labor and Delivery Summary Profile is derived from the US Core DocumentReference Profile. A labor and delivery summary document represents the most critical information concerning care during labor and delivery in a birthing facility.
          </td>
       </tr>
       <tr>
          <td><a href="StructureDefinition-mh-toc-postpartum-summary.html">Postpartum Summary</a></td>
          <td>
-            This profile sets minimum expectations for the DocumentReference resource for querying a Postpartum Summary note for applicable pregnancy episode(s) of care. 
-            It leverages the US Core DocumentReference Profile and constrains it to support the postpartum summary use case. 
-            The summary may include interval medical history, examination information, newborn status, counseling, depression and IPV screening, immunization review, and interventional education, screenings, tests, and results.
+            The MH TOC Postpartum Summary Profile is derived from the US Core DocumentReference Profile. A postpartum summary document may include interval medical history, examination information, newborn status, counseling, depression and IPV screening, immunization review, and interventional education, screenings, tests, and results.
          </td>
       </tr>
       <tr>
          <td><a href="StructureDefinition-mh-toc-discharge-summary.html">Discharge Summary</a></td>
          <td>
-            This profile sets minimum expectations for the DocumentReference resource for querying discharge summary notes related to a pregnant individual’s discharge after the pregnancy outcome for both live and non-live births. 
-            It is derived from the US Core Simple DocumentReference Profile and defines additional constraints, terminology, and bindings for standardized representation of the discharge summary note.
+            The MH TOC Discharge Summary Profile is derived from the US Core Simple DocumentReference. A discharge summary note contains a summary of a patient's inpatient or observation stay at a tertiary care facility including reason for admission, summary of the episode of care, and relevant discharge information.
          </td>
       </tr>
    </tbody>
@@ -112,8 +103,7 @@
       <tr>
          <td><a href="StructureDefinition-mh-toc-diagnosticreport-imaging.html">Diagnostic Imaging Report</a></td>
          <td>
-            This profile sets minimum expectations for the DiagnosticReport resource for querying imaging reports related to a pregnancy episode of care. 
-            It is derived from the US Core Diagnostic Report for Report and Note Exchange Profile and adds constraints, terminology, and bindings for standardized representation of imaging within diagnostic imaging reports.
+            The MH TOC Diagnostic Imaging Report Profile is derived from the US Core Diagnostic Report for Report and Note Exchange Profile. A diagnostic imaging report is the interpreted result of a test that results in visual images requiring interpretation by a credentialed professional. This may include both structured and unstructured (narrative) components.
          </td>
       </tr>
    </tbody>
@@ -133,9 +123,7 @@
       <tr>
          <td><a href="StructureDefinition-mh-toc-family-health-history.html">Family Health History</a></td>
          <td>
-            This profile sets minimum expectations for the FamilyMemberHistory resource for querying a pregnant individual’s family health history. 
-            It leverages the base FHIR R4 FamilyMemberHistory resource and modifies it to capture relevant family health conditions. 
-            The profile defines additional constraints, terminology, and bindings for standardized representation of a patient’s family health history.
+            The MH TOC Family Health History Profile is derived from the FamilyMemberHistory resource. A family health history contains information about the patient's family member's health condition(s) that are relevant to their care.
          </td>
       </tr>
    </tbody>
