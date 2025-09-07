@@ -105,6 +105,65 @@
 </table>
 
 
+### Labor and Delivery
+
+
+<table class="profile-table">
+  <thead>
+    <tr>
+      <th class="profile-table-name">Profile</th>
+      <th class= "profile-table-description">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="StructureDefinition-mh-toc-labor-type.html">MH TOC Labor Type Profile</a></td>
+      <td>
+        This profile sets minimum expectations for the Observation resource for querying the Labor Type of an individual’s delivery. 
+        It focuses on whether labor was planned or not and includes examples such as Spontaneous, Augmented, Induction, and Scheduled C-Section. 
+        The profile defines the required elements, extensions, vocabularies, and value sets <strong>SHALL</strong> be present and constrains their use to support standardized representation of labor type.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+### Pregnancy Information
+
+
+<table class="profile-table">
+  <thead>
+    <tr>
+      <th>Profile</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="StructureDefinition-mh-toc-gravidity.html">MH TOC Maternal Gravidity</a></td>
+      <td>Profile for maternal gravidity, the number of pregnancies regardless of outcome</td>
+    </tr>
+    <tr>
+      <td><a href="StructureDefinition-mh-toc-parity.html">MH TOC Maternal Parity</a></td>
+      <td>Profile for maternal parity, the number of pregnancies in which a fetus to a viable gestational age regardless of outcome</td>
+    </tr>
+    <tr>
+      <td><a href="StructureDefinition-mh-toc-edd.html">MH TOC Estimated Date of Delivery</a></td>
+      <td>
+        This profile sets minimum expectations for the Observation resource for querying a pregnant individual’s estimated date of delivery (EDD) during the current pregnancy episode of care. 
+        It is derived from the US Core Observation Clinical Result Profile and defines additional constraints, terminology, and bindings for standardized representation of the patient’s estimated date of delivery.
+      </td>
+    </tr>
+    <tr>
+      <td><a href="StructureDefinition-mh-toc-delivery-date.html">MH TOC Delivery Date</a></td>
+      <td>
+        This profile sets minimum expectations for the Observation resource for querying a delivery date for an individual’s pregnancy episode of care. 
+        It is derived from the US Core Simple Observation Profile and defines additional constraints, terminology, and bindings for standardized representation of the date and time of a patient’s delivery.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ### Extensions
 
 
