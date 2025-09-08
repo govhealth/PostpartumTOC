@@ -37,7 +37,7 @@
                 ]
             },
             {
-                "system": "http://www.cms.gov/Medicare/Coding/ICD10PCS",
+                "system": "http://www.cms.gov/Medicare/Coding/ICD10",
                 "concept": [
                     {
                         "code": "30233H0",
