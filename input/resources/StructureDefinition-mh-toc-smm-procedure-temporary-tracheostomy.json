@@ -7,7 +7,7 @@
   "title": "MH TOC Severe Maternal Morbidity Procedure Temporary Tracheostomy",
   "status": "active",
   "date": "2025-07-28",
-  "description": "The MH TOC Severe Maternal Morbidity Procedure Temporary Tracheostomy Profile is derived from the MH TOC Severe Maternal Morbidity Procedure Profile. This derived profile specifies an individual SMM indicator code by binding to an extension, ValueSet, and CodeSystem.",
+  "description": "The MH TOC Severe Maternal Morbidity Procedure Temporary Tracheostomy Profile is derived from the MH TOC Severe Maternal Morbidity Procedure Profile. This derived profile specifies an individual SMM indicator code by binding to an extension, ValueSet, and CodeSystem. There are three ICD-10 values identified for Temporary Tracheostomy in this profile: 0B110F4, 0B113F4, 0B114F4",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
