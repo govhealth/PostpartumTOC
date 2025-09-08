@@ -99,10 +99,10 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 |Vital Signs|Respiratory Rate|[US Core Respiratory Rate](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-respiratory-rate.html)|Observation.code|
 |Vital Signs|Systolic Blood Pressure|[US Core Blood Pressure](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-blood-pressure.html)|Observation.component:systolic.code|
 |Vital Signs|Weight-for-length Percentile (Birth - 36 Months)|[US Core Pediatric Weight for Height Observation](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-pediatric-weight-for-height.html)|Observation.code|
-{: .grid}
+
 <br>
 <br>
-**USCDI+ MH TOC Data Elements and Specifications Bucket 2: References non-US Core 6.1.0 FHIR IG**
+**USCDI+ MH TOC Data Elements and Specifications Bucket 2: References non-US Core 6.1.0 FHIR IGs**
 
 |Data Class|Postpartum TOC Data Element|FHIR Profile|FHIR Profile Data Element|
 |---|---|---|---|
@@ -120,7 +120,7 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 |Pregnancy Information|Pregnancy Status Determination Method|[US Public Health Pregnancy Status Observation](https://build.fhir.org/ig/HL7/fhir-us-ph-common-library-ig/StructureDefinition-us-ph-pregnancy-status-observation.html)|Observation.method|
 |Pregnancy Information|Multiple Gestation|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition/us-core-patient)|patient.multiplebirth[x]|
 |Problems|Hypertensive Disorders of Pregnancy|[Longitudinal Maternal & Infant Health Information for Research Library for Hypertensive Disorders of Pregnancy](https://build.fhir.org/ig/HL7/fhir-mmm-ig/Library-PIHCohort.html)|Condition.code|
-{: .grid}
+
 <br>
 <br>
 **USCDI+ MH TOC Data Elements and Specifications Bucket 3: Unique to USCDI+ MH Postpartum TOC FHIR IG**
@@ -137,7 +137,6 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 |Labor and Delivery|Labor Type||Observation.value[x]|
 |Pregnancy Information|Delivery Date|[Delivery Date](StructureDefinition-mh-toc-delivery-date.html)|Observation.date|
 |Problems|Indicators of Severe Maternal Morbidity|[Severe Maternal Morbidity](StructureDefinition-mh-toc-smm-condition.html)|Observation.code|
-{: .grid}
 
 <br>
 <br>
@@ -256,7 +255,7 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 |Vital Signs|Respiratory Rate|[US Core Respiratory Rate](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-respiratory-rate.html)|Observation.code|
 |Vital Signs|Systolic Blood Pressure|[US Core Blood Pressure](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-blood-pressure.html)|Observation.component:systolic.code|
 |Vital Signs|Weight-for-length Percentile (Birth - 36 Months)|[US Core Pediatric Weight for Height Observation](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-pediatric-weight-for-height.html)|Observation.code|
-{: .grid}
+
 
 
 
