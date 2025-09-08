@@ -7,7 +7,7 @@
   "title": "MH TOC Severe Maternal Morbidity Procedure Ventilation",
   "status": "active",
   "date": "2025-07-28",
-  "description": "The MH TOC Severe Maternal Morbidity Procedure Ventilation Profile is derived from the MH TOC Severe Maternal Morbidity Procedure Profile. This derived profile specifies an individual SMM indicator code by binding to an extension, ValueSet, and CodeSystem.",
+  "description": "The MH TOC Severe Maternal Morbidity Procedure Ventilation Profile is derived from the MH TOC Severe Maternal Morbidity Procedure Profile. This derived profile specifies an individual SMM indicator code by binding to an extension, ValueSet, and CodeSystem. There are three ICD-10 values identified for Ventilation in this profile: 5A1935Z, 5A1945Z, 5A1955Z",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,

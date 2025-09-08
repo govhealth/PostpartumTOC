@@ -8,7 +8,7 @@
   "date" : "2025-07-25",
   "status": "active",
   "experimental": false,
-  "description" : "This value set includes types of labor for delivery events.",
+  "description" : "This ValueSet contains ccodes to represent standard capture of Labor Type.",
   "compose" : {
     "include" : [
       {
