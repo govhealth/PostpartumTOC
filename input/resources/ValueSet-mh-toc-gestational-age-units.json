@@ -8,7 +8,7 @@
   "title": "ValueSet for showing gestational age",
   "status": "active",
   "experimental": false,
-  "description": "ValueSet for units of gestational age.",
+  "description": "This ValueSet contains codes to represent standard capture of gestational age.",
   "compose" : {
     "include" : [
       {
@@ -26,4 +26,5 @@
       }
     ]
   }
+
 }
