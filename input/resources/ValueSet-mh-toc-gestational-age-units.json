@@ -8,7 +8,7 @@
   "title": "ValueSet for showing gestational age",
   "status": "active",
   "experimental": false,
-  "description": "This ValueSet contains codes to represent standard capture of gestational age.",
+  "description": “This ValueSet contains codes to represent standard capture of gestational age. The estimated gestational age (in weeks, or weeks and fraction of week) of the pregnancy at the time of the health care encounter (in contrast to the gestational age at birth), beginning from the time of fertilization. Needs to be correlated with the date the gestational age was documented. Gestational age (written with both weeks and days) is calculated using the best obstetrical estimated delivery date (EDD) based on the following formula: Gestational Age = (280 - (EDD - Reference Date))/ 7.” ,
   "compose" : {
     "include" : [
       {
@@ -28,3 +28,4 @@
   }
 
 }
+
