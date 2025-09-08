@@ -38,12 +38,8 @@ ERROR: ValueSet/mh-toc-smm-blood-transfusion: ValueSet.compose.include[1].concep
 ERROR: ValueSet/mh-toc-smm-blood-transfusion: ValueSet.compose.include[1].concept[62]: The code '30240T0' is not valid in the system http://www.cms.gov/Medicare/Coding/ICD10 (Unknown code '30240T0' in the CodeSystem 'http://www.cms.gov/Medicare/Coding/ICD10' version '2.0.1')
 ERROR: ValueSet/mh-toc-smm-blood-transfusion: ValueSet.compose.include[1].concept[63]: The code '30240T1' is not valid in the system http://www.cms.gov/Medicare/Coding/ICD10 (Unknown code '30240T1' in the CodeSystem 'http://www.cms.gov/Medicare/Coding/ICD10' version '2.0.1')
 
-
-
-
-
-
-
+# This IG is intended to build on USCore 6.1.0, which is the mandated standard for certified health IT for interoperability by federal regulations starting in 2026
+WARNING: ImplementationGuide/fhir.astp.postpartum-toc: ImplementationGuide.dependsOn[0]: The ImplementationGuide uses package hl7.fhir.us.core#6.1.0 released on 2023-06-30, but the most recent appropriate version is 8.0.0. This reference is getting old and the more recent version should be considered
 
 # The discriminator type 'pattern' is inherited from the USCore Document Reference profile
 INFORMATION: StructureDefinition/mh-toc-behavioral-health-history: StructureDefinition.snapshot.element[14].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
@@ -84,3 +80,40 @@ INFORMATION: StructureDefinition/mh-toc-smm-condition-sepsis: StructureDefinitio
 INFORMATION: StructureDefinition/mh-toc-smm-condition-shock: StructureDefinition.snapshot.element[19].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/mh-toc-smm-condition-sickle-cell-crisis: StructureDefinition.snapshot.element[19].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 
+# Inherited from the USCore Document Reference profile 
+INFORMATION: StructureDefinition/mh-toc-behavioral-health-history: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+INFORMATION: StructureDefinition/mh-toc-behavioral-health-history: StructureDefinition.snapshot.element[13].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-minValueSet|5.2.0 is deprecated
+
+# Use the latest extension pack version 5.2.0 
+INFORMATION: StructureDefinition.snapshot.element[8].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/condition-assertedDate to 5.2.0 from choices of 1.0.0 (hl7.fhir.uv.extensions.r4#1.0.0), 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition'): The Implementation Guide contains no examples for this profile
+INFORMATION: StructureDefinition.snapshot.element[13].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/condition-assertedDate to 5.2.0 from choices of 1.0.0 (hl7.fhir.uv.extensions.r4#1.0.0), 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
+INFORMATION: StructureDefinition.snapshot.element[13].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/condition-assertedDate to 5.2.0 from choices of 1.0.0 (hl7.fhir.uv.extensions.r4#1.0.0), 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition-acute-renal-failure'): The Implementation Guide contains no examples for this profile
+INFORMATION: StructureDefinition.snapshot.element[13].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/condition-assertedDate to 5.2.0 from choices of 1.0.0 (hl7.fhir.uv.extensions.r4#1.0.0), 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition-acute-respiratory-distress'): The Implementation Guide contains no examples for this profile
+INFORMATION: StructureDefinition.snapshot.element[13].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/condition-assertedDate to 5.2.0 from choices of 1.0.0 (hl7.fhir.uv.extensions.r4#1.0.0), 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition-air-thrombotic-embolism'): The Implementation Guide contains no examples for this profile
+INFORMATION: StructureDefinition.snapshot.element[13].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/condition-assertedDate to 5.2.0 from choices of 1.0.0 (hl7.fhir.uv.extensions.r4#1.0.0), 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition-amniotic-fluid-embolism'): The Implementation Guide contains no examples for this profile
+INFORMATION: StructureDefinition.snapshot.element[13].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/condition-assertedDate to 5.2.0 from choices of 1.0.0 (hl7.fhir.uv.extensions.r4#1.0.0), 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition-anesthesia-complications'): The Implementation Guide contains no examples for this profile
+INFORMATION: StructureDefinition.snapshot.element[13].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/condition-assertedDate to 5.2.0 from choices of 1.0.0 (hl7.fhir.uv.extensions.r4#1.0.0), 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
+INFORMATION: StructureDefinition.snapshot.element[13].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/condition-assertedDate to 5.2.0 from choices of 1.0.0 (hl7.fhir.uv.extensions.r4#1.0.0), 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition-cardiac-arrest'): The Implementation Guide contains no examples for this profile
+INFORMATION: StructureDefinition.snapshot.element[13].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/condition-assertedDate to 5.2.0 from choices of 1.0.0 (hl7.fhir.uv.extensions.r4#1.0.0), 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition-eclampsia'): The Implementation Guide contains no examples for this profile
+INFORMATION: StructureDefinition.snapshot.element[13].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/condition-assertedDate to 5.2.0 from choices of 1.0.0 (hl7.fhir.uv.extensions.r4#1.0.0), 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition-heart-failure-arrest'): The Implementation Guide contains no examples for this profile
+INFORMATION: StructureDefinition.snapshot.element[13].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/condition-assertedDate to 5.2.0 from choices of 1.0.0 (hl7.fhir.uv.extensions.r4#1.0.0), 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition-intravascular-coagulation'): The Implementation Guide contains no examples for this profile
+INFORMATION: StructureDefinition.snapshot.element[13].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/condition-assertedDate to 5.2.0 from choices of 1.0.0 (hl7.fhir.uv.extensions.r4#1.0.0), 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition-puerperal-cerebrovascular-disorders'): The Implementation Guide contains no examples for this profile
+INFORMATION: StructureDefinition.snapshot.element[13].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/condition-assertedDate to 5.2.0 from choices of 1.0.0 (hl7.fhir.uv.extensions.r4#1.0.0), 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition-pulmonary-edema-acute-heart-failure'): The Implementation Guide contains no examples for this profile
+INFORMATION: StructureDefinition.snapshot.element[13].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/condition-assertedDate to 5.2.0 from choices of 1.0.0 (hl7.fhir.uv.extensions.r4#1.0.0), 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition-sepsis'): The Implementation Guide contains no examples for this profile
+INFORMATION: StructureDefinition.snapshot.element[13].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/condition-assertedDate to 5.2.0 from choices of 1.0.0 (hl7.fhir.uv.extensions.r4#1.0.0), 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition-shock'): The Implementation Guide contains no examples for this profile
+INFORMATION: StructureDefinition.snapshot.element[13].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/condition-assertedDate to 5.2.0 from choices of 1.0.0 (hl7.fhir.uv.extensions.r4#1.0.0), 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition-sickle-cell-crisis'): The Implementation Guide contains no examples for this profile

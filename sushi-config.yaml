@@ -4,7 +4,8 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: fhir.astp.postpartum-toc
-canonical: http://fhir.org/guides/astp/postpartum-toc/ImplementationGuide/fhir.astp.postpartum-toc
+# canonical: http://fhir.org/guides/astp/postpartum-toc/ImplementationGuide/fhir.astp.postpartum-toc
+canonical: http://fhir.org/guides/astp/postpartum-toc
 name: PostpartumTOC
 title: USCDI+ Maternal Health Postpartum Transitions of Care (TOC) Implementation Guide
 # description: Example Implementation Guide for getting started with SUSHI
