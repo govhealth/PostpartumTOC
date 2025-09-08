@@ -49,16 +49,23 @@
 
 </style>
 
+
 ### Clinical Notes
 
 <table class="profile-table">
    <thead>
       <tr>
          <th class="profile-table-name">Profile</th>
-         <th class= "profile-table-description">Description</th>
+         <th class="profile-table-description">Description</th>
       </tr>
    </thead>
    <tbody>
+      <tr>
+         <td><a href="StructureDefinition-mh-toc-behavioral-health-history.html">Behavioral Health History</a></td>
+         <td>
+            The MH TOC Behavioral Health History Profile is derived from the US Core DocumentReference Profile. A behavioral health history note may include information on mental health, substance use, trauma, or relevant social and family history.
+         </td>
+      </tr>
       <tr>
          <td><a href="StructureDefinition-mh-toc-consult-note.html">Consult Note</a></td>
          <td>
@@ -66,9 +73,9 @@
          </td>
       </tr>
       <tr>
-         <td><a href="StructureDefinition-mh-toc-behavioral-health-history.html">Behavioral Health History</a></td>
+         <td><a href="StructureDefinition-mh-toc-discharge-summary.html">Discharge Summary</a></td>
          <td>
-            The MH TOC Behavioral Health History Profile is derived from the US Core DocumentReference Profile. A behavioral health history note may include information on mental health, substance use, trauma, or relevant social and family history.
+            The MH TOC Discharge Summary Profile is derived from the US Core Simple DocumentReference. A discharge summary note contains a summary of a patient's inpatient or observation stay at a tertiary care facility including reason for admission, summary of the episode of care, and relevant discharge information.
          </td>
       </tr>
       <tr>
@@ -83,15 +90,12 @@
             The MH TOC Postpartum Summary Profile is derived from the US Core DocumentReference Profile. A postpartum summary document may include interval medical history, examination information, newborn status, counseling, depression and IPV screening, immunization review, and interventional education, screenings, tests, and results.
          </td>
       </tr>
-      <tr>
-         <td><a href="StructureDefinition-mh-toc-discharge-summary.html">Discharge Summary</a></td>
-         <td>
-            The MH TOC Discharge Summary Profile is derived from the US Core Simple DocumentReference. A discharge summary note contains a summary of a patient's inpatient or observation stay at a tertiary care facility including reason for admission, summary of the episode of care, and relevant discharge information.
-         </td>
-      </tr>
    </tbody>
 </table>
+
+
 ### Diagnostic Imaging
+
 <table class="profile-table">
    <thead>
       <tr>
@@ -143,9 +147,7 @@
       <tr>
          <td><a href="StructureDefinition-mh-toc-labor-type.html">Labor Type</a></td>
          <td>
-            This profile sets minimum expectations for the Observation resource for querying the Labor Type of an individual’s delivery. 
-            It focuses on whether labor was planned or not and includes examples such as Spontaneous, Augmented, Induction, and Scheduled C-Section. 
-            The profile defines the required elements, extensions, vocabularies, and value sets <strong>SHALL</strong> be present and constrains their use to support standardized representation of labor type.
+            The MH TOC Labor Type Profile is derived from US Core Simple Observation Profile. Observed labor types may include spontaneous, medically induced, or scheduled C-section. 
          </td>
       </tr>
    </tbody>
@@ -158,39 +160,38 @@
    <thead>
       <tr>
          <th class="profile-table-name">Profile</th>
-         <th class= "profile-table-description">Description</th>
+         <th class="profile-table-description">Description</th>
       </tr>
    </thead>
    <tbody>
       <tr>
-         <td><a href="StructureDefinition-mh-toc-gravidity.html">Maternal Gravidity</a></td>
-         <td>Profile for maternal gravidity, the number of pregnancies regardless of outcome</td>
-      </tr>
-      <tr>
-         <td><a href="StructureDefinition-mh-toc-parity.html">Maternal Parity</a></td>
-         <td>Profile for maternal parity, the number of pregnancies in which a fetus to a viable gestational age regardless of outcome</td>
+         <td><a href="StructureDefinition-mh-toc-delivery-date.html">Delivery Date</a></td>
+         <td>
+            The MH TOC Delivery Date Profile is derived from the US Core Simple Observation Profile. The delivery date is a clinical observation recorded based on the time the mother delivers the baby or babies. It can be recorded as a date or a date and time. 
+         </td>
       </tr>
       <tr>
          <td><a href="StructureDefinition-mh-toc-edd.html">Estimated Date of Delivery</a></td>
          <td>
-            This profile sets minimum expectations for the Observation resource for querying a pregnant individual’s estimated date of delivery (EDD) during the current pregnancy episode of care. 
-            It is derived from the US Core Observation Clinical Result Profile and defines additional constraints, terminology, and bindings for standardized representation of the patient’s estimated date of delivery.
-         </td>
-      </tr>
-      <tr>
-         <td><a href="StructureDefinition-mh-toc-delivery-date.html">Delivery Date</a></td>
-         <td>
-            This profile sets minimum expectations for the Observation resource for querying a delivery date for an individual’s pregnancy episode of care. 
-            It is derived from the US Core Simple Observation Profile and defines additional constraints, terminology, and bindings for standardized representation of the date and time of a patient’s delivery.
+            The MH TOC Estimated Date of Delivery Profile is derived from the US Core Observation Clinical Result Profile. The estimated date of delivery (EDD) represents a clinician's recorded date of which the pregnant patient is expected to deliver based on a fetal dating method such as Last Menstrual period (LMP), ultrasound, or home pregnancy test.
          </td>
       </tr>
       <tr>
          <td><a href="StructureDefinition-mh-toc-gestational-age.html">Gestational Age</a></td>
          <td>
-            This profile sets minimum expectations for the Observation resource for querying gestational age in pregnancy episodes of care. 
-            It is derived from the US Core Simple Observation Profile and modifies it to capture gestational age in weeks (and fractions of weeks). 
-            The profile defines additional constraints, terminology, and bindings for standardized representation. 
-            Gestational age must be correlated with the date documented, typically calculated from the best obstetrical estimated delivery date (EDD).
+            The MH TOC Gestational Age Profile is derived from the US Core Simple Observation Profile. Gestation age captures the the time elapsed since conception, measured in weeks and typically calculated from the best obstetrical estimated delivery date (EDD).
+         </td>
+      </tr>
+      <tr>
+         <td><a href="StructureDefinition-mh-toc-gravidity.html">Maternal Gravidity</a></td>
+         <td>
+            The MH TOC Maternal Gravidity Profile is derived from the US Core Simple Observation Profile. Maternal gravidity is the number of pregnancies regardless of outcome.
+         </td>
+      </tr>
+      <tr>
+         <td><a href="StructureDefinition-mh-toc-parity.html">Maternal Parity</a></td>
+         <td>
+            The MH TOC Maternal Parity Profile is derived from US Core Simple Observation Profile. Maternal parity is the number of pregnancies in which a fetus to a viable gestational age regardless of outcome.
          </td>
       </tr>
    </tbody>
@@ -397,9 +398,7 @@
             It specifies an individual SMM indicator code through bindings to an extension, ValueSet, and CodeSystem.
          </td>
       </tr>
-  
-   
-   </tbody>
+  </tbody>
 </table>
 
 
