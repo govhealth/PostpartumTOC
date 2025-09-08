@@ -68,8 +68,10 @@ pages:
     title: Artifacts Summary
   ##  conformance.md:
   ##    title: conformance
-  guidance.md:
-    title: Guidance
+  technical_guidance.md:
+    title: Technical Guidance
+  general_guidance.md:
+    title: General Guidance
   use-case-examples.md: 
     title: Use Case Examples
   profiles-extensions.md:
@@ -112,7 +114,9 @@ menu:
   Home: index.html
   Background: background.html
   Specification: spec.html
-  Guidance: guidance.html
+  Guidance: 
+    General Guidance: general_guidance.html
+    Technical Guidance: technical_guidance.html
   FHIR Artifacts:
     Artifacts Summary: artifacts.html
     Profiles and Extensions: profiles-extensions.html
