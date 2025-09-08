@@ -72,6 +72,8 @@ pages:
     title: Guidance
   use-case-examples.md: 
     title: Use Case Examples
+  profiles-extensions.md:
+    title: Profiles and Extensions
   downloads.md:
     title: Downloads
   change-log.md:
@@ -113,6 +115,7 @@ menu:
   Guidance: guidance.html
   FHIR Artifacts:
     Artifacts Summary: artifacts.html
+    Profiles and Extensions: profiles-extensions.html
   Use Case Examples: use-case-examples.html
   Downloads: downloads.html
   Change Log: change-log.html

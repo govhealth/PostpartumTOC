@@ -4,7 +4,7 @@
   "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-consult-note",
   "version": "1.0.0",
   "name": "MHTOCConsultNote",
-  "title": "Consult Note",
+  "title": "MH TOC Consult Note",
   "status": "active",
   "date": "2025-08-10",
   "description": "This profile sets minimum expectations for the DocumentReference resource for querying an individual’s consultation notes for postpartum transitions of care. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases. /n The MH TOC Consult Note History Profile is derived from the US Core DocumentReference Profile. It defines requirements for exchanging the Consultation Notes, widely used in healthcare to document clinical opinions from a secondary care provider.",

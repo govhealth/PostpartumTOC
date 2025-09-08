@@ -3,7 +3,7 @@
     "id": "mh-toc-postpartum-summary",
     "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-postpartum-summary",
     "name": "MHTOCPostpartumSummaryProfile",
-    "title": "MH TOC Postpartum Summary Profile",
+    "title": "MH TOC Postpartum Summary",
     "status": "active",
     "date": "2025-07-28",
     "description": "This profile sets minimum expectations for the Document Reference resource for querying a Postpartum Summary note for applicable pregnancy episode(s) of care for a patient. The MH TOC Labor and Delivery Summary profile leverages the US Core Document Reference Profile and modifies it to support the Postpartum Summary note, specifically. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases. /n In this profile, the postpartum summary note should support the inclusion of any interval medical history since delivery, physical and pelvic examination information, review of newborn status, discussion of birth control options, depression and intimate partner violence screenings, immunization review, counseling regarding any future pregnancies, and any interventional education, screenings, tests and results including laboratory.",
