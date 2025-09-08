@@ -7,7 +7,7 @@
   "title": "MH TOC Severe Maternal Morbidity Condition Air and Thrombotic Embolism",
   "status": "active",
   "date": "2025-08-19",
-  "description": "The MH TOC Severe Maternal Morbidity Condition Air and Thrombotic Embolism Profile is derived from the MH TOC Severe Maternal Morbidity Condition Profile. This derived profile specifies an individual SMM indicator code by binding to an extension, ValueSet, and CodeSystem.",
+  "description": "The MH TOC Severe Maternal Morbidity Condition Air and Thrombotic Embolism is derived from the MH TOC Severe Maternal Morbidity Condition Profile. This derived profile specifies an individual SMM indicator code by binding to an extension, ValueSet, and CodeSystem. /n There are two ICD-10 codes and four code sets specified for Air and Thrombotic Embolism in this profile: I26.x, O88.012–O88.03, O88.212–O88.23, O88.312–O88.33, O88.812–O88.83, T80.0XXA",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
