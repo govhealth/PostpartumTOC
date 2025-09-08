@@ -21,7 +21,7 @@ Example Files
   - Patient: [Mother](Patient-mom.html)
   - Encounter: [Delivery Encounter](Encounter-delivery-encounter-example.html)
   - Severe Maternal Morbidities
-    - Conditions: [Acute Myocardial Infarction](Condition-example-smm-condition-ami.html), [Aneurysm](Condition-example-smm-condition-aneurysm.html)
+    - Conditions: [Acute Myocardial Infarction](Condition-example-smm-condition-acute-myocardial-infarction.html), [Aneurysm](Condition-example-smm-condition-aneurysm.html)
     - Procedures: [Ventilation](Procedure-example-smm-procedure-ventilation.html), [Hysterectomy](Procedure-example-smm-procedure-hysterectomy.html)
 
 

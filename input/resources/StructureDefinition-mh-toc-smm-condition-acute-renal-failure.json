@@ -7,7 +7,7 @@
   "title": "MH TOC Severe Maternal Morbidity Condition Acute Renal Failure",
   "status": "active",
   "date": "2025-07-28",
-  "description": "The MH TOC Severe Maternal Morbidity Condition Acute Renal Failure Profile is derived from the MH TOC Severe Maternal Morbidity Condition Profile. This derived profile specifies an individual SMM indicator code by binding to an extension, ValueSet, and CodeSystem.",
+  "description": "The MH TOC Severe Maternal Morbidity Condition Acute Renal Failure Profile is derived from the MH TOC Severe Maternal Morbidity Condition Profile. This derived profile specifies an individual SMM indicator code by binding to an extension, ValueSet, and CodeSystem. /n There are two ICD-10 codes specified for Acute Renal Failure in this profile: N17.x, O90.4",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,

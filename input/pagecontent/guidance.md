@@ -7,12 +7,12 @@ In alignment with US Core, implementers **SHALL** meet *Must Support* requiremen
 - Data elements – Systems must support sending and receiving the specified element if it exists
 - Terminology bindings – Where a CodeableConcept is bound to a ValueSet, systems must support sending at least one code from the required set.
 - References – Elements that must reference specific resource types or profiles.
-- Interactions and searches – Required search parameters and operations specified in the [US Core Capability Statements](http://hl7.org/fhir/us/core/STU6.1/capstatements.html).
+- Interactions and searches – Required search parameters and operations specified in the [US Core Capability Statements](https://hl7.org/fhir/us/core/STU6.1/capability-statements.html).
 
 
 ### Capability Statements
 
-This Implementation Guide relies exclusively on the US Core Capability Statements for conformance expectations. Rather than defining new Capability Statements, implementers should reference the existing [US Core Capability Statements](http://hl7.org/fhir/us/core/STU6.1/capstatements.html) to ensure requirements are met for relevant interactions, searches, and must-support elements.  
+This Implementation Guide relies exclusively on the US Core Capability Statements for conformance expectations. Rather than defining new Capability Statements, implementers should reference the existing [US Core Capability Statements](https://hl7.org/fhir/us/core/STU6.1/capability-statements.html) to ensure requirements are met for relevant interactions, searches, and must-support elements.  
 
 ### Delivery Encounters
 

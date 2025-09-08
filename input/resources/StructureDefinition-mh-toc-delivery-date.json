@@ -6,7 +6,7 @@
     "title": "MH TOC Delivery Date",
     "status": "active",
     "date": "2025-07-29",
-    "description": " This profile sets minimum expectations for the Observation resource for querying a delivery date for an individual’s pregnancy episode of care. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases. /n The MH TOC Delivery Date Profile is derived from the US Core Simple Observation Profile. It defines additional constraints, terminology, and bindings for standardized representation of the date and time of the patient’s delivery.",
+    "description": "This profile sets minimum expectations for the Observation resource for querying a delivery date for an individual’s pregnancy episode of care. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases. /n The MH TOC Delivery Date Profile is derived from the US Core Simple Observation Profile. It defines additional constraints, terminology, and bindings for standardized representation of the date and time of the patient’s delivery.",
     "fhirVersion": "4.0.1",
     "kind": "resource",
     "abstract": false,

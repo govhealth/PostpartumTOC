@@ -4,10 +4,10 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: fhir.astp.postpartum-toc
-canonical: http://fhir.org/guides/astp/postpartum-toc/ImplementationGuide/fhir.astp.postpartum-toc
+# canonical: http://fhir.org/guides/astp/postpartum-toc/ImplementationGuide/fhir.astp.postpartum-toc
+canonical: http://fhir.org/guides/astp/postpartum-toc
 name: PostpartumTOC
-title: USCDI+ Maternal Health Postpartum Transitions of Care (TOC)
-  Implementation Guide
+title: USCDI+ Maternal Health Postpartum Transitions of Care (TOC) Implementation Guide
 # description: Example Implementation Guide for getting started with SUSHI
 status: draft # draft | active | retired | unknown
 version: 0.1.0
@@ -26,10 +26,20 @@ publisher:
 # use cases, the value can be an object with keys for id, uri, and version.
 #
 dependencies:
-  hl7.fhir.us.core: 6.1.0
-  hl7.terminology.r4: 6.5.0
-  hl7.fhir.uv.extensions.r4: 1.0.0
-
+#  hl7.fhir.us.core: 6.1.0
+#  hl7.terminology.r4: 6.5.0
+#  hl7.fhir.uv.extensions.r4: 1.0.0
+  hl7.fhir.us.core:
+    version: 6.1.0
+    uri: http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core
+    id: uscore
+  hl7.fhir.uv.extensions.r4:  
+    version: 5.2.0   
+    id: ext       
+  hl7.terminology.r4:
+    version: 6.5.0
+    uri: http://terminology.hl7.org/ImplementationGuide/hl7.terminology
+    id: tho
 
 ##  hl7.fhir.us.mcode:
 ##    id: mcode

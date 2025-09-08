@@ -7,7 +7,7 @@
   "title": "MH TOC Severe Maternal Morbidity Condition Disseminated Intravascular Coagulation",
   "status": "active",
   "date": "2025-07-28",
-  "description": "The MH TOC Severe Maternal Morbidity Condition Disseminated Intravascular Coagulation Profile is derived from the MH TOC Severe Maternal Morbidity Condition Profile. This derived profile specifies an individual SMM indicator code by binding to an extension, ValueSet, and CodeSystem.",
+  "description": "The MH TOC Severe Maternal Morbidity Condition Disseminated Intravascular Coagulation is derived from the MH TOC Severe Maternal Morbidity Condition Profile. This derived profile specifies an individual SMM indicator code by binding to an extension, ValueSet, and CodeSystem. /n There are 29 ICD-10 codes specified for Disseminated Intravascular Coagulation in this profile: D65, D68.8, D68.9, O45.002, O45.003, O45.009, O45.012, O45.013, O45.019, O45.022, O45.023, O45.029, O45.092, O45.093, O45.099, O46.002, O46.003, O46.009, O46.012, O46.013, O46.019, O46.022, O46.023, O46.029, O46.092, O46.093, O46.099, O67.0, O72.3",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,

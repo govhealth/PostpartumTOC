@@ -7,7 +7,7 @@
   "title": "MH TOC Severe Maternal Morbidity Condition Pulmonary Edema / Acute Heart Failure",
   "status": "active",
   "date": "2025-07-28",
-  "description": "The MH TOC Severe Maternal Morbidity Condition Pulmonary Edema / Acute Heart Failure Profile is derived from the MH TOC Severe Maternal Morbidity Condition Profile. This derived profile specifies an individual SMM indicator code by binding to an extension, ValueSet, and CodeSystem.",
+  "description": "The MH TOC Severe Maternal Morbidity Condition Pulmonary Edema / Acute Heart Failure is derived from the MH TOC Severe Maternal Morbidity Condition Profile. This derived profile specifies an individual SMM indicator code by binding to an extension, ValueSet, and CodeSystem. /n There are 20 ICD-10 codes specified for Pulmonary Edema / Acute Heart Failure in this profile: I50.1, I50.20, I50.21, I50.23, I50.30, I50.31, I50.33, I50.40, I50.41, I50.43, I50.810, I50.811, I50.813, I50.814, I50.82, I50.83, I50.84, I50.89, I50.9, J81.0",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,

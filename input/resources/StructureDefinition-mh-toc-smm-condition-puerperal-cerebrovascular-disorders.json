@@ -7,7 +7,7 @@
   "title": "MH TOC Severe Maternal Morbidity Condition Puerperal Cerebrovascular Disorders",
   "status": "active",
   "date": "2025-07-28",
-  "description": "The MH TOC Severe Maternal Morbidity Condition Puerperal Cerebrovascular Disorders Profile is derived from the MH TOC Severe Maternal Morbidity Condition Profile. This derived profile specifies an individual SMM indicator code by binding to an extension, ValueSet, and CodeSystem.",
+  "description": "The MH TOC Severe Maternal Morbidity Condition Puerperal Cerebrovascular Disorders is derived from the MH TOC Severe Maternal Morbidity Condition Profile. This derived profile specifies an individual SMM indicator code by binding to an extension, ValueSet, and CodeSystem. /n There are 30 ICD-10 codes specified for Puerperal Cerebrovascular Disorders in this profile: A81.2, G45.x, G46.x, G93.49, H34.0x, I60.xx, I61.xx, I62.xx, I63.00, I63.01x, I63.1xx, I63.2xx, I63.3xx, I63.4xx, I63.5xx, I63.6, I63.8x, I63.9, I65.xx, I66.xx, I67.xx, I68.xx, O22.50, O22.52, O22.53, I97.810, I97.811, I97.820, I97.821, O87.3 ",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,

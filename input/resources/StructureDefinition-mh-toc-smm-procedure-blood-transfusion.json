@@ -7,7 +7,7 @@
   "title": "MH TOC Severe Maternal Morbidity Procedure Blood Transfusion",
   "status": "active",
   "date": "2025-07-28",
-  "description": "The MH TOC Severe Maternal Morbidity Procedure Blood Transfusion Profile is derived from the MH TOC Severe Maternal Morbidity Procedure Profile. This derived profile specifies an individual SMM indicator code by binding to an extension, ValueSet, and CodeSystem.",
+  "description": "The MH TOC Severe Maternal Morbidity Procedure Blood Pressure Profile is derived from the MH TOC Severe Maternal Morbidity Procedure Profile. This derived profile specifies an individual SMM indicator code by binding to an extension, ValueSet, and CodeSystem. /n There are 64 ICD-10 values identified for Blood Transfusion in this profile: 30230H0, 30230K0, 30230L0, 30230M0, 30230N0, 30230P0, 30230R0, 30230T0, 30230H1, 30230K1, 30230L1, 30230M1, 30230N1, 30230P1, 30230R1, 30230T1, 30233H0, 30233K0, 30233L0, 30233M0, 30233N0, 30233P0, 30233R0, 30233T0, 30233H1, 30233K1, 30233L1, 30233M1, 30233N1, 30233P1, 30233R1, 30233T1, 30240H0, 30240K0, 30240L0, 30240M0, 30240N0, 30240P0, 30240R0, 30240T0, 30240H1, 30240K1, 30240L1, 30240M1, 30240N1, 30240P1, 30240R1, 30240T1, 30243H0, 30243K0, 30243L0, 30243M0, 30243N0, 30243P0, 30243R0, 30243T0, 30243H1, 30243K1, 30243L1, 30243M1, 30243N1, 30243P1, 30243R1, 30243T1",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,

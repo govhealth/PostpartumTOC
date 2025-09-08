@@ -7,7 +7,7 @@
   "title": "MH TOC Severe Maternal Morbidity Condition Acute Myocardial Infarction",
   "status": "active",
   "date": "2025-07-28",
-  "description": "The MH TOC Severe Maternal Morbidity Condition Acute Myocardial Infarction Profile is derived from the MH TOC Severe Maternal Morbidity Condition Profile. This derived profile specifies an individual SMM indicator code by binding to an extension, ValueSet, and CodeSystem.",
+  "description": "The MH TOC Severe Maternal Morbidity Condition Acute Myocardial Infarction Profile is derived from the MH TOC Severe Maternal Morbidity Condition Profile. This derived profile specifies an individual SMM indicator code by binding to an extension, ValueSet, and CodeSystem. /n There are two values specified for Acute Myocardial Infarction in this profile in ICD-10: I21.xx, I22.x ",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
