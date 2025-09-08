@@ -7,7 +7,7 @@
     "title": "MH TOC Severe Maternal Morbidity Condition",
     "status": "active",
     "date": "2025-07-28",
-    "description": “This profile sets minimum expectations for the Condition resource, which provides guidance on querying for a patient’s documented Severe Maternal Morbidity indicator(s). The MH TOC Severe Maternal Morbidity Condition profile leverages the US Core Encounter Diagnosis Profile and modifies it to support the CDC-identified 21 Severe Maternal Morbidity indicator(s). As defined by CDC, Severe maternal morbidity (SMM) includes unexpected outcomes of labor and delivery that can result in significant short- or long-term health consequences. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases. /n The MH TOC Severe Maternal Morbidity Condition Profile is derived from the US Core Condition Encounter Diagnosis Profile. It defines the common requirements for representing groups of diagnoses and their constituent mappings to a single Severe Maternal Morbidity Indicator.  For examples, please see the instances of the individual derivative profiles.”,
+    "description": “This profile sets minimum expectations for the Condition resource, which provides guidance on querying for a patient’s documented Severe Maternal Morbidity indicator(s). The MH TOC Severe Maternal Morbidity Condition profile leverages the US Condition Core Encounter Diagnosis Profile and modifies it to support the CDC-identified (21 Severe Maternal Morbidity indicator(s))[ https://www.cdc.gov/maternal-infant-health/php/severe-maternal-morbidity/icd.html]. As defined by CDC, Severe maternal morbidity (SMM) includes unexpected outcomes of labor and delivery that can result in significant short- or long-term health consequences. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases. /n It defines the common requirements for representing groups of diagnoses and their constituent mappings to a single Severe Maternal Morbidity Indicator.  For examples, please see the instances of the individual derivative profiles.”,
     "fhirVersion": "4.0.1",
     "kind": "resource",
     "abstract": false,
@@ -51,3 +51,4 @@
     }
 
 }
+
