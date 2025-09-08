@@ -7,7 +7,7 @@
   "title": "MH TOC Severe Maternal Morbidity Condition Acute Respiratory Distress",
   "status": "active",
   "date": "2025-08-19",
-  "description": "The MH TOC Severe Maternal Morbidity Condition Acute Respiratory Distress is derived from the MH TOC Severe Maternal Morbidity Condition Profile. This derived profile specifies an individual SMM indicator code by binding to an extension, ValueSet, and CodeSystem. /n There are ten ICD-10 codes specified for Acute Renal Failure in this profile: J80, J95.1, J95.2, J95.3, J95.82x, J96.0x, J96.2x, J96.9x, R06.03, R09.2",
+  "description": "The MH TOC Severe Maternal Morbidity Condition Acute Respiratory Distress is derived from the MH TOC Severe Maternal Morbidity Condition Profile. This derived profile specifies an individual SMM indicator code by binding to an extension, ValueSet, and CodeSystem. /n There are ten ICD-10 codes specified for Acute Respiratory Distress in this profile: J80, J95.1, J95.2, J95.3, J95.82x, J96.0x, J96.2x, J96.9x, R06.03, R09.2",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
