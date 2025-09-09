@@ -33,6 +33,11 @@
   "encounter": {
     "reference": "Encounter/prenatal-visit-example"
   },
+  "performer": [
+    {
+      "reference": "Practitioner/delivery-ob"
+    }
+  ],
   "effectiveDateTime": "2025-08-05",
   "valueDateTime": "2025-11-20",
   "derivedFrom": [
