@@ -1,0 +1,17 @@
+{
+  "resourceType": "SearchParameter",
+  "id": "smm-indicator-procedure",
+  "url": "http://fhir.org/guides/astp/postpartum-toc/SearchParameter/smm-indicator-procedure",
+  "version": "1.0.0",
+  "name": "SMMIndicatorProcedure",
+  "status": "active",
+  "date": "2025-09-09",
+  "publisher": "MH TOC",
+  "description": "Search Procedures by the MH TOC SMM Indicator extension value.",
+  "code": "smm-indicator",
+  "base": [
+    "Procedure"
+  ],
+  "type": "token",
+  "expression": "Procedure.extension('http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-indicator').value.as(code)"
+}
