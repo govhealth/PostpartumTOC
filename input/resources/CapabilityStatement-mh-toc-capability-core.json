@@ -33,46 +33,7 @@
                         "text": "OAuth2 with SMART-on-FHIR"
                     }
                 ]
-            },
-            "resource": [
-                {
-                    "type": "Patient",
-                    "profile": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient",
-                    "interaction": [
-                        {
-                            "code": "read"
-                        },
-                        {
-                            "code": "search-type"
-                        }
-                    ]
-                },
-                {
-                    "type": "Encounter",
-                    "profile": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter",
-                    "interaction": [
-                        {
-                            "code": "read"
-                        },
-                        {
-                            "code": "search-type"
-                        }
-                    ]
-                },
-                {
-                    "type": "Condition",
-                    "profile": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis",
-                    "interaction": [
-                        {
-                            "code": "read"
-                        },
-                        {
-                            "code": "search-type"
-                        }
-                    ]
-                }
-
-            ]
+            }
         }
     ]
 }
