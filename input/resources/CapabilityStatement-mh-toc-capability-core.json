@@ -58,7 +58,20 @@
                             "code": "search-type"
                         }
                     ]
+                },
+                {
+                    "type": "Condition",
+                    "profile": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis",
+                    "interaction": [
+                        {
+                            "code": "read"
+                        },
+                        {
+                            "code": "search-type"
+                        }
+                    ]
                 }
+
             ]
         }
     ]

@@ -1,0 +1,140 @@
+{
+  "resourceType": "CapabilityStatement",
+  "id": "mh-toc-capability-smm-conditions",
+  "url": "http://fhir.org/guides/astp/postpartum-toc/CapabilityStatement/mh-toc-capability-smm-conditions",
+  "version": "1.0.0",
+  "name": "MHTOCCapability_SMMConditions",
+  "title": "Server Capability \u2013 MH TOC SMM Conditions",
+  "status": "active",
+  "date": "2025-09-09",
+  "description": "All Severe Maternal Morbidity (SMM) Condition profiles supported by this server, advertised under Condition.",
+  "kind": "capability",
+  "fhirVersion": "4.0.1",
+  "software": {
+    "name": "MH TOC FHIR Server",
+    "version": "1.0.0"
+  },
+  "format": [
+    "json",
+    "xml"
+  ],
+  "rest": [
+    {
+      "mode": "server",
+      "documentation": "This server supports retrieving Conditions conforming to MH TOC SMM Condition profiles.",
+      "security": {
+        "cors": true,
+        "service": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/restful-security-service",
+                "code": "SMART-on-FHIR",
+                "display": "SMART-on-FHIR"
+              }
+            ],
+            "text": "OAuth2 with SMART-on-FHIR"
+          }
+        ]
+      },
+      "resource": [
+        {
+          "type": "Patient",
+          "profile": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient",
+          "interaction": [
+            {
+              "code": "read"
+            },
+            {
+              "code": "search-type"
+            }
+          ],
+          "searchParam": [
+            {
+              "name": "identifier",
+              "type": "token"
+            },
+            {
+              "name": "name",
+              "type": "string"
+            },
+            {
+              "name": "birthdate",
+              "type": "date"
+            }
+          ]
+        },
+        {
+          "type": "Encounter",
+          "profile": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter",
+          "interaction": [
+            {
+              "code": "read"
+            },
+            {
+              "code": "search-type"
+            }
+          ],
+          "searchParam": [
+            {
+              "name": "patient",
+              "type": "reference"
+            },
+            {
+              "name": "date",
+              "type": "date"
+            }
+          ]
+        },
+        {
+          "type": "Condition",
+          "profile": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition",
+          "supportedProfile": [
+            "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition-acute-myocardial-infarction",
+            "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition-acute-renal-failure",
+            "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition-acute-respiratory-distress",
+            "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition-air-thrombotic-embolism",
+            "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition-amniotic-fluid-embolism",
+            "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition-anesthesia-complications",
+            "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition-aneurysm",
+            "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition-cardiac-arrest",
+            "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition-eclampsia",
+            "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition-heart-failure-arrest",
+            "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition-intravascular-coagulation",
+            "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition-puerperal-cerebrovascular-disorders",
+            "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition-pulmonary-edema-acute-heart-failure",
+            "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition-sepsis",
+            "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition-shock",
+            "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition-sickle-cell-crisis"
+          ],
+          "interaction": [
+            {
+              "code": "read"
+            },
+            {
+              "code": "search-type"
+            }
+          ],
+          "searchParam": [
+            {
+              "name": "patient",
+              "type": "reference"
+            },
+            {
+              "name": "encounter",
+              "type": "reference"
+            },
+            {
+              "name": "code",
+              "type": "token"
+            },
+            {
+              "name": "clinical-status",
+              "type": "token"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

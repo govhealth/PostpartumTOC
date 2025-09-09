@@ -1,13 +1,13 @@
 {
     "resourceType": "CapabilityStatement",
-    "id": "mh-toc-capability-consult-note",
-    "url": "http://fhir.org/guides/astp/postpartum-toc/CapabilityStatement/mh-toc-capability-consult-note",
+    "id": "mh-toc-capability-discharge-summary",
+    "url": "http://fhir.org/guides/astp/postpartum-toc/CapabilityStatement/mh-toc-capability-discharge-summary",
     "version": "1.0.0",
-    "name": "MHTOCCapability_ConsultNote",
-    "title": "Server Capability – MH TOC Consult Note",
+    "name": "MHTOCCapability_DischargeSummary",
+    "title": "Server Capability – MH TOC Discharge Summary",
     "status": "active",
     "date": "2025-09-09",
-    "description": "Server capabilities for supporting the MH TOC Consult Note profile (DocumentReference).",
+    "description": "Server capabilities for supporting the MH TOC Discharge Summary profile (DocumentReference).",
     "kind": "capability",
     "fhirVersion": "4.0.1",
     "software": {
@@ -21,7 +21,7 @@
     "rest": [
         {
             "mode": "server",
-            "documentation": "This server supports the MH TOC Consult Note profile for DocumentReference.",
+            "documentation": "This server supports the MH TOC Discharge Summary profile for DocumentReference.",
             "security": {
                 "cors": true,
                 "service": [
@@ -40,8 +40,8 @@
             "resource": [
                 {
                     "type": "DocumentReference",
-                    "profile": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-consult-note",
-                    "documentation": "Consultation notes constrained by the MH TOC Consult Note profile, derived from US Core DocumentReference.",
+                    "profile": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-discharge-summary",
+                    "documentation": "Discharge summary notes conforming to the MH TOC Discharge Summary profile, derived from US Core DocumentReference.",
                     "interaction": [
                         {
                             "code": "read"
