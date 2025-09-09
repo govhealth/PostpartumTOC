@@ -1,55 +1,27 @@
 {
-  "resourceType": "CapabilityStatement",
-  "id": "mh-toc-capability-codesystem-temp",
-  "url": "http://fhir.org/guides/astp/postpartum-toc/CapabilityStatement/mh-toc-capability-codesystem-temp",
+  "resourceType": "CodeSystem",
+  "id": "mh-toc-postpartum-temp",
+  "url": "http://fhir.org/guides/astp/postpartum-toc/CodeSystem/mh-toc-postpartum-temp",
   "version": "1.0.0",
-  "name": "MHTOCCapability_CodeSystemTemp",
-  "title": "Server Capability – MH TOC Temporary CodeSystem",
+  "name": "MHTOCCodeSystem",
+  "title": "MH TOC Temporary Codes",
   "status": "active",
-  "date": "2025-09-09",
-  "description": "Server capabilities for hosting the MH TOC Temporary Codes CodeSystem.",
-  "kind": "capability",
-  "fhirVersion": "4.0.1",
-  "software": {
-    "name": "MH TOC FHIR Server",
-    "version": "1.0.0"
-  },
-  "format": ["json", "xml"],
-  "rest": [
+  "date": "2025-07-24",
+  "description": "Codes temporarily defined as part of the Maternal Health Postpartum TOC implementation guide. These will eventually migrate into an officially maintained terminology, for example, when new LOINC codes are established to support the concepts. There are two code systems contained within this CodeSystem: mh-toc-postpartum-summary, mh-toc-behavioral-health-history",
+  "caseSensitive": true,
+  "experimental": false,
+  "content": "complete",
+  "concept": [
     {
-      "mode": "server",
-      "documentation": "This server supports retrieval of the MH TOC Temporary CodeSystem.",
-      "security": {
-        "cors": true,
-        "service": [
-          {
-            "coding": [
-              {
-                "system": "http://terminology.hl7.org/CodeSystem/restful-security-service",
-                "code": "SMART-on-FHIR",
-                "display": "SMART-on-FHIR"
-              }
-            ],
-            "text": "OAuth2 with SMART-on-FHIR"
-          }
-        ]
-      },
-      "resource": [
-        {
-          "type": "CodeSystem",
-          "profile": "http://hl7.org/fhir/StructureDefinition/CodeSystem",
-          "documentation": "Publishes the MH TOC Temporary Codes CodeSystem (canonical: http://fhir.org/guides/astp/postpartum-toc/CodeSystem/mh-toc-postpartum-temp).",
-          "interaction": [
-            { "code": "read" },
-            { "code": "search-type" }
-          ],
-          "searchParam": [
-            { "name": "url", "type": "uri" },
-            { "name": "version", "type": "token" },
-            { "name": "status", "type": "token" }
-          ]
-        }
-      ]
+      "code": "mh-toc-postpartum-summary",
+      "display": "Postpartum Summary Note",
+      "definition": "A document used for summarizing the prenatal and delivery episodes of care. (Note that a new LOINC document type code is needed to represent this concept.)"
+    },
+    {
+      "code": "mh-toc-behavioral-health-history",
+      "display": "Behavioral Health History Note",
+      "definition": "A document used for summarizing a patient's behavioral health history. (Note that a new LOINC document type code is needed to represent this concept.)"
     }
   ]
+
 }

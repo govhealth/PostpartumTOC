@@ -173,6 +173,8 @@ menu:
 # The following are simple examples to demonstrate what this might
 # look like:
 #
+
+  
 # resources:
 #   Patient/my-example-patient:
 #     name: My Example Patient
