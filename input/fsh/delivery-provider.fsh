@@ -6,7 +6,7 @@ Usage: #example
 
 * active = true
 * identifier[0].system = "http://hl7.org/fhir/sid/us-npi"
-* identifier[0].value = "9422641023"        // sample 10-digit NPI
+* identifier[0].value = "1234567893"        
 * name.family = "Doe"
 * name.given[0] = "Joe"
 * name.prefix[0] = "Dr."
