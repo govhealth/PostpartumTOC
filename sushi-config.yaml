@@ -76,6 +76,8 @@ pages:
     title: Use Case Examples
   profiles-extensions.md:
     title: Profiles and Extensions
+  terminology.md:
+    title: Terminology
   downloads.md:
     title: Downloads
   change-log.md:
@@ -120,6 +122,7 @@ menu:
   FHIR Artifacts:
     Artifacts Summary: artifacts.html
     Profiles and Extensions: profiles-extensions.html
+    Terminology: terminology.html
   Use Case Examples: use-case-examples.html
   Downloads: downloads.html
   Change Log: change-log.html
