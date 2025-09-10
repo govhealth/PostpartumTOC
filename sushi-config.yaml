@@ -190,6 +190,32 @@ resources:
     name: Hospitalist Discharge Summary
     description: An example of a hospitalists discharge summary note conforming to the MH TOC Discharge Summary Profile.
     exampleBoolean: true
+  Observation/edd-example:
+    name: Estimated Date of Delivery
+    description: An example of an estimated date of delivery (EDD) observation instance to the MH TOC Estimated Date of Delivery Profile.
+    exampleBoolean: true
+  Condition/example-smm-condition-acute-myocardial-infarction:
+    name: SMM Condition Acute Myocardial Infarction 
+    description: An example of an instance of the SMM Condition Acute Myocardial Infarction Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Acute Myocardial Infarction Profile.
+    exampleBoolean: true
+  Condition/example-smm-condition-aneurysm:
+    name: SMM Condition Aneurysm
+    description: An example of an instance of the SMM Condition Aneurysm Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Aneurysm Profile.
+    exampleBoolean: true
+  Procedure/example-smm-procedure-hysterectomy:
+    name: SMM Procedure Hysterectomy
+    description: An example of an instance of the SMM Procedure Hysterectomy Indicator conforming to the MH TOC Severe Maternal Morbidity Hysterectomy Profile.
+    exampleBoolean: true
+  Procedure/example-smm-procedure-ventilation:
+    name: SMM Procedure Ventilation
+    description: An example of an instance of the SMM Procedure Ventilation Indicator conforming to the MH TOC Severe Maternal Morbidity Ventilation Profile.
+    exampleBoolean: true
+  FamilyMemberHistory/family-health-history-example:
+    name: Family Member Health History
+    description: An example of a family member health history with conditions conforming to the MH TOC Family Health History Profile.
+
+
+
 
 # resources:
 #   Patient/my-example-patient:
