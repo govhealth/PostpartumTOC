@@ -72,8 +72,8 @@ pages:
     title: Technical Guidance
   general_guidance.md:
     title: General Guidance
-  use-case-examples.md: 
-    title: Use Case Examples
+  examples.md: 
+    title: Examples
   profiles-extensions.md:
     title: Profiles and Extensions
   terminology.md:
@@ -123,7 +123,7 @@ menu:
     Artifacts Summary: artifacts.html
     Profiles and Extensions: profiles-extensions.html
     Terminology: terminology.html
-  Use Case Examples: use-case-examples.html
+  Examples: examples.html
   Downloads: downloads.html
   Change Log: change-log.html
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
@@ -177,6 +177,19 @@ menu:
 # look like:
 #
 
+resources:
+  Binary/example-binary:
+    name: PDF Content of binary
+    description: An example of binary resource with contents of a labor and delivery summary note.
+    exampleBoolean: true
+  DiagnosticReport/diagnosticreport-imaging-example:
+    name: DiagnosticReport Imaging
+    description: An example of an imaging report conforming to the  MH TOC Diagnostic Imaging Report Profile.
+    exampleBoolean: true
+  DocumentReference/discharge-summary-example:
+    name: Hospitalist Discharge Summary
+    description: An example of a hospitalists discharge summary note conforming to the MH TOC Discharge Summary Profile.
+    exampleBoolean: true
 
 # resources:
 #   Patient/my-example-patient:
