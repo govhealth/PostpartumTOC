@@ -1,0 +1,30 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "mh-toc-behavioral-assessments",
+  "url" : "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-mh-toc-behavioral-assessments",
+  "version" : "1.0.0",
+  "name" : "MHTOCBehavioralAssessments",
+  "title" : "MH TOC Behavioral Assessments",
+  "date" : "2025-07-25",
+  "status": "active",
+  "experimental": false,
+  "description" : "The MH TOC Behavioral Assessments value set contains codes for commonly used perinatal mental health screeners.",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://loinc.org",
+        "concept" : [
+          {
+            "code" : "44261-6"
+          },
+          {
+            "code" : "70274-6"
+          },
+          {
+            "code" : "99046-5"
+          }          
+        ]
+      }
+    ]
+  }
+}
