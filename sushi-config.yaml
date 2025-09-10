@@ -213,6 +213,47 @@ resources:
   FamilyMemberHistory/family-health-history-example:
     name: Family Member Health History
     description: An example of a family member health history with conditions conforming to the MH TOC Family Health History Profile.
+    exampleBoolean: true
+  Observation/gestational-age-example:
+    name: Gestational Age
+    description: An example of a recorded gestational age in weeks conforming to the MH TOC Gestational Age Profile.
+    exampleBoolean: true
+  ImagingStudy/imagingstudy-ob-fetal-dating:
+    name: OB Fetal Dating ImagingStudy
+    description: An example of an OB fetal dating Ultrasound conforming to the HL7 R4 ImagingStudy resource.
+    exampleBoolean: true
+  Observation/labor-type-example: 
+    name: Labor Type
+    description: An example of a recorded labor type conforming to the MH TOC Labor Type Profile.
+    exampleBoolean: true
+  DocumentReference/mh-toc-behavioral-health-history-example:
+    name: Behavioral Health History Note
+    description: An example of a behavioral health history note with a text attachement conforming to the MH TOC Behavioral Health History Profile.
+    exampleBoolean: true
+  DocumentReference/mh-toc-consult-note-example:
+    name: Consultation Note
+    description: An example of a consultation note conforming to the MH TOC Consult Note Profile.
+    exampleBoolean: true
+  Observation/mh-toc-delivery-date-example: 
+    name: Delivery Date
+    description: An example of a mother's delivery date conforming to the MH TOC Delivery Date Profile.
+    exampleBoolean: true
+  Observation/mh-toc-gravidity-example:
+    name: Maternal Gravidity
+    description: An example of a recorded maternal gravidity conforming to the MH TOC Gravidity Profile.
+    exampleBoolean: true
+  DocumentReference/mh-toc-labor-and-delivery-summary-example:
+    name: Labor and Delivery Summary
+    description: An example of a labor and delivery summary note conforming to the MH TOC Labor and Delivery Summary Profile.
+    exampleBoolean: true
+  Observation/mh-toc-parity-example:
+    name: Maternal Parity
+    description: An example of a recorded maternal parity conforming to the MH TOC Parity Profile.
+    exampleBoolean: true
+  DocumentReference/mh-toc-postpartum-summary-example:
+    name: Postpartum Summary Note
+    description: An example of a post partrum summary note conforming to the MH TOC Postpartum Summary Profile.
+    exampleBoolean: true
 
 
 
