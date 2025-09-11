@@ -189,6 +189,12 @@
          </td>
       </tr>
       <tr>
+        <td><a href="StructureDefinition-mh-toc-education.html">Maternal Health Education</a></td>
+        <td>
+            The MH TOC Education Profile is derived from the US Core Procedure Profile. It represents education as an intervention (procedure) provided on maternal health during the perinatal period. 
+         </td>
+      </tr>
+      <tr>
          <td><a href="StructureDefinition-mh-toc-parity.html">Maternal Parity</a></td>
          <td>
             The MH TOC Maternal Parity Profile is derived from US Core Simple Observation Profile. Maternal parity is the number of pregnancies in which a fetus to a viable gestational age regardless of outcome.
@@ -402,25 +408,6 @@
   </tbody>
 </table>
 
-
-### Procedures
-
-<table class="profile-table">
-   <thead>
-      <tr>
-         <th class="profile-table-name">Profile</th>
-         <th class= "profile-table-description">Description</th>
-      </tr>
-   </thead>
-   <tbody>
-      <tr>
-        <td><a href="StructureDefinition-mh-toc-education.html">Maternal Health Education</a></td>
-        <td>
-            The MH TOC Education Profile is derived from the US Core Procedure Profile. It represents education as an intervention (procedure) provided on maternal health during the perinatal period. 
-         </td>
-      </tr>
-   </tbody>
-</table>
 
 
 ### Extensions
