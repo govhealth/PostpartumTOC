@@ -14,7 +14,6 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 |Care Team Member(s)|Care Team Member Name|[US Core CareTeam](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-careteam.html)|CareTeam.participant|
 |Care Team Member(s)|Care Team Member Role|[US Core CareTeam](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-careteam.html)|CareTeam.participant.role|
 |Clinical Notes|Antepartum Summary Note|[US Core DocumentReference](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-documentreference.html)|DocumentReference.type|
-|Clinical Notes|Behavioral Health History|[Behavioral Health History](StructureDefinition-mh-toc-behavioral-health-history.html)|DocumentReference.type|
 |Clinical Notes|Consultation Note|[Consultation Note](StructureDefinition-mh-toc-consult-note.html)|DocumentReference.type|
 |Clinical Notes|Discharge Summary Note|[Discharge Summary](StructureDefinition-mh-toc-discharge-summary.html)|DocumentReference.type|
 |Clinical Notes|History & Physical|[US Core DocumentReference](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-documentreference.html)|DocumentReference.type|
@@ -57,7 +56,6 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 |Patient Demographics|Email Address|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Patient.telecom|
 |Patient Demographics|Ethnicity|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Extension.extension:ombCategory.value[x]|
 |Patient Demographics|First Name|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Patient.name|
-|Patient Demographics|Gender Identity|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Patient.gender|
 |Patient Demographics|Last Name|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Patient.name|
 |Patient Demographics|Middle Name (Including middle initial)|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Patient.name|
 |Patient Demographics|Name Suffix|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Patient.name|
@@ -69,7 +67,6 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 |Patient Demographics|Race|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Extension.extension:ombCategory.value[x]|
 |Patient Demographics|Related Person's Name|[US Core RelatedPerson](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-relatedperson.html)|RelatedPerson.name|
 |Patient Demographics|Relationship Type|[US Core RelatedPerson](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-relatedperson.html)|RelatedPerson.relationship|
-|Patient Demographics|Sex|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Patient.gender|
 |Patient Demographics|Tribal Affiliation|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Patient.extension:tribalAffiliation|
 |Patient Summary and Plan|Assessment and Plan of Treatment|[US Core CarePlan](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-careplan.html)|CarePlan.text|
 |Pregnancy Information|Estimated Date of Delivery|[Estimated Date of Delivery](StructureDefinition-mh-toc-edd.html)|Observation.code|
@@ -129,15 +126,14 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 |Data Class|Postpartum TOC Data Element|FHIR Profile|Proposed FHIR Endpoint|
 |---|---|---|---|
 |Clinical Notes|Behavioral Health History|[Behavioral Health History](StructureDefinition-mh-toc-behavioral-health-history.html)|DocumentReference.type|
-|Clinical Notes|Delivery Summary Note|[Labor and Delivery Summary](StructureDefinition-mh-toc-labor-and-delivery-summary.html)|DocumentReference.type|
-|Clinical Notes|Postpartum Summary Note|[Postpartum Summary](StructureDefinition-mh-toc-postpartum-summary.html)|DocumentReference.type|
+|Clinical Notes|Labor and Delivery Summary Note|[Labor and Delivery Summary](StructureDefinition-mh-toc-labor-and-delivery-summary.html)|DocumentReference.type|
 |Education|Perinatal Education|[MH TOC Education](StructureDefinition-mh-toc-education.html)|Procedure.code|
 |Genomics|Genetic Screening|[US Core Diagnostic Report Profile for Laboratory Results Reporting](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-diagnosticreport-lab.html)|DiagnosticReport.code|
 |Genomics|Teratology Counseling|Clinical validation still required; not ready for specification|Clinical validation still required; not ready for specification|
 |Health Status Assessments|Clinical Risk Assessment Results|[US Core Observation Screening Assessment](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-observation-screening-assessment.html)|Observation.value[x]|
 |Labor and Delivery|Labor Type|[MH TOC Labor Type](StructureDefinition-mh-toc-labor-type.html)|Observation.value[x]|
-|Lactation|Breast feeding status|Clinical validation still required; not ready for specification|Clinical validation still required; not ready for specification|
-|Lactation|Breast feeding intention|Clinical validation still required; not ready for specification|Clinical validation still required; not ready for specification|
+|Lactation|Breastfeeding status|Clinical validation still required; not ready for specification|Clinical validation still required; not ready for specification|
+|Lactation|Breastfeeding intention|Clinical validation still required; not ready for specification|Clinical validation still required; not ready for specification|
 |Pregnancy Information|Delivery Date|[Delivery Date](StructureDefinition-mh-toc-delivery-date.html)|Observation.date|
 |Problems|Indicators of Severe Maternal Morbidity|[Severe Maternal Morbidity](StructureDefinition-mh-toc-smm-condition.html)|Observation.code|
 {: .grid}
@@ -152,11 +148,12 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 |Allergies and Intolerances|Non-Medication Allergy Intolerance|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
 |Care Team Member(s)|Care Team Member Name|[US Core CareTeam](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-careteam.html)|CareTeam.participant|
 |Care Team Member(s)|Care Team Member Role|[US Core CareTeam](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-careteam.html)|CareTeam.participant.role|
+|Clinical Notes|Antepartum Summary Note|[US Core DocumentReference](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-documentreference.html)|DocumentReference.type|
+|Clinical Notes|Behavioral Health History|[MH TOC Behavioral Health History](StructureDefinition-mh-toc-behavioral-health-history.html)|DocumentReference.type|
 |Clinical Notes|Consultation Note|[Consultation Note](StructureDefinition-mh-toc-consult-note.html)|DocumentReference.type|
-|Clinical Notes|Delivery Summary Note|[Labor and Delivery Summary](StructureDefinition-mh-toc-labor-and-delivery-summary.html)|DocumentReference.type|
+|Clinical Notes|Labor and Delivery Summary Note|[Labor and Delivery Summary](StructureDefinition-mh-toc-labor-and-delivery-summary.html)|DocumentReference.type|
 |Clinical Notes|Discharge Summary Note|[Discharge Summary](StructureDefinition-mh-toc-discharge-summary.html)|DocumentReference.type|
 |Clinical Notes|History & Physical|[US Core DocumentReference](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-documentreference.html)|DocumentReference.type|
-|Clinical Notes|Postpartum Summary Note|[Postpartum Summary](StructureDefinition-mh-toc-postpartum-summary.html)|DocumentReference.type|
 |Clinical Notes|Pregnancy History Note|[US Core DocumentReference](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-documentreference.html)|DocumentReference.type|
 |Clinical Notes|Procedure Note|[US Core DocumentReference](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-documentreference.html)|DocumentReference.type|
 |Clinical Notes|Progress Note|[US Core DocumentReference](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-documentreference.html)|DocumentReference.type|
@@ -168,7 +165,7 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 |Encounter Information|Encounter Location|[US Core Encounter](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-encounter.html)|Encounter.location|
 |Encounter Information|Encounter Type|[US Core Encounter](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-encounter.html)|Encounter.type|
 |Facility Information|Facility Name|[US Core Location](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-location.html)|Location.name|
-|Facility Information|Facility Name|[US Core Location](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-location.html)|Location.type|
+|Facility Information|Facility Type|[US Core Location](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-location.html)|Location.type|
 |Family Health History|Family Health History|[Family Health History](StructureDefinition-mh-toc-family-health-history.html)|FamilyMemberHistory|
 |Education|Perinatal Education|[MH TOC Education](StructureDefinition-mh-toc-education.html)|Procedure.code|
 |Genomics|Genetic Screening|[US Core Diagnostic Report Profile for Laboratory Results Reporting](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-diagnosticreport-lab.html)|DiagnosticReport.code|
@@ -191,8 +188,8 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 |Laboratory|Specimen Type|[US Core Specimen](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-specimen.html)|Specimen.type|
 |Laboratory|Tests|[US Core DiagnosticReport Profile for Laboratory Results Reporting](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-diagnosticreport-lab.html)|DiagnosticReport.code|
 |Laboratory|Values/Results|[US Core DiagnosticReport Profile for Laboratory Results Reporting](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-diagnosticreport-lab.html)|DiagnosticReport.result|
-|Lactation|Breast feeding status|Clinical validation still required; not ready for specification|Clinical validation still required; not ready for specification|
-|Lactation|Breast feeding intention|Clinical validation still required; not ready for specification|Clinical validation still required; not ready for specification|
+|Lactation|Breastfeeding status|Clinical validation still required; not ready for specification|Clinical validation still required; not ready for specification|
+|Lactation|Breastfeeding intention|Clinical validation still required; not ready for specification|Clinical validation still required; not ready for specification|
 |Medications|Discharge Medications|[US Core MedicationRequest](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-medicationrequest.html)|MedicationRequest.category:us-core|
 |Medications|Dose|[US Core MedicationRequest](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-medicationrequest.html)|MedicationRequest.dosageInstruction|
 |Medications|Dose Unit of Measure|[US Core MedicationRequest](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-medicationrequest.html)|MedicationRequest.dosageInstruction|
@@ -205,7 +202,6 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 |Patient Demographics|Email Address|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Patient.telecom|
 |Patient Demographics|Ethnicity|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Extension.extension:ombCategory.value[x]|
 |Patient Demographics|First Name|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Patient.name|
-|Patient Demographics|Gender Identity|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Patient.gender|
 |Patient Demographics|Last Name|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Patient.name|
 |Patient Demographics|Middle Name (Including middle initial)|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Patient.name|
 |Patient Demographics|Name Suffix|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Patient.name|
@@ -217,7 +213,6 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 |Patient Demographics|Race|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Extension.extension:ombCategory.value[x]|
 |Patient Demographics|Related Person's Name|[US Core RelatedPerson](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-relatedperson.html)|RelatedPerson.name|
 |Patient Demographics|Relationship Type|[US Core RelatedPerson](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-relatedperson.html)|RelatedPerson.relationship|
-|Patient Demographics|Sex|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Patient.gender|
 |Patient Demographics|Tribal Affiliation|[US Core Patient](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-patient.html)|Patient.extension:tribalAffiliation|
 |Patient Summary and Plan|Assessment and Plan of Treatment|[US Core CarePlan](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-careplan.html)|CarePlan.text|
 |Pregnancy Information|Delivery Date|[Delivery Date](StructureDefinition-mh-toc-delivery-date.html)|Observation.date|
