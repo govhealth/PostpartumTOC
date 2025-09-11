@@ -1,32 +1,35 @@
-### Downloads
-
-* A downloadable copy of this [USCDI+ Maternal Health Postpartum TOC IG](full-ig.zip) that can be hosted locally
-* Resource definitions of this IG: [(JSON)](definitions.json.zip) [(XML)](definitions.xml.zip) [(TTL)](definitions.ttl.zip)
-* All examples used in this IG: [(JSON)](examples.json.zip) [(XML)](examples.xml.zip) [(TTL)](examples.ttl.zip)
-* [Schematrons](schematrons.zip) is also available for download for this IG.
-* FHIR R4 Specification [Downloads](http://hl7.org/fhir/R4/downloads.html)
-* FHIR R4 [Core Specification Text](http://hl7.org/fhir/R4/fhir-spec.zip)
-* [Instructions for the FHIR Validator](https://confluence.hl7.org/display/FHIR/Using+the+FHIR+Validator)
-* Current version of the [FHIR Validator](https://fhir.github.io/latest-ig-validator/org.hl7.fhir.validator.jar)
-
 ### Package File
 
-The following package file includes a Node Package Manager ([NPM](https://hl7.org/fhir/packages.html)) package file used by many of the FHIR tools. It contains all the value sets, profiles, extensions, list of pages and URLs, etc., that are defined as part of this version of the implementation guide (IG). This file should be the first choice whenever generating any implementation artifacts since it contains all of the rules about what makes the profiles valid. Implementers will still need to be familiar with the content of the specification and profiles that apply in order to make a conformant implementation. See the [Validating Resources]({{site.data.fhir.path}}validation.html) documentation in FHIR.
+The following package file includes all the value sets, profiles, extensions, list of pages and URLs in the IG, etc., defined as part of this version of the Implementation Guides. This file **SHOULD** be the first choice whenever generating any implementation artifacts since it contains all the rules about what makes the profiles valid. Implementers must still be familiar with the specification content and profiles that apply to create a conformant implementation. See the [validating profiles and resources] documentation in FHIR for more information.
 
-- [Package](package.tgz){::download="true"}
+- [Package(compressed folder)](package.tgz){::download="true"}
 
-#### Cross Version Analysis
+### Downloadable Copy of Specification
 
-{% include cross-version-analysis.xhtml %}
+A downloadable version of this IG is available so it can be hosted locally:
 
-#### Dependency Table
+- [Downloadable Copy(compressed folder)](full-ig.zip)
 
-{% include dependency-table.xhtml %}
+### Examples
 
-#### Globals Table
+All the examples in this Implementation Guide are available for download:
 
-{% include globals-table.xhtml %}
+- [XML(compressed folder)](examples.xml.zip)
+- [JSON(compressed folder)](examples.json.zip)
 
-#### IP Statements
+### Consolidated CSV and Excel File Representations of Profiles
 
-{% include ip-statements.xhtml %}
+All the profile information for the {{site.data.fhir.ig.title}} in a single CSV or Excel file, which may be helpful to testers and analysts to review element properties across profiles in a single table:
+
+- [CSV(compressed folder)](csvs.zip)
+- [Excel(compressed folder)](excels.zip)
+
+A table comparing all the Observation Profiles in US Core is also available for download:
+
+- [Excel](observations-summary.xlsx)
+
+### Schematrons
+
+Schematrons are also available for download:
+
+- [Schematrons(compressed folder)](schematrons.zip)
