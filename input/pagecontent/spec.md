@@ -17,7 +17,7 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 |Clinical Notes|Behavioral Health History|[Behavioral Health History](StructureDefinition-mh-toc-behavioral-health-history.html)|DocumentReference.type|
 |Clinical Notes|Consultation Note|[Consultation Note](StructureDefinition-mh-toc-consult-note.html)|DocumentReference.type|
 |Clinical Notes|Discharge Summary Note|[Discharge Summary](StructureDefinition-mh-toc-discharge-summary.html)|DocumentReference.type|
-|Clinical Notes|History & Physical||DocumentReference.type|
+|Clinical Notes|History & Physical|[US Core DocumentReference](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-documentreference.html)|DocumentReference.type|
 |Clinical Notes|Procedure Note|[US Core DocumentReference](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-documentreference.html)|DocumentReference.type|
 |Clinical Notes|Progress Note|[US Core DocumentReference](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-documentreference.html)|DocumentReference.type|
 |Clinical Tests|Clinical Test|[US Core DiagnosticReport Profile for Report and Note Exchange](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-diagnosticreport-note.html)|DiagnosticReport.code|
@@ -107,7 +107,7 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 |Data Class|Postpartum TOC Data Element|FHIR Profile|Proposed FHIR Endpoint|
 |---|---|---|---|
 |Clinical Notes|Antepartum Summary Note|[US Core DocumentReference](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-documentreference.html)|DocumentReference.type|
-|Clinical Notes|Pregnancy History Note|||
+|Clinical Notes|Pregnancy History Note|[US Core DocumentReference](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-documentreference.html)|DocumentReference.type|
 |Labor and Delivery|Delivery Type|[Birth and Fetal Death ProcedureFinalRouteMethodDelivery](https://build.fhir.org/ig/HL7/fhir-bfdr/StructureDefinition-Procedure-final-route-method-delivery-definitions.html)|Procedure.code|
 |Pregnancy Information|Estimated Date of Delivery Determination Method|[International Patient Summary Expected Delivery Observation - Pregnancy: EDD](http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-pregnancy-edd-uv-ips)|Observation.code|
 |Pregnancy Information|Gestational Age at Delivery|[Birth and Fetal Death Observation - Gestational Age at Delivery](https://build.fhir.org/ig/HL7/fhir-bfdr/StructureDefinition-Observation-gestational-age-at-delivery.html)|Obversation.code|
@@ -131,11 +131,11 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 |Clinical Notes|Behavioral Health History|[Behavioral Health History](StructureDefinition-mh-toc-behavioral-health-history.html)|DocumentReference.type|
 |Clinical Notes|Delivery Summary Note|[Labor and Delivery Summary](StructureDefinition-mh-toc-labor-and-delivery-summary.html)|DocumentReference.type|
 |Clinical Notes|Postpartum Summary Note|[Postpartum Summary](StructureDefinition-mh-toc-postpartum-summary.html)|DocumentReference.type|
-|Education|Education (Maternal Health)|||
-|Genomics|Genetic Screening||DocumentReference.type|
-|Genomics|Teratology Counseling|||
+|Education|Education (Maternal Health)|[MH TOC Education](StructureDefinition-mh-toc-education.html)|Procedure.code|
+|Genomics|Genetic Screening|[US Core Diagnostic Report Profile for Laboratory Results Reporting](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-diagnosticreport-lab.html)|DiagnosticReport.code|
+|Genomics|Teratology Counseling|Clinical validation still required; not ready for specification|Clinical validation still required; not ready for specification|
 |Health Status Assessments|Clinical Risk Assessment Results|[US Core Observation Screening Assessment](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-observation-screening-assessment.html)|Observation.value[x]|
-|Labor and Delivery|Labor Type||Observation.value[x]|
+|Labor and Delivery|Labor Type|[MH TOC Labor Type](StructureDefinition-mh-toc-labor-type.html)|Observation.value[x]|
 |Lactation|Breast feeding status|Clinical validation still required; not ready for specification|Clinical validation still required; not ready for specification|
 |Lactation|Breast feeding intention|Clinical validation still required; not ready for specification|Clinical validation still required; not ready for specification|
 |Pregnancy Information|Delivery Date|[Delivery Date](StructureDefinition-mh-toc-delivery-date.html)|Observation.date|
@@ -155,9 +155,9 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 |Clinical Notes|Consultation Note|[Consultation Note](StructureDefinition-mh-toc-consult-note.html)|DocumentReference.type|
 |Clinical Notes|Delivery Summary Note|[Labor and Delivery Summary](StructureDefinition-mh-toc-labor-and-delivery-summary.html)|DocumentReference.type|
 |Clinical Notes|Discharge Summary Note|[Discharge Summary](StructureDefinition-mh-toc-discharge-summary.html)|DocumentReference.type|
-|Clinical Notes|History & Physical||DocumentReference.type|
+|Clinical Notes|History & Physical|[US Core DocumentReference](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-documentreference.html)|DocumentReference.type|
 |Clinical Notes|Postpartum Summary Note|[Postpartum Summary](StructureDefinition-mh-toc-postpartum-summary.html)|DocumentReference.type|
-|Clinical Notes|Pregnancy History Note|||
+|Clinical Notes|Pregnancy History Note|[US Core DocumentReference](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-documentreference.html)|DocumentReference.type|
 |Clinical Notes|Procedure Note|[US Core DocumentReference](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-documentreference.html)|DocumentReference.type|
 |Clinical Notes|Progress Note|[US Core DocumentReference](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-documentreference.html)|DocumentReference.type|
 |Clinical Tests|Clinical Test|[US Core DiagnosticReport Profile for Report and Note Exchange](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-diagnosticreport-note.html)|DiagnosticReport.code|
@@ -170,9 +170,9 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 |Facility Information|Facility Name|[US Core Location](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-location.html)|Location.name|
 |Facility Information|Facility Name|[US Core Location](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-location.html)|Location.type|
 |Family Health History|Family Health History|[Family Health History](StructureDefinition-mh-toc-family-health-history.html)|FamilyMemberHistory|
-|Education|Education (Maternal Health)|||
-|Genomics|Genetic Screening||DocumentReference.type|
-|Genomics|Teratology Counseling|||
+|Education|Education (Maternal Health)|[MH TOC Education](StructureDefinition-mh-toc-education.html)|Procedure.code|
+|Genomics|Genetic Screening|[US Core Diagnostic Report Profile for Laboratory Results Reporting](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-diagnosticreport-lab.html)|DiagnosticReport.code|
+|Genomics|Teratology Counseling|Clinical validation still required; not ready for specification|Clinical validation still required; not ready for specification|
 |Health Status Assessment|Alcohol Use|[US Core Observation Screening Assessment](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-observation-screening-assessment.html)|observation.code|
 |Health Status Assessments|Clinical Risk Assessment Results|[US Core Observation Screening Assessment](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-observation-screening-assessment.html)|Observation.value[x]|
 |Health Status Assessments|Mental / Cognitive Status|[US Core Observation Screening Assessment](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-observation-screening-assessment.html)|Observation.code|
@@ -183,7 +183,7 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 |Immmunizations|Immunizations|[US Core Immunization](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-immunization.html)|Immunization.vaccinecode|
 |Immmunizations|Reason Immunization Not Performed|[US Core Immunization](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-immunization.html)|Immunization.statusreason|
 |Labor and Delivery|Delivery Type|[Birth and Fetal Death ProcedureFinalRouteMethodDelivery](https://build.fhir.org/ig/HL7/fhir-bfdr/StructureDefinition-Procedure-final-route-method-delivery-definitions.html)|Procedure.code|
-|Labor and Delivery|Labor Type||Observation.value[x]|
+|Labor and Delivery|Labor Type|[MH TOC Labor Type](StructureDefinition-mh-toc-labor-type.html)|Observation.value[x]|
 |Laboratory|Result Reference Range|[US Core Laboratory Result Observation Profile](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-observation-lab.html)|Observation.referenceRange|
 |Laboratory|Result Status|[US Core DiagnosticReport Profile for Laboratory Results Reporting](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-diagnosticreport-lab.html)|DiagnosticReport.status|
 |Laboratory|Specimen Identifier|[US Core Specimen](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-specimen.html)|Specimen.identifier|
