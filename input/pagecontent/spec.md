@@ -1,7 +1,7 @@
 ### Data Element Mapping
 
 The following profiles have been defined as part of the MH TOC Implementation Guide. A registry of US Core profiles may be found within the [US Core FHIR IG](https://hl7.org/fhir/us/core/STU6.1). A registry of standard profiles can be found in the FHIR specification, and additional profiles may be registered on the HL7 FHIR registry at [http://hl7.org/fhir/registry](http://hl7.org/fhir/registry). 
-<br> This implementation guide used a tiered approach with an emphasized focus on organizing the vetted data elements and mappings depending if the data element is specified in the [HL7 FHIR US Core FHIR IG 6.1.0](https://hl7.org/fhir/us/core/STU6.1/) (Bucket 1), a published HL7 non-US Core FHIR IG (Bucket 2), or specified in the HL7  MH Postpartum TOC FHIR IG (Bucket 3). Data Element Mappings are organized in an aggreate summary format and by derivative tables that are organized by the buckets previously described. 
+<br> <br> This implementation guide used a tiered approach with an emphasized focus on organizing the vetted data elements and mappings depending if the data element is specified in the [HL7 FHIR US Core FHIR IG 6.1.0](https://hl7.org/fhir/us/core/STU6.1/) (Bucket 1), a published HL7 non-US Core FHIR IG (Bucket 2), or specified in the HL7  MH Postpartum TOC FHIR IG (Bucket 3). Data Element Mappings are organized in an aggreate summary format and by derivative tables that are organized by the buckets previously described. 
 <br>
 <br>
 **USCDI+ MH TOC Data Elements and Specifications Bucket 1: References US Core 6.1.0 FHIR IG**
