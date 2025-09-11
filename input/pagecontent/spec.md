@@ -8,9 +8,9 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 
 |Data Class|Postpartum TOC Data Element|FHIR Profile|Proposed FHIR Endpoint|
 |---|---|---|---|
-|Allergies and Intolerances|Substance (Drug Class)|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
-|Allergies and Intolerances|Substance (Medication)|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
-|Allergies and Intolerances|Substance (Non-Medication)|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
+|Allergies and Intolerances|Drug Class Allergy Intolerance|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
+|Allergies and Intolerances|Medication Allergy Intolerance|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
+|Allergies and Intolerances|Non-Medication Allergy Intolerance|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
 |Care Team Member(s)|Care Team Member Name|[US Core CareTeam](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-careteam.html)|CareTeam.participant|
 |Care Team Member(s)|Care Team Member Role|[US Core CareTeam](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-careteam.html)|CareTeam.participant.role|
 |Clinical Notes|Antepartum Summary Note|[US Core DocumentReference](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-documentreference.html)|DocumentReference.type|
@@ -131,7 +131,7 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 |Clinical Notes|Behavioral Health History|[Behavioral Health History](StructureDefinition-mh-toc-behavioral-health-history.html)|DocumentReference.type|
 |Clinical Notes|Delivery Summary Note|[Labor and Delivery Summary](StructureDefinition-mh-toc-labor-and-delivery-summary.html)|DocumentReference.type|
 |Clinical Notes|Postpartum Summary Note|[Postpartum Summary](StructureDefinition-mh-toc-postpartum-summary.html)|DocumentReference.type|
-|Education|Education (Maternal Health)|[MH TOC Education](StructureDefinition-mh-toc-education.html)|Procedure.code|
+|Education|Perinatal Education|[MH TOC Education](StructureDefinition-mh-toc-education.html)|Procedure.code|
 |Genomics|Genetic Screening|[US Core Diagnostic Report Profile for Laboratory Results Reporting](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-diagnosticreport-lab.html)|DiagnosticReport.code|
 |Genomics|Teratology Counseling|Clinical validation still required; not ready for specification|Clinical validation still required; not ready for specification|
 |Health Status Assessments|Clinical Risk Assessment Results|[US Core Observation Screening Assessment](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-observation-screening-assessment.html)|Observation.value[x]|
@@ -147,9 +147,9 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 
 |Data Class|Postpartum TOC Data Element|FHIR Profile|Proposed FHIR Endpoint|
 |---|---|---|---|
-|Allergies and Intolerances|Substance (Drug Class)|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
-|Allergies and Intolerances|Substance (Medication)|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
-|Allergies and Intolerances|Substance (Non-Medication)|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
+|Allergies and Intolerances|Drug Class Allergy Intolerance|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
+|Allergies and Intolerances|Medication Allergy Intolerance|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
+|Allergies and Intolerances|Non-Medication Allergy Intolerance|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
 |Care Team Member(s)|Care Team Member Name|[US Core CareTeam](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-careteam.html)|CareTeam.participant|
 |Care Team Member(s)|Care Team Member Role|[US Core CareTeam](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-careteam.html)|CareTeam.participant.role|
 |Clinical Notes|Consultation Note|[Consultation Note](StructureDefinition-mh-toc-consult-note.html)|DocumentReference.type|
@@ -170,7 +170,7 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 |Facility Information|Facility Name|[US Core Location](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-location.html)|Location.name|
 |Facility Information|Facility Name|[US Core Location](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-location.html)|Location.type|
 |Family Health History|Family Health History|[Family Health History](StructureDefinition-mh-toc-family-health-history.html)|FamilyMemberHistory|
-|Education|Education (Maternal Health)|[MH TOC Education](StructureDefinition-mh-toc-education.html)|Procedure.code|
+|Education|Perinatal Education|[MH TOC Education](StructureDefinition-mh-toc-education.html)|Procedure.code|
 |Genomics|Genetic Screening|[US Core Diagnostic Report Profile for Laboratory Results Reporting](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-diagnosticreport-lab.html)|DiagnosticReport.code|
 |Genomics|Teratology Counseling|Clinical validation still required; not ready for specification|Clinical validation still required; not ready for specification|
 |Health Status Assessment|Alcohol Use|[US Core Observation Screening Assessment](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-observation-screening-assessment.html)|observation.code|
