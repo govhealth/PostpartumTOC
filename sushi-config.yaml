@@ -76,6 +76,8 @@ pages:
     title: Examples
   profiles-extensions.md:
     title: Profiles and Extensions
+  capability-statements.md:
+    title: Capability Statements
   terminology.md:
     title: Terminology
   downloads.md:
@@ -123,6 +125,7 @@ menu:
     Artifacts Summary: artifacts.html
     Profiles and Extensions: profiles-extensions.html
     Terminology: terminology.html
+    Capability Statements: capability-statements.html
   Examples: examples.html
   Downloads: downloads.html
   Change Log: change-log.html
