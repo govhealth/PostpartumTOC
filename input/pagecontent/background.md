@@ -18,7 +18,7 @@ While many resources and AIM Bundles provide resources to support postpartum tra
 
 Given the concentration of deaths that occur in the postpartum period, it is critical to support providers who care for patients in this stage by equipping them with the necessary information from antepartum (before birth) and intrapartum (during birth) period. however, gaps in standardized and interoperable data exchange between health IT systems prevent care providers from access to the most up to date and accurate care information necessary to provide effective and safe postpartum care. 
 
-### Data Exchange: Current and Future State
+### Data Exchange: Current State
 Two critical factors in postpartum care are the capture and exchange of postpartum-relevant data elements with providers, many of whom practice in ambulatory settings. When data is available, it is often incomplete or of insufficient quality to be effectively incorporated and used. This issue partly stems from limited support and a lack of standardized approaches for capturing postpartum data, which are essential for interoperable data exchange. 
 
 Currently, the most widely used standards to exchange maternal health data are: 
@@ -27,6 +27,18 @@ Currently, the most widely used standards to exchange maternal health data are:
 - Paper-Based Records – format for exchanging information to postpartum providers either in-person or via fax.  
 
 Health Level Seven (HL7) Fast Healthcare Interoperability Resources (FHIR) has not yet been widely adopted for maternal health data exchange. Although some support exists—such as through the ASTP United States Core Data for Interoperability (USCDI) and the HL7 FHIR US Core Implementation Guide (US Core FHIR IG)—its application to postpartum use cases remains limited. Major barriers include the absence of a standardized set of postpartum data elements and a lack of guidance on appropriate value sets. Addressing these gaps would reduce the burden on data users—both providers and third-party entities such as researchers—by establishing clear parameters for data capture, exchange, and interpretation. Providers would benefit from having specific implementation guidance for mapping their EHR’s data dictionary to specified values for identified data elements. Third-party users would benefit from understanding data elements supported for exchange and query-able values for data elements of interest. 
+
+### Data Exchange: Future State and Proposed Vision
+These data standards and formats represent the current baseline for documenting and exchanging postpartum data within the existing health IT landscape. To better support postpartum care and improve maternal health outcomes, it is critical for the USCDI+ Maternal Health (MH) domain not only to develop new implementation guidance, but also to account for existing data formats and exchange mechanisms. Doing so will help ensure timely and interoperable data sharing among all postpartum providers. 
+
+Key considerations include, but are not limited to: 
+- Interoperability between currently used data format (e.g., CDA) and data exchange (e.g., SFTP) standards and HL7 FHIR; 
+- Health IT capacity at data exchange partners (e.g., health systems, federally qualified health centers (FQHCs), mental and behavioral health providers, lactation consultants, at-home providers) especially for data exchange partners with non-enterprise level EHRs;  
+- Clinical workflows and data captured at the time of pregnancy outcome events(e.g., delivery); 
+- Format and structure of documented data; and 
+- Custom and/or site-specific data dictionaries.  
+
+This presents an opportunity for the USCDI+ MH domain to develop HL7 FHIR implementation guidance for the Postpartum Transition of Care Use Case. Such guidance would specify the relevant postpartum data elements and value sets, enabling the capture and exchange of structured—and potentially codified—postpartum data. This standardization supports emerging health IT use cases in postpartum care, including remote patient monitoring, clinical decision support, and third-party mobile applications. 
 
 ![alt text](data_flow_diagram.png "Title")
 
