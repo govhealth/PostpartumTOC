@@ -136,8 +136,7 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 |Health Status Assessments|Clinical Risk Assessment Results|[US Core Observation Screening Assessment](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-observation-screening-assessment.html)|Observation.value[x]|
 |Labor and Delivery|Labor Type||Observation.value[x]|
 |Lactation|Breast feeding status|Clinical validation still required; not ready for specification|Clinical validation still required; not ready for specification|
-|Lactation|Breast feeding intention status|Clinical validation still required; not ready for specification|Clinical validation still required; not ready for specification|
-|Lactation|Breast feeding method at discharge from delivery site|Clinical validation still required; not ready for specification|Clinical validation still required; not ready for specification|
+|Lactation|Breast feeding intention|Clinical validation still required; not ready for specification|Clinical validation still required; not ready for specification|
 |Pregnancy Information|Delivery Date|[Delivery Date](StructureDefinition-mh-toc-delivery-date.html)|Observation.date|
 |Problems|Indicators of Severe Maternal Morbidity|[Severe Maternal Morbidity](StructureDefinition-mh-toc-smm-condition.html)|Observation.code|
 <br>
@@ -191,8 +190,7 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 |Laboratory|Tests|[US Core DiagnosticReport Profile for Laboratory Results Reporting](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-diagnosticreport-lab.html)|DiagnosticReport.code|
 |Laboratory|Values/Results|[US Core DiagnosticReport Profile for Laboratory Results Reporting](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-diagnosticreport-lab.html)|DiagnosticReport.result|
 |Lactation|Breast feeding status|Clinical validation still required; not ready for specification|Clinical validation still required; not ready for specification|
-|Lactation|Breast feeding intention status|Clinical validation still required; not ready for specification|Clinical validation still required; not ready for specification|
-|Lactation|Breast feeding method at discharge from delivery site|Clinical validation still required; not ready for specification|Clinical validation still required; not ready for specification|
+|Lactation|Breast feeding intention|Clinical validation still required; not ready for specification|Clinical validation still required; not ready for specification|
 |Medications|Discharge Medications|[US Core MedicationRequest](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-medicationrequest.html)|MedicationRequest.category:us-core|
 |Medications|Dose|[US Core MedicationRequest](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-medicationrequest.html)|MedicationRequest.dosageInstruction|
 |Medications|Dose Unit of Measure|[US Core MedicationRequest](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-medicationrequest.html)|MedicationRequest.dosageInstruction|
