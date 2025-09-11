@@ -1,6 +1,7 @@
 Instance: newborn
 InstanceOf: USCorePatientProfile
 Title: "Newborn Patient Example"
+Description: "Example of a newborn baby conforming to US Core Patient Profile."
 Usage: #example
 * identifier[0].use = #usual
 * identifier[0].type.coding[0].system = "http://terminology.hl7.org/CodeSystem/v2-0203"
