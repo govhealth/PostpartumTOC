@@ -71,20 +71,24 @@
         ]
       },
       {
-        "id": "Observation.effective[x]",
-        "path": "Observation.effective[x]",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
+        "min": 1,
         "mustSupport": true,
         "type": [
           {
             "code": "dateTime"
           }
         ]
+      },
+      {
+        "id": "Observation.method",
+        "path": "Observation.method",
+        "mustSupport": true,
+          "binding": {
+            "strength": "preferred",
+            "valueSet": "http://hl7.org/fhir/uv/ips/ValueSet/edd-method-uv-ips"
+        }
       },
       {
         "id": "Observation.derivedFrom",
