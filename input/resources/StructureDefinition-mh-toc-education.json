@@ -1,0 +1,59 @@
+{
+    "resourceType": "StructureDefinition",
+    "id": "mh-toc-education",
+    "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-education",
+    "version": "1.0.0",
+    "name": "MHTOCEducation",
+    "title": "MH TOC Education",
+    "status": "active",
+    "date": "2025-07-28",
+    "description": "This profile sets minimum expectations for the MH TOC Education Profile and is derived from the US Core Procedure Profile. While education is provided at many visits this profile is intended to capture an intervention of a provider during the perinatal period and specific to the maternal health use case. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. The profile outlines exchange standards exchanging maternal health education as an intervention (procedure) and strongly recommends use of a reference to any electronic or paper materials provided to the patient.",
+    "fhirVersion": "4.0.1",
+    "kind": "resource",
+    "abstract": false,
+    "type": "Procedure",
+    "baseDefinition": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure",
+    "derivation": "constraint",
+    "differential": {
+        "element": [
+            {
+                "id": "Procedure.code",
+                "path": "Procedure.code",
+                "patternCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "409073007"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "Procedure.recorder",
+                "path": "Procedure.recorder",
+                "type": [
+                    {
+                        "code": "Reference",
+                        "targetProfile": [
+                            "http://hl7.org/fhir/StructureDefinition/Practitioner",
+                            "http://hl7.org/fhir/StructureDefinition/PractitionerRole"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "Procedure.asserter",
+                "path": "Procedure.asserter",
+                "type": [
+                    {
+                        "code": "Reference",
+                        "targetProfile": [
+                            "http://hl7.org/fhir/StructureDefinition/Practitioner",
+                            "http://hl7.org/fhir/StructureDefinition/PractitionerRole"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
