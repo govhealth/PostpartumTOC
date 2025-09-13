@@ -156,6 +156,3 @@ This section describes the expected capabilities of the Maternal Health Postpart
 </table>
 
 
-### Global Profile Declarations
-
-{% include globals-table.xhtml %}
