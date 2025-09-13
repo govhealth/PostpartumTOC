@@ -117,7 +117,7 @@
          </td>
       </tr>
       <tr>
-         <td><a href="ValueSet-mh-toc-mh-toc-behavioral-assessments.html">Behavioral Assessments</a></td>
+         <td><a href="ValueSet-mh-toc-behavioral-assessments.html">Behavioral Assessments</a></td>
          <td>
             The MH TOC Behavioral Assessments value set contains codes for commonly used perinatal mental health screeners.  
          </td>

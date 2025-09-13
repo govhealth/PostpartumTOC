@@ -60,3 +60,8 @@ The artifacts contained in this implementation do not define temporal bounds for
 ### Terminology Updates and Maintenance
 
 Terminology bindings in this guide reference authoritative sources such as [SNOMED CT](https://www.snomed.org/snomed-ct), [LOINC](https://loinc.org/), and [ICD-10-CM](https://www.cdc.gov/nchs/icd/icd10cm.htm). Implementers **SHOULD** monitor these source vocabularies for new releases or changes and update any ValueSets accordingly. 
+
+
+### Global Profile Declarations
+
+{% include globals-table.xhtml %}
