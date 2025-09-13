@@ -33,3 +33,15 @@ A table comparing all the Observation Profiles in US Core is also available for 
 Schematrons are also available for download:
 
 - [Schematrons(compressed folder)](schematrons.zip)
+
+### Intellectual Property Statements
+
+{% include ip-statements.xhtml %}
+
+### Cross-Version Analysis
+
+{% include cross-version-analysis.xhtml %}
+
+### Dependencies
+
+{% include dependency-table.xhtml %}
