@@ -257,6 +257,10 @@ resources:
     name: Postpartum Summary Note
     description: An example of a post partrum summary note conforming to the MH TOC Postpartum Summary Profile.
     exampleBoolean: true
+  Observation/breastfeeding-status-example:
+    name: Breastfeeding Status
+    description: An example of a recorded breastfeeding status conforming to the MH TOC Breastfeeding Status Profile of a mother who is currently breastfeeding.
+    exampleBoolean: true
 
 
 

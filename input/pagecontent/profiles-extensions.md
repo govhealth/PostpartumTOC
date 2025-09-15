@@ -50,6 +50,28 @@
 </style>
 
 
+
+### Breastfeeding
+
+<table class="profile-table">
+   <thead>
+      <tr>
+         <th class="profile-table-name">Profile</th>
+         <th class="profile-table-description">Description</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td><a href="StructureDefinition-mh-toc-breastfeeding-status.html">Breastfeeding Status</a></td>
+         <td>
+            The MH TOC Breastfeeding Status Profile is derived from the US Core Simple Observation Profile. It sets minimum expectations for capturing and exchanging whether the mother is currently breastfeeding. Breastfeeding status is documented during the directly postpartum inpatient admission and/or during postpartum care ambulatory care.
+         </td>
+      </tr>
+   </tbody>
+</table>
+
+
+
 ### Clinical Notes
 
 <table class="profile-table">

@@ -42,6 +42,12 @@ These examples demonstrate use of FHIR data that are critical to the Maternal He
             An example of a behavioral health history note with a text attachement conforming to the MH TOC Behavioral Health History Profile.
          </td>
       </tr>
+        <tr>
+         <td><a href="Observation-breastfeeding-status-example.html">Breastfeeding Status</a></td>
+         <td>
+            An example of a recorded breastfeeding status conforming to the MH TOC Breastfeeding Status Profile of a mother who is currently breastfeeding.
+         </td>
+      </tr>
       <tr>
          <td><a href="DocumentReference-mh-toc-consult-note-example.html">Consultation Note</a></td>
          <td>

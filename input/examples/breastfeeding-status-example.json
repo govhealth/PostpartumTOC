@@ -1,0 +1,44 @@
+{
+  "resourceType": "Observation",
+  "id": "breastfeeding-status-example",
+  "meta": {
+    "profile": [
+      "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-breastfeeding-status"
+    ]
+  },
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "social-history",
+          "display": "Social History"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "63895-7"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/mom",
+    "display": "Mother Example"
+  },
+  "effectiveDateTime": "2025-09-15",
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "LA33-6",
+        "display": "Yes"
+      }
+    ],
+    "text": "Currently breastfeeding"
+  }
+}
