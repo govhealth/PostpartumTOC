@@ -1,3 +1,6 @@
+The following profiles and extensions are defined for the MH TOC Implementation Guide. This implementation guide's profiles and extensions are in addition to those defined by US Core 6.1.0. Implementers **SHALL** reference the [US Core Profiles and Extensions](http://hl7.org/fhir/us/core/STU6.1/profiles-and-extensions.html) page to ensure all profiles and extensions are fully and properly implemented. For more information regarding the resources upon which these are built please refer to the [FHIR specification](https://hl7.org/fhir/R4/). 
+
+
 <style>
    
    .profile-table {
@@ -61,6 +64,12 @@
       </tr>
    </thead>
    <tbody>
+      <tr>
+         <td><a href="StructureDefinition-mh-toc-breastfeeding-intent.html">Breastfeeding Intent</a></td>
+         <td>
+            The MH TOC Breastfeeding Intent Profile is derived from the US Core Simple Observation Profile. This profile sets minimum expectations for the Observation resource for querying an individual’s breastfeeding intention of their newborn during or after the postpartum period. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases.  It defines requirements for exchanging the documented breastfeeding intent which is commonly recorded during prenatal care or directly postpartum during the delivery hospitalization.
+         </td>
+      </tr>
       <tr>
          <td><a href="StructureDefinition-mh-toc-breastfeeding-status.html">Breastfeeding Status</a></td>
          <td>
