@@ -100,7 +100,7 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 <br>
 **USCDI+ MH TOC Data Elements and Specifications Bucket 2: References non-US Core 6.1.0 FHIR IGs**
 
-|Data Class|Postpartum TOC Data Element|FHIR Profile|Proposed FHIR Endpoint|
+|Data Class|Postpartum TOC Data Element|FHIR Profile|Proposed FHIR Data Element|
 |---|---|---|---|
 |Clinical Notes|Antepartum Summary Note|[US Core DocumentReference](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-documentreference.html)|DocumentReference.type|
 |Clinical Notes|Pregnancy History Note|[US Core DocumentReference](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-documentreference.html)|DocumentReference.type|
@@ -122,7 +122,7 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 <br>
 **USCDI+ MH TOC Data Elements and Specifications Bucket 3: Unique to USCDI+ MH Postpartum TOC FHIR IG**
 
-|Data Class|Postpartum TOC Data Element|FHIR Profile|Proposed FHIR Endpoint|
+|Data Class|Postpartum TOC Data Element|FHIR Profile|Proposed FHIR Data Element|
 |---|---|---|---|
 |Clinical Notes|Behavioral Health History|[Behavioral Health History](StructureDefinition-mh-toc-behavioral-health-history.html)|DocumentReference.type|
 |Clinical Notes|Labor and Delivery Summary Note|[Labor and Delivery Summary](StructureDefinition-mh-toc-labor-and-delivery-summary.html)|DocumentReference.type|
@@ -140,7 +140,7 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 <br>
 **Summary Table of USCDI+ Maternal Health Postpartum Transitions of Care (TOC) Data Elements and Specifications**
 
-|Data Class|Postpartum TOC Data Element|FHIR Profile|Proposed FHIR Endpoint|
+|Data Class|Postpartum TOC Data Element|FHIR Profile|Proposed FHIR Data Element|
 |---|---|---|---|
 |Allergies and Intolerances|Drug Class Allergy Intolerance|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
 |Allergies and Intolerances|Medication Allergy Intolerance|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
