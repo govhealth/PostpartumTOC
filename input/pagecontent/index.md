@@ -21,7 +21,7 @@ This Guide is divided into several sub-pages which are listed at the top of each
 - [Home](index.md): Introduction and supplemental information, such as relationships with other FHIR IGs and intended audience
 - [Background](background.md): Background on the Postpartum Transitions of Care Use Case
 - [Specifications](spec.md): Summary tables of USCDI+ Maternal Health data elements and mappings to HL7 FHIR profiles and FHIR endpoints
-- [Guidance](technical_guidance.md): Information on the library’s relation to US Core, conformance, and specific use cases pertaining to the FHIR IG 
+- [Guidance](guidance.md): Information on the library’s relation to US Core, conformance, and specific use cases pertaining to the FHIR IG 
 - [FHIR Artifacts](profiles-extensions.md): A list of the FHIR artifacts (profiles, extensions, value sets, code systems, and examples) defined as part of this guide
 - [Use Case Examples](examples.md): Examples using FHIR resources specified by the FHIR IG
 - [Downloads](downloads.md): Links to downloadable artifacts

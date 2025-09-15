@@ -43,20 +43,6 @@
         }
       },
       {
-        "id": "Observation.subject",
-        "path": "Observation.subject",
-        "min": 1,
-        "mustSupport": true,
-        "type": [
-          {
-            "code": "Reference",
-            "targetProfile": [
-              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
-            ]
-          }
-        ]
-      },
-      {
         "id": "Observation.encounter",
         "path": "Observation.encounter",
         "min": 0,
