@@ -261,6 +261,13 @@ resources:
     name: Breastfeeding Status
     description: An example of a recorded breastfeeding status conforming to the MH TOC Breastfeeding Status Profile of a mother who is currently breastfeeding.
     exampleBoolean: true
+  Observation/example-breastfeeding-intent:
+    name: Breastfeeding Intent
+    description: An example of a recorded breastfeeding intent conforming to the MH TOC Breastfeeding Intent Profile of a mother who intends to bottle feed.
+    exampleBoolean: true
+
+
+
 
 
 

@@ -128,6 +128,12 @@
             A ValueSet comprised of ICD-10-PCS and ICD-9-CM codes for the Severe Maternal Morbidity Blood Transfusion Indicator. The codes in the ValueSet should be monitored for changes as they vary by source and may be updated.
          </td>
       </tr>
+       <tr>
+         <td><a href="ValueSet-mh-toc-smm-breastfeeding-intent.html">Breastfeeding Intent</a></td>
+         <td>
+            A ValueSet of concepts comprised of SNOMED CT codes (finding) to record the mother's breastfeeding intention after delivery. The codes in the ValueSet should be monitored for changes as they vary by source and may be updated.
+         </td>
+      </tr>
       <tr>
          <td><a href="ValueSet-mh-toc-smm-cardiac-arrest.html">Cardiac Arrest / Ventricular Fibrillation Indicator</a></td>
          <td>
