@@ -1,7 +1,7 @@
 
 ### Use of US Core
 
-This implementation guide adopts [US Core 6.1.0](http://hl7.org/fhir/us/core/STU6.1/) as the base for profiles to align with the latest ONC-certified interoperability standards required under the 21st Century Cures Act. US Core 6.1.0 provides a consistent, well-tested foundation for common clinical data elements, such as vital signs, conditions, observations, and encounters, and ensures compatibility with federal certification requirements and EHR vendor implementations. Implementers may review [US Core’s Must Support Definition](http://hl7.org/fhir/us/core/STU6.1/general-guidance.html#must-support) for a more detailed explanation.
+This implementation guide adopts [US Core 6.1.0](http://hl7.org/fhir/us/core/STU6.1/) as the base for profiles to align with the latest ONC-certified interoperability standards required under the 21st Century Cures Act. US Core 6.1.0 provides a consistent, well-tested foundation for common clinical data elements, such as vital signs, conditions, observations, and encounters, and ensures compatibility with federal certification requirements and EHR vendor implementations. Implementers may review [US Core’s Must Support Definition](http://hl7.org/fhir/us/core/STU6.1/general-guidance.html#must-support) for a more detailed explanation on relevant Must Support capabilities related to US Core. For General Guidance, implementers may review [US Core General Guidance]([http://hl7.org/fhir/us/core/STU6.1/general-guidance.html#must-support](https://build.fhir.org/ig/HL7/US-Core/general-guidance.html) to review US Core conformance guidance, supported API query functionality, and interaction with ontological terminology standadrds. 
 
 In alignment with US Core, implementers **SHALL** meet *Must Support* requirement flag as it applies to 
 - Data elements – Systems must support sending and receiving the specified element if it exists
@@ -9,6 +9,7 @@ In alignment with US Core, implementers **SHALL** meet *Must Support* requiremen
 - References – Elements that must reference specific resource types or profiles.
 - Interactions and searches – Required search parameters and operations specified in the [US Core Capability Statements](https://hl7.org/fhir/us/core/STU6.1/capability-statements.html).
 
+This FHIR IG intentionally aligns with [US Core 6.1.0](http://hl7.org/fhir/us/core/STU6.1/) to minimize the implementation delta and burden for users who's EHR is Certified Health IT. Future versions of this FHIR IG will be updated to align with future versions of USCDI and US Core, especially to versions that are referened within Federal regulations.
 
 ### Capability Statements
 
@@ -54,7 +55,6 @@ The artifacts contained in this implementation do not define temporal bounds for
 - Clinical Care: The period of time considered postpartum may be related to the care provider, practice, or health systems workflow. Implementers **SHOULD** consider this definition if postpartum care is delivered during a period less than or greater 1 year. Please see the Delivery Encounters guidance section that may assist implementers in defining visits and associated with the patient's episode of care. 
 
 - Referenced Implementation Guides: This implementation guide references several other IGs which provide guidance on definitions of perinatal periods. Implementers **SHALL** implement a single time definition across all resources and mappings. 
-
 
 
 ### Terminology Updates and Maintenance
