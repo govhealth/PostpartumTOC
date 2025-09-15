@@ -81,6 +81,12 @@ This section describes the expected capabilities of the Maternal Health Postpart
         </td>
       </tr>
       <tr>
+        <td><a href="CapabilityStatement-mh-toc-capability-breastfeeding-intent.html">Breastfeeding Intent</a></td>
+        <td>
+          Server capabilities for supporting the MH TOC Breastfeeding Intent profile (Observation).
+        </td>
+      </tr>
+      <tr>
         <td><a href="CapabilityStatement-mh-toc-capability-breastfeeding-status.html">Breastfeeding Status</a></td>
         <td>
           Server capabilities for supporting the MH TOC Breastfeeding Status profile (Observation).

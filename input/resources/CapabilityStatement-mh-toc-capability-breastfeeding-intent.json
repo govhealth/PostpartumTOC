@@ -1,13 +1,13 @@
 {
     "resourceType": "CapabilityStatement",
-    "id": "mh-toc-capability-breastfeeding-status",
-    "url": "http://fhir.org/guides/astp/postpartum-toc/CapabilityStatement/mh-toc-capability-breastfeeding-status",
+    "id": "mh-toc-capability-breastfeeding-intent",
+    "url": "http://fhir.org/guides/astp/postpartum-toc/CapabilityStatement/mh-toc-capability-breastfeeding-intent",
     "version": "1.0.0",
-    "name": "MHTOCCapabilityBreastfeedingStatus",
-    "title": "Server Capability for MH TOC Breastfeeding Status",
+    "name": "MHTOCCapabilityBreastfeedingIntent",
+    "title": "Server Capability - MH TOC Breastfeeding Intent",
     "status": "active",
     "date": "2025-09-09",
-    "description": "Server capabilities for supporting the MH TOC Breastfeeding Status profile (Observation).",
+    "description": "Server capabilities for supporting the MH TOC Breastfeeding Intent profile (Observation).",
     "kind": "capability",
     "fhirVersion": "4.0.1",
     "software": {
@@ -21,7 +21,7 @@
     "rest": [
         {
             "mode": "server",
-            "documentation": "Server capabilities for supporting the MH TOC Breastfeeding Status (Observation).",
+            "documentation": "Server capabilities for supporting the MH TOC Breastfeeding Intent (Observation).",
             "security": {
                 "cors": true,
                 "service": [
@@ -40,8 +40,8 @@
             "resource": [
                 {
                     "type": "Observation",
-                    "profile": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-breastfeeding-status",
-                    "documentation": "Breastfeeding Status observations conforming to the MH TOC Breastfeeding Status Profile.",
+                    "profile": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-breastfeeding-intent",
+                    "documentation": "Breastfeeding Status observations conforming to the MH TOC Breastfeeding Intent Profile.",
                     "interaction": [
                         {
                             "code": "read"
