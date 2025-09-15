@@ -6,7 +6,7 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 <br>
 **USCDI+ MH TOC Data Elements and Specifications Bucket 1: References US Core 6.1.0 FHIR IG**
 
-|Data Class|Postpartum TOC Data Element|FHIR Profile|Proposed FHIR Endpoint|
+|Data Class|Postpartum TOC Data Element|FHIR Profile|Proposed FHIR Data Element|
 |---|---|---|---|
 |Allergies and Intolerances|Drug Class Allergy Intolerance|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
 |Allergies and Intolerances|Medication Allergy Intolerance|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
