@@ -1,0 +1,32 @@
+{
+  "resourceType": "ValueSet",
+  "id": "mh-toc-smm-breastfeeding-intent",
+  "url": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-breastfeeding-intent",
+  "name" : "ValueSetMHTOCVentilation",
+  "title": "MH TOC Breast Feeding Intent ValueSet",
+  "status": "active",
+  "experimental": false,
+  "date": "2025-08-04",
+  "description": "A ValueSet of concepts comprised of SNOMED CT codes (finding) to record the mother's breastfeeding intention after delivery. The codes in the ValueSet should be monitored for changes as they vary by source and may be updated.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "169643005"
+          },
+          {
+            "code": "169644004"
+          },
+          {
+            "code": "169642000"
+          },
+          {
+            "code": "169743001"
+          }
+        ]
+      }
+    ]
+  }
+}

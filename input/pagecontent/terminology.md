@@ -61,9 +61,9 @@
    </thead>
    <tbody>
       <tr>
-         <td><a href="CodeSystem-mh-toc-postpartum-temp.html">Document Temporary Codes</a></td>
+         <td><a href="CodeSystem-mh-toc-postpartum-temp.html">Temporary Codes</a></td>
          <td>
-            Codes temporarily defined as part of the Maternal Health Postpartum TOC implementation guide. These will eventually migrate into an officially maintained terminology, for example, when new LOINC codes are established to support the concepts. There are two code systems contained within this CodeSystem: mh-toc-postpartum-summary, mh-toc-behavioral-health-history.
+            Codes temporarily defined as part of the Maternal Health Postpartum TOC implementation guide. These will eventually migrate into an officially maintained terminology, for example, when new LOINC codes are established to support the concepts.
          </td>
       </tr>
       <tr>
@@ -126,6 +126,12 @@
          <td><a href="ValueSet-mh-toc-smm-blood-transfusion.html">Blood Transfusion Indicator</a></td>
          <td>
             A ValueSet comprised of ICD-10-PCS and ICD-9-CM codes for the Severe Maternal Morbidity Blood Transfusion Indicator. The codes in the ValueSet should be monitored for changes as they vary by source and may be updated.
+         </td>
+      </tr>
+       <tr>
+         <td><a href="ValueSet-mh-toc-smm-breastfeeding-intent.html">Breastfeeding Intent</a></td>
+         <td>
+            A ValueSet of concepts comprised of SNOMED CT codes (finding) to record the mother's breastfeeding intention after delivery. The codes in the ValueSet should be monitored for changes as they vary by source and may be updated.
          </td>
       </tr>
       <tr>
