@@ -64,10 +64,6 @@ pages:
     title: Background
   spec.md:
     title: Specification
-  ##artifacts.html:
-    ##title: Artifacts Summary
-  ##  conformance.md:
-  ##    title: conformance
   guidance.md:
     title: Guidance
   examples.md: 
@@ -76,8 +72,6 @@ pages:
     title: Profiles and Extensions
   search-parameters-and-operations.md:
     title: Search Parameters and Operations
-  capability-statements.md:
-    title: Capability Statements
   terminology.md:
     title: Terminology
   downloads.md:
@@ -120,10 +114,8 @@ menu:
   Specification: spec.html
   Guidance: guidance.html
   FHIR Artifacts:
-    #Artifacts Summary: artifacts.html
     Profiles and Extensions: profiles-extensions.html
     Terminology: terminology.html
-    Capability Statements: capability-statements.html
     Search Parameters and Operations: search-parameters-and-operations.html
   Examples: examples.html
   Downloads: downloads.html
