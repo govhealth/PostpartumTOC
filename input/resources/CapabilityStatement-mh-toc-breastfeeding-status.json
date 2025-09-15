@@ -1,0 +1,75 @@
+{
+    "resourceType": "CapabilityStatement",
+    "id": "mh-toc-capability-breastfeeding-status",
+    "url": "http://fhir.org/guides/astp/postpartum-toc/CapabilityStatement/mh-toc-breastfeeding-status",
+    "version": "1.0.0",
+    "name": "MHTOCCapabilityBreastfeedingStatus",
+    "title": "Server Capability for MH TOC Breastfeeding Status",
+    "status": "active",
+    "date": "2025-09-09",
+    "description": "Server capabilities for supporting the MH TOC Breastfeeding Status profile (Observation).",
+    "kind": "capability",
+    "fhirVersion": "4.0.1",
+    "software": {
+        "name": "MH TOC FHIR Server",
+        "version": "1.0.0"
+    },
+    "format": [
+        "json",
+        "xml"
+    ],
+    "rest": [
+        {
+            "mode": "server",
+            "documentation": "Server capabilities for supporting the MH TOC Breastfeeding Status (Observation).",
+            "security": {
+                "cors": true,
+                "service": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/restful-security-service",
+                                "code": "SMART-on-FHIR",
+                                "display": "SMART-on-FHIR"
+                            }
+                        ],
+                        "text": "OAuth2 with SMART-on-FHIR"
+                    }
+                ]
+            },
+            "resource": [
+                {
+                    "type": "Observation",
+                    "profile": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-breastfeeding-status",
+                    "documentation": "Breastfeeding Status observations conforming to the MH TOC Breastfeeding Status Profile.",
+                    "interaction": [
+                        {
+                            "code": "read"
+                        },
+                        {
+                            "code": "search-type"
+                        }
+                    ],
+                    "searchParam": [
+                        {
+                            "name": "patient",
+                            "type": "reference"
+                        },
+                        {
+                            "name": "code",
+                            "type": "token"
+                        },
+                        {
+                            "name": "date",
+                            "type": "date"
+                        },
+                        {
+                            "name": "value-concept",
+                            "type": "token"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
