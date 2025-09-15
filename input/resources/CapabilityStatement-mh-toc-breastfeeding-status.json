@@ -1,7 +1,7 @@
 {
     "resourceType": "CapabilityStatement",
     "id": "mh-toc-capability-breastfeeding-status",
-    "url": "http://fhir.org/guides/astp/postpartum-toc/CapabilityStatement/mh-toc-breastfeeding-status",
+    "url": "http://fhir.org/guides/astp/postpartum-toc/CapabilityStatement/mh-toc-capability-breastfeeding-status",
     "version": "1.0.0",
     "name": "MHTOCCapabilityBreastfeedingStatus",
     "title": "Server Capability for MH TOC Breastfeeding Status",
