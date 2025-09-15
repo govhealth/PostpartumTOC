@@ -21,6 +21,11 @@
       "code": "mh-toc-behavioral-health-history",
       "display": "Behavioral Health History Note",
       "definition": "A document used for summarizing a patient's behavioral health history. (Note that a new LOINC document type code is needed to represent this concept.)"
+    },
+    {
+      "code": "mh-toc-breastfeeding-intent",
+      "display": "Breastfeeding Intent",
+      "definition": "A mother's intention whether or not to breastfeed their baby after delivery and during the postpartum period. (Note that a new LOINC observation code is needed to represent this concept.)"
     }
   ]
 

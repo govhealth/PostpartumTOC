@@ -61,9 +61,9 @@
    </thead>
    <tbody>
       <tr>
-         <td><a href="CodeSystem-mh-toc-postpartum-temp.html">Document Temporary Codes</a></td>
+         <td><a href="CodeSystem-mh-toc-postpartum-temp.html">Temporary Codes</a></td>
          <td>
-            Codes temporarily defined as part of the Maternal Health Postpartum TOC implementation guide. These will eventually migrate into an officially maintained terminology, for example, when new LOINC codes are established to support the concepts. There are two code systems contained within this CodeSystem: mh-toc-postpartum-summary, mh-toc-behavioral-health-history.
+            Codes temporarily defined as part of the Maternal Health Postpartum TOC implementation guide. These will eventually migrate into an officially maintained terminology, for example, when new LOINC codes are established to support the concepts.
          </td>
       </tr>
       <tr>
