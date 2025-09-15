@@ -52,6 +52,7 @@ This presents an opportunity for the USCDI+ MH domain to develop HL7 FHIR implem
 - Develop terminology and valuesets guidance 
 - Consider interoperable exchange mechanisms across care settings and data platforms 
 
+
 **Goal:** Improve maternal health outcomes and decrease maternal mortality through interoperable data. 
 - Enhance provider identification of at-risk individuals  
 - Ensure timely exchange of accurate and complete datasets  
