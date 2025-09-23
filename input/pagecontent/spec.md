@@ -6,7 +6,7 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 <br>
 **USCDI+ MH TOC Data Elements and Specifications Bucket 1: References US Core 6.1.0 FHIR IG**
 
-|Data Class|Postpartum TOC Data Element|FHIR Profile|Proposed FHIR Data Element|
+|Data Class|Postpartum TOC Data Element|FHIR Profile|Proposed FHIR Endpoint|
 |---|---|---|---|
 |Allergies and Intolerances|Drug Class Allergy Intolerance|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
 |Allergies and Intolerances|Medication Allergy Intolerance|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
@@ -100,7 +100,7 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 <br>
 **USCDI+ MH TOC Data Elements and Specifications Bucket 2: References non-US Core 6.1.0 FHIR IGs**
 
-|Data Class|Postpartum TOC Data Element|FHIR Profile|Proposed FHIR Data Element|
+|Data Class|Postpartum TOC Data Element|FHIR Profile|Proposed FHIR Endpoint|
 |---|---|---|---|
 |Clinical Notes|Antepartum Summary Note|[US Core DocumentReference](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-documentreference.html)|DocumentReference.type|
 |Clinical Notes|Pregnancy History Note|[US Core DocumentReference](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-documentreference.html)|DocumentReference.type|
@@ -122,13 +122,13 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 <br>
 **USCDI+ MH TOC Data Elements and Specifications Bucket 3: Unique to USCDI+ MH Postpartum TOC FHIR IG**
 
-|Data Class|Postpartum TOC Data Element|FHIR Profile|Proposed FHIR Data Element|
+|Data Class|Postpartum TOC Data Element|FHIR Profile|Proposed FHIR Endpoint|
 |---|---|---|---|
 |Clinical Notes|Behavioral Health History|[Behavioral Health History](StructureDefinition-mh-toc-behavioral-health-history.html)|DocumentReference.type|
 |Clinical Notes|Labor and Delivery Summary Note|[Labor and Delivery Summary](StructureDefinition-mh-toc-labor-and-delivery-summary.html)|DocumentReference.type|
 |Education|Perinatal Education|[MH TOC Education](StructureDefinition-mh-toc-education.html)|Procedure.code|
 |Genomics|Genetic Screening|[US Core Diagnostic Report Profile for Laboratory Results Reporting](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-diagnosticreport-lab.html)|DiagnosticReport.code|
-|Genomics|Teratology Counseling|Clinical validation still required; not ready for specification|Clinical validation still required; not ready for specification|
+|Genomics|Genetic Counseling|Clinical validation still required; not ready for specification|Clinical validation still required; not ready for specification|
 |Health Status Assessments|Clinical Risk Assessment Results|[US Core Observation Screening Assessment](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-observation-screening-assessment.html)|Observation.value[x]|
 |Labor and Delivery|Labor Type|[MH TOC Labor Type](StructureDefinition-mh-toc-labor-type.html)|Observation.value[x]|
 |Lactation|Breastfeeding status|Clinical validation still required; not ready for specification|Clinical validation still required; not ready for specification|
@@ -140,7 +140,7 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 <br>
 **Summary Table of USCDI+ Maternal Health Postpartum Transitions of Care (TOC) Data Elements and Specifications**
 
-|Data Class|Postpartum TOC Data Element|FHIR Profile|Proposed FHIR Data Element|
+|Data Class|Postpartum TOC Data Element|FHIR Profile|Proposed FHIR Endpoint|
 |---|---|---|---|
 |Allergies and Intolerances|Drug Class Allergy Intolerance|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
 |Allergies and Intolerances|Medication Allergy Intolerance|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
@@ -168,7 +168,7 @@ The following profiles have been defined as part of the MH TOC Implementation Gu
 |Family Health History|Family Health History|[Family Health History](StructureDefinition-mh-toc-family-health-history.html)|FamilyMemberHistory|
 |Education|Perinatal Education|[MH TOC Education](StructureDefinition-mh-toc-education.html)|Procedure.code|
 |Genomics|Genetic Screening|[US Core Diagnostic Report Profile for Laboratory Results Reporting](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-diagnosticreport-lab.html)|DiagnosticReport.code|
-|Genomics|Teratology Counseling|Clinical validation still required; not ready for specification|Clinical validation still required; not ready for specification|
+|Genomics|Genetic Counseling|Clinical validation still required; not ready for specification|Clinical validation still required; not ready for specification|
 |Health Status Assessment|Alcohol Use|[US Core Observation Screening Assessment](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-observation-screening-assessment.html)|observation.code|
 |Health Status Assessments|Clinical Risk Assessment Results|[US Core Observation Screening Assessment](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-observation-screening-assessment.html)|Observation.value[x]|
 |Health Status Assessments|Mental / Cognitive Status|[US Core Observation Screening Assessment](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-observation-screening-assessment.html)|Observation.code|
