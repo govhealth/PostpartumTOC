@@ -45,6 +45,11 @@ There are three intended audiences for this FHIR IG:
 - **Executive Decision Makers:** Decision makers who "green-light" the implementation of the USCDI+ Maternal Health Postpartum Transitions of Care FHIR IG
 	- This FHIR IG may be used by EHR vendors to identify gaps between this FHIR IG and the US Core FHIR IG, which should be alrleady supported by the decision maker's Certified Health IT (i.e., certified EHR) (Note: US Core 6.1.0 must be supported by Certified Health IT by 1/1/2026, as mandated in the [ASTP HTI-1 Final Rule](https://www.healthit.gov/topic/laws-regulation-and-policy/health-data-technology-and-interoperability-certification-program)).
 
+### Limitations and Challenges
+(insert)
+
+### Privacy and Security Considerations
+(insert)
 
 ### Authors and Contributors
 
@@ -53,4 +58,5 @@ There are three intended audiences for this FHIR IG:
 |[column 1|[column 2]|[column 3]|[column 4]|
 {: .grid}
 
-
+### Acknowledgements
+(insert)
