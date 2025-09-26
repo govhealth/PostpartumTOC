@@ -54,6 +54,7 @@ There are three intended audiences for this FHIR IG:
 ### Authors and Contributors
 
 |Name|Role|Organization|
+|---|---|---|
 |Joseph Blumenthal|IG Author|Clinovations Government + Health|
 |Yan Heras|IG Author|Clinovations Government + Health SME|
 |Nicole Kemper|Contributor|Clinovations Government + Health|
