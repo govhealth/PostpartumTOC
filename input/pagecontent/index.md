@@ -56,11 +56,11 @@ There are three intended audiences for this FHIR IG:
 |Name|Role|Organization|
 |---|---|---|
 |Joseph Blumenthal|IG Author|Clinovations Government + Health|
-|Yan Heras|IG Author|Clinovations Government + Health SME|
 |Nicole Kemper|Contributor|Clinovations Government + Health|
 |Anita Samarth|Contributor|Clinovations Government + Health|
 |Meredith Wilson|Contributor|Clinovations Government + Health|
 |Justin Wang|IG Author|Clinovations Government + Health|
+|Yan Heras|IG Author|Clinovations Government + Health SME|
 |Collin Campbell|Contributor|MedStar Health Research Institute|
 |Rebecca Dills|Contributor|MedStar Health Research Institute|
 |Aaron (Zach) Hettinger|Contributor|MedStar Health Research Institute|
@@ -69,7 +69,7 @@ There are three intended audiences for this FHIR IG:
 |Loral Patchen|Contributor|MedStar Health Research Institute|
 |Patricia Tanjutco|Contributor|MedStar Health Research Institute|
 |Sara Armson|Contributor|Assistant Secretary for Technology Policy (ASTP)|
-|Andrew Hayden|Project Sponsor Contact| 
+|Andrew Hayden|Project Sponsor Contact|Assistant Secretary for Technology Policy (ASTP)|
 |Laverne Perlie|Contributor|Assistant Secretary for Technology Policy (ASTP)|
 |Liz Turi|Contributor|Assistant Secretary for Technology Policy (ASTP)|
 {: .grid}
