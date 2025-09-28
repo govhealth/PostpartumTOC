@@ -75,4 +75,19 @@ There are three intended audiences for this FHIR IG:
 {: .grid}
 
 ### Acknowledgements
-(insert)
+Clinovations Government + Health developed the FHIR IG to support USCDI+ Maternal Health Postpartum Transitions of Care use case data elements. The project is funded by the Assistant Secretarty for Technology Policy as part of the USCDI+ Maternal Health Domain, and more broadly, the USCDI/USCDI+ Program. The FHIR IG was developed with input from Yan Heras, who served in an advisory and IG author role, and MedStar Health Research Institute as contributors to the development of the implementation guidance. This work is the effort of not only the aforementioned individuals and organizations, but also the standards and maternal health community as a whole - thank you for your contributions. 
+
+While there will not be an official public comment process for this iteration of the FHIR IG or the Postpartum Transitions of Care use case, a public comment process was conductedin 2024 and public discussion forums were held with federal and industry partners - these insights were incorporated into the USCDI+ Maternal Health Overarching data elements and would be represented in this FHIR IG's implementation guidance, if the data element is in both USCDI+ Maternal Health Overarching and the USCDI+ Maternal Health Postpartum Transitions of Care use cases. 
+
+Health Level Seven, HL7, CDA, CCD, and FHIR are registered trademarks of Health Level Seven International in the US Trademark Office.
+
+This guide includes CPT content, CPT copyright © 2014 American Medical Association. All rights reserved. This agreement does not cover the implementer's use of SNOMED CT.
+
+This specification includes content from DICOM, which is copyright NEMA, and distributed by agreement between NEMA/DICOM and HL7. Implementer use of DICOM is not covered by this agreement
+
+This guide includes ICD-10-CM content. ICD-10-CM is a clinical modification of the World Health Organizaiton (WHO) ICD, and it is managed by the National Center for Health Statistics, located within the Center for Disease Control and Prevention. This agreement does not cover the implementer's use of ICD-10-CM.
+
+This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc.
+
+This guide includes SNOMED CT content, copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. This agreement does not cover the implementer's use of SNOMED CT.
+
