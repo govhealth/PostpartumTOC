@@ -87,7 +87,7 @@ This specification includes content from DICOM, which is copyright NEMA, and dis
 
 This guide includes ICD-10-CM content. ICD-10-CM is a clinical modification of the World Health Organizaiton (WHO) ICD, and it is managed by the National Center for Health Statistics, located within the Center for Disease Control and Prevention. This agreement does not cover the implementer's use of ICD-10-CM.
 
-This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc.
+This material contains content from [LOINC](http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc.
 
 This guide includes SNOMED CT content, copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. This agreement does not cover the implementer's use of SNOMED CT.
 
