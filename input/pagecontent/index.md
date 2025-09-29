@@ -46,10 +46,23 @@ There are three intended audiences for this FHIR IG:
 	- This FHIR IG may be used by EHR vendors to identify gaps between this FHIR IG and the US Core FHIR IG, which should be alrleady supported by the decision maker's Certified Health IT (i.e., certified EHR) (Note: US Core 6.1.0 must be supported by Certified Health IT by 1/1/2026, as mandated in the [ASTP HTI-1 Final Rule](https://www.healthit.gov/topic/laws-regulation-and-policy/health-data-technology-and-interoperability-certification-program)).
 
 ### Limitations and Challenges
-(insert)
+(update - JW WORKING)
+
+
+
+
 
 ### Privacy and Security Considerations
-(insert)
+Implementers SHOULD be familiar and adhere primarily to any security and privacy guidelines defined within US Core 6.1.0, particularly those related to: 
+- [Communications](http://hl7.org/fhir/R4/security.html#http);
+- [Authentication](http://hl7.org/fhir/R4/security.html#authentication);
+- [Authorization/Access Control](http://hl7.org/fhir/R4/security.html#authorization/access%20control);
+- [Audit Logging](http://hl7.org/fhir/R4/security.html#audit%20logging);
+- [Digital Signatures](http://hl7.org/fhir/R4/security.html#digital%20signatures);
+- [Security Labels](http://hl7.org/fhir/R4/security-labels.html); and
+- [Narrative](http://hl7.org/fhir/R4/security.html#narrative).
+
+Security conformance requirements specifically related to US Core 6.1.0 may be found here: https://build.fhir.org/ig/HL7/US-Core/security.html. Additionally, implementers SHOULD be familiar and adhere to security and privacy guidances outlined by the base FHIR R4 standards for data elements specified in the FHIR IG. This guidance may found within the base FHIR R4 specification here: https://hl7.org/fhir/R4/security.html#http. 
 
 ### Authors and Contributors
 
