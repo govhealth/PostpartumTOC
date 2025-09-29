@@ -46,12 +46,26 @@ There are three intended audiences for this FHIR IG:
 	- This FHIR IG may be used by EHR vendors to identify gaps between this FHIR IG and the US Core FHIR IG, which should be alrleady supported by the decision maker's Certified Health IT (i.e., certified EHR) (Note: US Core 6.1.0 must be supported by Certified Health IT by 1/1/2026, as mandated in the [ASTP HTI-1 Final Rule](https://www.healthit.gov/topic/laws-regulation-and-policy/health-data-technology-and-interoperability-certification-program)).
 
 ### Limitations and Challenges
-(update - JW WORKING)
+(Limitations and Challeneges will be updated as known issues arise)
 
-
-
-
-
+This section outlines the limitations and challenges encountered when developing this Implementation Guide. It highlights topics such as: data elements being mapped to different fields within the EHR, unstandardized capture and codification of data elements, lack of ontological standards for maternal health values and value sets, and unspecified USCDI+ Maternal Health Postpartum Transitions of Care data elements. These topics are discussed in more detail below
+- Data Elements Exist in Structured Data, but Variation in Data Location and Method of Capture within the EHR
+	- Finding: The majority of data elements designated for the Postpartum TOC use case are captured as structured data; however, they are documented in more than one location in EHRs, with clinical concepts residing in multiple locations based on provider workflows, templates and structured forms available, and implementation variation across local sites within and across provider organizations and health systems.
+ 	- Implication for Data Element Representation in FHIR: Intra-facility and inter-provider variation complicates data mapping to FHIR resources and extraction, potentially contributing to lower-than-expected reporting rates, despite data availability and standardized queries.
+  	- Data Element Example: Intention to Breastfeed: This data element is typically captured during prenatal visits and may also be documented at the time of labor and delivery. However, if a patient presents for imminent delivery without prior prenatal care in the system, this information may not be captured in structured fields, even though it could be documented in the sending system’s information.
+- Limitations with Data Mapping
+	- Finding: Data elements that were captured in structured data fields during clinical care were not consistently mapped to data standards. The lack of mapped data standards could be due to the limited awareness of the standards, no current standard exists, or the data standard has challenges meeting clinical needs.
+ 	- Implications for Data Element Representation in FHIR: The process of aligning data to standards like LOINC or SNOMED can be complex and time-consuming. However, without dedicated terminology or pre-expanded value sets, coded elements cannot be reliably exchanged.
+  	- Data Element Example: Clinical Risk Assessments: Assessments, such as the Edinburgh Postpartum Depression Scale (EPDS), will have the total score mapped to the appropriate LOINC code. The components that make up the total score have LOINC codes, but they were not mapped in the EHR. Due to this the total EPDS score could be mapped to FHIR but the individual components of the score were not mapped.
+- Unspecified USCDI+ Maternal Health Postpartum Transitions of Care data elements
+	- Genetic Counseling: Additional validation needs to be conducted to confirm that ICD-10-CM code Z31.5, Encounter for procreative genetic counseling, would be an appropriate (e.g., code is clinically relevant to the data element) and available (e.g.., code is used and stored within the EHR) value to capture the genetic counseling data element. 
+ 	- Breastfeeding Intention: Additional validation needs to be conducted to confirm that SNOMED-CT code 268467002, Feeding Intention, would be an appropriate (e.g., code is clinically relevant to the data element) and available (e.g.., code is used and stored within the EHR) value to capture the breastfeeding intention data element, which could be mapped to the Observation resource within HL7 FHIR R4. Children values of Feeding Intention within SNOMED-CT may be applicable and include the following - additional validation would be required:
+  		- Feeding intention - breast: 169643005
+    	- Feeding intention - bottle: 169644004
+     	- Feeding intention - unsure: 169642000
+      	- Feeding intention - not known: 169641007
+ 	- Breastfeeding Status: Additional validation needs to be conducted to confirm that LOINC code 63895-7, Breastfeeding Status, would be an appropriate (e.g., code is clinically relevant to the data element) and available (e.g.., code is used and stored within the EHR) value to capture the breastfeeding status data element, which could be mapped to the Observation resource within HL7 FHIR R4.  
+ 
 ### Privacy and Security Considerations
 Implementers SHOULD be familiar and adhere primarily to any security and privacy guidelines defined within US Core 6.1.0, particularly those related to: 
 - [Communications](http://hl7.org/fhir/R4/security.html#http);
