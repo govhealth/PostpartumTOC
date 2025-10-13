@@ -84,7 +84,7 @@ Security conformance requirements specifically related to US Core 6.1.0 may be f
 |---|---|---|
 |Joseph Blumenthal|IG Author|Clinovations Government + Health|
 |Nicole Kemper|Contributor|Clinovations Government + Health|
-|Anita Samarth|Contributor|Clinovations Government + Health|
+|Anita Samarth|Contributor (Project Lead)|Clinovations Government + Health|
 |Meredith Wilson|Contributor|Clinovations Government + Health|
 |Justin Wang|IG Author|Clinovations Government + Health|
 |Yan Heras|IG Author|Clinovations Government + Health SME|
