@@ -1,4 +1,4 @@
-These examples demonstrate use of FHIR data that are critical to the Maternal Health Postpartum Transitions of Care (MH TOC) and many demonstrate how to use CodeSystems, ValueSets, and StructureDefintions defined as part of this guide. Artifacts conform to [US Core 6.1.0](http://hl7.org/fhir/us/core/STU6.1/index.html) whenever possible which is strongly recommended by this IG. Please note that while these examples have been validated for conformance they are not normative and may not be clinically accurate.
+These examples demonstrate use of FHIR data that are critical to the USCDI+ Maternal Health Postpartum Transitions of Care use case and many demonstrate how to use CodeSystems, ValueSets, and StructureDefintions defined as part of this guide. Artifacts conform to [US Core 6.1.0](http://hl7.org/fhir/us/core/STU6.1/index.html) whenever possible which is strongly recommended by this IG. Please note that while these examples have been validated for conformance they are not normative and may not be clinically accurate.
 
 <style>
    .examples-table {
@@ -81,7 +81,7 @@ These examples demonstrate use of FHIR data that are critical to the Maternal He
       <tr>
          <td><a href="ImagingStudy-example-chest-ct.html">Example Chest CT ImagingStudy</a></td>
          <td>
-            CT chest study for Patient/example with one series and two instances.
+            CT chest study for a patient/example with one series and two instances.
          </td>
       </tr>
       <tr>
@@ -165,13 +165,13 @@ These examples demonstrate use of FHIR data that are critical to the Maternal He
       <tr>
          <td><a href="Binary-example-binary.html">PDF Content of binary</a></td>
          <td>
-            An example of binary resource with contents of a labor and delivery summary note.
+            An example of a binary resource with contents of a labor and delivery summary note.
          </td>
       </tr>
       <tr>
          <td><a href="DocumentReference-mh-toc-postpartum-summary-example.html">Postpartum Summary Note</a></td>
          <td>
-            An example of a post partrum summary note conforming to the MH TOC Postpartum Summary Profile.
+            An example of a postpartrum summary note conforming to the MH TOC Postpartum Summary Profile.
          </td>
       </tr>
       <tr>
