@@ -56,4 +56,4 @@ This presents an opportunity for the USCDI+ Maternal Health domain to develop HL
 **Goal:** Improve maternal health outcomes and decrease maternal mortality through interoperable data. 
 - Enhance provider identification of at-risk individuals  
 - Ensure timely exchange of accurate and complete datasets  
-- Support health IT technologies (e.g., EHRs, remote patient monitoring, third-party mobile apps, and CDS) to use data for effective postpartum care 
+- Support health IT technologies (e.g., EHRs, remote patient monitoring, third-party mobile apps, and clinical decision support (CDS)) to use data for effective postpartum care 
