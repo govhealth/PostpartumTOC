@@ -49,11 +49,11 @@ This presents an opportunity for the USCDI+ Maternal Health domain to develop HL
 
 **Strategy:** Develop implementation guidance to support and promote the standardized capture and exchange of maternal health data elements relevant for postpartum care. 
 - Identify data elements for a postpartum summary note  
-- Develop terminology and valuesets guidance 
+- Develop terminology and value set guidance 
 - Consider interoperable exchange mechanisms across care settings and data platforms 
 
 
 **Goal:** Improve maternal health outcomes and decrease maternal mortality through interoperable data. 
 - Enhance provider identification of at-risk individuals  
 - Ensure timely exchange of accurate and complete datasets  
-- Support health IT technologies (e.g., electronic health records (EHRs), remote patient monitoring, third-party mobile apps, and CDS) to use data for effective postpartum care 
+- Support health IT technologies (e.g., EHRs, remote patient monitoring, third-party mobile apps, and CDS) to use data for effective postpartum care 
