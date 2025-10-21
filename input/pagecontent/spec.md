@@ -4,7 +4,7 @@ The following profiles have been defined as part of the USCDI+ Maternal Health P
 <br> <br> This implementation guide used a tiered approach with an emphasized focus on organizing the vetted data elements and mappings depending if the data element is specified in the [HL7 FHIR US Core FHIR IG 6.1.0](https://hl7.org/fhir/us/core/STU6.1/) (Bucket 1), a published HL7 non-US Core FHIR IG (Bucket 2), or specified in the USCDI+ Maternal Health Postpartum TOC FHIR IG (Bucket 3). Data Element mappings are organized in an aggregate summary format and by derivative tables that are organized by the buckets previously described. 
 <br>
 <br>
-**USCDI+ MH TOC Data Elements and Specifications Bucket 1: References US Core 6.1.0 FHIR IG**
+**USCDI+ Maternal Health Postpartum TOC Data Elements and Specifications Bucket 1: References US Core 6.1.0 FHIR IG**
 
 |Data Class|Postpartum TOC Data Element|FHIR Profile|Proposed FHIR Data Element|
 |---|---|---|---|
@@ -98,7 +98,7 @@ The following profiles have been defined as part of the USCDI+ Maternal Health P
 {: .grid}
 <br>
 <br>
-**USCDI+ MH TOC Data Elements and Specifications Bucket 2: References non-US Core 6.1.0 FHIR IGs**
+**USCDI+ Maternal Health Postpartum TOC Data Elements and Specifications Bucket 2: References non-US Core 6.1.0 FHIR IGs**
 
 |Data Class|Postpartum TOC Data Element|FHIR Profile|Proposed FHIR Data Element|
 |---|---|---|---|
@@ -120,7 +120,7 @@ The following profiles have been defined as part of the USCDI+ Maternal Health P
 
 <br>
 <br>
-**USCDI+ MH TOC Data Elements and Specifications Bucket 3: Unique to USCDI+ MH Postpartum TOC FHIR IG**
+**USCDI+ Maternal Health Postpartum TOC Data Elements and Specifications Bucket 3: Unique to USCDI+ MH Postpartum TOC FHIR IG**
 
 |Data Class|Postpartum TOC Data Element|FHIR Profile|Proposed FHIR Data Element|
 |---|---|---|---|
@@ -138,7 +138,7 @@ The following profiles have been defined as part of the USCDI+ Maternal Health P
 {: .grid}
 <br>
 <br>
-**Summary Table of USCDI+ Maternal Health Postpartum Transitions of Care (TOC) Data Elements and Specifications**
+**Summary Table of USCDI+ Maternal Health Postpartum TOC Data Elements and Specifications**
 
 |Data Class|Postpartum TOC Data Element|FHIR Profile|Proposed FHIR Data Element|
 |---|---|---|---|
