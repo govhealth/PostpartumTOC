@@ -214,9 +214,9 @@ This page contains a summary table of key terms and data element definitions.
          </td>
       </tr>
                   <tr>
-         <td>Teratology Counseling</td>
+         <td>Genetic Counseling</td>
          <td>
-           A type of counseling that focuses on congenital and developmental abnormalities associated with pregnancies
+           A type of counseling that focuses focuses on congenital and developmental abnormalities associated with pregnancies, for the purposes of this implementation guide
          </td>
       </tr>
                   <tr>
