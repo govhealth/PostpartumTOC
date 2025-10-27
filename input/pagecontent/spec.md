@@ -131,8 +131,8 @@ The following profiles have been defined as part of the USCDI+ Maternal Health P
 |Genomics|Genetic Counseling|Clinical validation still required; not ready for specification|Clinical validation still required; not ready for specification|
 |Health Status Assessments|Clinical Risk Assessment Results|[US Core Observation Screening Assessment](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-observation-screening-assessment.html)|Observation.value[x]|
 |Labor and Delivery|Labor Type|[MH TOC Labor Type](StructureDefinition-mh-toc-labor-type.html)|Observation.value[x]|
-|Lactation|Breastfeeding Status|[MH TOC Breastfeeding Status](StructureDefinition-mh-toc-breastfeeding-status.json)|Observation.code|
-|Lactation|Breastfeeding Intention|[MH TOC Breastfeeding Intent](StructureDefinition-mh-toc-breastfeeding-intent.json)|Observation.value[x]|
+|Lactation|Breastfeeding Status|[ Status](StructureDefinition-mh-toc-breastfeeding-status.html)|Observation.code|
+|Lactation|Breastfeeding Intention|[MH TOC Breastfeeding Intent](StructureDefinition-mh-toc-breastfeeding-intent.html)|Observation.value[x]|
 |Pregnancy Information|Delivery Date|[Delivery Date](StructureDefinition-mh-toc-delivery-date.html)|Observation.date|
 |Problems|Indicators of Severe Maternal Morbidity|[Severe Maternal Morbidity](StructureDefinition-mh-toc-smm-condition.html)|Observation.code|
 {: .grid}
@@ -187,8 +187,8 @@ The following profiles have been defined as part of the USCDI+ Maternal Health P
 |Laboratory|Specimen Type|[US Core Specimen](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-specimen.html)|Specimen.type|
 |Laboratory|Tests|[US Core DiagnosticReport Profile for Laboratory Results Reporting](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-diagnosticreport-lab.html)|DiagnosticReport.code|
 |Laboratory|Values/Results|[US Core DiagnosticReport Profile for Laboratory Results Reporting](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-diagnosticreport-lab.html)|DiagnosticReport.result|
-|Lactation|Breastfeeding Status|[MH TOC Breastfeeding Status](StructureDefinition-mh-toc-breastfeeding-status.json)|Observation.code|
-|Lactation|Breastfeeding Intention|[MH TOC Breastfeeding Intent](StructureDefinition-mh-toc-breastfeeding-intent.json)|Observation.value[x]|
+|Lactation|Breastfeeding Status|[MH TOC Breastfeeding Status](StructureDefinition-mh-toc-breastfeeding-status.html)|Observation.code|
+|Lactation|Breastfeeding Intention|[MH TOC Breastfeeding Intent](StructureDefinition-mh-toc-breastfeeding-intent.html)|Observation.value[x]|
 |Medications|Discharge Medications|[US Core MedicationRequest](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-medicationrequest.html)|MedicationRequest.category:us-core|
 |Medications|Dose|[US Core MedicationRequest](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-medicationrequest.html)|MedicationRequest.dosageInstruction|
 |Medications|Dose Unit of Measure|[US Core MedicationRequest](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-medicationrequest.html)|MedicationRequest.dosageInstruction|
