@@ -165,6 +165,26 @@ The following profiles and extensions are defined for the USCDI+ Maternal Health
 </table>
 
 
+### Genomics
+
+<table class="profile-table">
+   <thead>
+      <tr>
+         <th class="profile-table-name">Profile</th>
+         <th class= "profile-table-description">Description</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td><a href="StructureDefinition-mh-toc-genetic-counseling.html">Genetic Counseling</a></td>
+         <td>
+            The USCDI+ Maternal Health Postpartum TOC Genetic Counseling Profile is derived from the US Core Simple ServiceRequest Profile. For the purposes of this profile, genetic counseling is focused on a type of counseling that focuses on congenital, exposure to teratogens, and developmental abnormalities associated with the pregnancy.  
+         </td>
+      </tr>
+   </tbody>
+</table>
+
+
 ### Labor and Delivery
 
 <table class="profile-table">
@@ -178,7 +198,7 @@ The following profiles and extensions are defined for the USCDI+ Maternal Health
       <tr>
          <td><a href="StructureDefinition-mh-toc-labor-type.html">Labor Type</a></td>
          <td>
-            The USCDI+ Maternal Health Postpartum TOC Labor Type Profile is derived from US Core Simple Observation Profile. Observed labor types may include spontaneous, medically induced, or scheduled C-section. 
+            The USCDI+ Maternal Health Postpartum TOC Labor Type Profile is derived from the US Core Simple Observation Profile. Observed labor types may include spontaneous, medically induced, or scheduled C-section. 
          </td>
       </tr>
    </tbody>
