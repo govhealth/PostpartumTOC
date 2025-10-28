@@ -7,7 +7,7 @@
   "title": "MH TOC Severe Maternal Morbidity Condition Sickle Cell Disease With Crisis",
   "status": "active",
   "date": "2025-07-28",
-  "description": "The MH TOC Severe Maternal Morbidity Condition Sickle Cell Disease With Crisis is derived from the MH TOC Severe Maternal Morbidity Condition Profile. This derived profile specifies an individual SMM indicator code by binding to an extension, ValueSet, and CodeSystem. /n There are 12 ICD-10 codes specified for Sickle Cell Disease With Crisis in this profile: D57.00, D57.01, D57.02, D57.211, D57.212, D57.219, D57.411, D57.412, D57.419, D57.811, D57.812, D57.819",
+  "description": "The MH TOC Severe Maternal Morbidity Condition Sickle Cell Disease With Crisis is derived from the MH TOC Severe Maternal Morbidity Condition Profile. This derived profile specifies an individual SMM indicator code by binding to an extension, ValueSet, and CodeSystem. There are 12 ICD-10 codes specified for Sickle Cell Disease With Crisis in this profile: D57.00, D57.01, D57.02, D57.211, D57.212, D57.219, D57.411, D57.412, D57.419, D57.811, D57.812, D57.819",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
