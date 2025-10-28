@@ -7,7 +7,7 @@
   "title": "MH TOC Severe Maternal Morbidity Condition Heart Failure / Arrest During Surgery or Procedure",
   "status": "active",
   "date": "2025-07-28",
-  "description": "The MH TOC Severe Maternal Morbidity Condition Heart Failure / Arrest During Surgery or Procedure is derived from the MH TOC Severe Maternal Morbidity Condition Profile. This derived profile specifies an individual SMM indicator code by binding to an extension, ValueSet, and CodeSystem. /n There are six ICD-10 codes specified for Heart Failure / Arrest During Surgery or Procedure in this profile: I97.120, I97.121, I97.130, I97.131, I97.710, I97.711 ",
+  "description": "The MH TOC Severe Maternal Morbidity Condition Heart Failure / Arrest During Surgery or Procedure is derived from the MH TOC Severe Maternal Morbidity Condition Profile. This derived profile specifies an individual SMM indicator code by binding to an extension, ValueSet, and CodeSystem. There are six ICD-10 codes specified for Heart Failure / Arrest During Surgery or Procedure in this profile: I97.120, I97.121, I97.130, I97.131, I97.710, I97.711 ",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
