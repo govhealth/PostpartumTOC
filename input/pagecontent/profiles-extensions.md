@@ -178,7 +178,7 @@ The following profiles and extensions are defined for the USCDI+ Maternal Health
       <tr>
          <td><a href="StructureDefinition-mh-toc-genetic-counseling.html">Genetic Counseling</a></td>
          <td>
-            The USCDI+ Maternal Health Postpartum TOC Genetic Counseling Profile is derived from the US Core Simple ServiceRequest Profile. For the purposes of this profile, genetic counseling is focused on a type of counseling that focuses on congenital, exposure to teratogens, and developmental abnormalities associated with the pregnancy.  
+            The USCDI+ Maternal Health Postpartum TOC Genetic Counseling Profile is derived from the US Core ServiceRequest Profile. For the purposes of this profile, genetic counseling is focused on a type of counseling that focuses on congenital, exposure to teratogens, and developmental abnormalities associated with the pregnancy.  
          </td>
       </tr>
    </tbody>
