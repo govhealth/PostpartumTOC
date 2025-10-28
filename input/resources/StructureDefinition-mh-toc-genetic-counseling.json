@@ -1,0 +1,46 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "mh-toc-genetic-counseling",
+  "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-genetic-counseling",
+  "version": "1.0.0",
+  "name": "MHTOCGeneticCounseling",
+  "title": "MH TOC Genetic Counseling",
+  "status": "active",
+  "date": "2025-10-28",
+  "description": "[update] This profile sets minimum expectations for the Observation resource for querying a pregnant individual’s estimated date of delivery (EDD) for the current pregnancy episode of care. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases. The MH TOC Estimated Date of Delivery (EDD) is derived from the US Core Observation Clinical Result Profile. It defines additional constraints, terminology, and bindings for standardized representation of the patient’s estimated date of delivery.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "ServiceRequest",
+  "baseDefinition": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-servicerequest",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "ServiceRequest.category",
+        "path": "ServiceRequest.category",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "423039003"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ServiceRequest.requester",
+        "path": "ServiceRequest.requester",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "ServiceRequest.reasonReference",
+        "path": "ServiceRequest.reasonReference",
+        "min": 1,
+        "mustSupport": true
+      }
+  
+    ]
+  }
+}
