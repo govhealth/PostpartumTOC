@@ -7,7 +7,7 @@
   "title": "MH TOC Severe Maternal Morbidity Condition Severe Anesthesia Complications",
   "status": "active",
   "date": "2025-07-28",
-  "description": "The MH TOC Severe Maternal Morbidity Condition Severe Anesthesia Complications is derived from the MH TOC Severe Maternal Morbidity Condition Profile. This derived profile specifies an individual SMM indicator code by binding to an extension, ValueSet, and CodeSystem. /n There are nine ICD-10 codes and five code sets specified for Severe Anesthesia Complications in this profile: O29.112–O29.119, O29.122–O29.129, O29.192–O29.199, O29.212–O29.219, O29.292–O29.299, O74.0, O74.1, O74.2, O74.3, O89.0x, O89.1, O89.2, T88.2XXA, T88.3XXA",
+  "description": "The MH TOC Severe Maternal Morbidity Condition Severe Anesthesia Complications is derived from the MH TOC Severe Maternal Morbidity Condition Profile. This derived profile specifies an individual SMM indicator code by binding to an extension, ValueSet, and CodeSystem. There are nine ICD-10 codes and five code sets specified for Severe Anesthesia Complications in this profile: O29.112–O29.119, O29.122–O29.129, O29.192–O29.199, O29.212–O29.219, O29.292–O29.299, O74.0, O74.1, O74.2, O74.3, O89.0x, O89.1, O89.2, T88.2XXA, T88.3XXA",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
