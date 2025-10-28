@@ -128,10 +128,10 @@ The following profiles have been defined as part of the USCDI+ Maternal Health P
 |Clinical Notes|Labor and Delivery Summary Note|[Labor and Delivery Summary](StructureDefinition-mh-toc-labor-and-delivery-summary.html)|DocumentReference.type|
 |Education|Perinatal Education|[MH TOC Education](StructureDefinition-mh-toc-education.html)|Procedure.code|
 |Genomics|Genetic Screening|[US Core Diagnostic Report Profile for Laboratory Results Reporting](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-diagnosticreport-lab.html)|DiagnosticReport.code|
-|Genomics|Genetic Counseling|Clinical validation still required; not ready for specification|Clinical validation still required; not ready for specification|
+|Genomics|Genetic Counseling|[MH TOC Genetic Counseling](StructureDefinition-mh-toc-genetic-counseling.html)|ServiceRequest.category|
 |Health Status Assessments|Clinical Risk Assessment Results|[US Core Observation Screening Assessment](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-observation-screening-assessment.html)|Observation.value[x]|
 |Labor and Delivery|Labor Type|[MH TOC Labor Type](StructureDefinition-mh-toc-labor-type.html)|Observation.value[x]|
-|Lactation|Breastfeeding Status|[ Status](StructureDefinition-mh-toc-breastfeeding-status.html)|Observation.code|
+|Lactation|Breastfeeding Status|[MH TOC Breastfeeding Status](StructureDefinition-mh-toc-breastfeeding-status.html)|Observation.code|
 |Lactation|Breastfeeding Intention|[MH TOC Breastfeeding Intent](StructureDefinition-mh-toc-breastfeeding-intent.html)|Observation.value[x]|
 |Pregnancy Information|Delivery Date|[Delivery Date](StructureDefinition-mh-toc-delivery-date.html)|Observation.date|
 |Problems|Indicators of Severe Maternal Morbidity|[Severe Maternal Morbidity](StructureDefinition-mh-toc-smm-condition.html)|Observation.code|
@@ -168,7 +168,7 @@ The following profiles have been defined as part of the USCDI+ Maternal Health P
 |Family Health History|Family Health History|[Family Health History](StructureDefinition-mh-toc-family-health-history.html)|FamilyMemberHistory|
 |Education|Perinatal Education|[MH TOC Education](StructureDefinition-mh-toc-education.html)|Procedure.code|
 |Genomics|Genetic Screening|[US Core Diagnostic Report Profile for Laboratory Results Reporting](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-diagnosticreport-lab.html)|DiagnosticReport.code|
-|Genomics|Genetic Counseling|Clinical validation still required; not ready for specification|Clinical validation still required; not ready for specification|
+|Genomics|Genetic Counseling|[MH TOC Genetic Counseling](StructureDefinition-mh-toc-genetic-counseling.html)|ServiceRequest.category|
 |Health Status Assessment|Alcohol Use|[US Core Observation Screening Assessment](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-observation-screening-assessment.html)|observation.code|
 |Health Status Assessments|Clinical Risk Assessment Results|[US Core Observation Screening Assessment](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-observation-screening-assessment.html)|Observation.value[x]|
 |Health Status Assessments|Mental / Cognitive Status|[US Core Observation Screening Assessment](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-observation-screening-assessment.html)|Observation.code|
