@@ -7,7 +7,7 @@
   "title": "MH TOC Severe Maternal Morbidity Procedure Conversion of Cardiac Rhythm",
   "status": "active",
   "date": "2025-07-28",
-  "description": "The MH TOC Severe Maternal Morbidity Procedure Conversion of Cardiac Rhythm Profile is derived from the MH TOC Severe Maternal Morbidity Procedure Profile. This derived profile specifies an individual SMM indicator code by binding to an extension, ValueSet, and CodeSystem. /n There are two ICD-10 values identified for Conversion of Cardiac Rhythm in this profile: 5A12012, 5A2204Z",
+  "description": "The MH TOC Severe Maternal Morbidity Procedure Conversion of Cardiac Rhythm Profile is derived from the MH TOC Severe Maternal Morbidity Procedure Profile. This derived profile specifies an individual SMM indicator code by binding to an extension, ValueSet, and CodeSystem. There are two ICD-10 values identified for Conversion of Cardiac Rhythm in this profile: 5A12012, 5A2204Z",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
