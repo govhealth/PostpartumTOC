@@ -7,7 +7,7 @@
   "title": "MH TOC Severe Maternal Morbidity Condition Aneurysm",
   "status": "active",
   "date": "2025-07-28",
-  "description": "The MH TOC Severe Maternal Morbidity Condition Aneurysm is derived from the MH TOC Severe Maternal Morbidity Condition Profile. This derived profile specifies an individual SMM indicator code by binding to an extension, ValueSet, and CodeSystem. /n There are two ICD-10 codes specified for Aneurysm in this profile: I71.xx, I79.0", 
+  "description": "The MH TOC Severe Maternal Morbidity Condition Aneurysm is derived from the MH TOC Severe Maternal Morbidity Condition Profile. This derived profile specifies an individual SMM indicator code by binding to an extension, ValueSet, and CodeSystem. There are two ICD-10 codes specified for Aneurysm in this profile: I71.xx, I79.0", 
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
