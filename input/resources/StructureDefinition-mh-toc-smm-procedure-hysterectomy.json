@@ -7,7 +7,7 @@
   "title": "MH TOC Severe Maternal Morbidity Procedure Hysterectomy",
   "status": "active",
   "date": "2025-08-10",
-  "description": "The MH TOC Severe Maternal Morbidity Procedure Hysterectomy Profile is derived from the MH TOC Severe Maternal Morbidity Procedure Profile. This derived profile specifies an individual SMM indicator code by binding to an extension, ValueSet, and CodeSystem. /n There are four ICD-10 values identified for Hysterectomy in this profile: 0UT90ZL, 0UT90ZZ, 0UT97ZL, 0UT97ZZ",
+  "description": "The MH TOC Severe Maternal Morbidity Procedure Hysterectomy Profile is derived from the MH TOC Severe Maternal Morbidity Procedure Profile. This derived profile specifies an individual SMM indicator code by binding to an extension, ValueSet, and CodeSystem. There are four ICD-10 values identified for Hysterectomy in this profile: 0UT90ZL, 0UT90ZZ, 0UT97ZL, 0UT97ZZ",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
