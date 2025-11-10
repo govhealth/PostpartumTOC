@@ -182,5 +182,14 @@
                 ]
             }
         ]
-    }
+    },
+    "expansion": {
+        "timestamp" : "2025-11-09",
+        "parameter" : [
+        {
+            "name" : "incomplete-ok",
+            "valueBoolean" : true
+        }
+        ]  
+    }  
 }

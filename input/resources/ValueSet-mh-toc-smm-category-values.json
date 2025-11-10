@@ -47,7 +47,7 @@
                     },
                     {
                         "code": "cardiac-arrest",
-                        "display": "Cardiac Arrest / Ventricular Fibrillation"
+                        "display": "Severe Maternal Morbidity Cardiac Arrest / Ventricular Fibrillation"
                     },
                     {
                         "code": "conversion-cardiac-rhythm",

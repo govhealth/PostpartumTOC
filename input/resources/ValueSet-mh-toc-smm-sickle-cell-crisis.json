@@ -28,27 +28,27 @@
                     },
                     {
                         "code": "D57.211",
-                        "display": "Hb-SC disease with acute chest syndrome"
+                        "display": "Sickle-cell/Hb-C disease with acute chest syndrome"
                     },
                     {
                         "code": "D57.212",
-                        "display": "Hb-SC disease with splenic sequestration"
+                        "display": "Sickle-cell/Hb-C disease with splenic sequestration"
                     },
                     {
                         "code": "D57.219",
-                        "display": "Hb-SC disease with crisis, unspecified"
+                        "display": "Sickle-cell/Hb-C disease with crisis, unspecified"
                     },
                     {
                         "code": "D57.411",
-                        "display": "Sickle-cell thalassemia with acute chest syndrome"
+                        "display": "Sickle-cell thalassemia, unspecified, with acute chest syndrome"
                     },
                     {
                         "code": "D57.412",
-                        "display": "Sickle-cell thalassemia with splenic sequestration"
+                        "display": "Sickle-cell thalassemia, unspecified, with splenic sequestration"
                     },
                     {
                         "code": "D57.419",
-                        "display": "Sickle-cell thalassemia with crisis, unspecified"
+                        "display": "Sickle-cell thalassemia, unspecified, with crisis"
                     },
                     {
                         "code": "D57.811",
@@ -90,5 +90,14 @@
                 ]
             }
         ]
-    }
+    },
+    "expansion": {
+        "timestamp" : "2025-11-09",
+        "parameter" : [
+        {
+            "name" : "incomplete-ok",
+            "valueBoolean" : true
+        }
+        ]  
+    }  
 }

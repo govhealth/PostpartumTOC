@@ -40,7 +40,7 @@
           },
           {
             "code": "I46.9",
-            "display": "Cardiac arrest, unspecified"
+            "display": "Cardiac arrest, cause unspecified"
           },
           {
             "code": "I49.01",
@@ -53,5 +53,14 @@
         ]
       }
     ]
+  },
+  "expansion": {
+    "timestamp" : "2025-11-09",
+    "parameter" : [
+      {
+        "name" : "incomplete-ok",
+        "valueBoolean" : true
+      }
+    ]  
   }
 }
