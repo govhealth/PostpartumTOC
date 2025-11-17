@@ -11,7 +11,7 @@
   "compose": {
     "include": [
       {
-        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "system": "https://www.cms.gov/medicare/coding-billing/icd-10-codes",
         "concept": [
           {
             "code": "J80",
@@ -31,11 +31,11 @@
           },
           {
             "code": "J95.821",
-            "display": "Acute pulmonary insufficiency following trauma and surgery, delivered, with or without mention of antepartum condition"
+            "display": "Acute postprocedural respiratory failure"
           },
           {
             "code": "J95.822",
-            "display": "Acute pulmonary insufficiency following trauma and surgery, delivered, with mention of postpartum complication"
+            "display": "Acute and chronic postprocedural respiratory failure"
           },
           {
             "code": "J96.00",
@@ -84,7 +84,7 @@
         ]
       },
       {
-        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "system": "https://www.cms.gov/medicare/coding-billing/icd-10-codes/icd-9-cm-diagnosis-procedure-codes-abbreviated-and-full-code-titles",
         "concept": [
           {
             "code": "518.50",
