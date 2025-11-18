@@ -19,20 +19,22 @@
     "reference": "Patient/mom"
   },
   "encounter": {
-    "reference": "Encounter/education-encounter-example"
+    "reference": "Encounter/delivery-encounter-example"
   },
   "performedDateTime": "2025-11-17",
   "recorder": [
     {
       "actor": {
-        "reference": "Practitioner/practitioner-1"
+        "reference": "Practitioner/surgeon1",
+        "display": "Dr. Jane Doe"
       }
     }
   ],
   "asserter": [
     {
       "actor": {
-        "reference": "Practitioner/practitioner-1"
+        "reference": "Practitioner/surgeon1",
+        "display": "Dr. Jane Doe"
       }
     }
   ]
