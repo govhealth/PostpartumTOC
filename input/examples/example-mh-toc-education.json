@@ -22,18 +22,14 @@
     "reference": "Encounter/delivery-encounter-example"
   },
   "performedDateTime": "2025-11-17",
-  "recorder": [
-    {
+  "recorder": {
+      "actor": {
+        "reference": "Practitioner/surgeon1"
+      }
+    },
+  "asserter": {
       "actor": {
         "reference": "Practitioner/surgeon1"
       }
     }
-  ],
-  "asserter": [
-    {
-      "actor": {
-        "reference": "Practitioner/surgeon1"
-      }
-    }
-  ]
 }
