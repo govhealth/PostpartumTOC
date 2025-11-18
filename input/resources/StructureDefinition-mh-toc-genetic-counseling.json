@@ -40,7 +40,6 @@
         "path": "ServiceRequest.reasonReference",
         "mustSupport": true
       }
-  
     ]
   }
 }
