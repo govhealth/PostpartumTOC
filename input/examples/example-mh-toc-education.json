@@ -6,6 +6,7 @@
       "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-education"
     ]
   },
+  "description": "Generated example of a practicitioner providing postpartum education following labor and delivery.", 
   "status": "completed",
   "code": {
     "coding": [
@@ -24,12 +25,12 @@
   "performedDateTime": "2025-11-17",
   "recorder": {
       "actor": {
-        "reference": "Practitioner/surgeon1"
+        "reference": "Practitioner/practitioner-1"
       }
     },
   "asserter": {
       "actor": {
-        "reference": "Practitioner/surgeon1"
+        "reference": "Practitioner/practitioner-1"
       }
     }
 }
