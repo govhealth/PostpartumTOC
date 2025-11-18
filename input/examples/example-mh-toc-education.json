@@ -1,0 +1,41 @@
+{
+  "resourceType": "Procedure",
+  "id": "example-mh-toc-education",
+  "meta": {
+    "profile": [
+      "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition-mh-toc-education"
+    ]
+  },
+  "status": "completed",
+  "code": {
+    "coding": [
+      {
+        "system": "http://www.cms.gov/Medicare/Coding/ICD10",
+        "code": "409073007"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/mom"
+  },
+  "encounter": {
+    "reference": "Encounter/education-encounter-example"
+  },
+  "performedDateTime": "2025-11-17",
+  "recorder": [
+    {
+      "actor": {
+        "reference": "Practitioner/practitioner-1",
+        "display": "Ronald Bone, MD"
+      }
+    }
+  ],
+  "asserter": [
+    {
+      "actor": {
+        "reference": "Practitioner/practitioner-1",
+        "display": "Ronald Bone, MD"
+      }
+    }
+  ]
+}
