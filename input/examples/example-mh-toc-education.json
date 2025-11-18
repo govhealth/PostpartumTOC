@@ -25,16 +25,14 @@
   "recorder": [
     {
       "actor": {
-        "reference": "Practitioner/surgeon1",
-        "display": "Dr. Jane Doe"
+        "reference": "Practitioner/surgeon1"
       }
     }
   ],
   "asserter": [
     {
       "actor": {
-        "reference": "Practitioner/surgeon1",
-        "display": "Dr. Jane Doe"
+        "reference": "Practitioner/surgeon1"
       }
     }
   ]
