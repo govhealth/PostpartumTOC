@@ -55,6 +55,9 @@ ERROR: ValueSet/mh-toc-smm-puerperal-cerebrovascular-disorders: ValueSet.compose
 # This IG is intended to build on USCore 6.1.0, which is the mandated standard for certified health IT for interoperability by federal regulations starting in 2026
 WARNING: ImplementationGuide/fhir.astp.postpartum-toc: ImplementationGuide.dependsOn[0]: The ImplementationGuide uses package hl7.fhir.us.core#6.1.0 released on 2023-06-30, but the most recent appropriate version is 8.0.0. This reference is getting old and the more recent version should be considered
 
+# This IG is intended to build on FHIR R4, so hl7.terminology.r4#6.5.0 was selected
+WARNING: ImplementationGuide/fhir.astp.postpartum-toc: ImplementationGuide​.dependsOn[2]: The ImplementationGuide uses package hl7.terminology.r4#6.5.0 released on 2025-07-07, but the most recent appropriate version is 7.0.0. This reference is getting old and the more recent version should be considered
+
 # The discriminator type 'pattern' is inherited from the USCore Document Reference profile
 INFORMATION: StructureDefinition/mh-toc-behavioral-health-history: StructureDefinition.snapshot.element[14].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/mh-toc-consult-note: StructureDefinition.snapshot.element[14].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
