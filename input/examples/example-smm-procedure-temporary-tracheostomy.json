@@ -1,0 +1,39 @@
+{
+  "resourceType": "Procedure",
+  "id": "example-smm-procedure-conversion-cardiactemporary-tracheostomy",
+  "meta": {
+    "profile": [
+      "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-procedure-conversion-cardiactemporary-tracheostomy"
+    ]
+  },
+  "status": "completed",
+  "code": {
+    "coding": [
+      {
+        "system": "http://www.cms.gov/Medicare/Coding/ICD10",
+        "code": "0B110F4"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/mom"
+  },
+  "encounter": {
+    "reference": "Encounter/delivery-encounter-example"
+  },
+  "performedDateTime": "2025-04-02",
+  "extension": [
+    {
+      "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-indicator",
+      "valueCode": "temporary-tracheostomy"
+    }
+  ],
+  "performer": [
+    {
+      "actor": {
+        "reference": "Practitioner/surgeon1",
+        "display": "Dr. Jane Doe"
+      }
+    }
+  ]
+}
