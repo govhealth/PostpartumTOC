@@ -31,7 +31,12 @@
     "display": "Mother Example"
   },
   "effectiveDateTime": "2025-09-15",
-  "performer": "Dr. Jane Doe",
+  "performer": [
+    {
+      "reference" : "Practitioner/practitioner-1",
+      "display" : "Ronald Bone, MD"
+    }
+  ],
   "valueCodeableConcept": {
     "coding": [
       {
