@@ -49,7 +49,7 @@
   "encounter": {
     "reference": "Encounter/delivery-encounter-example"
   },
-  "onsetDateTime": "2025-010-01",
+  "onsetDateTime": "2025-10-01",
   "extension": [
     {
       "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-indicator",
