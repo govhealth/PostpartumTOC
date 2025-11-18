@@ -3,7 +3,7 @@
   "id": "example-smm-condition-air-thrombotic-embolism",
   "meta": {
     "profile": [
-      "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-air-thrombotic-embolism"
+      "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-condition-air-thrombotic-embolism"
     ]
   },
   "clinicalStatus": {
