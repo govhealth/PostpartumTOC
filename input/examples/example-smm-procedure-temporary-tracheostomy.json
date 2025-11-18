@@ -3,7 +3,7 @@
   "id": "example-smm-procedure-conversion-cardiactemporary-tracheostomy",
   "meta": {
     "profile": [
-      "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-procedure-conversion-cardiactemporary-tracheostomy"
+      "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-procedure-temporary-tracheostomy"
     ]
   },
   "status": "completed",
