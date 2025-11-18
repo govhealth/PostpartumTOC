@@ -16,19 +16,19 @@
                 "concept": [
                     {
                         "code": "I97.120",
-                        "display": "Postprocedural cardiogenic shock, initial encounter"
+                        "display": "Postprocedural cardiac arrest following cardiac surgery"
                     },
                     {
                         "code": "I97.121",
-                        "display": "Postprocedural cardiogenic shock, subsequent encounter"
+                        "display": "Postprocedural cardiac arrest following other surgery"
                     },
                     {
                         "code": "I97.130",
-                        "display": "Postprocedural heart failure, unspecified, initial encounter"
+                        "display": "Postprocedural heart failure following cardiac surgery"
                     },
                     {
                         "code": "I97.131",
-                        "display": "Postprocedural heart failure, unspecified, subsequent encounter"
+                        "display": "Postprocedural heart failure following other surgery"
                     },
                     {
                         "code": "I97.710",
