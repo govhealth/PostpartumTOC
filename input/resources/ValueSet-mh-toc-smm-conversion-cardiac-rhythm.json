@@ -49,11 +49,11 @@
         "concept": [
           {
             "code": "5A12012",
-            "display": "Performance of cardiac output, continuous"
+            "display": "Performance of Cardiac Output, Single, Manual"
           },
           {
             "code": "5A2204Z",
-            "display": "Assistance with cardiac output using balloon pump, continuous"
+            "display": "Restoration of Cardiac Rhythm, Single"
           }
         ]
       }
