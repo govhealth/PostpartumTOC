@@ -3,14 +3,14 @@
   "id": "example-mh-toc-education",
   "meta": {
     "profile": [
-      "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition-mh-toc-education"
+      "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-education"
     ]
   },
   "status": "completed",
   "code": {
     "coding": [
       {
-        "system": "http://www.cms.gov/Medicare/Coding/ICD10",
+        "system": "http://snomed.info/sct",
         "code": "409073007"
       }
     ]
@@ -25,16 +25,14 @@
   "recorder": [
     {
       "actor": {
-        "reference": "Practitioner/practitioner-1",
-        "display": "Ronald Bone, MD"
+        "reference": "Practitioner/practitioner-1"
       }
     }
   ],
   "asserter": [
     {
       "actor": {
-        "reference": "Practitioner/practitioner-1",
-        "display": "Ronald Bone, MD"
+        "reference": "Practitioner/practitioner-1"
       }
     }
   ]
