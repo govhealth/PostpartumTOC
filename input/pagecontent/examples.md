@@ -181,21 +181,130 @@ These examples demonstrate use of FHIR data that are critical to the USCDI+ Mate
          </td>
       </tr>
       <tr>
+         <td><a href="Condition-example-smm-condition-acute-renal-failure.html">SMM Condition Acute Renal Failure</a></td>
+         <td>
+            An example of an instance of the SMM Condition Acute Renal Failure Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Acute Renal Failure Profile.
+         </td>
+      </tr>
+      <tr>
+         <td><a href="Condition-example-smm-condition-acute-respiratory-distress.html">SMM Condition Acute Respiratory Distress</a></td>
+         <td>
+            An example of an instance of the SMM Condition Acute Respiratory Distress Syndrome Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Acute Respiratory Distress Profile.
+         </td>
+      </tr>
+      <tr>
+         <td><a href="Condition-example-smm-condition-air-thrombotic-embolism.html">SMM Condition Air and Thrombotic Embolism</a></td>
+         <td>
+            An example of an instance of the SMM Condition Air and Thrombotic Embolism Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Air and Thrombotic Embolism Profile.
+         </td>
+      </tr>
+      <tr>
+         <td><a href="Condition-example-smm-condition-anesthesia-complications.html">SMM Condition Severe Anesthesia Complications</a></td>
+         <td>
+            An example of an instance of the SMM Condition Severe Anesthesia Complications Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Severe Anesthesia Complications Profile.
+         </td>
+      </tr>
+      <tr>
          <td><a href="Condition-example-smm-condition-aneurysm.html">SMM Condition Aneurysm</a></td>
          <td>
             An example of an instance of the SMM Condition Aneurysm Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Aneurysm Profile.
          </td>
       </tr>
       <tr>
+         <td><a href="Condition-example-smm-condition-cardiac-arrest.html">SMM Condition Cardiac Arrest / Ventricular Fibrillation</a></td>
+         <td>
+            An example of an instance of the SMM Condition Cardiac Arrest / Ventricular Fibrillation Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Cardiac Arrest / Ventricular Fibrillation Profile.
+         </td>
+      </tr>
+      <tr>
+         <td><a href="Condition-example-smm-condition-eclampsia.html">SMM Condition Eclampsia</a></td>
+         <td>
+            An example of an instance of the SMM Condition Eclampsia Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Eclampsia Profile.
+         </td>
+      </tr>
+      <tr>
+         <td><a href="Condition-example-smm-condition-heart-failure-arrest.html">SMM Condition Heart Failure / Arrest During Surgery or Procedure</a></td>
+         <td>
+            An example of an instance of the SMM Condition Heart Failure / Arrest During Surgery or Procedure Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Heart Failure / Arrest During Surgery or Procedure Profile.
+         </td>
+      </tr>
+      <tr>
+         <td><a href="Condition-example-smm-condition-intravascular-coagulation.html">SMM Condition Disseminated Intravascular Coagulation</a></td>
+         <td>
+            An example of an instance of the SMM Condition Disseminated Intravascular Coagulation Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Disseminated Intravascular Coagulation Profile.
+         </td>
+      </tr>
+      <tr>
+         <td><a href="Condition-example-smm-condition-puerperal-cerebrovascular-disorders.html">SMM Condition Puerperal Cerebrovascular Disorders</a></td>
+         <td>
+            An example of an instance of the SMM Condition Puerperal Cerebrovascular Disorders Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Puerperal Cerebrovascular Disorders Profile.
+         </td>
+      </tr>
+      <tr>
+         <td><a href="Condition-example-smm-condition-pulmonary-edema-acute-heart-failure.html">SMM Condition Pulmonary Edema / Acute Heart Failure</a></td>
+         <td>
+            An example of an instance of the SMM Condition Pulmonary Edema / Acute Heart Failure Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Pulmonary Edema / Acute Heart Failure Profile.
+         </td>
+      </tr>
+      <tr>
+         <td><a href="Condition-example-smm-condition-sepsis.html">SMM Condition Sepsis</a></td>
+         <td>
+            An example of an instance of the SMM Condition Sepsis Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Sepsis Profile.
+         </td>
+      </tr>
+      <tr>
+         <td><a href="Condition-example-smm-condition-shock.html">SMM Condition Shock</a></td>
+         <td>
+            An example of an instance of the SMM Condition Shock Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Shock Profile.
+         </td>
+      </tr>
+      <tr>
+         <td><a href="Condition-example-smm-condition-sickle-cell-crisis.html">SMM Condition Sickle Cell Disease With Crisis</a></td>
+         <td>
+            An example of an instance of the SMM Condition Sickle Cell Disease With Crisis Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Sickle Cell Disease With Crisis Profile.
+         </td>
+      </tr> 
+      <tr>
          <td><a href="Procedure-example-smm-procedure-hysterectomy.html">SMM Procedure Hysterectomy</a></td>
          <td>
-            An example of an instance of the SMM Procedure Hysterectomy Indicator conforming to the MH TOC Severe Maternal Morbidity Hysterectomy Profile.
+            An example of an instance of the SMM Procedure Hysterectomy Indicator conforming to the MH TOC Severe Maternal Procedure Morbidity Hysterectomy Profile.
+         </td>
+      </tr>
+      <tr>
+         <td><a href="Procedure-example-smm-procedure-blood-transfusion.html">SMM Procedure Blood Transfusion</a></td>
+         <td>
+            An example of an instance of the SMM Procedure Blood Transfusion Indicator conforming to the MH TOC Severe Maternal Morbidity Procedure Blood Transfusion Profile.
+         </td>
+      </tr>
+      <tr>
+         <td><a href="Procedure-example-smm-procedure-conversion-cardiac-rhythm.html">SMM Procedure Conversion of Cardiac Rhythm</a></td>
+         <td>
+            An example of an instance of the SMM Procedure Conversion of Cardiac Rhythm Indicator conforming to the MH TOC Severe Maternal Morbidity Procedure Conversion of Cardiac Rhythm Profile.
+         </td>
+      </tr>
+      <tr>
+         <td><a href="Procedure-example-smm-procedure-hysterectomy.html">SMM Procedure Hysterectomy</a></td>
+         <td>
+            An example of an instance of the SMM Procedure Hysterectomy Indicator conforming to the MH TOC Severe Maternal Morbidity Procedure Hysterectomy Profile.
+         </td>
+      </tr>
+      </tr>
+      <tr>
+         <td><a href="Procedure-example-smm-procedure-temporary-tracheostomy.html">SMM Procedure Temporary Tracheostomy</a></td>
+         <td>
+            An example of an instance of the SMM Procedure Temporary Tracheostomy Indicator conforming to the MH TOC Severe Maternal Morbidity Procedure Temporary Tracheostomy Profile.
          </td>
       </tr>
       <tr>
          <td><a href="Procedure-example-smm-procedure-ventilation.html">SMM Procedure Ventilation</a></td>
          <td>
             An example of an instance of the SMM Procedure Ventilation Indicator conforming to the MH TOC Severe Maternal Morbidity Ventilation Profile.
+         </td>
+      </tr>
+      <tr>
+         <td><a href="ServiceRequest-genetic-counseling-example.html">Genetic Counseling</a></td>
+         <td>
+            An example of a service request, refferring the patient to receive genetic counseling (e.g., teratogen counseling).  
          </td>
       </tr>
       <tr>
