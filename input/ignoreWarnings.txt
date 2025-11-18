@@ -6,6 +6,10 @@ ERROR: DocumentReference/mh-toc-behavioral-health-history-example: DocumentRefer
 # There is currently no existing LOINC code for Postpartum Summary Note. New LOINC code will need to be requested to cover this document type.
 ERROR: DocumentReference/mh-toc-postpartum-summary-example: DocumentReference.type: None of the codings provided are in the value set 'US Core DocumentReference Type' (http://hl7.org/fhir/us/core/ValueSet/us-core-documentreference-type|6.1.0), and a coding from this value set is required) (codes = http://fhir.org/guides/astp/postpartum-toc/CodeSystem/mh-toc-postpartum-temp#mh-toc-postpartum-summary)
 
+# The specified UCUM values for week(s) (wk) and day(s) (d) exist within UCUM, as specified by HL7 Terminology (THO) 7.0.0, under common UCUM codes value set.
+INFORMATION: ValueSet/mh-toc-gestational-age-units: ValueSet​.compose​.include[0]​.concept[0]: The display 'day' is not valid in the Code system 'day'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/mh-toc-gestational-age-units: ValueSet​.compose​.include[0]​.concept[1]: The display 'week' is not valid in the Code system 'week'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+
 # This ICD-10-PCS code is valid in older versions of the ICD-10-PCS. It is intentionally included in this IG for retrospective use.
 ERROR: ValueSet/mh-toc-smm-blood-transfusion: ValueSet.compose.include[1].concept[32]: The code '30230H0' is not valid in the system http://www.cms.gov/Medicare/Coding/ICD10 (Unknown code '30230H0' in the CodeSystem 'http://www.cms.gov/Medicare/Coding/ICD10' version '2.0.1')
 ERROR: ValueSet/mh-toc-smm-blood-transfusion: ValueSet.compose.include[1].concept[33]: The code '30230H1' is not valid in the system http://www.cms.gov/Medicare/Coding/ICD10 (Unknown code '30230H1' in the CodeSystem 'http://www.cms.gov/Medicare/Coding/ICD10' version '2.0.1')
