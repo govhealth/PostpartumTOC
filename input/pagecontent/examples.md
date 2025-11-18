@@ -97,6 +97,12 @@ These examples demonstrate use of FHIR data that are critical to the USCDI+ Mate
          </td>
       </tr>
       <tr>
+         <td><a href="ServiceRequest-genetic-counseling-example.html">Genetic Counseling</a></td>
+         <td>
+            An example of a service request, refferring the patient to receive genetic counseling (e.g., teratogen counseling).  
+         </td>
+      </tr>
+      <tr>
          <td><a href="Observation-gestational-age-example.html">Gestational Age</a></td>
          <td>
             An example of a recorded gestational age in weeks conforming to the MH TOC Gestational Age Profile.
@@ -299,12 +305,6 @@ These examples demonstrate use of FHIR data that are critical to the USCDI+ Mate
          <td><a href="Procedure-example-smm-procedure-ventilation.html">SMM Procedure Ventilation</a></td>
          <td>
             An example of an instance of the SMM Procedure Ventilation Indicator conforming to the MH TOC Severe Maternal Morbidity Ventilation Profile.
-         </td>
-      </tr>
-      <tr>
-         <td><a href="ServiceRequest-genetic-counseling-example.html">Genetic Counseling</a></td>
-         <td>
-            An example of a service request, refferring the patient to receive genetic counseling (e.g., teratogen counseling).  
          </td>
       </tr>
       <tr>
