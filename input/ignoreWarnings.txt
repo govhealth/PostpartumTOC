@@ -44,6 +44,9 @@ ERROR: ValueSet/mh-toc-smm-blood-transfusion: ValueSet.compose.include[1].concep
 ERROR: ValueSet/mh-toc-smm-blood-transfusion: ValueSet.compose.include[1].concept[62]: The code '30240T0' is not valid in the system http://www.cms.gov/Medicare/Coding/ICD10 (Unknown code '30240T0' in the CodeSystem 'http://www.cms.gov/Medicare/Coding/ICD10' version '2.0.1')
 ERROR: ValueSet/mh-toc-smm-blood-transfusion: ValueSet.compose.include[1].concept[63]: The code '30240T1' is not valid in the system http://www.cms.gov/Medicare/Coding/ICD10 (Unknown code '30240T1' in the CodeSystem 'http://www.cms.gov/Medicare/Coding/ICD10' version '2.0.1')
 
+# The ICD-10-PCS code used in the example is valid in older versions of the ICD-10-PCS (see notes on ICD-10-PCS blood transfusion codes above). It is intentionally included in this IG for retrospective use.
+ERROR: Example/smm-procedure-blood-transfusion.json: Procedure.code: None of the codings provided are in the value set 'MH TOC SMM ValueSet for the Blood Transfusion Indicator' (http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-blood-transfusion|0.1.0), and a coding from this value set is required) (codes = http://www.cms.gov/Medicare/Coding/ICD10#30233H1)
+
 # This ICD-10-CM code is valid in older versions of the ICD-10-CM. It is intentionally included in this IG for retrospective use.
 ERROR: ValueSet/mh-toc-smm-puerperal-cerebrovascular-disorders: ValueSet.compose.include[0].concept[28]: The code 'I60.20' is not valid in the system http://hl7.org/fhir/sid/icd-10-cm (Unknown code 'I60.20' in the CodeSystem 'http://hl7.org/fhir/sid/icd-10-cm' version '2024')
 ERROR: ValueSet/mh-toc-smm-puerperal-cerebrovascular-disorders: ValueSet.compose.include[0].concept[29]: The code 'I60.21' is not valid in the system http://hl7.org/fhir/sid/icd-10-cm (Unknown code 'I60.21' in the CodeSystem 'http://hl7.org/fhir/sid/icd-10-cm' version '2024')
