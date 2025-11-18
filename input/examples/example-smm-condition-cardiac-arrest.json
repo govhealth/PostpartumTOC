@@ -53,7 +53,7 @@
   "extension": [
     {
       "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-indicator",
-      "valueCode": "cardiac arrest"
+      "valueCode": "cardiac-arrest"
     }
   ]
 }
