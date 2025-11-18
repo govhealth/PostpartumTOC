@@ -19,8 +19,10 @@
       {
         "id": "ServiceRequest.category",
         "path": "ServiceRequest.category",
+        "min": 1,
+        "mustSupport": false,
         "patternCodeableConcept": {
-          "coding": [
+        "coding": [
             {
               "system": "http://snomed.info/sct",
               "code": "423039003"
