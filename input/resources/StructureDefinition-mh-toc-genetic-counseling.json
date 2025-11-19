@@ -26,8 +26,8 @@
               "path" : "$this"
             }
           ]
+          "rules" : "open"
         },
-        "rules" : "open",
         "min": 1,
         "mustSupport": true,
         "patternCodeableConcept": {
