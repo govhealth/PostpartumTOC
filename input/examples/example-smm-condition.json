@@ -62,10 +62,20 @@
     {
       "url": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-category-values",
       "valueCode": {
-        "acute-myocardial-infarction", 
-        "acute-myocardial-infarction",
-        "aneurysm"
+          "coding": [
+            {
+              "code": "acute-myocardial-infarction"
+            },
+            {
+              "code": "acute-myocardial-infarction"
+            },
+            {
+              "aneurysm"
+            }
+          ]
       }
     }
   ]
+}
+]
 }
