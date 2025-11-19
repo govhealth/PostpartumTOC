@@ -109,6 +109,9 @@ INFORMATION: StructureDefinition/mh-toc-smm-condition-sepsis: StructureDefinitio
 INFORMATION: StructureDefinition/mh-toc-smm-condition-shock: StructureDefinition.snapshot.element[19].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/mh-toc-smm-condition-sickle-cell-crisis: StructureDefinition.snapshot.element[19].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 
+# The discriminator type 'pattern' is inherited from the US Core ServiceRequest Profile
+INFORMATION: StructureDefinition/mh-toc-genetic-counseling: StructureDefinition​.differential​.element[1]​.slicing​.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+
 # Inherited from the USCore Document Reference profile 
 INFORMATION: StructureDefinition/mh-toc-behavioral-health-history: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
 INFORMATION: StructureDefinition/mh-toc-behavioral-health-history: StructureDefinition.snapshot.element[13].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-minValueSet|5.2.0 is deprecated
