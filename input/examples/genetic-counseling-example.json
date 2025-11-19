@@ -20,8 +20,13 @@
     }
   ],
   "code": {
-    "system": "http://snomed.info/sct",
-    "code": "423039003"
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "423039003"
+        "display": "Genetics education, guidance, counseling"
+      }
+    ]
   },
   "subject": {
     "reference": "Patient/mom"
