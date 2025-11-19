@@ -196,6 +196,10 @@ resources:
     name: Maternal Health Education
     description: The USCDI+ Maternal Health Postpartum TOC Education Profile is derived from the US Core Procedure Profile. It represents education as an intervention (procedure) provided on maternal health during the perinatal period.
     exampleBoolean: true
+  Condition/example-smm-condition:
+    name: SMM Condition 
+    description: An example of an instance of the SMM Condition conforming to the MH TOC Severe Maternal Morbidity Condition Profile - in this example, acute myocardial infarction was the example condition.
+    exampleBoolean: true
   Condition/example-smm-condition-acute-myocardial-infarction:
     name: SMM Condition Acute Myocardial Infarction 
     description: An example of an instance of the SMM Condition Acute Myocardial Infarction Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Acute Myocardial Infarction Profile.
@@ -259,6 +263,10 @@ resources:
   Condition/example-smm-condition-sickle-cell-crisis:
     name: SMM Condition Sickle Cell Disease With Crisis 
     description: An example of an instance of the SMM Condition Sickle Cell Disease With Crisis Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Sickle Cell Disease With Crisis Profile.
+    exampleBoolean: true
+  Proedure/example-smm-procedure:
+    name: SMM Procedure 
+    description: An example of an instance of the SMM Procedure conforming to the MH TOC Severe Maternal Morbidity Procedure Profile - in this example, hysterectomy was the example procedure.
     exampleBoolean: true
   Procedure/example-smm-procedure-blood-transfusion:
     name: SMM Procedure Blood Transfusion
