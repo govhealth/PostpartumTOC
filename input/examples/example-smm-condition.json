@@ -52,8 +52,9 @@
   "onsetDateTime": "2025-07-01",
   "extension": [
     {
-      "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-indicator",
+      "url": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-category-group",
       "valueCode": "acute-myocardial-infarction"
     }
-  ]
+  ], 
+  "valueInteger": 1
 }
