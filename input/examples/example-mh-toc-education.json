@@ -24,13 +24,14 @@
   },
   "performedDateTime": "2025-11-17",
   "recorder": {
-      "actor": {
-        "reference": "Practitioner/practitioner-1"
-      }
+    {
+      "reference" : "Practitioner/practitioner-1",
+      "display" : "Ronald Bone, MD"
+    }
     },
   "asserter": {
-      "actor": {
-        "reference": "Practitioner/practitioner-1"
-      }
+      "reference" : "Practitioner/practitioner-1",
+      "display" : "Ronald Bone, MD"
     }
+  }
 }
