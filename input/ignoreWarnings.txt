@@ -53,6 +53,11 @@ ERROR: ValueSet/mh-toc-smm-puerperal-cerebrovascular-disorders: ValueSet.compose
 ERROR: ValueSet/mh-toc-smm-puerperal-cerebrovascular-disorders: ValueSet.compose.include[0].concept[30]: The code 'I60.22' is not valid in the system http://hl7.org/fhir/sid/icd-10-cm (Unknown code 'I60.22' in the CodeSystem 'http://hl7.org/fhir/sid/icd-10-cm' version '2024')
 ERROR: ValueSet/mh-toc-smm-sepsis: ValueSet​.compose​.include[0]​.concept[3]: The code 'A40.2' is not valid in the system http://hl7.org/fhir/sid/icd-10-cm (Unknown code 'A40.2' in the CodeSystem 'http://hl7.org/fhir/sid/icd-10-cm' version '2024')
 
+# The table is required by the ImagingStudy resource but is not a well-defined code system. This is addressed with a resource change in R6.
+WARNING: ImagingStudy/ImagingStudy-example-chest-ct: ImagingStudy​.series[0]​.instance[0]​.sopClass: ValueSet 'http://dicom.nema.org/medical/dicom/current/output/chtml/part04/sect_B.5.html#table_B.5-1' not found
+WARNING: ImagingStudy/ImagingStudy-example-chest-ct: ImagingStudy​.series[0]​.instance[1]​.sopClass: ValueSet 'http://dicom.nema.org/medical/dicom/current/output/chtml/part04/sect_B.5.html#table_B.5-1' not found
+WARNING: ImagingStudy/imagingstudy-ob-fetal-dating: ImagingStudy​.series[0]​.instance[0]​.sopClass: ValueSet 'http://dicom.nema.org/medical/dicom/current/output/chtml/part04/sect_B.5.html#table_B.5-1' not found
+
 # This IG is intended to build on USCore 6.1.0, which is the mandated standard for certified health IT for interoperability by federal regulations starting in 2026
 WARNING: ImplementationGuide/fhir.astp.postpartum-toc: ImplementationGuide.dependsOn[0]: The ImplementationGuide uses package hl7.fhir.us.core#6.1.0 released on 2023-06-30, but the most recent appropriate version is 8.0.0. This reference is getting old and the more recent version should be considered
 
