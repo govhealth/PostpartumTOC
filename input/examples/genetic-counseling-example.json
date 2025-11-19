@@ -15,6 +15,11 @@
           "system": "http://snomed.info/sct",
           "code": "423039003",
           "display": "Genetics education, guidance, counseling"
+        },
+        {
+          "system": "http://snomed.info/sct",
+          "code": "409063005",
+          "display": "Counseling"
         }
       ]
     }
