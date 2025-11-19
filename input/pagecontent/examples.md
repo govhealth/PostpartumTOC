@@ -181,6 +181,12 @@ These examples demonstrate use of FHIR data that are critical to the USCDI+ Mate
          </td>
       </tr>
       <tr>
+         <td><a href="Condition-example-smm-condition.html">SMM Condition</a></td>
+         <td>
+            An example of an instance of the SMM Condition Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Profile - in this example, acute myocardial infarction is the example SMM Condition.
+         </td>
+      </tr>
+      <tr>
          <td><a href="Condition-example-smm-condition-acute-myocardial-infarction.html">SMM Condition Acute Myocardial Infarction</a></td>
          <td>
             An example of an instance of the SMM Condition Acute Myocardial Infarction Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Acute Myocardial Infarction Profile.
@@ -270,6 +276,11 @@ These examples demonstrate use of FHIR data that are critical to the USCDI+ Mate
             An example of an instance of the SMM Condition Sickle Cell Disease With Crisis Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Sickle Cell Disease With Crisis Profile.
          </td>
       </tr> 
+      <td><a href="Procedure-example-smm-procedure.html">SMM Procedure</a></td>
+         <td>
+            An example of an instance of the SMM Procedure Indicator conforming to the MH TOC Severe Maternal Morbidity Procedure Profile - in this example, hysterectomy is the example SMM Procedure.
+         </td>
+      </tr>
       <tr>
          <td><a href="Procedure-example-smm-procedure-hysterectomy.html">SMM Procedure Hysterectomy</a></td>
          <td>
