@@ -25,7 +25,7 @@
               "type" : "pattern",
               "path" : "$this"
             }
-          ]
+          ],
           "rules" : "open"
         },
         "min": 1,
