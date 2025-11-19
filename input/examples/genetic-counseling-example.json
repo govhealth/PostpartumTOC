@@ -23,7 +23,7 @@
     "coding": [
       {
         "system": "http://snomed.info/sct",
-        "code": "423039003"
+        "code": "423039003",
         "display": "Genetics education, guidance, counseling"
       }
     ]
