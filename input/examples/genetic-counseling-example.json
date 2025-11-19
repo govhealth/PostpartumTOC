@@ -19,6 +19,10 @@
       ]
     }
   ],
+  "code": {
+    "system": "http://snomed.info/sct",
+    "code": "423039003"
+  },
   "subject": {
     "reference": "Patient/mom"
   },
