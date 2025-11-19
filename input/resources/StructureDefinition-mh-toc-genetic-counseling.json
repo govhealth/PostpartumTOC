@@ -21,7 +21,7 @@
         "path": "ServiceRequest.category",
         "binding": {
           "strength": "preferred",
-          "valueSet": "http://hl7.org/fhir/us/core/ValueSet/us-core-servicerequest-category"
+          "valueSet": "https://hl7.org/fhir/R4/valueset-servicerequest-category"
         },
         "slicing" : {
           "discriminator" : [
