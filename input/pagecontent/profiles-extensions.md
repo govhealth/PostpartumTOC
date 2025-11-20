@@ -347,7 +347,7 @@ The following profiles and extensions are defined for the USCDI+ Maternal Health
       <tr>
          <td><a href="StructureDefinition-mh-toc-smm-condition-cardiac-arrest.html">Severe Maternal Morbidity Condition Cardiac Arrest / Ventricular Fibrillation</a></td>
          <td>
-            This profile is a specialization derived from the USCDI+ Maternal Health Postpartum TOC Severe Maternal Morbidity Condition Profile. It specifies an individual SMM indicator code for Cardiac Arrest / Ventricular Fibrillation indicator through bindings to an extension, ValueSet, and CodeSystem..
+            This profile is a specialization derived from the USCDI+ Maternal Health Postpartum TOC Severe Maternal Morbidity Condition Profile. It specifies an individual SMM indicator code for Cardiac Arrest / Ventricular Fibrillation indicator through bindings to an extension, ValueSet, and CodeSystem.
          </td>
       </tr>
       <tr>
