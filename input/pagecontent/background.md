@@ -42,7 +42,7 @@ This presents an opportunity for the USCDI+ Maternal Health domain to develop HL
 
 <table>
 	<tr>
-		![image alt](https://github.com/govhealth/PostpartumTOC/blob/main/input/images/data_flow_diagram_higher_res.png)
+		<img src="https://github.com/govhealth/PostpartumTOC/blob/main/input/images/data_flow_diagram_updated.png">
 	</tr>	
 </table>
 
