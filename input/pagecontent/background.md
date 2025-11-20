@@ -42,6 +42,10 @@ This presents an opportunity for the USCDI+ Maternal Health domain to develop HL
 
 ![alt text](data_flow_diagram_higher_res.png "Title")
 
+<p align="center" width="100%">
+    <img width="33%" src="data_flow_diagram_higher_res.png">
+</p>
+
 ### USCDI+ Maternal Health Postpartum TOC Objective
 **Challenge:** Ensuring continuity of care for women who were pregnant is critical for improving maternal health outcomes. Data relevant to postpartum is care is siloed across multiple prenatal encounter summaries and is either missing or captured as unstructured data from the hospital encounter. 
 - 65% of pregnancy-related deaths occur during postpartum 
