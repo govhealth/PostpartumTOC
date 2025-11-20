@@ -40,6 +40,10 @@ Key considerations include, but are not limited to:
 
 This presents an opportunity for the USCDI+ Maternal Health domain to develop HL7 FHIR implementation guidance for the Postpartum TOC Use Case. Such guidance would specify the relevant postpartum data elements and value sets, enabling the capture and exchange of structured—and potentially codified—postpartum data. This standardization supports emerging health IT use cases in postpartum care, including remote patient monitoring, clinical decision support, and third-party mobile applications. 
 
+![image alt](https://github.com/govhealth/PostpartumTOC/blob/main/input/images/data_flow_diagram_higher_res.png)
+
+![image alt](data_flow_diagram_higher_res.png)
+
 <p>
 ![alt text](data_flow_diagram_higher_res.png "Title")
 </p>
