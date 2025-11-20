@@ -39,14 +39,14 @@ For USCDI+ Maternal Health Postpartum TOC data elements that are not supported b
 ### Intended Audience
 There are three intended audiences for this FHIR IG: 
 - **Data Users:** Users of the USCDI+ Maternal Health Postpartum TOC FHIR IG, including but not limited to clinicians and researchers
-	- This FHIR IG may be used by clinicians and researchers to better understand a) data elements that are contained wtihin the dataset and b) FHIR endpoints required to access the data elements for either clinical care or measures/metric reporting use cases.
+	- This FHIR IG may be used by clinicians and researchers to better understand a) data elements that are contained within the dataset and b) FHIR endpoints required to access the data elements for either clinical care or measures/metric reporting use cases.
 - **Implementers:** Implementers of the USCDI+ Maternal Health Postpartum TOC FHIR IG, including but not limited to electronic health record (EHR) vendors, third-party app developers, and health information exchanges (HIEs)/qualified health information networks (QHINs)
- 	- This FHIR IG may be used by EHR vendors, third-party app developers, and HIEs/QHINs to understand a) FHIR IG implementation and configuration requirements, including the technical conformance requirements to ensure data sent is consistant and in an expected format. 
+ 	- This FHIR IG may be used by EHR vendors, third-party app developers, and HIEs/QHINs to understand a) FHIR IG implementation and configuration requirements, including the technical conformance requirements to ensure data sent is consistent and in an expected format. 
 - **Executive Decision Makers:** Decision makers who "green-light" the implementation of the USCDI+ Maternal Health Postpartum TOC FHIR IG
-	- This FHIR IG may be used by EHR vendors to identify gaps between this FHIR IG and the US Core FHIR IG, which should be alrleady supported by the decision maker's Certified Health IT (i.e., certified EHR) (Note: US Core 6.1.0 must be supported by Certified Health IT by 1/1/2026, as mandated in the [Assistant Secretary for Technology Policy (ASTP) HTI-1 Final Rule](https://www.healthit.gov/topic/laws-regulation-and-policy/health-data-technology-and-interoperability-certification-program)).
+	- This FHIR IG may be used by EHR vendors to identify gaps between this FHIR IG and the US Core FHIR IG, which should be already supported by the decision maker's Certified Health IT (i.e., certified EHR) (Note: US Core 6.1.0 must be supported by Certified Health IT by 1/1/2026, as mandated in the [Assistant Secretary for Technology Policy (ASTP) HTI-1 Final Rule](https://www.healthit.gov/topic/laws-regulation-and-policy/health-data-technology-and-interoperability-certification-program)).
 
 ### Limitations and Challenges
-(Limitations and Challeneges will be updated as known issues arise)
+(Limitations and Challenges will be updated as known issues arise)
 
 This section outlines the limitations and challenges encountered when developing this Implementation Guide. It highlights topics such as: data elements being mapped to different fields within the EHR, unstandardized capture and codification of data elements, lack of ontological standards for maternal health values and value sets, and unspecified USCDI+ Maternal Health Postpartum TOC data elements. These topics are discussed in more detail below
 - Data Elements Exist in Structured Data, but Variation in Data Location and Method of Capture within the EHR
@@ -76,7 +76,7 @@ Implementers SHOULD be familiar and adhere primarily to any security and privacy
 - [Security Labels](http://hl7.org/fhir/R4/security-labels.html); and
 - [Narrative](http://hl7.org/fhir/R4/security.html#narrative).
 
-Security conformance requirements specifically related to US Core 6.1.0 may be found here: https://build.fhir.org/ig/HL7/US-Core/security.html. Additionally, implementers SHOULD be familiar and adhere to security and privacy guidances outlined by the base FHIR R4 standards for data elements specified in the FHIR IG. This guidance may found within the base FHIR R4 specification here: https://hl7.org/fhir/R4/security.html#http. 
+Security conformance requirements specifically related to US Core 6.1.0 may be found here: https://build.fhir.org/ig/HL7/US-Core/security.html. Additionally, implementers SHOULD be familiar and adhere to security and privacy guidance outlined by the base FHIR R4 standards for data elements specified in the FHIR IG. This guidance may found within the base FHIR R4 specification here: https://hl7.org/fhir/R4/security.html#http. 
 
 ### Authors and Contributors
 
@@ -102,9 +102,9 @@ Security conformance requirements specifically related to US Core 6.1.0 may be f
 {: .grid}
 
 ### Acknowledgements
-Clinovations Government + Health developed the FHIR IG to support USCDI+ Maternal Health Postpartum TOC use case data elements. The project is funded by the Assistant Secretarty for Technology Policy as part of the USCDI+ Maternal Health Domain, and more broadly, the USCDI/USCDI+ Program. The FHIR IG was developed with input from Yan Heras, who served in an advisory and IG author role, and ASTP as contributors to the development of the implementation guidance. This work is the effort of not only the aforementioned individuals and organizations, but also the standards and maternal health community as a whole - thank you for your contributions. 
+Clinovations Government + Health developed the FHIR IG to support USCDI+ Maternal Health Postpartum TOC use case data elements. The project is funded by the Assistant Secretary for Technology Policy as part of the USCDI+ Maternal Health Domain, and more broadly, the USCDI/USCDI+ Program. The FHIR IG was developed with input from Yan Heras, who served in an advisory and IG author role, and ASTP as contributors to the development of the implementation guidance. This work is the effort of not only the aforementioned individuals and organizations, but also the standards and maternal health community as a whole - thank you for your contributions. 
 
-While there will not be an official public comment process for this iteration of the FHIR IG or the Postpartum TOC use case, a public comment process was conductedin 2024 and public discussion forums were held with federal and industry partners - these insights were incorporated into the USCDI+ Maternal Health Overarching data elements and would be represented in this FHIR IG's implementation guidance, if the data element is in both USCDI+ Maternal Health Overarching and the USCDI+ Maternal Health Postpartum TOC use cases. 
+While there will not be an official public comment process for this iteration of the FHIR IG or the Postpartum TOC use case, a public comment process was conducted in 2024 and public discussion forums were held with federal and industry partners - these insights were incorporated into the USCDI+ Maternal Health Overarching data elements and would be represented in this FHIR IG's implementation guidance, if the data element is in both USCDI+ Maternal Health Overarching and the USCDI+ Maternal Health Postpartum TOC use cases. 
 
 Health Level Seven, HL7, CDA, CCD, and FHIR are registered trademarks of Health Level Seven International in the US Trademark Office.
 
@@ -112,9 +112,9 @@ This guide includes CPT content, CPT copyright © 2014 American Medical Associat
 
 This specification includes content from DICOM, which is copyright NEMA, and distributed by agreement between NEMA/DICOM and HL7. Implementer use of DICOM is not covered by this agreement
 
-This guide includes ICD-10-CM content. ICD-10-CM is a clinical modification of the World Health Organizaiton (WHO) ICD, and it is managed by the National Center for Health Statistics, located within the Center for Disease Control and Prevention. This agreement does not cover the implementer's use of ICD-10-CM.
+This guide includes ICD-10-CM content. ICD-10-CM is a clinical modification of the World Health Organization (WHO) ICD, and it is managed by the National Center for Health Statistics, located within the Center for Disease Control and Prevention. This agreement does not cover the implementer's use of ICD-10-CM.
 
 This material contains content from [LOINC](http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc.
 
-This guide includes SNOMED CT content, copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. This agreement does not cover the implementer's use of SNOMED CT.
+This guide includes SNOMED CT content, copyright © 2002+ International Health Terminology Standards Development Organization (IHTSDO), and distributed by agreement between IHTSDO and HL7. This agreement does not cover the implementer's use of SNOMED CT.
 
