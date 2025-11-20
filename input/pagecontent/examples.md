@@ -39,7 +39,7 @@ These examples demonstrate use of FHIR data that are critical to the USCDI+ Mate
       <tr>
          <td><a href="DocumentReference-mh-toc-behavioral-health-history-example.html">Behavioral Health History Note</a></td>
          <td>
-            An example of a behavioral health history note with a text attachement conforming to the MH TOC Behavioral Health History Profile.
+            An example of a behavioral health history note with a text attachment conforming to the MH TOC Behavioral Health History Profile.
          </td>
       </tr>
       <tr>
@@ -99,7 +99,7 @@ These examples demonstrate use of FHIR data that are critical to the USCDI+ Mate
       <tr>
          <td><a href="ServiceRequest-genetic-counseling-example.html">Genetic Counseling</a></td>
          <td>
-            An example of a service request, refferring the patient to receive genetic counseling (e.g., teratogen counseling).  
+            An example of a service request, referring the patient to receive genetic counseling (e.g., teratogen counseling).  
          </td>
       </tr>
       <tr>
