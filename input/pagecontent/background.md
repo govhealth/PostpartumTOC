@@ -50,6 +50,8 @@ This presents an opportunity for the USCDI+ Maternal Health domain to develop HL
 
 ![alt img](data_flow_diagram_updated.png)
 
+![alt img](data_flow_diagram_updated.png "Title")
+
 ![alt img](https://github.com/govhealth/PostpartumTOC/blob/main/input/images/data_flow_diagram_updated.png)
 
 ### USCDI+ Maternal Health Postpartum TOC Objective
