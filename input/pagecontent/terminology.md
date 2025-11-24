@@ -159,6 +159,12 @@
          </td>
       </tr>
       <tr>
+         <td><a href="ValueSet-mh-toc-genetic-counseling.html">Genetic Counseling</a></td>
+         <td>
+            A ValueSet comprised of identified SNOMED CT value(s) ValueSet for specifying genetic counseling service requests; additional values may be added to the ValueSet in the future to support more specific referrals.
+         </td>
+      </tr>
+      <tr>
          <td><a href="ValueSet-mh-toc-gestational-age-units.html">Gestational Age Units</a></td>
          <td>
             The MH TOC Gestational Age Units ValueSet contains codes to represent standard capture of gestational age. The estimated gestional age is represented in weeks or weeks and fraction of week.
@@ -240,12 +246,6 @@
          <td><a href="ValueSet-mh-toc-smm-category-values.html">ValueSet for SMM Indicators</a></td>
          <td>
             ValueSet for specifying categories for SMM indicators. These are used as values for individual subprofiles of SMM Condition and Procedure as an extension's code.
-         </td>
-      </tr>
-      <tr>
-         <td><a href="ValueSet-mh-toc-genetic-counseling.html">ValueSet for Genetic Counseling</a></td>
-         <td>
-            A ValueSet comprised of identified SNOMED CT value(s) ValueSet for specifying genetic counseling service requests; additional values may be added to the ValueSet in the future to support more specific referrals.
          </td>
       </tr>
    </tbody>
