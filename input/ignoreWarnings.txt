@@ -7,8 +7,8 @@ ERROR: DocumentReference/mh-toc-behavioral-health-history-example: DocumentRefer
 ERROR: DocumentReference/mh-toc-postpartum-summary-example: DocumentReference.type: None of the codings provided are in the value set 'US Core DocumentReference Type' (http://hl7.org/fhir/us/core/ValueSet/us-core-documentreference-type|6.1.0), and a coding from this value set is required) (codes = http://fhir.org/guides/astp/postpartum-toc/CodeSystem/mh-toc-postpartum-temp#mh-toc-postpartum-summary)
 
 # The specified values for week(s) (wk) and day(s) (d) exist within UCUM, as specified by HL7 Terminology (THO) 7.0.0, under common UCUM codes value set
-INFORMATION: ValueSet/ValueSet-mh-toc-gestational-age-units: ValueSet​.compose​.include[0]​.concept[0]: The display 'day' is not valid in the Code system 'day'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
-INFORMATION: ValueSet/ValueSet-mh-toc-gestational-age-units: ValueSet​.compose​.include[0]​.concept[1]: The display 'week' is not valid in the Code system 'week'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/mh-toc-gestational-age-units: ValueSet.compose.include[0].concept[0]: The display 'day' is not valid in the Code system 'day'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/mh-toc-gestational-age-units: ValueSet.compose.include[0].concept[1]: The display 'week' is not valid in the Code system 'week'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 
 # This ICD-10-PCS code is valid in older versions of the ICD-10-PCS; It is intentionally included in this IG for retrospective use
 ERROR: ValueSet/mh-toc-smm-blood-transfusion: ValueSet.compose.include[1].concept[32]: The code '30230H0' is not valid in the system http://www.cms.gov/Medicare/Coding/ICD10 (Unknown code '30230H0' in the CodeSystem 'http://www.cms.gov/Medicare/Coding/ICD10' version '2.0.1')
@@ -54,18 +54,15 @@ ERROR: ValueSet/mh-toc-smm-puerperal-cerebrovascular-disorders: ValueSet.compose
 ERROR: ValueSet/mh-toc-smm-sepsis: ValueSet​.compose​.include[0]​.concept[3]: The code 'A40.2' is not valid in the system http://hl7.org/fhir/sid/icd-10-cm (Unknown code 'A40.2' in the CodeSystem 'http://hl7.org/fhir/sid/icd-10-cm' version '2024')
 
 # The table is required by the ImagingStudy resource but is not a well-defined code system; this is addressed with a resource change in R6
-WARNING: ImagingStudy/ImagingStudy-example-chest-ct: ImagingStudy​.series[0]​.instance[0]​.sopClass: ValueSet 'http://dicom.nema.org/medical/dicom/current/output/chtml/part04/sect_B.5.html#table_B.5-1' not found
-WARNING: ImagingStudy/ImagingStudy-example-chest-ct: ImagingStudy​.series[0]​.instance[1]​.sopClass: ValueSet 'http://dicom.nema.org/medical/dicom/current/output/chtml/part04/sect_B.5.html#table_B.5-1' not found
-WARNING: ImagingStudy/imagingstudy-ob-fetal-dating: ImagingStudy​.series[0]​.instance[0]​.sopClass: ValueSet 'http://dicom.nema.org/medical/dicom/current/output/chtml/part04/sect_B.5.html#table_B.5-1' not found
+WARNING: ImagingStudy/example-chest-ct: ImagingStudy.series[0].instance[0].sopClass: ValueSet 'http://dicom.nema.org/medical/dicom/current/output/chtml/part04/sect_B.5.html#table_B.5-1' not found
+WARNING: ImagingStudy/example-chest-ct: ImagingStudy.series[0].instance[1].sopClass: ValueSet 'http://dicom.nema.org/medical/dicom/current/output/chtml/part04/sect_B.5.html#table_B.5-1' not found
+WARNING: ImagingStudy/imagingstudy-ob-fetal-dating: ImagingStudy.series[0].instance[0].sopClass: ValueSet 'http://dicom.nema.org/medical/dicom/current/output/chtml/part04/sect_B.5.html#table_B.5-1' not found
 
 # The pattern is defined in the base profile, US Core ServiceRequest
 INFORMATION: StructureDefinition/mh-toc-genetic-counseling: StructureDefinition​.snapshot​.element[17]​.pattern​.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
 
 # This IG is intended to build on USCore 6.1.0, which is the mandated standard for certified health IT for interoperability by federal regulations starting in 2026
 WARNING: ImplementationGuide/fhir.astp.postpartum-toc: ImplementationGuide.dependsOn[0]: The ImplementationGuide uses package hl7.fhir.us.core#6.1.0 released on 2023-06-30, but the most recent appropriate version is 8.0.0. This reference is getting old and the more recent version should be considered
-
-# This IG is intended to build on FHIR R4, so hl7.terminology.r4#6.5.0 was selected
-WARNING: ImplementationGuide/fhir.astp.postpartum-toc: ImplementationGuide​.dependsOn[2]: The ImplementationGuide uses package hl7.terminology.r4#6.5.0 released on 2025-07-07, but the most recent appropriate version is 7.0.0. This reference is getting old and the more recent version should be considered
 
 # The discriminator type 'pattern' is inherited from the USCore Document Reference profile
 INFORMATION: StructureDefinition/mh-toc-behavioral-health-history: StructureDefinition.snapshot.element[14].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
@@ -84,7 +81,9 @@ INFORMATION: StructureDefinition/mh-toc-edd: StructureDefinition.snapshot.elemen
 # The discriminator type 'pattern' is inherited from the US Core Simple Observation Profile
 INFORMATION: StructureDefinition/mh-toc-breastfeeding-intent: StructureDefinition.snapshot.element[13].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/mh-toc-breastfeeding-status: StructureDefinition​.snapshot​.element[13]​.slicing​.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: StructureDefinition/mh-toc-breastfeeding-status: StructureDefinition.snapshot.element[13].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/mh-toc-genetic-counseling: StructureDefinition.snapshot.element[17].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: StructureDefinition/mh-toc-genetic-counseling: StructureDefinition.differential.element[1].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/mh-toc-gestational-age: StructureDefinition.snapshot.element[13].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/mh-toc-gravidity: StructureDefinition.snapshot.element[13].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/mh-toc-labor-type: StructureDefinition.snapshot.element[13].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
@@ -121,9 +120,32 @@ INFORMATION: StructureDefinition.snapshot.element[8].type[0].profile[0]: Pinned 
 INFORMATION: StructureDefinition.snapshot.element[13].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/condition-assertedDate to 5.2.0 from choices of 1.0.0 (hl7.fhir.uv.extensions.r4#1.0.0), 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
 
 # Pinned to 3.0.0 for the following value sets
-INFORMATION: StructureDefinition.snapshot.element[50].binding.valueSet: Pinned the version of http://terminology.hl7.org/ValueSet/v3-ActCode to 3.0.0 from choices of 2.0.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.5.0)
-INFORMATION: StructureDefinition.snapshot.element[32].binding.valueSet: Pinned the version of http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType to 3.0.0 from choices of 2.0.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.5.0)
-INFORMATION: StructureDefinition.snapshot.element[17].binding.valueSet: Pinned the version of http://terminology.hl7.org/ValueSet/v3-FamilyMember to 3.0.0 from choices of 2.0.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.5.0)
+INFORMATION: StructureDefinition.snapshot.element[50].binding.valueSet: Pinned the version of http://terminology.hl7.org/ValueSet/v3-ActCode to 3.0.0 from choices of 2.0.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#7.0.0)
+INFORMATION: StructureDefinition.snapshot.element[32].binding.valueSet: Pinned the version of http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType to 3.0.0 from choices of 2.0.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#7.0.0)
+INFORMATION: StructureDefinition.snapshot.element[17].binding.valueSet: Pinned the version of http://terminology.hl7.org/ValueSet/v3-FamilyMember to 3.0.0 from choices of 2.0.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#7.0.0)
 
-# While the ServiceRequest.category is referencing a draft ValueSet (the most recent for ServiceRequest.category), the values specified within the draft ValueSet are identical to the intended US Core 6.1.0 ValueSet for ServiceRequest.category
-INFORMATION: ServiceRequest/genetic-counseling-example: ServiceRequest.category[0]: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/servicerequest-category|4.0.1 (from https://tx.fhir.org/r4, see log, or see the servers logic)
+# Inherited from the base FHIR ServiceRequest resource that servicerequest-category value set has status of draft
+INFORMATION: ServiceRequest/genetic-counseling-example: ServiceRequest.category[0]: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/servicerequest-category|4.0.1
+
+# ICD-9-CM is labelled as a fragment on the terminology server
+INFORMATION: ValueSet/mh-toc-smm-acute-myocardial-infarction: ValueSet.compose.include[1]: The value set references CodeSystem 'http://hl7.org/fhir/sid/icd-9-cm' which has status 'fragment'
+INFORMATION: ValueSet/mh-toc-smm-acute-renal-failure: ValueSet.compose.include[1]: The value set references CodeSystem 'http://hl7.org/fhir/sid/icd-9-cm' which has status 'fragment'
+INFORMATION: ValueSet/mh-toc-smm-acute-respiratory-distress: ValueSet.compose.include[1]: The value set references CodeSystem 'http://hl7.org/fhir/sid/icd-9-cm' which has status 'fragment'
+INFORMATION: ValueSet/mh-toc-smm-air-thrombotic-embolism: ValueSet.compose.include[1]: The value set references CodeSystem 'http://hl7.org/fhir/sid/icd-9-cm' which has status 'fragment'
+INFORMATION: ValueSet/mh-toc-smm-amniotic-fluid-embolism: ValueSet.compose.include[0]: The value set references CodeSystem 'http://hl7.org/fhir/sid/icd-9-cm' which has status 'fragment'
+INFORMATION: ValueSet/mh-toc-smm-anesthesia-complications: ValueSet.compose.include[1]: The value set references CodeSystem 'http://hl7.org/fhir/sid/icd-9-cm' which has status 'fragment'
+INFORMATION: ValueSet/mh-toc-smm-aneurysm: ValueSet.compose.include[1]: The value set references CodeSystem 'http://hl7.org/fhir/sid/icd-9-cm' which has status 'fragment'
+INFORMATION: ValueSet/mh-toc-smm-blood-transfusion: ValueSet.compose.include[0]: The value set references CodeSystem 'http://hl7.org/fhir/sid/icd-9-cm' which has status 'fragment'
+INFORMATION: ValueSet/mh-toc-smm-cardiac-arrest: ValueSet.compose.include[0]: The value set references CodeSystem 'http://hl7.org/fhir/sid/icd-9-cm' which has status 'fragment'
+INFORMATION: ValueSet/mh-toc-smm-conversion-cardiac-rhythm: ValueSet.compose.include[0]: The value set references CodeSystem 'http://hl7.org/fhir/sid/icd-9-cm' which has status 'fragment'
+INFORMATION: ValueSet/mh-toc-smm-eclampsia: ValueSet.compose.include[1]: The value set references CodeSystem 'http://hl7.org/fhir/sid/icd-9-cm' which has status 'fragment'
+INFORMATION: ValueSet/mh-toc-smm-heart-failure-arrest: ValueSet.compose.include[1]: The value set references CodeSystem 'http://hl7.org/fhir/sid/icd-9-cm' which has status 'fragment'
+INFORMATION: ValueSet/mh-toc-smm-hysterectomy: ValueSet.compose.include[1]: The value set references CodeSystem 'http://hl7.org/fhir/sid/icd-9-cm' which has status 'fragment'
+INFORMATION: ValueSet/mh-toc-smm-intravascular-coagulation: ValueSet.compose.include[0]: The value set references CodeSystem 'http://hl7.org/fhir/sid/icd-9-cm' which has status 'fragment'
+INFORMATION: ValueSet/mh-toc-smm-puerperal-cerebrovascular-disorders: ValueSet.compose.include[1]: The value set references CodeSystem 'http://hl7.org/fhir/sid/icd-9-cm' which has status 'fragment'
+INFORMATION: ValueSet/mh-toc-smm-pulmonary-edema-acute-heart-failure: ValueSet.compose.include[1]: The value set references CodeSystem 'http://hl7.org/fhir/sid/icd-9-cm' which has status 'fragment'
+INFORMATION: ValueSet/mh-toc-smm-sepsis: ValueSet.compose.include[1]: The value set references CodeSystem 'http://hl7.org/fhir/sid/icd-9-cm' which has status 'fragment'
+INFORMATION: ValueSet/mh-toc-smm-shock: ValueSet.compose.include[1]: The value set references CodeSystem 'http://hl7.org/fhir/sid/icd-9-cm' which has status 'fragment'
+INFORMATION: ValueSet/mh-toc-smm-sickle-cell-crisis: ValueSet.compose.include[1]: The value set references CodeSystem 'http://hl7.org/fhir/sid/icd-9-cm' which has status 'fragment'
+INFORMATION: ValueSet/mh-toc-smm-temporary-tracheostomy: ValueSet.compose.include[1]: The value set references CodeSystem 'http://hl7.org/fhir/sid/icd-9-cm' which has status 'fragment'
+INFORMATION: ValueSet/mh-toc-smm-ventilation: ValueSet.compose.include[1]: The value set references CodeSystem 'http://hl7.org/fhir/sid/icd-9-cm' which has status 'fragment'
