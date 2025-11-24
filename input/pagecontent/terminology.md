@@ -242,6 +242,12 @@
             ValueSet for specifying categories for SMM indicators. These are used as values for individual subprofiles of SMM Condition and Procedure as an extension's code.
          </td>
       </tr>
+      <tr>
+         <td><a href="ValueSet-mh-toc-genetic-counseling.html">ValueSet for Genetic Counseling</a></td>
+         <td>
+            A ValueSet comprised of identified SNOMED CT value(s) ValueSet for specifying genetic counseling service requests; additional values may be added to the ValueSet in the future to support more specific referrals.
+         </td>
+      </tr>
    </tbody>
 </table>
 
