@@ -18,19 +18,23 @@
     "element": [
       {
         "id": "ServiceRequest.category",
-        "path": "ServiceRequest.category",
+        "path" : "ServiceRequest.category",
+        "short": "USCDI+ Maternal Health Postpartum Transitions of Care Genetic Counseling",
         "min": 1,
-        "mustSupport": true,
+        "type": [
+          { "code": "CodeableConcept" }
+        ],
         "patternCodeableConcept": {
-        "coding": [
+          "coding": [
             {
               "system": "http://snomed.info/sct",
               "code": "409063005",
               "display": "Counseling"
             }
           ]
-        }
-      },   
+        },
+        "mustSupport": true
+      },  
       {
         "id": "ServiceRequest.code",
         "path": "ServiceRequest.code",
