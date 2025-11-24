@@ -19,15 +19,6 @@
       {
         "id": "ServiceRequest.category",
         "path": "ServiceRequest.category",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "pattern",
-              "path" : "$this"
-            }
-          ],
-          "rules" : "open"
-        },
         "min": 1,
         "mustSupport": true,
         "patternCodeableConcept": {
@@ -39,11 +30,20 @@
             }
           ]
         }
-      },
+      },   
       {
         "id": "ServiceRequest.code",
         "path": "ServiceRequest.code",
         "min": 1,
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "pattern",
+              "path" : "$this"
+            }
+          ],
+          "rules" : "open"
+        },
         "mustSupport": true,
         "patternCodeableConcept": {
         "coding": [
@@ -53,6 +53,19 @@
               "display": "Genetics education, guidance, counseling"
             }
           ]
+        }, 
+        "binding" : {
+          "strength" : "extensible",
+          "valueSet" : "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-genetic-counseling"
+        },
+      "path" : "ServiceRequest.code",
+        "sliceName" : "uscdi_plus_maternal_health_ptoc",
+        "short" : "USCDI+ Maternal Health Postpartum Transitions of Care -relevant code(s)",
+        "mustSupport" : true,
+        "binding" : {
+          "strength" : "extensible",
+          "description" : "Note that other codes are permitted, however, the contained value(s) are the preferred value(s) for this profile.",
+          "valueSet" : "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-genetic-counseling"
         }
       },
       {
