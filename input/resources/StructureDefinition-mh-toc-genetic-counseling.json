@@ -40,7 +40,7 @@
         "binding" : {
           "strength" : "extensible",
           "valueSet" : "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-genetic-counseling"
-        },
+        }
       },
       {
         "id": "ServiceRequest.requester",
