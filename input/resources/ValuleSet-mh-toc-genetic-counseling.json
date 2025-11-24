@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "mh-toc-genetic-counseling",
+  "url" : "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-genetic-counseling",
+  "version" : "1.0.0",
+  "name" : "MHTOCBehavioralAssessments",
+  "title" : "MH TOC Behavioral Assessments",
+  "date" : "2025-11-24",
+  "status": "active",
+  "experimental": false,
+  "description" : "The MH TOC Behavioral Assessments value set contains identified codes for the USCDI+ Maternal Health Postpartum Transitions of Care use case data element Genetic Counseling.",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "423039003", 
+            "display": "Genetics education, guidance, counseling"
+          }
+        ]
+      }
+    ]
+  }
+}
