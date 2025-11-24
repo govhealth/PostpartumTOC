@@ -58,7 +58,7 @@ This page contains a summary table of key terms and data element definitions.
 <table class="terminology-table">
    <thead>
       <tr>
-         <th class="terminology-table-name">Gloassary Term</th>
+         <th class="terminology-table-name">Glossary Term</th>
          <th class="terminology-table-description">Description</th>
       </tr>
    </thead>

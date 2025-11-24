@@ -1,0 +1,44 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "genetic-counseling-example",
+  "meta": {
+    "profile": [
+      "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-genetic-counseling"
+    ]
+  },
+  "status" : "completed",
+  "intent" : "order",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "409063005",
+          "display": "Counseling"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "423039003",
+        "display": "Genetics education, guidance, counseling"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/mom"
+  },
+  "occurrenceDateTime" : "2025-11-20",
+  "requester" : {
+    "reference" : "Practitioner/practitioner-1"
+  },
+  "reasonReference" : [
+    {
+      "reference" : "Condition/example-smm-condition-sickle-cell-crisis",
+      "display" : "Mother experienced sickle cell crisis - genetic counseling/testing is suggested"
+    }
+  ]
+}

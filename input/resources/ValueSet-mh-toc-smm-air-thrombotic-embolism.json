@@ -16,7 +16,7 @@
                 "concept": [
                     {
                         "code": "I26.0",
-                        "display": "Septic pulmonary embolism with acute cor pulmonale"
+                        "display": "Pulmonary embolism with acute cor pulmonale"
                     },
                     {
                         "code": "I26.9",
@@ -24,51 +24,51 @@
                     },
                     {
                         "code": "O88.012",
-                        "display": "Obstetric blood-clot embolism, second trimester"
+                        "display": "Air embolism in pregnancy, second trimester"
                     },
                     {
                         "code": "O88.013",
-                        "display": "Obstetric blood-clot embolism, third trimester"
+                        "display": "Air embolism in pregnancy, third trimester"
                     },
                     {
                         "code": "O88.019",
-                        "display": "Obstetric blood-clot embolism, unspecified trimester"
+                        "display": "Air embolism in pregnancy, unspecified trimester"
                     },
                     {
                         "code": "O88.212",
-                        "display": "Obstetric air embolism, second trimester"
+                        "display": "Thromboembolism in pregnancy, second trimester"
                     },
                     {
                         "code": "O88.213",
-                        "display": "Obstetric air embolism, third trimester"
+                        "display": "Thromboembolism in pregnancy, third trimester"
                     },
                     {
                         "code": "O88.219",
-                        "display": "Obstetric air embolism, unspecified trimester"
+                        "display": "Thromboembolism in pregnancy, unspecified trimester"
                     },
                     {
                         "code": "O88.312",
-                        "display": "Obstetric amniotic fluid embolism, second trimester"
+                        "display": "Pyemic and septic embolism in pregnancy, second trimester"
                     },
                     {
                         "code": "O88.313",
-                        "display": "Obstetric amniotic fluid embolism, third trimester"
+                        "display": "Pyemic and septic embolism in pregnancy, third trimester"
                     },
                     {
                         "code": "O88.319",
-                        "display": "Obstetric amniotic fluid embolism, unspecified trimester"
+                        "display": "Pyemic and septic embolism in pregnancy, unspecified trimester"
                     },
                     {
                         "code": "O88.812",
-                        "display": "Other specified obstetric embolism, second trimester"
+                        "display": "Other embolism in pregnancy, second trimester"
                     },
                     {
                         "code": "O88.813",
-                        "display": "Other specified obstetric embolism, third trimester"
+                        "display": "Other embolism in pregnancy, third trimester"
                     },
                     {
                         "code": "O88.819",
-                        "display": "Other specified obstetric embolism, unspecified trimester"
+                        "display": "Other embolism in pregnancy, unspecified trimester"
                     },
                     {
                         "code": "T80.0XXA",

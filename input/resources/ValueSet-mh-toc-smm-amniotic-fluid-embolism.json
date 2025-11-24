@@ -40,23 +40,23 @@
         "concept": [
           {
             "code": "O88.112",
-            "display": "Obstetric blood-clot embolism, delivered, with postpartum complication"
+            "display": "Amniotic fluid embolism in pregnancy, second trimester"
           },
           {
             "code": "O88.113",
-            "display": "Obstetric blood-clot embolism, antepartum"
+            "display": "Amniotic fluid embolism in pregnancy, third trimester"
           },
           {
             "code": "O88.119",
-            "display": "Obstetric blood-clot embolism, unspecified as to episode of care or not applicable"
+            "display": "Amniotic fluid embolism in pregnancy, unspecified trimester"
           },
           {
             "code": "O88.12",
-            "display": "Obstetric air embolism"
+            "display": "Amniotic fluid embolism in childbirth"
           },
           {
             "code": "O88.13",
-            "display": "Obstetric amniotic fluid embolism"
+            "display": "Amniotic fluid embolism in the puerperium"
           }
         ]
       }

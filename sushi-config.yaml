@@ -8,16 +8,16 @@ id: fhir.astp.postpartum-toc
 canonical: http://fhir.org/guides/astp/postpartum-toc
 name: PostpartumTOC
 title: USCDI+ Maternal Health Postpartum Transitions of Care (TOC) Implementation Guide
-# description: Example Implementation Guide for getting started with SUSHI
+description: FHIR Implementation Guide to support the USCDI+ Maternal Health Postpartum Transitions of Care use case
 status: draft # draft | active | retired | unknown
 version: 0.1.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
 releaseLabel: ci-build
-# license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
-# jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
+license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
+jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
-  name: ASTP
+  name: Assistant Secretary for Technology Policy/Office of the National Coordinator for Health Information Technology (ASTP/ONC) 
   # url: http://example.org/example-publisher
   # email: test@example.org
 
@@ -188,21 +188,105 @@ resources:
     name: Estimated Date of Delivery
     description: An example of an estimated date of delivery (EDD) observation instance to the MH TOC Estimated Date of Delivery Profile.
     exampleBoolean: true
+  ServiceRequest/genetic-counseling-example:
+    name: Genetic Counseling
+    description: An example of a completed service request referral after a patient has received genetic counseling.
+    exampleBoolean: true
+  Procedure/example-mh-toc-education:
+    name: Maternal Health Education
+    description: The USCDI+ Maternal Health Postpartum TOC Education Profile is derived from the US Core Procedure Profile. It represents education as an intervention (procedure) provided on maternal health during the perinatal period.
+    exampleBoolean: true
+  Condition/example-smm-condition:
+    name: SMM Condition 
+    description: An example of an instance of the SMM Condition conforming to the MH TOC Severe Maternal Morbidity Condition Profile - in this example, acute myocardial infarction was the example condition.
+    exampleBoolean: true
   Condition/example-smm-condition-acute-myocardial-infarction:
     name: SMM Condition Acute Myocardial Infarction 
     description: An example of an instance of the SMM Condition Acute Myocardial Infarction Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Acute Myocardial Infarction Profile.
+    exampleBoolean: true
+  Condition/example-smm-condition-acute-renal-failure:
+    name: SMM Condition Acute Renal Failure 
+    description: An example of an instance of the SMM Condition Acute Renal Failure Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Acute Renal Failure Profile.
+    exampleBoolean: true
+  Condition/example-smm-condition-acute-respiratory-distress:
+    name: SMM Condition Acute Respiratory Distress 
+    description: An example of an instance of the SMM Condition Acute Respiratory Distress Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Acute Respiratory Distress Profile.
+    exampleBoolean: true
+  Condition/example-smm-condition-air-thrombotic-embolism:
+    name: SMM Condition Air and Thrombotic Embolism 
+    description: An example of an instance of the SMM Condition Air and Thrombotic Embolism Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Air and Thrombotic Embolism Profile.
+    exampleBoolean: true
+  Condition/example-smm-condition-amniotic-fluid-embolism:
+    name: SMM Condition Amniotic Fluid Embolism 
+    description: An example of an instance of the SMM Condition Amniotic Fluid Embolism Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Amniotic Fluid Embolism Profile.
+    exampleBoolean: true
+  Condition/example-smm-condition-anesthesia-complications:
+    name: SMM Condition Severe Anesthesia Complications 
+    description: An example of an instance of the SMM Condition Severe Anesthesia Complications Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Severe Anesthesia Complications Profile.
     exampleBoolean: true
   Condition/example-smm-condition-aneurysm:
     name: SMM Condition Aneurysm
     description: An example of an instance of the SMM Condition Aneurysm Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Aneurysm Profile.
     exampleBoolean: true
+  Condition/example-smm-condition-cardiac-arrest:
+    name: SMM Condition Cardiac Arrest / Ventricular Fibrillation 
+    description: An example of an instance of the SMM Condition Cardiac Arrest / Ventricular Fibrillation Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Cardiac Arrest / Ventricular Fibrillation Profile.
+    exampleBoolean: true
+  Condition/example-smm-condition-eclampsia:
+    name: SMM Condition Eclampsia 
+    description: An example of an instance of the SMM Condition Eclampsia Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Eclampsia Profile.
+    exampleBoolean: true
+  Condition/example-smm-condition-heart-failure-arrest:
+    name: SMM Condition Heart Failure / Arrest During Surgery or Procedure 
+    description: An example of an instance of the SMM Condition Heart Failure / Arrest During Surgery or Procedure Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Heart Failure / Arrest During Surgery or Procedure Profile.
+    exampleBoolean: true
+  Condition/example-smm-condition-intravascular-coagulation:
+    name: SMM Condition Disseminated Intravascular Coagulation 
+    description: An example of an instance of the SMM Condition Disseminated Intravascular Coagulation Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Disseminated Intravascular Coagulation Profile.
+    exampleBoolean: true
+  Condition/example-smm-condition-puerperal-cerebrovascular-disorders:
+    name: SMM Condition Puerperal Cerebrovascular Disorders 
+    description: An example of an instance of the SMM Condition Puerperal Cerebrovascular Disorders Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Puerperal Cerebrovascular Disorders Profile.
+    exampleBoolean: true
+  Condition/example-smm-condition-pulmonary-edema-acute-heart-failure:
+    name: SMM Condition Pulmonary Edema / Acute Heart Failure
+    description: An example of an instance of the SMM Condition Pulmonary Edema / Acute Heart Failure Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Pulmonary Edema / Acute Heart Failure Profile.
+    exampleBoolean: true
+  Condition/example-smm-condition-sepsis:
+    name: SMM Condition Sepsis 
+    description: An example of an instance of the SMM Condition Sepsis Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Sepsis Profile.
+    exampleBoolean: true
+  Condition/example-smm-condition-shock:
+    name: SMM Condition Shock
+    description: An example of an instance of the SMM Condition Shock Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Shock Profile.
+    exampleBoolean: true
+  Condition/example-smm-condition-sickle-cell-crisis:
+    name: SMM Condition Sickle Cell Disease With Crisis 
+    description: An example of an instance of the SMM Condition Sickle Cell Disease With Crisis Indicator conforming to the MH TOC Severe Maternal Morbidity Condition Sickle Cell Disease With Crisis Profile.
+    exampleBoolean: true
+  Procedure/example-smm-procedure:
+    name: SMM Procedure 
+    description: An example of an instance of the SMM Procedure conforming to the MH TOC Severe Maternal Morbidity Procedure Profile - in this example, hysterectomy was the example procedure.
+    exampleBoolean: true
+  Procedure/example-smm-procedure-blood-transfusion:
+    name: SMM Procedure Blood Transfusion
+    description: An example of an instance of the SMM Procedure Blood Transfusion Indicator conforming to the MH TOC Severe Maternal Morbidity Procedure Blood Transfusion Profile.
+    exampleBoolean: true
+  Procedure/example-smm-procedure-conversion-cardiac-rhythm:
+    name: SMM Procedure Conversion of Cardiac Rhythm
+    description: An example of an instance of the SMM Procedure Conversion of Cardiac Rhythm Indicator conforming to the MH TOC Severe Maternal Morbidity Procedure Conversion of Cardiac Rhythm Profile.
+    exampleBoolean: true
   Procedure/example-smm-procedure-hysterectomy:
     name: SMM Procedure Hysterectomy
-    description: An example of an instance of the SMM Procedure Hysterectomy Indicator conforming to the MH TOC Severe Maternal Morbidity Hysterectomy Profile.
+    description: An example of an instance of the SMM Procedure Hysterectomy Indicator conforming to the MH TOC Severe Maternal Morbidity Procedure Hysterectomy Profile.
+    exampleBoolean: true
+  Procedure/example-smm-procedure-temporary-tracheostomy:
+    name: SMM Procedure Temporary Tracheostomy
+    description: An example of an instance of the SMM Procedure Temporary Tracheostomy Indicator conforming to the MH TOC Severe Maternal Morbidity Procedure Temporary Tracheostomy Profile.
     exampleBoolean: true
   Procedure/example-smm-procedure-ventilation:
     name: SMM Procedure Ventilation
-    description: An example of an instance of the SMM Procedure Ventilation Indicator conforming to the MH TOC Severe Maternal Morbidity Ventilation Profile.
+    description: An example of an instance of the SMM Procedure Ventilation Indicator conforming to the MH TOC Severe Maternal Morbidity Procedure Ventilation Profile.
     exampleBoolean: true
   FamilyMemberHistory/family-health-history-example:
     name: Family Member Health History

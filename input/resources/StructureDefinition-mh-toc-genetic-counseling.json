@@ -19,11 +19,38 @@
       {
         "id": "ServiceRequest.category",
         "path": "ServiceRequest.category",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "pattern",
+              "path" : "$this"
+            }
+          ],
+          "rules" : "open"
+        },
+        "min": 1,
+        "mustSupport": true,
         "patternCodeableConcept": {
-          "coding": [
+        "coding": [
             {
               "system": "http://snomed.info/sct",
-              "code": "423039003"
+              "code": "409063005",
+              "display": "Counseling"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ServiceRequest.code",
+        "path": "ServiceRequest.code",
+        "min": 1,
+        "mustSupport": true,
+        "patternCodeableConcept": {
+        "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "423039003",
+              "display": "Genetics education, guidance, counseling"
             }
           ]
         }
@@ -40,7 +67,6 @@
         "min": 1,
         "mustSupport": true
       }
-  
     ]
   }
 }

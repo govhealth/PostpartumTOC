@@ -37,6 +37,7 @@
             {
                 "id": "Condition.code",
                 "path": "Condition.code",
+                "min": 1,
                 "binding": {
                 "strength": "extensible",
                 "valueSet": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-category-group"
@@ -51,5 +52,6 @@
     }
 
 }
+
 
 

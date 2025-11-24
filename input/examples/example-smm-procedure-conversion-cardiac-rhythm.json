@@ -1,0 +1,39 @@
+{
+  "resourceType": "Procedure",
+  "id": "example-smm-procedure-conversion-cardiac-rhythm",
+  "meta": {
+    "profile": [
+      "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-procedure-conversion-cardiac-rhythm"
+    ]
+  },
+  "status": "completed",
+  "code": {
+    "coding": [
+      {
+        "system": "http://www.cms.gov/Medicare/Coding/ICD10",
+        "code": "5A2204Z"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/mom"
+  },
+  "encounter": {
+    "reference": "Encounter/delivery-encounter-example"
+  },
+  "performedDateTime": "2025-03-28",
+  "extension": [
+    {
+      "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-smm-indicator",
+      "valueCode": "conversion-cardiac-rhythm"
+    }
+  ],
+  "performer": [
+    {
+      "actor": {
+        "reference": "Practitioner/surgeon1",
+        "display": "Dr. Jane Doe"
+      }
+    }
+  ]
+}
