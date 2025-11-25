@@ -37,6 +37,13 @@
         "mustSupport": true
       },  
       {
+        "id": "ServiceRequest.category:us-core",
+        "path": "ServiceRequest.category",
+        "sliceName": "us-core",
+        "min": 0,
+        "max": "1"
+      },
+      {
         "id": "ServiceRequest.code",
         "path": "ServiceRequest.code",
         "min": 1,
