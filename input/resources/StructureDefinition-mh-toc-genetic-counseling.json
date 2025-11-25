@@ -6,7 +6,7 @@
   "name": "MHTOCGeneticCounseling",
   "title": "MH TOC Genetic Counseling",
   "status": "active",
-  "date": "2025-10-28",
+  "date": "2025-11-24",
   "description": "This profile sets minimum expectations for the ServiceRequest resource for querying a pregnant individual's record to identify if the patient received genetic counseling. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases. The MH TOC Genetic Counseling Profile is derived from the US Core Service Request Profile.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
@@ -21,6 +21,7 @@
         "path" : "ServiceRequest.category",
         "short": "USCDI+ Maternal Health Postpartum Transitions of Care Genetic Counseling",
         "min": 1,
+        "max": "1",
         "type": [
           { "code": "CodeableConcept" }
         ],
