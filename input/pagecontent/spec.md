@@ -1,10 +1,15 @@
 ### Data Element Mapping
 
 The following profiles have been defined as part of the USCDI+ Maternal Health Postpartum TOC FHIR IG. A registry of US Core profiles may be found within the [US Core FHIR IG](https://hl7.org/fhir/us/core/STU6.1). A registry of standard profiles can be found in the FHIR specification, and additional profiles may be registered on the HL7 FHIR registry at [http://hl7.org/fhir/registry](http://hl7.org/fhir/registry). 
-<br> <br> This implementation guide used a tiered approach with an emphasized focus on organizing the vetted data elements and mappings depending if the data element is specified in the [HL7 FHIR US Core FHIR IG 6.1.0](https://hl7.org/fhir/us/core/STU6.1/) (Bucket 1), a published HL7 non-US Core FHIR IG (Bucket 2), or specified in the USCDI+ Maternal Health Postpartum TOC FHIR IG (Bucket 3). Data Element mappings are organized in an aggregate summary format and by derivative tables that are organized by the buckets previously described. 
+<br> <br> This implementation guide used a tiered approach with an emphasized focus on organizing the vetted data elements and mappings based on three main categories:
+  1) USCDI Version 3 (V3) data elements;
+  2) Non-USCDI V3 Data Elements; and
+  3) Data elements unique to USCDI+ MH Postpartum TOC FHIR IG.
+<br>
+Data element mappings are organized in an aggregate summary format and by derivative tables that are organized by the categories previously described above in the tables below. 
 <br>
 <br>
-**USCDI+ Maternal Health Postpartum TOC Data Elements and Specifications Bucket 1: References US Core 6.1.0 FHIR IG**
+**USCDI+ Maternal Health Postpartum TOC Data Elements and Specifications Category 1: USCDI V3 Data Elements**
 
 |Data Class|Postpartum TOC Data Element|FHIR Profile|Proposed FHIR Data Element|
 |---|---|---|---|
@@ -98,7 +103,7 @@ The following profiles have been defined as part of the USCDI+ Maternal Health P
 {: .grid}
 <br>
 <br>
-**USCDI+ Maternal Health Postpartum TOC Data Elements and Specifications Bucket 2: References non-US Core 6.1.0 FHIR IGs**
+**USCDI+ Maternal Health Postpartum TOC Data Elements and Specifications Category 2: Non-USCDI V3 Data Elements**
 
 |Data Class|Postpartum TOC Data Element|FHIR Profile|Proposed FHIR Data Element|
 |---|---|---|---|
@@ -120,7 +125,7 @@ The following profiles have been defined as part of the USCDI+ Maternal Health P
 
 <br>
 <br>
-**USCDI+ Maternal Health Postpartum TOC Data Elements and Specifications Bucket 3: Unique to USCDI+ MH Postpartum TOC FHIR IG**
+**USCDI+ Maternal Health Postpartum TOC Data Elements and Specifications Category 3: Data elements unique to USCDI+ MH Postpartum TOC FHIR IG**
 
 |Data Class|Postpartum TOC Data Element|FHIR Profile|Proposed FHIR Data Element|
 |---|---|---|---|
