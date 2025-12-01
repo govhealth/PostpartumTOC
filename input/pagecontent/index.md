@@ -34,7 +34,11 @@ By leveraging US Core profiles when possible:
 - It ensures that the majority of profiles within this FHIR IG are compatibility with Office of the National Coordinator for Health Information Technology (ONC) -certified health IT systems; and
 - It minimizes the need for custom development by adopting widely implemented FHIR patterns.
 
-For USCDI+ Maternal Health Postpartum TOC data elements that are not supported by the US Core FHIR IG 6.1.0, the FHIR IG either a) leverages an existing non-US Core FHIR IG or b) specifies new implementation guidance that is unique to this FHIR IG. Readers should review the Specifications tab to identify if an USCDI+ Maternal Health Postpartum TOC data element is mapped to either a) US Core FHIR IG 6.1.0 (Bucket 1), b) an existing non-US Core FHIR IG (e.g., International Patient Summary FHIR IG, Birth and Fetal Death FHIR IG, and US Public Health Profiles Library FHIR IG) (Bucket 2), or c) novel implementation guidance (Bucket 3). Users should navigate to [Specifications](spec.md) to review data element FHIR mappings.
+For USCDI+ Maternal Health Postpartum TOC data elements that are not supported by the US Core FHIR IG 6.1.0, the FHIR IG either a) leverages an existing non-US Core FHIR IG or b) specifies new implementation guidance that is unique to this FHIR IG. Readers should review the Specifications tab to identify if an USCDI+ Maternal Health Postpartum TOC data element is mapped as a:
+  1) USCDI Version 3 (V3) data elements;
+  2) Non-USCDI V3 Data Elements; or
+  3) Data elements unique to USCDI+ MH Postpartum TOC FHIR IG.
+Users should navigate to [Specifications](spec.md) to review data element FHIR mappings.
 
 ### Intended Audience
 There are three intended audiences for this FHIR IG: 
