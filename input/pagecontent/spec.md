@@ -1,9 +1,9 @@
 ### Data Element Mapping
 
 The following profiles have been defined as part of the USCDI+ Maternal Health Postpartum TOC FHIR IG. A registry of US Core profiles may be found within the [US Core FHIR IG](https://hl7.org/fhir/us/core/STU6.1). A registry of standard profiles can be found in the FHIR specification, and additional profiles may be registered on the HL7 FHIR registry at [http://hl7.org/fhir/registry](http://hl7.org/fhir/registry). 
-<br> <br> This implementation guide used a tiered approach with an emphasized focus on organizing the vetted data elements and mappings based on three main categories:
+<br> <br> This implementation guide used a tiered approach with an emphasized focus on organizing the vetted data elements and mappings based on three categories:
   1) USCDI Version 3 (V3) data elements;
-  2) Non-USCDI V3 Data Elements; and
+  2) Non-USCDI V3 data elements; and
   3) Data elements unique to USCDI+ MH Postpartum TOC FHIR IG.
 <br>
 Data element mappings are organized in an aggregate summary format and by derivative tables that are organized by the categories previously described above in the tables below. 
@@ -125,7 +125,7 @@ Data element mappings are organized in an aggregate summary format and by deriva
 
 <br>
 <br>
-**USCDI+ Maternal Health Postpartum TOC Data Elements and Specifications Category 3: Data elements unique to USCDI+ MH Postpartum TOC FHIR IG**
+**USCDI+ Maternal Health Postpartum TOC Data Elements and Specifications Category 3: Data Elements Unique to USCDI+ MH Postpartum TOC FHIR IG**
 
 |Data Class|Postpartum TOC Data Element|FHIR Profile|Proposed FHIR Data Element|
 |---|---|---|---|
