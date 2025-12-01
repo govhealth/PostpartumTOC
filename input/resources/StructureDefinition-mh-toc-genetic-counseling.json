@@ -29,11 +29,10 @@
           "coding": [
             {
               "system": "http://snomed.info/sct",
-              "code": "409063005",
-              "display": "Counseling"
+              "code": "409063005"
             }
           ]
-        },
+        },        
         "mustSupport": true
       },  
       {

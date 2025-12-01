@@ -6,10 +6,6 @@ ERROR: DocumentReference/mh-toc-behavioral-health-history-example: DocumentRefer
 # There is currently no existing LOINC code for Postpartum Summary Note; new LOINC code will need to be requested to cover this document type
 ERROR: DocumentReference/mh-toc-postpartum-summary-example: DocumentReference.type: None of the codings provided are in the value set 'US Core DocumentReference Type' (http://hl7.org/fhir/us/core/ValueSet/us-core-documentreference-type|6.1.0), and a coding from this value set is required) (codes = http://fhir.org/guides/astp/postpartum-toc/CodeSystem/mh-toc-postpartum-temp#mh-toc-postpartum-summary)
 
-# The specified values for week(s) (wk) and day(s) (d) exist within UCUM, as specified by HL7 Terminology (THO) 7.0.0, under common UCUM codes value set
-INFORMATION: ValueSet/mh-toc-gestational-age-units: ValueSet.compose.include[0].concept[0]: The display 'day' is not valid in the Code system 'day'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
-INFORMATION: ValueSet/mh-toc-gestational-age-units: ValueSet.compose.include[0].concept[1]: The display 'week' is not valid in the Code system 'week'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
-
 # This ICD-10-PCS code is valid in older versions of the ICD-10-PCS; It is intentionally included in this IG for retrospective use
 ERROR: ValueSet/mh-toc-smm-blood-transfusion: ValueSet.compose.include[1].concept[32]: The code '30230H0' is not valid in the system http://www.cms.gov/Medicare/Coding/ICD10 (Unknown code '30230H0' in the CodeSystem 'http://www.cms.gov/Medicare/Coding/ICD10' version '2.0.1')
 ERROR: ValueSet/mh-toc-smm-blood-transfusion: ValueSet.compose.include[1].concept[33]: The code '30230H1' is not valid in the system http://www.cms.gov/Medicare/Coding/ICD10 (Unknown code '30230H1' in the CodeSystem 'http://www.cms.gov/Medicare/Coding/ICD10' version '2.0.1')
@@ -44,9 +40,6 @@ ERROR: ValueSet/mh-toc-smm-blood-transfusion: ValueSet.compose.include[1].concep
 ERROR: ValueSet/mh-toc-smm-blood-transfusion: ValueSet.compose.include[1].concept[62]: The code '30240T0' is not valid in the system http://www.cms.gov/Medicare/Coding/ICD10 (Unknown code '30240T0' in the CodeSystem 'http://www.cms.gov/Medicare/Coding/ICD10' version '2.0.1')
 ERROR: ValueSet/mh-toc-smm-blood-transfusion: ValueSet.compose.include[1].concept[63]: The code '30240T1' is not valid in the system http://www.cms.gov/Medicare/Coding/ICD10 (Unknown code '30240T1' in the CodeSystem 'http://www.cms.gov/Medicare/Coding/ICD10' version '2.0.1')
 
-# The ICD-10-PCS code used in the example is valid in older versions of the ICD-10-PCS (see notes on ICD-10-PCS blood transfusion codes above); it is intentionally included in this IG for retrospective use
-ERROR: Procedure/smm-procedure-blood-transfusion: Procedure.code: None of the codings provided are in the value set 'MH TOC SMM ValueSet for the Blood Transfusion Indicator' (http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-blood-transfusion|0.1.0), and a coding from this value set is required) (codes = http://www.cms.gov/Medicare/Coding/ICD10#30233H1)
-
 # This ICD-10-CM code is valid in older versions of the ICD-10-CM; it is intentionally included in this IG for retrospective use
 ERROR: ValueSet/mh-toc-smm-puerperal-cerebrovascular-disorders: ValueSet.compose.include[0].concept[28]: The code 'I60.20' is not valid in the system http://hl7.org/fhir/sid/icd-10-cm (Unknown code 'I60.20' in the CodeSystem 'http://hl7.org/fhir/sid/icd-10-cm' version '2024')
 ERROR: ValueSet/mh-toc-smm-puerperal-cerebrovascular-disorders: ValueSet.compose.include[0].concept[29]: The code 'I60.21' is not valid in the system http://hl7.org/fhir/sid/icd-10-cm (Unknown code 'I60.21' in the CodeSystem 'http://hl7.org/fhir/sid/icd-10-cm' version '2024')
@@ -57,9 +50,6 @@ ERROR: ValueSet/mh-toc-smm-sepsis: ValueSet​.compose​.include[0]​.concept[
 WARNING: ImagingStudy/example-chest-ct: ImagingStudy.series[0].instance[0].sopClass: ValueSet 'http://dicom.nema.org/medical/dicom/current/output/chtml/part04/sect_B.5.html#table_B.5-1' not found
 WARNING: ImagingStudy/example-chest-ct: ImagingStudy.series[0].instance[1].sopClass: ValueSet 'http://dicom.nema.org/medical/dicom/current/output/chtml/part04/sect_B.5.html#table_B.5-1' not found
 WARNING: ImagingStudy/imagingstudy-ob-fetal-dating: ImagingStudy.series[0].instance[0].sopClass: ValueSet 'http://dicom.nema.org/medical/dicom/current/output/chtml/part04/sect_B.5.html#table_B.5-1' not found
-
-# The pattern is defined in the base profile, US Core ServiceRequest
-INFORMATION: StructureDefinition/mh-toc-genetic-counseling: StructureDefinition​.snapshot​.element[17]​.pattern​.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
 
 # This IG is intended to build on USCore 6.1.0, which is the mandated standard for certified health IT for interoperability by federal regulations starting in 2026
 WARNING: ImplementationGuide/fhir.astp.postpartum-toc: ImplementationGuide.dependsOn[0]: The ImplementationGuide uses package hl7.fhir.us.core#6.1.0 released on 2023-06-30, but the most recent appropriate version is 8.0.0. This reference is getting old and the more recent version should be considered
@@ -80,10 +70,8 @@ INFORMATION: StructureDefinition/mh-toc-edd: StructureDefinition.snapshot.elemen
 
 # The discriminator type 'pattern' is inherited from the US Core Simple Observation Profile
 INFORMATION: StructureDefinition/mh-toc-breastfeeding-intent: StructureDefinition.snapshot.element[13].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
-INFORMATION: StructureDefinition/mh-toc-breastfeeding-status: StructureDefinition​.snapshot​.element[13]​.slicing​.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/mh-toc-breastfeeding-status: StructureDefinition.snapshot.element[13].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/mh-toc-genetic-counseling: StructureDefinition.snapshot.element[17].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
-INFORMATION: StructureDefinition/mh-toc-genetic-counseling: StructureDefinition.differential.element[1].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/mh-toc-gestational-age: StructureDefinition.snapshot.element[13].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/mh-toc-gravidity: StructureDefinition.snapshot.element[13].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/mh-toc-labor-type: StructureDefinition.snapshot.element[13].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
@@ -107,9 +95,6 @@ INFORMATION: StructureDefinition/mh-toc-smm-condition-pulmonary-edema-acute-hear
 INFORMATION: StructureDefinition/mh-toc-smm-condition-sepsis: StructureDefinition.snapshot.element[19].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/mh-toc-smm-condition-shock: StructureDefinition.snapshot.element[19].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/mh-toc-smm-condition-sickle-cell-crisis: StructureDefinition.snapshot.element[19].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
-
-# The discriminator type 'pattern' is inherited from the US Core ServiceRequest Profile
-INFORMATION: StructureDefinition/mh-toc-genetic-counseling: StructureDefinition​.differential​.element[1]​.slicing​.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 
 # Inherited from the USCore Document Reference profile 
 INFORMATION: StructureDefinition/mh-toc-behavioral-health-history: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
