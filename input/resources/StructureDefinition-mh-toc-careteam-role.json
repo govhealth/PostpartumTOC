@@ -1,0 +1,135 @@
+{
+    "resourceType": "StructureDefinition",
+    "id": "mh-toc-careteam-role",
+    "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-careteam-role",
+    "name": "MHTOCCareTeamRole",
+    "title": "MH TOC CareTeam Role",
+    "status": "active",
+    "date": "2026-02-24",
+    "description": "[]",
+    "fhirVersion": "4.0.1",
+    "kind": "resource",
+    "abstract": false,
+    "type": "CareTeam",
+    "baseDefinition": "http://hl7.org/fhir/us/core/StructureDefinition/StructureDefinition-us-core-careteam",
+    "derivation": "constraint",
+    "differential": {
+        "element": [
+            {
+                "id": "CareTeam.participant.role",
+                "path": "CareTeam.participant.role",
+                "patternCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "446050000",
+                            "display": "Primary care physician"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "453231000124104",
+                            "display": "Primary care provider "
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "225726006",
+                            "display": "Lactation consultant"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "768820003",
+                            "display": "Care coordinator"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "768730001",
+                            "display": "Home health aide"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "768731002",
+                            "display": "Home helper"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "768730001",
+                            "display": "Home health aide"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "11935004",
+                            "display": "Obstetrician"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1271000175101",
+                            "display": "Primary obstetrician"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "309367003",
+                            "display": "Obstetrician and gynecologist"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "397903001",
+                            "display": "Staff grade obstetrician"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "158969006",
+                            "display": "Consultant gynecology/obstetrics"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "408798009",
+                            "display": "Consultant pediatrician"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "408799001",
+                            "display": "Consultant neonatologist"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "768839008",
+                            "display": "Consultant"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "82296001",
+                            "display": "Pediatrician"
+                        },
+                                              {
+                            "system": "http://snomed.info/sct",
+                            "code": "309328009",
+                            "display": "Ambulatory pediatrician"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "309329001",
+                            "display": "Community pediatrician"
+                        },
+                                              {
+                            "system": "http://snomed.info/sct",
+                            "code": "408798009",
+                            "display": "Consultant pediatrician"
+                        }
+                    ]
+                },
+                "mustSupport": true
+            },
+            {
+              "id": "CareTeam.participant.role:MH-TOC-CareTeam-Role",
+              "path": "CareTeam.participant.role",
+              "sliceName": "MH-TOC-CareTeam-Role"
+            },
+            {
+                "id": "CareTeam.participant",
+                "path": "CareTeam.participant",
+                "min": 1,
+                "mustSupport": true
+            }
+        ]
+    }
+}
