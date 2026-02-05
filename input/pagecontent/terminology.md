@@ -183,7 +183,7 @@
          </td>
       </tr>
       <tr>
-         <td><a href="ValueSet-mh-toc-labor-type.html">Labor Type</a></td>
+         <td><a href="ValueSet-mh-toc-labor-delivery-types.html">Labor Type</a></td>
          <td>
             The MH TOC Labor Type ValueSet contains codes to represent types of labor such as spontaneous or medically induced.
          </td>
