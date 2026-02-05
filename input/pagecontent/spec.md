@@ -135,7 +135,7 @@ Data element mappings are organized in an aggregate summary format and by deriva
 |Genomics|Genetic Screening|[US Core Diagnostic Report Profile for Laboratory Results Reporting](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-diagnosticreport-lab.html)|DiagnosticReport.code|
 |Genomics|Genetic Counseling|[MH TOC Genetic Counseling](StructureDefinition-mh-toc-genetic-counseling.html)|ServiceRequest.category|
 |Health Status Assessments|Clinical Risk Assessment Results|[US Core Observation Screening Assessment](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-observation-screening-assessment.html)|Observation.value[x]|
-|Labor and Delivery|Labor Type|[MH TOC Labor Type](StructureDefinition-mh-toc-labor-type.html)|Observation.value[x]|
+|Labor and Delivery|Labor Type|[MH TOC Labor and Delivery Types](StructureDefinition-mh-toc-labor-delivery-types.html)|Observation.value[x]|
 |Lactation|Breastfeeding Status|[MH TOC Breastfeeding Status](StructureDefinition-mh-toc-breastfeeding-status.html)|Observation.code|
 |Lactation|Breastfeeding Intention|[MH TOC Breastfeeding Intent](StructureDefinition-mh-toc-breastfeeding-intent.html)|Observation.value[x]|
 |Pregnancy Information|Delivery Date|[Delivery Date](StructureDefinition-mh-toc-delivery-date.html)|Observation.date|
@@ -184,7 +184,7 @@ Data element mappings are organized in an aggregate summary format and by deriva
 |Immmunizations|Immunizations|[US Core Immunization](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-immunization.html)|Immunization.vaccinecode|
 |Immmunizations|Reason Immunization Not Performed|[US Core Immunization](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-immunization.html)|Immunization.statusreason|
 |Labor and Delivery|Delivery Type|[Birth and Fetal Death ProcedureFinalRouteMethodDelivery](https://build.fhir.org/ig/HL7/fhir-bfdr/StructureDefinition-Procedure-final-route-method-delivery-definitions.html)|Procedure.code|
-|Labor and Delivery|Labor Type|[MH TOC Labor Type](StructureDefinition-mh-toc-labor-type.html)|Observation.value[x]|
+|Labor and Delivery|Labor Type|[MH TOC Labor and Delivery Types](StructureDefinition-mh-toc-labor-delivery-types.html)|Observation.value[x]|
 |Laboratory|Result Reference Range|[US Core Laboratory Result Observation Profile](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-observation-lab.html)|Observation.referenceRange|
 |Laboratory|Result Status|[US Core DiagnosticReport Profile for Laboratory Results Reporting](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-diagnosticreport-lab.html)|DiagnosticReport.status|
 |Laboratory|Specimen Identifier|[US Core Specimen](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-specimen.html)|Specimen.identifier|
