@@ -183,9 +183,9 @@
          </td>
       </tr>
       <tr>
-         <td><a href="ValueSet-mh-toc-labor-delivery-types.html">Labor Type</a></td>
+         <td><a href="ValueSet-mh-toc-labor-delivery-types.html">Labor and Delivery Types</a></td>
          <td>
-            The MH TOC Labor Type ValueSet contains codes to represent types of labor such as spontaneous or medically induced.
+            The MH TOC Labor and Delivery Types ValueSet contains codes to represent types of labor such as spontaneous or medically induced. Additionally types of delivery are included, such as vaginal and c-section, amongst others.
          </td>
       </tr>
       <tr>
