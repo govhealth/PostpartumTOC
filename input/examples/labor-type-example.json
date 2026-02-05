@@ -3,7 +3,7 @@
   "id": "labor-type-example",
   "meta": {
     "profile": [
-      "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-labor-type"
+      "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-labor-delivery-types"
     ]
   },
   "status": "final",
