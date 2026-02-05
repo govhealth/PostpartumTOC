@@ -196,9 +196,9 @@ The following profiles and extensions are defined for the USCDI+ Maternal Health
    </thead>
    <tbody>
       <tr>
-         <td><a href="StructureDefinition-mh-toc-labor-type.html">Labor Type</a></td>
+         <td><a href="StructureDefinition-mh-toc-labor-delivery-types.html">Labor Type</a></td>
          <td>
-            The USCDI+ Maternal Health Postpartum TOC Labor Type Profile is derived from the US Core Simple Observation Profile. Observed labor types may include spontaneous, medically induced, or scheduled C-section. 
+            The USCDI+ Maternal Health Postpartum TOC Labor and Delivery Types Profile is derived from the US Core Simple Observation Profile. Observed labor types may include spontaneous, medically induced, or scheduled C-section. 
          </td>
       </tr>
    </tbody>
