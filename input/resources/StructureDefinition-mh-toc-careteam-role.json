@@ -125,8 +125,32 @@
               "sliceName": "MH-TOC-CareTeam-Role"
             },
             {
-                "id": "CareTeam.participant",
-                "path": "CareTeam.participant",
+                "id": "Observation.subject",
+                "path": "Observation.subject",
+                "min": 1,
+                "type": [
+                    {
+                        "code": "Reference",
+                        "targetProfile": [
+                            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+                        ],
+                        "_targetProfile": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support",
+                                        "valueBoolean": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "mustSupport": true
+            },          
+            {
+                "id": "CareTeam.participant.member",
+                "path": "CareTeam.participant.member",
                 "min": 1,
                 "mustSupport": true
             }
