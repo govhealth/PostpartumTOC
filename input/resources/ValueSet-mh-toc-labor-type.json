@@ -1,28 +1,91 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "mh-toc-labor-type",
-  "url" : "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-labor-type",
+  "id" : "mh-toc-labor-delivery-types",
+  "url" : "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-labor-delivery-types",
   "version" : "1.0.0",
-  "name" : "ValueSetMHTOCLaborType",
-  "title" : "MH TOC Labor Type",
+  "name" : "ValueSetMHTOCLaborDeliveryTypes",
+  "title" : "MH TOC Labor and Delivery Types",
   "date" : "2025-07-25",
   "status": "active",
   "experimental": false,
-  "description" : "The MH TOC Labor Type ValueSet contains codes to represent types of labor such as spantaneous or medically induced.",
+  "description" : "The MH TOC Labor and Delivery Types ValueSet contains codes to represent types of labor, such as spantaneous or medically induced, and delivery types, such as vaginal or cesaerean.",
   "compose" : {
     "include" : [
       {
         "system" : "http://snomed.info/sct",
         "concept" : [
           {
-            "code" : "84457005"
+            "code" : "84457005",
+            "display": "Spontaneous onset of labor" 
           },
           {
-            "code" : "31208007"
+            "code" : "31208007",
+            "display": "Medical induction of labor"                 
           },
           {
-            "code" : "177141003"
-          }          
+            "code" : "61586001",
+            "display": "Delivery by vacuum extraction" 
+          },
+          {
+            "code" : "89849000",
+            "display": "High forceps delivery"                 
+          },
+          {
+            "code" : "62508004",
+            "display": "Mid forceps delivery" 
+          },
+          {
+            "code" : "18625004",
+            "display": "Low forceps delivery"                 
+          },
+          {
+            "code" : "26313002",
+            "display": "Delivery by vacuum extraction with episiotomy" 
+          },
+          {
+            "code" : "15413009",
+            "display": "High forceps delivery with episiotomy"                 
+          },
+          {
+            "code" : "25828002",
+            "display": "Mid forceps delivery with episiotomy" 
+          },
+          {
+            "code" : "17860005",
+            "display": "Low forceps delivery with episiotomy"                 
+          },
+          {
+            "code" : "237313003",
+            "display": "Vaginal delivery following previous cesarean section" 
+          },
+          {
+            "code" : "38451000119105",
+            "display": "Failed attempted vaginal birth after previous cesarean section"                 
+          },
+          {
+            "code" : "84195007",
+            "display": "Classical cesarean section"              
+          },
+          {
+            "code" : "177141003",
+            "display": "Elective cesarean section"              
+          },
+          {
+            "code": "450484007",
+            "display": "Cesarean section through J shaped incision of uterus"
+          },
+          {
+            "code": "450483001",
+            "display": "Cesarean section through inverted T shaped incision of uterus"
+          },
+          {
+            "code": "1197219005",
+            "display": "Elective lower segment cesarean section through inverted T shaped incision of uterus"
+          },
+          {
+            "code": "709004006",
+            "display": "Emergency lower segment cesarean section with inverted T incision"
+          }
         ]
       }
     ]
