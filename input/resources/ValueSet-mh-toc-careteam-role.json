@@ -1,0 +1,97 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "mh-toc-careteam-role",
+  "url" : "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-careteam-role",
+  "version" : "1.0.0",
+  "name" : "ValueSetMHTOCCareTeamRole",
+  "title" : "MH TOC Care Team Role",
+  "date" : "2026-02-06",
+  "status": "active",
+  "experimental": false,
+  "description" : "The MH TOC Care Team Role ValueSet contains codes to represent care team roles relevant to maternal and postpartum care.",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code": "446050000",
+            "display": "Primary care physician"
+          },
+          {
+            "code": "453231000124104",
+            "display": "Primary care provider "
+          },
+          {
+            "code": "225726006",
+            "display": "Lactation consultant"
+          },
+          {
+            "code": "768820003",
+            "display": "Care coordinator"
+          },
+          {
+            "code": "768730001",
+            "display": "Home health aide"
+          },
+          {
+            "code": "768731002",
+            "display": "Home helper"
+          },
+          {
+            "code": "768730001",
+            "display": "Home health aide"
+          },
+          {
+            "code": "11935004",
+            "display": "Obstetrician"
+          },
+          {
+            "code": "1271000175101",
+            "display": "Primary obstetrician"
+          },
+          {
+            "code": "309367003",
+            "display": "Obstetrician and gynecologist"
+          },
+          {
+            "code": "397903001",
+            "display": "Staff grade obstetrician"
+          },
+          {
+            "code": "158969006",
+            "display": "Consultant gynecology/obstetrics"
+          },
+          {
+            "code": "408798009",
+            "display": "Consultant pediatrician"
+          },
+          {
+            "code": "408799001",
+            "display": "Consultant neonatologist"
+          },
+          {
+            "code": "768839008",
+            "display": "Consultant"
+          },
+          {
+            "code": "82296001",
+            "display": "Pediatrician"
+          },
+          {
+            "code": "309328009",
+            "display": "Ambulatory pediatrician"
+          },
+          {
+            "code": "309329001",
+            "display": "Community pediatrician"
+          },
+          {
+            "code": "408798009",
+            "display": "Consultant pediatrician"
+          }
+        ]
+      }
+    ]
+  }
+}
