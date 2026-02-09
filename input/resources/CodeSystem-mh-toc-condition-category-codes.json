@@ -16,12 +16,8 @@
             "display": "Complications"
         },
         {
-            "code": "lacerations-perineal",
-            "display": "Lacerations/Perineal"
-        },
-        {
-            "code": "trauma-obstetric-anal-sphincter-injuries",
-            "display": "Trauma/Obstetric Anal Sphincter Injuries (OASIS)"
+            "code": "lacerations-perineal-trauma-obstetric-anal-sphincter-injuries",
+            "display": "Lacerations, Perineal, Trauma, and Obstetric Anal Sphincter Injuries (OASIS)"
         },
         {
             "code": "hemorrhage",
