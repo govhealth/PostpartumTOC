@@ -1,0 +1,30 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "mh-toc-conditions-diabetes",
+  "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-conditions-diabetes",
+  "version": "1.0.0",
+  "name": "MHTOCSMMConditionsDiabetes",
+  "title": "MH TOC Conditions Diabetes",
+  "status": "active",
+  "date": "2026-02-09",
+  "description": "The MH TOC Conditions Diabetes Profile is derived from the MH TOC Conditions Profile. This derived profile specifies diabetes related to postpartum clinical care by binding to an extension, ValueSet, and CodeSystem.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Condition",
+  "baseDefinition": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-conditions",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Condition.code",
+        "path": "Condition.code",
+        "min": 1,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-conditions-diabetes"
+        }
+      }
+    ]
+  }
+}
