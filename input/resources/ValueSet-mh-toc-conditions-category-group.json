@@ -1,0 +1,49 @@
+{
+  "resourceType": "ValueSet",
+  "id": "mh-toc-conditions-category-group",
+  "url": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-conditions-category-group",
+  "name": "MHTOCConditionsCategoryGroup",
+  "title": "MH TOC Conditions ValueSet",
+  "status": "active",
+  "experimental": false,
+  "date": "2026-02-09",
+  "description": "A grouping ValueSet that includes SNOMED and ICD-10 codes for identified conditions relevant to postpartum clinical care and events resulting from antepartum clinical care and delivery.",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-conditions-complications"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-conditions-diabetes"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-conditions-hemorrhage"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-conditions-infections"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-conditions-lacerations-perineal-trauma-oasis"
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "timestamp" : "2025-11-09",
+    "parameter" : [
+      {
+        "name" : "incomplete-ok",
+        "valueBoolean" : true
+      }
+    ]  
+  }  
+}
