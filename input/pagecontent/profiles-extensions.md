@@ -79,6 +79,24 @@ The following profiles and extensions are defined for the USCDI+ Maternal Health
    </tbody>
 </table>
 
+### CareTeam
+
+<table class="profile-table">
+   <thead>
+      <tr>
+         <th class="profile-table-name">Profile</th>
+         <th class="profile-table-description">Description</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td><a href="StructureDefinition-us-core-careteam.html">CareTeam Role</a></td>
+         <td>
+            The USCDI+ Maternal Health Postpartum TOC CareTeam Role Profile is derived from the US Core CareTeam Profile. This profile sets minimum expectations for the CareTeam resource for querying a care team participant's role in the subject's clinical care. It identifies which core elements, extensions, vocabularies, and value sets <b>SHALL</b> be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases.  It defines requirements for exchanging the documented care team members and their roles during a subject's postpartum clinical care, including care team members leading up to delivery and during the delivery event.  
+         </td>
+      </tr>
+   </tbody>
+</table>
 
 
 ### Clinical Notes
