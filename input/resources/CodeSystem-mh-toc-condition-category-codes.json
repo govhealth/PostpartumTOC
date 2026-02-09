@@ -1,0 +1,39 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "mh-toc-condition-category-codes",
+    "url": "http://fhir.org/guides/astp/postpartum-toc/CodeSystem/mh-toc-condition-category-codes",
+    "version": "1.0.0",
+    "name": "MHTOCConditionCategoryCodes",
+    "title": "MH TOC Condition Category Codes",
+    "status": "active",
+    "content": "complete",
+    "caseSensitive": true,
+    "experimental": false,
+    "description": "Code system defining categories for relevant postpartum conditions. These codes are used in a ValueSet for individual profiles for each condition category codes.",
+    "concept": [
+        {
+            "code": "complications",
+            "display": "Complications"
+        },
+        {
+            "code": "lacerations-perineal",
+            "display": "Lacerations/Perineal"
+        },
+        {
+            "code": "trauma-obstetric-anal-sphincter-injuries",
+            "display": "Trauma/Obstetric Anal Sphincter Injuries (OASIS)"
+        },
+        {
+            "code": "hemorrhage",
+            "display": "Hemorrhage"
+        },
+        {
+            "code": "diabetes",
+            "display": "Diabetes"
+        },
+        {
+            "code": "infection",
+            "display": "Infection"
+        }
+    ]
+}
