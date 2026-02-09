@@ -1,0 +1,96 @@
+{
+    "resourceType": "ValueSet",
+    "id": "mh-toc-conditions-hemorrhage",
+    "url": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-conditions-hemorrhage",
+    "version": "1.0.0",
+    "name": "MHTOCConditionsHemorrhage",
+    "title": "MH TOC Conditions ValueSet for Hemorrhage",
+    "status": "active",
+    "experimental": false,
+    "date": "2026-02-09",
+    "description": "A ValueSet comprised of SNOMED and ICD-10-CM condition codes for hemorrhage that may occur during postpartum clinical care or following the delivery event. The codes in the ValueSet should be monitored for changes as they may be updated in the future.",
+  ~~~~~~~~~~
+    "compose": {
+        "include": [
+            {
+                "system": "http://snomed.info/sct",
+                "concept": [
+                    {
+                        "code": "116224001",
+                        "display": "Complication of procedure"
+                    },
+                    {
+                        "code": "35688006",
+                        "display": "Complication of medical care"
+                    },
+                    {
+                        "code": "385486001",
+                        "display": "Postoperative complication"
+                    },
+                    {
+                        "code": "609496007",
+                        "display": "Complication occurring during pregnancy"
+                    },
+                    {
+                        "code": "74627003",
+                        "display": "Complication due to diabetes mellitus"
+                    },
+                    {
+                        "code": "88797001",
+                        "display": "Complication of surgical procedure"
+                    }
+                ]
+            },
+            {
+                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                "concept": [
+                    {
+                        "code": "O46.90",
+                        "display": "Complication of procedure"
+                    },
+                    {
+                        "code": "T88.9XXA",
+                        "display": "Complication of surgical and medical care, unspecified, initial encounter"
+                    },
+                    {
+                        "code": "T88.9XXD",
+                        "display": "Complication of surgical and medical care, unspecified, subsequent encounter"
+                    },
+                    {
+                        "code": "T88.9XXS",
+                        "display": "Complication of surgical and medical care, unspecified, sequela"
+                    },
+                    {
+                        "code": "T81.9XXA",
+                        "display": "Unspecified complication of procedure, initial encounter"
+                    },
+                    {
+                        "code": "T81.9XXD",
+                        "display": "Unspecified complication of procedure, subsequent encounter"
+                    },
+                    {
+                        "code": "T81.9XXS",
+                        "display": "Unspecified complication of procedure, sequela"
+                    },
+                    {
+                        "code": "O26.90",
+                        "display": " Complication occurring during pregnancy"
+                    },
+                    {
+                        "code": "E11.8",
+                        "display": " Complication due to diabetes mellitus"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp" : "2026-02-09",
+        "parameter" : [
+        {
+            "name" : "incomplete-ok",
+            "valueBoolean" : true
+        }
+      ]  
+    }  
+}
