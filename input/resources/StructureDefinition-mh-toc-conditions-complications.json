@@ -1,0 +1,30 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "mh-toc-conditions-complications",
+  "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-conditions-complications",
+  "version": "1.0.0",
+  "name": "MHTOCSMMConditionsComplications",
+  "title": "MH TOC Conditions Complications",
+  "status": "active",
+  "date": "2026-02-09",
+  "description": "The MH TOC Conditions Complications Profile is derived from the MH TOC Conditions Profile. This derived profile specifies complications related to postpartum clinical care by binding to an extension, ValueSet, and CodeSystem.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Condition",
+  "baseDefinition": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-conditions",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Condition.code",
+        "path": "Condition.code",
+        "min": 1,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-conditions-complications"
+        }
+      }
+    ]
+  }
+}
