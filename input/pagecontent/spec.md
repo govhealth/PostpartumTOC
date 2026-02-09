@@ -17,7 +17,7 @@ Data element mappings are organized in an aggregate summary format and by deriva
 |Allergies and Intolerances|Medication Allergy Intolerance|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
 |Allergies and Intolerances|Non-Medication Allergy Intolerance|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
 |Care Team Member(s)|Care Team Member Name|[US Core CareTeam](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-careteam.html)|CareTeam.participant|
-|Care Team Member(s)|Care Team Member Role|[US Core CareTeam](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-careteam.html)|CareTeam.participant.role|
+|Care Team Member(s)|Care Team Member Role|[MH TOC CareTeam Role](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-careteam-role)|CareTeam.participant.role|
 |Clinical Notes|Consultation Note|[Consultation Note](StructureDefinition-mh-toc-consult-note.html)|DocumentReference.type|
 |Clinical Notes|Discharge Summary Note|[Discharge Summary](StructureDefinition-mh-toc-discharge-summary.html)|DocumentReference.type|
 |Clinical Notes|History & Physical|[US Core DocumentReference](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-documentreference.html)|DocumentReference.type|
@@ -151,7 +151,7 @@ Data element mappings are organized in an aggregate summary format and by deriva
 |Allergies and Intolerances|Medication Allergy Intolerance|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
 |Allergies and Intolerances|Non-Medication Allergy Intolerance|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
 |Care Team Member(s)|Care Team Member Name|[US Core CareTeam](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-careteam.html)|CareTeam.participant|
-|Care Team Member(s)|Care Team Member Role|[US Core CareTeam](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-careteam.html)|CareTeam.participant.role|
+|Care Team Member(s)|Care Team Member Role|[MH TOC CareTeam Role](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-careteam-role)|CareTeam.participant.role|
 |Clinical Notes|Antepartum Summary Note|[US Core DocumentReference](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-documentreference.html)|DocumentReference.type|
 |Clinical Notes|Behavioral Health History|[MH TOC Behavioral Health History](StructureDefinition-mh-toc-behavioral-health-history.html)|DocumentReference.type|
 |Clinical Notes|Consultation Note|[Consultation Note](StructureDefinition-mh-toc-consult-note.html)|DocumentReference.type|
