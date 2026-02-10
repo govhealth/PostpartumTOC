@@ -9,35 +9,58 @@
     "experimental": false,
     "date": "2026-02-09",
     "description": "A ValueSet comprised of SNOMED and ICD-10-CM condition codes for hemorrhage that may occur during postpartum clinical care or following the delivery event. The codes in the ValueSet should be monitored for changes as they may be updated in the future.",
-  ~~~~~~~~~~
     "compose": {
         "include": [
             {
                 "system": "http://snomed.info/sct",
                 "concept": [
                     {
-                        "code": "116224001",
-                        "display": "Complication of procedure"
+                        "code": "110265006",
+                        "display": "Postoperative hemorrhage"
                     },
                     {
-                        "code": "35688006",
-                        "display": "Complication of medical care"
+                        "code": "12063002",
+                        "display": "Rectal hemorrhage"
                     },
                     {
-                        "code": "385486001",
-                        "display": "Postoperative complication"
+                        "code": "198903000",
+                        "display": "Hemorrhage due to placenta previa"
                     },
                     {
-                        "code": "609496007",
-                        "display": "Complication occurring during pregnancy"
+                        "code": "23171006",
+                        "display": "Delayed AND/OR secondary postpartum hemorrhage"
                     },
                     {
-                        "code": "74627003",
-                        "display": "Complication due to diabetes mellitus"
+                        "code": "266464001",
+                        "display": "Hemorrhage of rectum and anus"
                     },
                     {
-                        "code": "88797001",
-                        "display": "Complication of surgical procedure"
+                        "code": "27214003",
+                        "display": "Atonic postpartum hemorrhage"
+                    },
+                    {
+                        "code": "308896002",
+                        "display": "Secondary hemorrhage postprocedure"
+                    },
+                    {
+                        "code": "34842007",
+                        "display": "Antepartum hemorrhage"
+                    },
+                    {
+                        "code": "44216000",
+                        "display": "Retained products of conception, following delivery with hemorrhage"
+                    },
+                    {
+                        "code": "106004004",
+                        "display": "Hemorrhagic complication of pregnancy"
+                    },
+                    {
+                        "code": "47821001",
+                        "display": "Postpartum hemorrhage"
+                    },
+                    {
+                        "code": "405555006",
+                        "display": "Hemorrhage of urethra"
                     }
                 ]
             },
@@ -45,40 +68,88 @@
                 "system": "http://hl7.org/fhir/sid/icd-10-cm",
                 "concept": [
                     {
-                        "code": "O46.90",
-                        "display": "Complication of procedure"
+                        "code": "R58",
+                        "display": "Hemorrhage, not elsewhere classified"
                     },
                     {
-                        "code": "T88.9XXA",
-                        "display": "Complication of surgical and medical care, unspecified, initial encounter"
+                        "code": "O44.1",
+                        "display": "Complete placenta previa with hemorrhage, unspecified trimester"
                     },
                     {
-                        "code": "T88.9XXD",
-                        "display": "Complication of surgical and medical care, unspecified, subsequent encounter"
+                        "code": "O44.3",
+                        "display": "Partial placenta previa with hemorrhage"
                     },
                     {
-                        "code": "T88.9XXS",
-                        "display": "Complication of surgical and medical care, unspecified, sequela"
+                        "code": "O44.5",
+                        "display": "Low lying placenta with hemorrhage"
                     },
                     {
-                        "code": "T81.9XXA",
-                        "display": "Unspecified complication of procedure, initial encounter"
+                        "code": "K62.5",
+                        "display": "Hemorrhage of rectum and anus"
                     },
                     {
-                        "code": "T81.9XXD",
-                        "display": "Unspecified complication of procedure, subsequent encounter"
+                        "code": "O67",
+                        "display": "Labor and delivery complicated by intrapartum hemorrhage, not elsewhere classified"
                     },
                     {
-                        "code": "T81.9XXS",
-                        "display": "Unspecified complication of procedure, sequela"
+                        "code": "O67.0",
+                        "display": "Intrapartum hemorrhage with coagulation defect"
                     },
                     {
-                        "code": "O26.90",
+                        "code": "O67.8",
                         "display": " Complication occurring during pregnancy"
                     },
                     {
-                        "code": "E11.8",
-                        "display": " Complication due to diabetes mellitus"
+                        "code": "O67.9",
+                        "display": "Intrapartum hemorrhage, unspecified"
+                    },
+                     {
+                        "code": "O46",
+                        "display": "Antepartum hemorrhage, not elsewhere classified"
+                    },
+                    {
+                        "code": "O46.0",
+                        "display": "Antepartum hemorrhage with coagulation defect"
+                    },
+                    {
+                        "code": "O46.8",
+                        "display": "Other antepartum hemorrhage"
+                    },
+                    {
+                        "code": "O46.9",
+                        "display": "Antepartum hemorrhage, unspecified"
+                    },
+                    {
+                        "code": "O72",
+                        "display": "Postpartum hemorrhage"
+                    },
+                    {
+                        "code": "O72.0",
+                        "display": "Third-stage hemorrhage"
+                    },
+                    {
+                        "code": "O72.1",
+                        "display": "Other immediate postpartum hemorrhage"
+                    },
+                    {
+                        "code": "O72.2",
+                        "display": "Delayed and secondary postpartum hemorrhage"
+                    },
+                    {
+                        "code": "O72.3",
+                        "display": "Postpartum coagulation defects"
+                    },
+                     {
+                        "code": "O20",
+                        "display": "Hemorrhage in early pregnancy"
+                    },
+                    {
+                        "code": "O20.8",
+                        "display": "Other hemorrhage in early pregnancy"
+                    },
+                    {
+                        "code": "O20.9",
+                        "display": "Hemorrhage in early pregnancy, unspecified"
                     }
                 ]
             }
