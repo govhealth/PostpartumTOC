@@ -9,35 +9,54 @@
     "experimental": false,
     "date": "2026-02-09",
     "description": "A ValueSet comprised of SNOMED and ICD-10-CM condition codes for diabetes relevant during postpartum clinical care or following the delivery event. The codes in the ValueSet should be monitored for changes as they may be updated in the future.",
-  ~~~~
     "compose": {
         "include": [
             {
                 "system": "http://snomed.info/sct",
                 "concept": [
                     {
-                        "code": "116224001",
-                        "display": "Complication of procedure"
+                        "code": "11687002",
+                        "display": "Gestational diabetes mellitus"
                     },
                     {
-                        "code": "35688006",
-                        "display": "Complication of medical care"
+                        "code": "199223000",
+                        "display": "Diabetes mellitus during pregnancy, childbirth and the puerperium"
                     },
                     {
-                        "code": "385486001",
-                        "display": "Postoperative complication"
+                        "code": "199230006",
+                        "display": "Pre-existing type 2 diabetes mellitus"
                     },
                     {
-                        "code": "609496007",
-                        "display": "Complication occurring during pregnancy"
+                        "code": "44054006",
+                        "display": "Diabetes mellitus type 2"
                     },
                     {
-                        "code": "74627003",
-                        "display": "Complication due to diabetes mellitus"
+                        "code": "443694000",
+                        "display": "Uncontrolled type 2 diabetes mellitus"
                     },
                     {
-                        "code": "88797001",
-                        "display": "Complication of surgical procedure"
+                        "code": "444073006",
+                        "display": "Uncontrolled type 1 diabetes mellitus"
+                    },
+                                       {
+                        "code": "46635009",
+                        "display": "Diabetes mellitus type 1"
+                    },
+                    {
+                        "code": "46894009",
+                        "display": "Gestational diabetes mellitus class A2"
+                    },
+                    {
+                        "code": "609564002",
+                        "display": "Pre-existing type 1 diabetes mellitus in pregnancy"
+                    },
+                    {
+                        "code": "73211009",
+                        "display": "Diabetes mellitus"
+                    },
+                    {
+                        "code": "81531005",
+                        "display": "Diabetes mellitus type 2 in obese"
                     }
                 ]
             },
@@ -45,40 +64,52 @@
                 "system": "http://hl7.org/fhir/sid/icd-10-cm",
                 "concept": [
                     {
-                        "code": "O46.90",
-                        "display": "Complication of procedure"
+                        "code": "O24.4",
+                        "display": "Gestational diabetes mellitus"
                     },
                     {
-                        "code": "T88.9XXA",
-                        "display": "Complication of surgical and medical care, unspecified, initial encounter"
+                        "code": "O24.919",
+                        "display": "Unspecified diabetes mellitus in pregnancy, unspecified trimester"
                     },
                     {
-                        "code": "T88.9XXD",
-                        "display": "Complication of surgical and medical care, unspecified, subsequent encounter"
+                        "code": "O24.92",
+                        "display": "Unspecified diabetes mellitus in childbirth"
                     },
                     {
-                        "code": "T88.9XXS",
-                        "display": "Complication of surgical and medical care, unspecified, sequela"
+                        "code": "O24.93",
+                        "display": "Unspecified diabetes mellitus in the puerperium"
                     },
                     {
-                        "code": "T81.9XXA",
-                        "display": "Unspecified complication of procedure, initial encounter"
+                        "code": "E11.9",
+                        "display": "Type 2 diabetes mellitus without complications"
                     },
                     {
-                        "code": "T81.9XXD",
-                        "display": "Unspecified complication of procedure, subsequent encounter"
+                        "code": "E11.65",
+                        "display": "Type 2 diabetes mellitus with hyperglycemia"
                     },
                     {
-                        "code": "T81.9XXS",
-                        "display": "Unspecified complication of procedure, sequela"
+                        "code": "E10.9",
+                        "display": "Type 1 diabetes mellitus without complications"
                     },
                     {
-                        "code": "O26.90",
-                        "display": " Complication occurring during pregnancy"
+                        "code": "E10.65",
+                        "display": "Type 1 diabetes mellitus with hyperglycemia"
                     },
                     {
-                        "code": "E11.8",
-                        "display": " Complication due to diabetes mellitus"
+                        "code": "O24.414",
+                        "display": "Gestational diabetes mellitus in pregnancy, insulin controlled"
+                    },
+                    {
+                        "code": "O24.019",
+                        "display": "Pre-existing type 1 diabetes mellitus, in pregnancy, unspecified trimester"
+                    },
+                    {
+                        "code": "O24.92",
+                        "display": "Unspecified diabetes mellitus in childbirth"
+                    },
+                    {
+                        "code": "E11.69",
+                        "display": "Type 2 diabetes mellitus with other specified complication"
                     }
                 ]
             }
