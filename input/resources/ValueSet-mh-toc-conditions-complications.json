@@ -73,11 +73,11 @@
                     },
                     {
                         "code": "O26.90",
-                        "display": " Complication occurring during pregnancy"
+                        "display": "Complication occurring during pregnancy"
                     },
                     {
                         "code": "E11.8",
-                        "display": " Complication due to diabetes mellitus"
+                        "display": "Complication due to diabetes mellitus"
                     }
                 ]
             }
