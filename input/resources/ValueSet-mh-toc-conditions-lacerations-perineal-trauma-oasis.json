@@ -9,35 +9,50 @@
     "experimental": false,
     "date": "2026-02-09",
     "description": "A ValueSet comprised of SNOMED and ICD-10-CM condition codes for lacerations, perineal, trauma, and obstetric anal sphincter injuries (OASIS) that may occur during postpartum clinical care or following the delivery event. The codes in the ValueSet should be monitored for changes as they may be updated in the future.",
-    ~~~~
     "compose": {
         "include": [
             {
                 "system": "http://snomed.info/sct",
                 "concept": [
                     {
-                        "code": "116224001",
-                        "display": "Complication of procedure"
+                        "code": "398019008",
+                        "display": "Perineal laceration during delivery"
                     },
                     {
-                        "code": "35688006",
-                        "display": "Complication of medical care"
+                        "code": "57759005",
+                        "display": "First degree perineal laceration"
                     },
                     {
-                        "code": "385486001",
-                        "display": "Postoperative complication"
+                        "code": "6234006",
+                        "display": "Second degree perineal laceration"
                     },
                     {
-                        "code": "609496007",
-                        "display": "Complication occurring during pregnancy"
+                        "code": "10217006",
+                        "display": "Third degree perineal laceration"
                     },
                     {
-                        "code": "74627003",
-                        "display": "Complication due to diabetes mellitus"
+                        "code": "208892001",
+                        "display": "Closed traumatic dislocation of hip"
                     },
                     {
-                        "code": "88797001",
-                        "display": "Complication of surgical procedure"
+                        "code": "417163006",
+                        "display": "Traumatic or nontraumatic injury"
+                    },
+                    {
+                        "code": "417746004",
+                        "display": "Traumatic injury"
+                    },
+                    {
+                        "code": "53785005",
+                        "display": "Injury to brachial plexus as birth trauma"
+                    },
+                    {
+                        "code": "712893003",
+                        "display": "Traumatic or non-traumatic injury of back"
+                    },
+                    {
+                        "code": "86347007",
+                        "display": "Traumatic urethral stricture"
                     }
                 ]
             },
@@ -45,40 +60,76 @@
                 "system": "http://hl7.org/fhir/sid/icd-10-cm",
                 "concept": [
                     {
-                        "code": "O46.90",
-                        "display": "Complication of procedure"
+                        "code": "O70.9",
+                        "display": "Perineal laceration during delivery"
                     },
                     {
-                        "code": "T88.9XXA",
-                        "display": "Complication of surgical and medical care, unspecified, initial encounter"
+                        "code": "O70.0",
+                        "display": "First degree perineal laceration"
                     },
                     {
-                        "code": "T88.9XXD",
-                        "display": "Complication of surgical and medical care, unspecified, subsequent encounter"
+                        "code": "O70.1",
+                        "display": "Second degree perineal laceration"
                     },
                     {
-                        "code": "T88.9XXS",
-                        "display": "Complication of surgical and medical care, unspecified, sequela"
+                        "code": "O70.20",
+                        "display": "Third degree perineal laceration"
                     },
                     {
-                        "code": "T81.9XXA",
-                        "display": "Unspecified complication of procedure, initial encounter"
+                        "code": "O70.21",
+                        "display": "Third degree perineal laceration during delivery, IIIa"
                     },
                     {
-                        "code": "T81.9XXD",
-                        "display": "Unspecified complication of procedure, subsequent encounter"
+                        "code": "O70.22",
+                        "display": "Third degree perineal laceration during delivery, IIIb"
                     },
                     {
-                        "code": "T81.9XXS",
-                        "display": "Unspecified complication of procedure, sequela"
+                        "code": "O70.23",
+                        "display": "Third degree perineal laceration during delivery, IIIc"
                     },
                     {
-                        "code": "O26.90",
-                        "display": " Complication occurring during pregnancy"
+                        "code": "O70.3",
+                        "display": "Fourth degree perineal laceration during delivery"
                     },
                     {
-                        "code": "E11.8",
-                        "display": " Complication due to diabetes mellitus"
+                        "code": "O70.4",
+                        "display": "Anal sphincter tear complicating delivery, not associated with third degree laceration"
+                    },
+                                        {
+                        "code": "S73.006",
+                        "display": "Closed traumatic dislocation of hip"
+                    },
+                    {
+                        "code": "T14.90XA",
+                        "display": "Injury, unspecified, initial encounter"
+                    },
+                    {
+                        "code": "T14.90XD",
+                        "display": "Injury, unspecified, subsequent encounter"
+                    },
+                    {
+                        "code": "T14.90XS",
+                        "display": "Injury, unspecified, sequela"
+                    },
+                    {
+                        "code": "P14.3",
+                        "display": "Injury to brachial plexus as birth trauma"
+                    },
+                    {
+                        "code": "S39.92XA",
+                        "display": "Unspecified injury of lower back, initial encounter"
+                    },
+                    {
+                        "code": "S39.92XD",
+                        "display": "Unspecified injury of lower back, subsequent encounter"
+                    },
+                    {
+                        "code": "S39.92XS",
+                        "display": "Unspecified injury of lower back, sequela"
+                    },
+                    {
+                        "code": "N35.028",
+                        "display": "Traumatic urethral stricture "
                     }
                 ]
             }
