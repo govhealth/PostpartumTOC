@@ -9,35 +9,138 @@
     "experimental": false,
     "date": "2026-02-09",
     "description": "A ValueSet comprised of SNOMED and ICD-10-CM condition codes for infections that may occur during postpartum clinical care or following the delivery event. The codes in the ValueSet should be monitored for changes as they may be updated in the future.",
-  ~~~~
     "compose": {
         "include": [
             {
                 "system": "http://snomed.info/sct",
                 "concept": [
                     {
-                        "code": "116224001",
-                        "display": "Complication of procedure"
+                        "code": "288252009",
+                        "display": "Maternal infection"
                     },
                     {
-                        "code": "35688006",
-                        "display": "Complication of medical care"
+                        "code": "1179398000",
+                        "display": "Maternal perinatal infection"
                     },
                     {
-                        "code": "385486001",
-                        "display": "Postoperative complication"
+                        "code": "1179410005",
+                        "display": "Perinatal infection of fetus and/or neonate"
+                    },                    
+                    {
+                        "code": "200125006",
+                        "display": "Infection of obstetric surgical wound"
                     },
                     {
-                        "code": "609496007",
-                        "display": "Complication occurring during pregnancy"
+                        "code": "33910007",
+                        "display": "Postoperative infection"
+                    },                    
+                    {
+                        "code": "269406001",
+                        "display": "Post-traumatic wound infection"
                     },
                     {
-                        "code": "74627003",
-                        "display": "Complication due to diabetes mellitus"
+                        "code": "58126003",
+                        "display": "Postoperative wound infection"
                     },
                     {
-                        "code": "88797001",
-                        "display": "Complication of surgical procedure"
+                        "code": "721104000",
+                        "display": "Sepsis due to urinary tract infection"
+                    },
+                    {
+                        "code": "197927001",
+                        "display": "Recurrent urinary tract infection"
+                    },
+                    {
+                        "code": "197928006",
+                        "display": "Chronic urinary tract infection"
+                    },
+                    {
+                        "code": "197926005",
+                        "display": "Postoperative urinary tract infection"
+                    },
+                    {
+                        "code": "199111004",
+                        "display": "Urinary tract infection following delivery"
+                    },
+                    {
+                        "code": "307534009",
+                        "display": "Urinary tract infection in pregnancy"
+                    },
+                    {
+                        "code": "431309003",
+                        "display": "Acute urinary tract infection"
+                    },
+                    {
+                        "code": "431737008",
+                        "display": "Acute lower urinary tract infection"
+                    },
+                    {
+                        "code": "441547007",
+                        "display": "History of chronic urinary tract infection"
+                    },
+                    {
+                        "code": "407560009",
+                        "display": "At increased risk of sexually transmitted infection"
+                    },
+                    {
+                        "code": "105629000",
+                        "display": "Chlamydial infection"
+                    },
+                    {
+                        "code": "23513009",
+                        "display": "Herpesvirus infection"
+                    },
+                    {
+                        "code": "407451003",
+                        "display": "Herpes simplex type 1 infection"
+                    },
+                    {
+                        "code": "407450002",
+                        "display": "Herpes simplex type 2 infection"
+                    },
+                    {
+                        "code": "240532009",
+                        "display": "Human papillomavirus infection"
+                    },
+                    {
+                        "code": "86406008",
+                        "display": "Human immunodeficiency virus infection"
+                    },
+                    {
+                        "code": "91947003",
+                        "display": "Asymptomatic human immunodeficiency virus infection"
+                    },
+                    {
+                        "code": "428875002",
+                        "display": "Recurrent bacterial infection"
+                    },
+                    {
+                        "code": "409796004",
+                        "display": "Infection caused by antimicrobial resistant bacteria"
+                    },
+                    {
+                        "code": "442073005",
+                        "display": "Infection caused by methicillin susceptible Staphylococcus aureus"
+                    },
+                    {
+                        "code": "56335008",
+                        "display": "Infection caused by Trichomonas"
+                    },
+                    {
+                        "code": "63398001",
+                        "display": "Bacterial infection caused by Pseudomonas"
+                    },
+                    {
+                        "code": "71057007",
+                        "display": "Infection caused by Escherichia coli"
+                    },
+                    {
+                        "code": "409797008",
+                        "display": "Infection caused by antimicrobial resistant fungi"
+                    },
+                    {
+                        "code": "409798003",
+                        "display": "Infection caused by antimicrobial resistant virus"
                     }
                 ]
             },
@@ -45,40 +148,264 @@
                 "system": "http://hl7.org/fhir/sid/icd-10-cm",
                 "concept": [
                     {
-                        "code": "O46.90",
-                        "display": "Complication of procedure"
+                        "code": "P39.9",
+                        "display": "Infection specific to the perinatal period, unspecified"
                     },
                     {
-                        "code": "T88.9XXA",
-                        "display": "Complication of surgical and medical care, unspecified, initial encounter"
+                        "code": "O98.8",
+                        "display": "Other maternal infectious and parasitic diseases complicating pregnancy, childbirth and the puerperium"
                     },
                     {
-                        "code": "T88.9XXD",
-                        "display": "Complication of surgical and medical care, unspecified, subsequent encounter"
+                        "code": "O98.81",
+                        "display": "Other maternal infectious and parasitic diseases complicating pregnancy"
                     },
                     {
-                        "code": "T88.9XXS",
-                        "display": "Complication of surgical and medical care, unspecified, sequela"
+                        "code": "O98.82",
+                        "display": "Other maternal infectious and parasitic diseases complicating childbirth"
                     },
                     {
-                        "code": "T81.9XXA",
-                        "display": "Unspecified complication of procedure, initial encounter"
+                        "code": "O98.83",
+                        "display": "Other maternal infectious and parasitic diseases complicating the puerperium"
                     },
                     {
-                        "code": "T81.9XXD",
-                        "display": "Unspecified complication of procedure, subsequent encounter"
+                        "code": "O98.811",
+                        "display": "Other maternal infectious and parasitic diseases complicating pregnancy, first trimester"
                     },
                     {
-                        "code": "T81.9XXS",
-                        "display": "Unspecified complication of procedure, sequela"
+                        "code": "O98.812",
+                        "display": "Other maternal infectious and parasitic diseases complicating pregnancy, second trimester"
                     },
                     {
-                        "code": "O26.90",
-                        "display": " Complication occurring during pregnancy"
+                        "code": "O98.813",
+                        "display": "Other maternal infectious and parasitic diseases complicating pregnancy, third trimester"
                     },
                     {
-                        "code": "E11.8",
-                        "display": " Complication due to diabetes mellitus"
+                        "code": "O98.819",
+                        "display": "Other maternal infectious and parasitic diseases complicating pregnancy, unspecified trimester"
+                    },
+                    {
+                        "code": "O98.9",
+                        "display": "Unspecified maternal infectious and parasitic disease complicating pregnancy, childbirth and the puerperium"
+                    },
+                    {
+                        "code": "O98.91",
+                        "display": "Unspecified maternal infectious and parasitic disease complicating pregnancy"
+                    },
+                    {
+                        "code": "O98.92",
+                        "display": "Unspecified maternal infectious and parasitic disease complicating childbirth"
+                    },
+                    {
+                        "code": "O98.93",
+                        "display": "Unspecified maternal infectious and parasitic disease complicating the puerperium"
+                    },
+                    {
+                        "code": "O98.911",
+                        "display": "Unspecified maternal infectious and parasitic disease complicating pregnancy, first trimester"
+                    },
+                    {
+                        "code": "O98.912",
+                        "display": "Unspecified maternal infectious and parasitic disease complicating pregnancy, second trimester"
+                    },
+                    {
+                        "code": "O98.913",
+                        "display": "Unspecified maternal infectious and parasitic disease complicating pregnancy, third trimester"
+                    },
+                    {
+                        "code": "O98.919",
+                        "display": "Unspecified maternal infectious and parasitic disease complicating pregnancy, unspecified trimester"
+                    },
+                    {
+                        "code": "Z87.440",
+                        "display": "Personal history of diseases of urinary system"
+                    },
+                    {
+                        "code": "O03.0",
+                        "display": "Genital tract and pelvic infection following incomplete spontaneous abortion"
+                    },
+                    {
+                        "code": "O03.5",
+                        "display": "Genital tract and pelvic infection following complete or unspecified spontaneous abortion"
+                    },
+                    {
+                        "code": "O04.5",
+                        "display": "Genital tract and pelvic infection following (induced) termination of pregnancy"
+                    },
+                    {
+                        "code": "O04.88",
+                        "display": "Urinary tract infection following (induced) termination of pregnancy"
+                    },
+                    {
+                        "code": "O07.0",
+                        "display": "Genital tract and pelvic infection following failed attempted termination of pregnancy"
+                    },
+                    {
+                        "code": "O08.0",
+                        "display": "Genital tract and pelvic infection following ectopic and molar pregnancy"
+                    },
+                    {
+                        "code": "O23.0",
+                        "display": "Infections of kidney in pregnancy"
+                    },
+                    {
+                        "code": "O23.1",
+                        "display": "Infections of bladder in pregnancy"
+                    },
+                    {
+                        "code": "O23.2",
+                        "display": "Infections of urethra in pregnancy"
+                    },
+                    {
+                        "code": "O23.3",
+                        "display": "Infections of other parts of urinary tract in pregnancy"
+                    },
+                    {
+                        "code": "O23.4",
+                        "display": "Unspecified infection of urinary tract in pregnancy"
+                    },
+                    {
+                        "code": "O23.5",
+                        "display": "Infections of the genital tract in pregnancy"
+                    },
+                    {
+                        "code": "O23.9",
+                        "display": "Unspecified genitourinary tract infection in pregnancy"
+                    },
+                    {
+                        "code": "O86",
+                        "display": "Other puerperal infections"
+                    },
+                    {
+                        "code": "O86.00",
+                        "display": "Infection of obstetric surgical wound"
+                    },
+                    {
+                        "code": "O86.1",
+                        "display": "Other infection of genital tract following delivery"
+                    },
+                    {
+                        "code": "O86.8",
+                        "display": "Other specified puerperal infections"
+                    },
+                    {
+                        "code": "T81.40XA",
+                        "display": "Infection following a procedure, unspecified, initial encounter"
+                    },
+                    {
+                        "code": "T81.40XD",
+                        "display": "Infection following a procedure, unspecified, subsequent encounter"
+                    },
+                    {
+                        "code": "T81.40XS",
+                        "display": "Infection following a procedure, unspecified, sequela"
+                    },
+                    {
+                        "code": "T81.40",
+                        "display": "Infection following a procedure, unspecified"
+                    },
+                    {
+                        "code": "T81.41",
+                        "display": "Infection following a procedure, superficial incisional surgical site"
+                    },
+                    {
+                        "code": "T81.42",
+                        "display": "Infection following a procedure, deep incisional surgical site"
+                    },
+                    {
+                        "code": "T81.43",
+                        "display": "Infection following a procedure, organ and space surgical site"
+                    },
+                    {
+                        "code": "T81.49",
+                        "display": "Infection following a procedure, other surgical site"
+                    },
+                    {
+                        "code": "T81.44",
+                        "display": "Sepsis following a procedure"
+                    },
+                    {
+                        "code": "A41.9",
+                        "display": "Sepsis, unspecified organism"
+                    },
+                    {
+                        "code": "N39.0",
+                        "display": "Urinary tract infection, site not specified"
+                    },
+                    {
+                        "code": "O86.20",
+                        "display": "Urinary tract infection following delivery, unspecified"
+                    },
+                    {
+                        "code": "B34.9",
+                        "display": "Viral infection, unspecified"
+                    },
+                    {
+                        "code": "O98.5",
+                        "display": "Other viral diseases complicating pregnancy, childbirth and the puerperium"
+                    },
+                    {
+                        "code": "A74.9",
+                        "display": "Chlamydial infection, unspecified"
+                    },
+                    {
+                        "code": "B00.9",
+                        "display": "Herpesviral infection, unspecified"
+                    },
+                    {
+                        "code": "B97.7",
+                        "display": "Papillomavirus as the cause of diseases classified elsewhere"
+                    },
+                    {
+                        "code": "O98.71",
+                        "display": "Human immunodeficiency virus [HIV] disease complicating pregnancy"
+                    },
+                    {
+                        "code": "O98.72",
+                        "display": "Human immunodeficiency virus [HIV] disease complicating childbirth"
+                    },
+                    {
+                        "code": "O98.73",
+                        "display": "Human immunodeficiency virus [HIV] disease complicating the puerperium"
+                    },
+                    {
+                        "code": "Z21",
+                        "display": "Asymptomatic human immunodeficiency virus infection"
+                    },
+                    {
+                        "code": "Z20.6",
+                        "display": "Contact with and (suspected) exposure to human immunodeficiency virus [HIV]"
+                    },
+                    {
+                        "code": "R75",
+                        "display": "Inconclusive laboratory evidence of human immunodeficiency virus [HIV]"
+                    },
+                    {
+                        "code": "A49.9",
+                        "display": "Bacterial infection, unspecified"
+                    },
+                    {
+                        "code": "A49.02",
+                        "display": "Methicillin resistant Staphylococcus aureus infection, unspecified site"
+                    },
+                    {
+                        "code": "B95.61",
+                        "display": "Methicillin susceptible Staphylococcus aureus infection as the cause of diseases classified elsewhere"
+                    },
+                    {
+                        "code": "A59.9",
+                        "display": "Trichomoniasis, unspecified"
+                    },
+                    {
+                        "code": "A49.8",
+                        "display": "Other bacterial infections of unspecified site"
+                    },
+                    {
+                        "code": "B96.20",
+                        "display": "Unspecified Escherichia coli [E. coli] as the cause of diseases classified elsewhere"
+                    },
+                    {
+                        "code": "B49",
+                        "display": "Unspecified mycosis"
                     }
                 ]
             }
