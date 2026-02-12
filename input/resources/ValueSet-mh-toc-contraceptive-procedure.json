@@ -1,0 +1,75 @@
+{
+    "resourceType": "ValueSet",
+    "id": "mh-toc-contraceptive-procedure",
+    "url": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-contraceptive-procedure",
+    "version": "1.0.0",
+    "name": "MHTOCContraceptiveProcedure",
+    "title": "MH TOC Conditions ValueSet for Contraceptive Procedures",
+    "status": "active",
+    "experimental": false,
+    "date": "2026-02-12",
+    "description": "A ValueSet comprised of SNOMED codes for contraceptive procedures during postpartum clinical care, following the delivery event, or during the antepartum period. The codes in the ValueSet should be monitored for changes as they may be updated in the future.",
+    "compose": {
+        "include": [
+          ~~~~
+            {
+                "system": "http://snomed.info/sct",
+                "concept": [
+                    {
+                        "code": "11687002",
+                        "display": "Gestational diabetes mellitus"
+                    },
+                    {
+                        "code": "199223000",
+                        "display": "Diabetes mellitus during pregnancy, childbirth and the puerperium"
+                    },
+                    {
+                        "code": "199230006",
+                        "display": "Pre-existing type 2 diabetes mellitus"
+                    },
+                    {
+                        "code": "44054006",
+                        "display": "Diabetes mellitus type 2"
+                    },
+                    {
+                        "code": "443694000",
+                        "display": "Uncontrolled type 2 diabetes mellitus"
+                    },
+                    {
+                        "code": "444073006",
+                        "display": "Uncontrolled type 1 diabetes mellitus"
+                    },
+                                       {
+                        "code": "46635009",
+                        "display": "Diabetes mellitus type 1"
+                    },
+                    {
+                        "code": "46894009",
+                        "display": "Gestational diabetes mellitus class A2"
+                    },
+                    {
+                        "code": "609564002",
+                        "display": "Pre-existing type 1 diabetes mellitus in pregnancy"
+                    },
+                    {
+                        "code": "73211009",
+                        "display": "Diabetes mellitus"
+                    },
+                    {
+                        "code": "81531005",
+                        "display": "Diabetes mellitus type 2 in obese"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp" : "2026-02-09",
+        "parameter" : [
+        {
+            "name" : "incomplete-ok",
+            "valueBoolean" : true
+        }
+      ]  
+    }  
+}
