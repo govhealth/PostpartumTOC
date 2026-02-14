@@ -1,0 +1,658 @@
+{
+    "resourceType": "ValueSet",
+    "id": "mh-toc-contraceptive-medication-pop",
+    "url": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-contraceptive-medication-pop",
+    "version": "1.0.0",
+    "name": "MHTOCContraceptiveMedicationPOP",
+    "title": "MH TOC Medication ValueSet for Progestin-Only Pills (POPs)",
+    "status": "active",
+    "experimental": false,
+    "date": "2026-02-14",
+    "description": "A ValueSet comprised of RxNorm condition codes for progestin-only pills (POPs). The codes in the ValueSet should be monitored for changes as they may be updated in the future.",
+    "compose": {
+        "include": [
+            {
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "concept": [
+                    {
+                        "code": "1111008",
+                        "display": "Nexplanon"
+                    },
+                    {
+                        "code": "1111010",
+                        "display": "etonogestrel Drug Implant [Nexplanon]"
+                    },
+                    {
+                        "code": "1111011",
+                        "display": "etonogestrel 68 MG Drug Implant [Nexplanon]"
+                    },
+                    {
+                        "code": "1182873",
+                        "display": "Nexplanon Drug Implant Product"
+                    },
+                    {
+                        "code": "152061",
+                        "display": "Mirena"
+                    },
+                    {
+                        "code": "1181044",
+                        "display": "Mirena Drug Implant Product"
+                    },
+                    {
+                        "code": "1856528",
+                        "display": "levonorgestrel Intrauterine System [Mirena]"
+                    },
+                    {
+                        "code": "807283",
+                        "display": "levonorgestrel 0.000833 MG/HR Intrauterine System [Mirena]"
+                    },
+                    {
+                        "code": "1000128",
+                        "display": "1 ML medroxyprogesterone acetate 150 MG/ML Injection [Depo-Provera]"
+                    },
+                    {
+                        "code": "1000154",
+                        "display": "1 ML medroxyprogesterone acetate 150 MG/ML Prefilled Syringe [Depo-Provera]"
+                    },
+                    {
+                        "code": "1856533",
+                        "display": "Kyleena"
+                    },
+                    {
+                        "code": "1856533",
+                        "display": "levonorgestrel Intrauterine System [Kyleena]"
+                    },
+                    {
+                        "code": "1856536",
+                        "display": "Kyleena Drug Implant Product"
+                    },
+                    {
+                        "code": "1856536",
+                        "display": "levonorgestrel 0.000729 MG/HR Intrauterine System [Kyleena]"
+                    },
+                    {
+                        "code": "1856546",
+                        "display": "Skyla"
+                    },
+                    {
+                        "code": "1366338",
+                        "display": "Skyla Drug Implant Product"
+                    },
+                    {
+                        "code": "1366339",
+                        "display": "levonorgestrel 0.000583 MG/HR Intrauterine System [Skyla]"
+                    },
+                    {
+                        "code": "1856517",
+                        "display": "levonorgestrel Intrauterine System [Skyla]"
+                    },
+                    {
+                        "code": "1856517",
+                        "display": "Liletta"
+                    },
+                    {
+                        "code": "1605253",
+                        "display": "Liletta Drug Implant Product"
+                    },
+                    {
+                        "code": "1605257",
+                        "display": "levonorgestrel 0.000813 MG/HR Intrauterine System [Liletta]"
+                    },
+                    {
+                        "code": "1856524",
+                        "display": "levonorgestrel Intrauterine System [Liletta]"
+                    },
+                    {
+                        "code": "2171002",
+                        "display": "{24 (drospirenone 4 MG Oral Tablet) / 4 (inert ingredients 1 MG Oral Tablet) } Pack [Slynd]"
+                    },
+                    {
+                        "code": "202888",
+                        "display": "Provera"
+                    },
+                    {
+                        "code": "1182477",
+                        "display": "Provera Oral Product"
+                    },
+                    {
+                        "code": "1182478",
+                        "display": "Provera Pill"
+                    },
+                    {
+                        "code": "93902",
+                        "display": "medroxyprogesterone Oral Tablet [Provera]"
+                    },
+                    {
+                        "code": "1000124",
+                        "display": "medroxyprogesterone acetate 10 MG Oral Tablet [Provera]"
+                    },
+                    {
+                        "code": "1000139",
+                        "display": "medroxyprogesterone acetate 2.5 MG Oral Tablet [Provera]"
+                    },
+                    {
+                        "code": "1000145",
+                        "display": "medroxyprogesterone acetate 5 MG Oral Tablet [Provera]"
+                    },
+                    {
+                        "code": "831533",
+                        "display": "{28 (norethindrone 0.35 MG Oral Tablet) } Pack [Errin 28 Day]"
+                    },
+                    {
+                        "code": "748962",
+                        "display": "{28 (norethindrone 0.35 MG Oral Tablet) } Pack [Camila 28 Day]"
+                    },
+                    {
+                        "code": "1430383",
+                        "display": "{28 (norethindrone 0.35 MG Oral Tablet) } Pack [Lyza]"
+                    },
+                    {
+                        "code": "977836",
+                        "display": "{28 (norethindrone 0.35 MG Oral Tablet) } Pack [Heather 28 Day]"
+                    },
+                    {
+                        "code": "1422896",
+                        "display": "{28 (norethindrone 0.35 MG Oral Tablet) } Pack [Jencycla 28 Day]"
+                    },
+                    {
+                        "code": "1539955",
+                        "display": "{28 (norethindrone 0.35 MG Oral Tablet) } Pack [Sharobel 28 Day]"
+                    },
+                    {
+                        "code": "1811763",
+                        "display": "{28 (norethindrone 0.35 MG Oral Tablet) } Pack [Norlyda 28 Day]"
+                    },
+                    {
+                        "code": "262140",
+                        "display": "Prometrium"
+                    },
+                    {
+                        "code": "1181291",
+                        "display": "Prometrium Oral Product"
+                    },
+                    {
+                        "code": "1181292",
+                        "display": "Prometrium Pill"
+                    },
+                    {
+                        "code": "262080",
+                        "display": "progesterone 100 MG Oral Capsule [Prometrium]"
+                    },
+                    {
+                        "code": "261319",
+                        "display": "progesterone 200 MG Oral Capsule [Prometrium]"
+                    },
+                    {
+                        "code": "366435",
+                        "display": "progesterone Oral Capsule [Prometrium]"
+                    },
+                    {
+                        "code": "545467",
+                        "display": "depo-subQ provera"
+                    },
+                    {
+                        "code": "1186698",
+                        "display": "depo-subQ provera Injectable Product"
+                    },
+                    {
+                        "code": "791063",
+                        "display": "medroxyprogesterone Prefilled Syringe [depo-subQ provera]"
+                    },
+                    {
+                        "code": "1000158",
+                        "display": "0.65 ML medroxyprogesterone acetate 160 MG/ML Prefilled Syringe [depo-subQ provera]"
+                    },
+                    {
+                        "code": "1539953",
+                        "display": "{28 (norethindrone 0.35 MG Oral Tablet) } Pack [Deblitane 28 Day]"
+                    },
+                    {
+                        "code": "2043465",
+                        "display": "{28 (norethindrone 0.35 MG Oral Tablet) } Pack [Tulana 28 Day]"
+                    },
+                    {
+                        "code": "860225",
+                        "display": "megestrol acetate 40 MG/ML Oral Suspension"
+                    },
+                    {
+                        "code": "577154",
+                        "display": "megestrol acetate 125 MG/ML Oral Suspension"
+                    },
+                    {
+                        "code": "860215",
+                        "display": "megestrol acetate 20 MG Oral Tablet"
+                    },
+                    {
+                        "code": "860221",
+                        "display": "megestrol acetate 40 MG Oral Tablet"
+                    },
+                    {
+                        "code": "860231",
+                        "display": "megestrol acetate 160 MG Oral Tablet"
+                    },
+                    {
+                        "code": "2052064",
+                        "display": "{28 (norethindrone 0.35 MG Oral Tablet) } Pack [Incassia 28 Day]"
+                    },
+                    {
+                        "code": "748961",
+                        "display": "{28 (norethindrone 0.35 MG Oral Tablet) } Pack"
+                    },
+                    {
+                        "code": "198042",
+                        "display": "norethindrone 0.35 MG Oral Tablet"
+                    },
+                    {
+                        "code": "153581",
+                        "display": "Crinone"
+                    },
+                    {
+                        "code": "1173055",
+                        "display": "Crinone Vaginal Product"
+                    },
+                    {
+                        "code": "153579",
+                        "display": "progesterone 0.04 MG/MG Vaginal Gel [Crinone]"
+                    },
+                    {
+                        "code": "153580",
+                        "display": "progesterone 0.08 MG/MG Vaginal Gel [Crinone]"
+                    },
+                    {
+                        "code": "367189",
+                        "display": "progesterone Vaginal Gel [Crinone]"
+                    },
+                    {
+                        "code": "2676107",
+                        "display": "{28 (norgestrel 0.075 MG Oral Tablet) } Pack [Opill 28 Day]"
+                    },
+                    {
+                        "code": "2397128",
+                        "display": "{28 (norethindrone 0.35 MG Oral Tablet) } Pack [Lyleq 28 Day]"
+                    },
+                    {
+                        "code": "2626828",
+                        "display": "{28 (norethindrone 0.35 MG Oral Tablet) } Pack [Emzahh 28 Day]"
+                    },    
+                    {
+                        "code": "2704560",
+                        "display": "{28 (norethindrone 0.35 MG Oral Tablet) } Pack [Orquidea 28 Day]"
+                    },
+                    {
+                        "code": "2716571",
+                        "display": "{28 (norethindrone 0.35 MG Oral Tablet) } Pack [Meleya 28 Day]"
+                    },
+                    {
+                        "code": "1855514",
+                        "display": "Her Style"
+                    },
+                    {
+                        "code": "1855517",
+                        "display": "Her Style Oral Product"
+                    },
+                    {
+                        "code": "1855518",
+                        "display": "Her Style Pill"
+                    },
+                    {
+                        "code": "1855519",
+                        "display": "levonorgestrel 1.5 MG Oral Tablet [Her Style]"
+                    },
+                    {
+                        "code": "1855516",
+                        "display": "levonorgestrel Oral Tablet [Her Style]"
+                    },
+                    {
+                        "code": "2696249",
+                        "display": "Gallifrey"
+                    },
+                    {
+                        "code": "2696251",
+                        "display": "Gallifrey Oral Product"
+                    },
+                    {
+                        "code": "2696252",
+                        "display": "Gallifrey Pill"
+                    },
+                    {
+                        "code": "2696253",
+                        "display": "norethindrone Oral Tablet [Gallifrey]"
+                    },
+                    {
+                        "code": "2696255",
+                        "display": "norethindrone acetate 5 MG Oral Tablet [Gallifrey]"
+                    },
+                    {
+                        "code": "725095",
+                        "display": "Endometrin"
+                    },
+                    {
+                        "code": "1176595",
+                        "display": "Endometrin Vaginal Product"
+                    },
+                    {
+                        "code": "725098",
+                        "display": "progesterone 100 MG Vaginal Insert [Endometrin]"
+                    },
+                    {
+                        "code": "2109024",
+                        "display": "progesterone Vaginal Insert [Endometrin]"
+                    },
+                    {
+                        "code": "215496",
+                        "display": "Aygestin"
+                    },
+                    {
+                        "code": "1176310",
+                        "display": "Aygestin Oral Product"
+                    },
+                    {
+                        "code": "1176311",
+                        "display": "Aygestin Pill"
+                    },
+                    {
+                        "code": "369127",
+                        "display": "norethindrone Oral Tablet [Aygestin]"
+                    },
+                    {
+                        "code": "1000407",
+                        "display": "norethindrone acetate 5 MG Oral Tablet [Aygestin]"
+                    },
+                    {
+                        "code": "748977",
+                        "display": "{28 (norethindrone 0.35 MG Oral Tablet) } Pack [Nora-BE 28 Day]"
+                    },
+                    {
+                        "code": "1495092",
+                        "display": "{28 (norethindrone 0.35 MG Oral Tablet) } Pack [Norlyroc 28 Day]"
+                    },
+                    {
+                        "code": "1600597",
+                        "display": "Econtra"
+                    },
+                    {
+                        "code": "1600600",
+                        "display": "EContra Oral Product"
+                    },
+                    {
+                        "code": "1600601",
+                        "display": "EContra Pill"
+                    },
+                    {
+                        "code": "1600602",
+                        "display": "levonorgestrel 1.5 MG Oral Tablet [EContra]"
+                    },
+                    {
+                        "code": "1600599",
+                        "display": "levonorgestrel Oral Tablet [EContra]"
+                    },
+                    {
+                        "code": "858076",
+                        "display": "Plan B One-Step"
+                    },
+                    {
+                        "code": "1181264",
+                        "display": "Plan B One-Step Oral Product"
+                    },
+                    {
+                        "code": "1181265",
+                        "display": "Plan B One-Step Pill"
+                    },
+                    {
+                        "code": "858079",
+                        "display": "levonorgestrel 1.5 MG Oral Tablet [Plan B One-Step]"
+                    },
+                    {
+                        "code": "858078",
+                        "display": "levonorgestrel Oral Tablet [Plan B One-Step]"
+                    },
+                    {
+                        "code": "1598653",
+                        "display": "Aftera"
+                    },
+                    {
+                        "code": "1598656",
+                        "display": "Aftera Oral Product"
+                    },
+                    {
+                        "code": "1598657",
+                        "display": "Aftera Pill"
+                    },
+                    {
+                        "code": "1598658",
+                        "display": "levonorgestrel 1.5 MG Oral Tablet [Aftera]"
+                    },
+                    {
+                        "code": "1598655",
+                        "display": "levonorgestrel Oral Tablet [Aftera]"
+                    },
+                    {
+                        "code": "1545298",
+                        "display": "Afterpill"
+                    },
+                    {
+                        "code": "1545301",
+                        "display": "Afterpill Oral Product"
+                    },
+                    {
+                        "code": "1545302",
+                        "display": "Afterpill Pill"
+                    },
+                    {
+                        "code": "1545303",
+                        "display": "levonorgestrel 1.5 MG Oral Tablet [Afterpill]"
+                    },
+                    {
+                        "code": "1545300",
+                        "display": "levonorgestrel Oral Tablet [Afterpill]"
+                    },
+                    {
+                        "code": "483325",
+                        "display": "levonorgestrel 1.5 MG Oral Tablet"
+                    },
+                    {
+                        "code": "2631019",
+                        "display": "Curae"
+                    },
+                    {
+                        "code": "2631021",
+                        "display": "Curae Oral Product"
+                    },
+                    {
+                        "code": "2631022",
+                        "display": "Curae Pill"
+                    },
+                    {
+                        "code": "2631024",
+                        "display": "levonorgestrel 1.5 MG Oral Tablet [Curae]"
+                    },
+                    {
+                        "code": "2631023",
+                        "display": "levonorgestrel Oral Tablet [Curae]"
+                    },
+                    {
+                        "code": "1543730",
+                        "display": "Fallback Solo"
+                    },
+                    {
+                        "code": "1543733",
+                        "display": "Fallback Solo Oral Product"
+                    },
+                    {
+                        "code": "1543734",
+                        "display": "Fallback Solo Pill"
+                    },
+                    {
+                        "code": "1543735",
+                        "display": "levonorgestrel 1.5 MG Oral Tablet [Fallback Solo]"
+                    },
+                    {
+                        "code": "1543732",
+                        "display": "levonorgestrel Oral Tablet [Fallback Solo]"
+                    },
+                    {
+                        "code": "1426876",
+                        "display": "My Way"
+                    },
+                    {
+                        "code": "1426879",
+                        "display": "My Way Oral Product"
+                    },
+                    {
+                        "code": "1426880",
+                        "display": "My Way Pill"
+                    },
+                    {
+                        "code": "1426881",
+                        "display": "levonorgestrel 1.5 MG Oral Tablet [My Way]"
+                    },
+                    {
+                        "code": "1426878",
+                        "display": "levonorgestrel Oral Tablet [My Way]"
+                    },
+                    {
+                        "code": "1303925",
+                        "display": "Next Choice One Dose"
+                    },
+                    {
+                        "code": "1303928",
+                        "display": "Next Choice One Dose Oral Product"
+                    },
+                    {
+                        "code": "1303929",
+                        "display": "Next Choice One Dose Pill"
+                    },
+                    {
+                        "code": "1303930",
+                        "display": "levonorgestrel 1.5 MG Oral Tablet [Next Choice One Dose]"
+                    },
+                    {
+                        "code": "1303927",
+                        "display": "levonorgestrel Oral Tablet [Next Choice One Dose]"
+                    },
+                    {
+                        "code": "1549086",
+                        "display": "Opcicon One-Step"
+                    },
+                    {
+                        "code": "1549089",
+                        "display": "Opcicon One-Step Oral Product"
+                    },
+                    {
+                        "code": "1549090",
+                        "display": "Opcicon One-Step Pill"
+                    },
+                    {
+                        "code": "1549091",
+                        "display": "levonorgestrel 1.5 MG Oral Tablet [Opcicon One-Step]"
+                    },
+                    {
+                        "code": "1549088",
+                        "display": "levonorgestrel Oral Tablet [Opcicon One-Step]"
+                    },
+                    {
+                        "code": "2606544",
+                        "display": "Julie"
+                    },
+                    {
+                        "code": "2606546",
+                        "display": "Julie Oral Product"
+                    },
+                    {
+                        "code": "2606547",
+                        "display": "Julie Pill"
+                    },
+                    {
+                        "code": "2606549",
+                        "display": "levonorgestrel 1.5 MG Oral Tablet [Julie]"
+                    },
+                    {
+                        "code": "2606548",
+                        "display": "levonorgestrel Oral Tablet [Julie]"
+                    },
+                    {
+                        "code": "1796690",
+                        "display": "1 ML hydroxyprogesterone caproate (USP) 250 MG/ML Injection"
+                    },
+                    {
+                        "code": "2000011",
+                        "display": "1.1 ML hydroxyprogesterone caproate (USP) 250 MG/ML Auto-Injector"
+                    },
+                    {
+                        "code": "2000013",
+                        "display": "1.1 ML hydroxyprogesterone caproate (USP) 250 MG/ML Auto-Injector [Makena]"
+                    },
+                    {
+                        "code": "5542",
+                        "display": "17-alpha-hydroxyprogesterone"
+                    },
+                    {
+                        "code": "2000010",
+                        "display": "17-alpha-hydroxyprogesterone Auto-Injector"
+                    },
+                    {
+                        "code": "2000012",
+                        "display": "17-alpha-hydroxyprogesterone Auto-Injector [Makena]"
+                    },
+                    {
+                        "code": "1164632",
+                        "display": "17-alpha-hydroxyprogesterone Injectable Product"
+                    },
+                    {
+                        "code": "374662",
+                        "display": "17-alpha-hydroxyprogesterone Injectable Solution"
+                    },
+                    {
+                        "code": "1087967",
+                        "display": "17-alpha-hydroxyprogesterone Injectable Solution [Makena]"
+                    },
+                    {
+                        "code": "1796689",
+                        "display": "17-alpha-hydroxyprogesterone Injection"
+                    },
+                    {
+                        "code": "1087964",
+                        "display": "hydroxyprogesterone caproate (USP) 250 MG/ML Injectable Solution"
+                    },
+                    {
+                        "code": "1087968",
+                        "display": "hydroxyprogesterone caproate (USP) 250 MG/ML Injectable Solution [Makena]"
+                    },
+                    {
+                        "code": "2001346",
+                        "display": "Preventeza"
+                    },
+                    {
+                        "code": "2001349",
+                        "display": "Preventeza Oral Product"
+                    },
+                    {
+                        "code": "2001350",
+                        "display": "Preventeza Pill"
+                    },
+                    {
+                        "code": "2001351",
+                        "display": "levonorgestrel 1.5 MG Oral Tablet [Preventeza]"
+                    },
+                    {
+                        "code": "2001348",
+                        "display": "levonorgestrel Oral Tablet [Preventeza]"
+                    },
+                    {
+                        "code": "748987",
+                        "display": "{28 (norethindrone 0.35 MG Oral Tablet) } Pack [Ortho Micronor 28 Day]"
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "timestamp" : "2026-02-14",
+        "parameter" : [
+        {
+            "name" : "incomplete-ok",
+            "valueBoolean" : true
+        }
+      ]  
+    }  
+}
