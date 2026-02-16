@@ -21,14 +21,8 @@
                 "path": "Device.type",
                 "binding": {
                 "strength": "extensible",
-                  ~~~~~~~~~~~~~~~
-                "valueSet": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-category-group"
+                "valueSet": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-contraceptive-device"
                 } 
-            }, 
-            {
-                "id": "Procedure.encounter",
-                "path": "Procedure.encounter",
-                "min": 1
             }
         ]
     }
