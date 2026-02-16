@@ -1,0 +1,714 @@
+{
+    "resourceType": "ValueSet",
+    "id": "mh-toc-contraceptive-medication-ocp",
+    "url": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-contraceptive-medication-ocp",
+    "version": "1.0.0",
+    "name": "MHTOCContraceptiveMedicationOCP",
+    "title": "MH TOC Medication ValueSet for Oral Contraceptive Pills (OCPs)",
+    "status": "active",
+    "experimental": false,
+    "date": "2026-02-14",
+    "description": "A ValueSet comprised of RxNorm condition codes for oral contraceptive pills (OCPs). The codes in the ValueSet should be monitored for changes as they may be updated in the future.",
+    "compose": {
+        "include": [
+            {
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "concept": [
+                    {
+                        "code": "2716397",
+                        "display": "Averi"
+                    },
+                    {
+                        "code": "1422081",
+                        "display": "Enskyce"
+                    },
+                    {
+                        "code": "1923421",
+                        "display": "Kalliga"
+                    },
+                    {
+                        "code": "1866047",
+                        "display": "Isibloom"
+                    },
+                    {
+                        "code": "753543",
+                        "display": "Reclipsen"
+                    },
+                    {
+                        "code": "993804",
+                        "display": "Gianvi"
+                    },
+                    {
+                        "code": "1099026",
+                        "display": "Loryna"
+                    },
+                    {
+                        "code": "2003375",
+                        "display": "Lo-Zumandimine"
+                    },
+                    {
+                        "code": "1543553",
+                        "display": "Nikki"
+                    },
+                    {
+                        "code": "748856",
+                        "display": "Yaz"
+                    },
+                    {
+                        "code": "1099269",
+                        "display": "Syeda"
+                    },
+                    {
+                        "code": "630734",
+                        "display": "drospirenone 3 MG / ethinyl estradiol 0.02 MG Oral Tablet"
+                    },
+                    {
+                        "code": "748857",
+                        "display": "Yasmin"
+                    },
+                    {
+                        "code": "2045196",
+                        "display": "Zumandimine"
+                    },
+                    {
+                        "code": "1013630",
+                        "display": "Beyaz"
+                    },
+                    {
+                        "code": "1050494",
+                        "display": "Safyral"
+                    },
+                    {
+                        "code": "1999724",
+                        "display": "Tydemy"
+                    },
+                    {
+                        "code": "2539032",
+                        "display": "Nextstellis"
+                    },
+                    {
+                        "code": "753483",
+                        "display": "{21 (ethinyl estradiol 0.035 MG / ethynodiol diacetate 1 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Kelnor 1/35 28 Day]"
+                    },
+                    {
+                        "code": "748859",
+                        "display": "Zovia 1/35E-28"
+                    },
+                    {
+                        "code": "748864",
+                        "display": "Zovia 1/50E-28"
+                    },
+                    {
+                        "code": "2049264",
+                        "display": "Iclevia"
+                    },
+                    {
+                        "code": "1020155",
+                        "display": "Introvale"
+                    },
+                    {
+                        "code": "762663",
+                        "display": "{84 (ethinyl estradiol 0.03 MG / levonorgestrel 0.15 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Jolessa 91 Day]"
+                    },
+                    {
+                        "code": "1661092",
+                        "display": "Setlakin"
+                    },
+                    {
+                        "code": "1603861",
+                        "display": "{7 (ethinyl estradiol 0.01 MG Oral Tablet) / 84 (ethinyl estradiol 0.03 MG / levonorgestrel 0.15 MG Oral Tablet) } Pack [Ashlyna 91 Day]"
+                    },
+                    {
+                        "code": "1112715",
+                        "display": "Amethyst"
+                    },
+                    {
+                        "code": "1860414",
+                        "display": "Afirmelle"
+                    },
+                    {
+                        "code": "1440185",
+                        "display": "Aubra"
+                    },
+                    {
+                        "code": "750268",
+                        "display": "Aviane 28"
+                    },
+                    {
+                        "code": "1999026",
+                        "display": "Balcoltra"
+                    },
+                    {
+                        "code": "1538130",
+                        "display": "Delyla"
+                    },
+                    {
+                        "code": "1304988",
+                        "display": "Falmina"
+                    },
+                    {
+                        "code": "1795598",
+                        "display": "Larissia"
+                    },
+                    {
+                        "code": "751885",
+                        "display": "Lessina 28"
+                    },
+                    {
+                        "code": "751884",
+                        "display": "Lutera"
+                    },
+                    {
+                        "code": "1428933",
+                        "display": "Orsythia"
+                    },
+                    {
+                        "code": "753544",
+                        "display": "Sronyx"
+                    },
+                    {
+                        "code": "2465331",
+                        "display": "Tyblume"
+                    },
+                    {
+                        "code": "1720616",
+                        "display": "Vienva"
+                    },
+                    {
+                        "code": "1006065",
+                        "display": "Altavera"
+                    },
+                    {
+                        "code": "1812279",
+                        "display": "Ayuna"
+                    },
+                    {
+                        "code": "1364848",
+                        "display": "Chateal"
+                    },
+                    {
+                        "code": "1356074",
+                        "display": "Kurvelo"
+                    },
+                    {
+                        "code": "748879",
+                        "display": "Levora 0.15/30-28"
+                    },
+                    {
+                        "code": "1245919",
+                        "display": "Marlissa"
+                    },
+                    {
+                        "code": "751890",
+                        "display": "Portia 28"
+                    },
+                    {
+                        "code": "1095362",
+                        "display": "Balziva 28"
+                    },
+                    {
+                        "code": "1094543",
+                        "display": "Briellyn"
+                    },
+                    {
+                        "code": "749736",
+                        "display": "{21 (ethinyl estradiol 0.035 MG / norethindrone 0.4 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack"
+                    },
+                    {
+                        "code": "1869047",
+                        "display": "Nexesta™ FE"
+                    },
+                    {
+                        "code": "749737",
+                        "display": "Ovcon 35"
+                    },
+                    {
+                        "code": "1235874",
+                        "display": "Philith"
+                    },
+                    {
+                        "code": "2624207",
+                        "display": "Rhuzdah"
+                    },
+                    {
+                        "code": "1485332",
+                        "display": "Vyfemla"
+                    },
+                    {
+                        "code": "1486452",
+                        "display": "Wymzya FE"
+                    },
+                    {
+                        "code": "753536",
+                        "display": "Zenchent"
+                    },
+                    {
+                        "code": "1483558",
+                        "display": "Zenchent FE"
+                    },
+                    {
+                        "code": "1095224",
+                        "display": "{21 (ethinyl estradiol 0.035 MG / norethindrone 0.4 MG Chewable Tablet) / 7 (ferrous fumarate 75 MG Chewable Tablet) } Pack"
+                    },
+                    {
+                        "code": "1727521",
+                        "display": "Kaitlib FE"
+                    },
+                    {
+                        "code": "1650201",
+                        "display": "Layolis FE"
+                    },
+                    {
+                        "code": "1242786",
+                        "display": "Alyacen 1/35"
+                    },
+                    {
+                        "code": "1300538",
+                        "display": "Dasetta 1/35"
+                    },
+                    {
+                        "code": "751879",
+                        "display": "Necon 1/35"
+                    },
+                    {
+                        "code": "751871",
+                        "display": "Nortrel 1/35 21"
+                    },
+                    {
+                        "code": "751870",
+                        "display": "{21 (ethinyl estradiol 0.035 MG / norethindrone 1 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Nortrel 1/35 28 Day]"
+                    },
+                    {
+                        "code": "1856402",
+                        "display": "Nylia 1/35 28"
+                    },
+                    {
+                        "code": "749859",
+                        "display": "Ortho-Novum 1/35 28"
+                    },
+                    {
+                        "code": "1427300",
+                        "display": "Pirmella 1/35 28"
+                    },
+                    {
+                        "code": "749880",
+                        "display": "Brevicon 28"
+                    },
+                    {
+                        "code": "1856398",
+                        "display": "Cyonanz"
+                    },
+                    {
+                        "code": "751875",
+                        "display": "Necon 0.5/35"
+                    },
+                    {
+                        "code": "751868",
+                        "display": "Nortrel 0.5/35 28"
+                    },
+                    {
+                        "code": "1300911",
+                        "display": "Wera"
+                    },
+                    {
+                        "code": "1927957",
+                        "display": "Aurovela 24 FE"
+                    },
+                    {
+                        "code": "1722680",
+                        "display": "Blisovi 24 FE"
+                    },
+                    {
+                        "code": "2696888",
+                        "display": "Femlyv"
+                    },
+                    {
+                        "code": "2608695",
+                        "display": "Finzala"
+                    },
+                    {
+                        "code": "2463741",
+                        "display": "Gemmily"
+                    },
+                    {
+                        "code": "1989507",
+                        "display": "Hailey 24 FE"
+                    },
+                    {
+                        "code": "1605091",
+                        "display": "Larin 24 FE"
+                    },
+                    {
+                        "code": "1359118",
+                        "display": "Loestrin 24 FE"
+                    },
+                    {
+                        "code": "1486801",
+                        "display": "Lomedia 24 FE"
+                    },
+                    {
+                        "code": "2595466",
+                        "display": "Merzee"
+                    },
+                    {
+                        "code": "1873704",
+                        "display": "Mibelas 24 FE"
+                    },
+                    {
+                        "code": "1426601",
+                        "display": "Minastrin 24 FE"
+                    },
+                    {
+                        "code": "1809905",
+                        "display": "Taytulla"
+                    },
+                    {
+                        "code": "1927366",
+                        "display": "Aurovela 1/20"
+                    },
+                    {
+                        "code": "1926946",
+                        "display": "Aurovela FE 1/20"
+                    },
+                    {
+                        "code": "1724801",
+                        "display": "{21 (ethinyl estradiol 0.02 MG / norethindrone acetate 1 MG Oral Tablet) / 7 (ferrous fumarate 75 MG Oral Tablet) } Pack [Blisovi 21 Fe 1/20 28 Day Pack]"
+                    },
+                    {
+                        "code": "1989873",
+                        "display": "Hailey FE 1/20"
+                    },
+                    {
+                        "code": "1358780",
+                        "display": "{21 (ethinyl estradiol 0.02 MG / norethindrone acetate 1 MG Oral Tablet) } Pack [Junel 1/20 21 Day]"
+                    },
+                    {
+                        "code": "1358765",
+                        "display": "Junel FE 1/20"
+                    },
+                    {
+                        "code": "1487086",
+                        "display": "Larin 1/20"
+                    },
+                    {
+                        "code": "1440183",
+                        "display": "Larin FE 1/20"
+                    },
+                    {
+                        "code": "1358781",
+                        "display": "Loestrin 1/20 21"
+                    },
+                    {
+                        "code": "1358770",
+                        "display": "Loestrin FE 1/20"
+                    },
+                    {
+                        "code": "1359020",
+                        "display": "Microgestin 1/20"
+                    },
+                    {
+                        "code": "1358775",
+                        "display": "Microgestin FE 1/20"
+                    },
+                    {
+                        "code": "1550536",
+                        "display": "{21 (ethinyl estradiol 0.02 MG / norethindrone acetate 1 MG Oral Tablet) / 7 (ferrous fumarate 75 MG Oral Tablet) } Pack [Tarina Fe 1/20 28 Day]"
+                    },
+                    {
+                        "code": "1928007",
+                        "display": "Aurovela 1.5/30"
+                    },
+                    {
+                        "code": "1986791",
+                        "display": "Aurovela FE 1.5/30"
+                    },
+                    {
+                        "code": "1729516",
+                        "display": "Blisovi FE 1.5/30"
+                    },
+                    {
+                        "code": "2047760",
+                        "display": "Hailey 1.5/30"
+                    },
+                    {
+                        "code": "2099508",
+                        "display": "Hailey FE 1.5/30"
+                    },
+                    {
+                        "code": "1359030",
+                        "display": "Junel 1.5/30 21"
+                    },
+                    {
+                        "code": "1359025",
+                        "display": "Junel FE 1.5/30"
+                    },
+                    {
+                        "code": "1537209",
+                        "display": "Larin 1.5/30"
+                    },
+                    {
+                        "code": "1440937",
+                        "display": "Larin FE 1.5/30"
+                    },
+                    {
+                        "code": "1359031",
+                        "display": "Loestrin 1.5/30 21"
+                    },
+                    {
+                        "code": "1359026",
+                        "display": "Loestrin FE 1.5/30"
+                    },
+                    {
+                        "code": "1359032",
+                        "display": "Microgestin 1.5/30"
+                    },
+                    {
+                        "code": "1359027",
+                        "display": "Microgestin FE 1.5/30"
+                    },
+                    {
+                        "code": "1369737",
+                        "display": "Estarylla"
+                    },
+                    {
+                        "code": "1800499",
+                        "display": "Mili"
+                    },
+                    {
+                        "code": "1365899",
+                        "display": "Mono-Linyah"
+                    },
+                    {
+                        "code": "753478",
+                        "display": "Previfem"
+                    },
+                    {
+                        "code": "753481",
+                        "display": "Sprintec"
+                    },
+                    {
+                        "code": "750265",
+                        "display": "Cryselle 28"
+                    },
+                    {
+                        "code": "1305089",
+                        "display": "Elinest"
+                    },
+                    {
+                        "code": "750244",
+                        "display": "Low-Ogestrel 28"
+                    },
+                    {
+                        "code": "2665903",
+                        "display": "Turqoz"
+                    },
+                    {
+                        "code": "831872",
+                        "display": "Azurette"
+                    },
+                    {
+                        "code": "1716037",
+                        "display": "Bekyree"
+                    },
+                    {
+                        "code": "762001",
+                        "display": "Kariva"
+                    },
+                    {
+                        "code": "762002",
+                        "display": "Mircette"
+                    },
+                    {
+                        "code": "1438778",
+                        "display": "Pimtrea"
+                    },
+                    {
+                        "code": "1252016",
+                        "display": "Viorele"
+                    },
+                    {
+                        "code": "2001756",
+                        "display": "Volnea"
+                    },
+                    {
+                        "code": "1244632",
+                        "display": "Amethia Lo"
+                    },
+                    {
+                        "code": "1235267",
+                        "display": "Camrese Lo"
+                    },
+                    {
+                        "code": "810097",
+                        "display": "LoSeasonique"
+                    },
+                    {
+                        "code": "1921723",
+                        "display": "Lo Simpesse"
+                    },
+                    {
+                        "code": "1112687",
+                        "display": "Amethia"
+                    },
+                    {
+                        "code": "1149667",
+                        "display": "Camrese"
+                    },
+                    {
+                        "code": "1423123",
+                        "display": "Daysee"
+                    },
+                    {
+                        "code": "2001751",
+                        "display": "Jaimiess"
+                    },
+                    {
+                        "code": "749762",
+                        "display": "Seasonique"
+                    },
+                    {
+                        "code": "1918056",
+                        "display": "Simpesse"
+                    },
+                    {
+                        "code": "1037185",
+                        "display": "Lo Loestrin FE"
+                    },
+                    {
+                        "code": "834768",
+                        "display": "Caziant"
+                    },
+                    {
+                        "code": "761974",
+                        "display": "Cyclessa"
+                    },
+                    {
+                        "code": "762334",
+                        "display": "Velivet"
+                    },
+                    {
+                        "code": "1095227",
+                        "display": "Levonest"
+                    },
+                    {
+                        "code": "748865",
+                        "display": "Trivora 28"
+                    },
+                    {
+                        "code": "1242787",
+                        "display": "Alyacen 7/7/7/ 28"
+                    },
+                    {
+                        "code": "1235867",
+                        "display": "Dasetta 7/7/7 28"
+                    },
+                    {
+                        "code": "750264",
+                        "display": "Necon 7/7/7"
+                    },
+                    {
+                        "code": "762007",
+                        "display": "Nortrel 7/7/7 28"
+                    },
+                    {
+                        "code": "1856424",
+                        "display": "Nylia 7/7/7 28"
+                    },
+                    {
+                        "code": "749853",
+                        "display": "Ortho-Novum 7/7/7 28"
+                    },
+                    {
+                        "code": "1427301",
+                        "display": "Pirmella 7/7/7 28"
+                    },
+                    {
+                        "code": "750267",
+                        "display": "Aranelle"
+                    },
+                    {
+                        "code": "749148",
+                        "display": "Leena"
+                    },
+                    {
+                        "code": "1359132",
+                        "display": "{5 (ethinyl estradiol 0.02 MG / norethindrone acetate 1 MG Oral Tablet) / 7 (ethinyl estradiol 0.03 MG / norethindrone acetate 1 MG Oral Tablet) / 9 (ethinyl estradiol 0.035 MG / norethindrone acetate 1 MG Oral Tablet) / 7 (ferrous fumarate 75 MG Oral Tablet) } Pack"
+                    },
+                    {
+                        "code": "1359133",
+                        "display": "Estrostep FE"
+                    },
+                    {
+                        "code": "1359134",
+                        "display": "Tilia FE"
+                    },
+                    {
+                        "code": "1359135",
+                        "display": "Tri-Legest FE 28"
+                    },
+                    {
+                        "code": "749785",
+                        "display": "Ortho Tri-Cyclen"
+                    },
+                    {
+                        "code": "751905",
+                        "display": "TriNessa"
+                    },
+                    {
+                        "code": "1369770",
+                        "display": "Tri-Estarylla"
+                    },
+                    {
+                        "code": "1311535",
+                        "display": "Tri-Linyah"
+                    },
+                    {
+                        "code": "753479",
+                        "display": "Tri-Previfem"
+                    },
+                    {
+                        "code": "762333",
+                        "display": "Tri-Sprintec"
+                    },
+                    {
+                        "code": "749158",
+                        "display": "Ortho Tri-Cyclen Lo"
+                    },
+                    {
+                        "code": "1305757",
+                        "display": "Tri-Lo-Marzia"
+                    },
+                    {
+                        "code": "1858836",
+                        "display": "Tri-Lo-Mili"
+                    },
+                    {
+                        "code": "856467",
+                        "display": "Tri-Lo-Sprintec"
+                    },
+                    {
+                        "code": "978950",
+                        "display": "Natazia"
+                    },
+                    {
+                        "code": "1874537",
+                        "display": "Fayosim"
+                    },
+                    {
+                        "code": "1373504",
+                        "display": "Quartette"
+                    }
+                ]
+            }                 
+        ]
+    },
+    "expansion": {
+        "timestamp" : "2026-02-14",
+        "parameter" : [
+        {
+            "name" : "incomplete-ok",
+            "valueBoolean" : true
+        }
+      ]  
+    }  
+}
