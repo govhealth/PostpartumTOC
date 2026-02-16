@@ -1,75 +1,34 @@
 {
-    "resourceType": "ValueSet",
-    "id": "mh-toc-contraceptive-medication",
-    "url": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-contraceptive-medication",
-    "version": "1.0.0",
-    "name": "MHTOCContraceptiveMedication",
-    "title": "MH TOC Conditions ValueSet for Contraceptive Medications",
-    "status": "active",
-    "experimental": false,
-    "date": "2026-02-12",
-    "description": "A ValueSet comprised of RxNorm codes for contraceptive procedures during postpartum clinical care, following the delivery event, or during the antepartum period. The codes in the ValueSet should be monitored for changes as they may be updated in the future.",
-    "compose": {
-        "include": [
-          ~~~~
-            {
-                "system": "http://snomed.info/sct",
-                "concept": [
-                    {
-                        "code": "11687002",
-                        "display": "Gestational diabetes mellitus"
-                    },
-                    {
-                        "code": "199223000",
-                        "display": "Diabetes mellitus during pregnancy, childbirth and the puerperium"
-                    },
-                    {
-                        "code": "199230006",
-                        "display": "Pre-existing type 2 diabetes mellitus"
-                    },
-                    {
-                        "code": "44054006",
-                        "display": "Diabetes mellitus type 2"
-                    },
-                    {
-                        "code": "443694000",
-                        "display": "Uncontrolled type 2 diabetes mellitus"
-                    },
-                    {
-                        "code": "444073006",
-                        "display": "Uncontrolled type 1 diabetes mellitus"
-                    },
-                                       {
-                        "code": "46635009",
-                        "display": "Diabetes mellitus type 1"
-                    },
-                    {
-                        "code": "46894009",
-                        "display": "Gestational diabetes mellitus class A2"
-                    },
-                    {
-                        "code": "609564002",
-                        "display": "Pre-existing type 1 diabetes mellitus in pregnancy"
-                    },
-                    {
-                        "code": "73211009",
-                        "display": "Diabetes mellitus"
-                    },
-                    {
-                        "code": "81531005",
-                        "display": "Diabetes mellitus type 2 in obese"
-                    }
-                ]
-            }
+  "resourceType": "ValueSet",
+  "id": "mh-toc-contraceptive-medication-category-group",
+  "url": "http://fhir.org/guides/astp/mh-toc-contraceptive-medication-category-group",
+  "name": "MHTOCContraceptiveMedicationCategoryGroup",
+  "title": "MH TOC Contraceptive Medication Category Group",
+  "status": "active",
+  "experimental": false,
+  "date": "2026-02-14",
+  "description": "A grouping ValueSet that includes RxNorm codes for identified contraceptive medications (e.g., combined oral contraceptive pills (OCPs) and progestin-only pills (POPs)).",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-contraceptive-medication-ocp"
         ]
-    },
-    "expansion": {
-        "timestamp" : "2026-02-09",
-        "parameter" : [
-        {
-            "name" : "incomplete-ok",
-            "valueBoolean" : true
-        }
-      ]  
-    }  
+      },
+      {
+        "valueSet": [
+          "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-contraceptive-medication-pop"
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "timestamp" : "2026-02-14",
+    "parameter" : [
+      {
+        "name" : "incomplete-ok",
+        "valueBoolean" : true
+      }
+    ]  
+  }  
 }
