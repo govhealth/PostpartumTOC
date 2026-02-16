@@ -8,63 +8,114 @@
     "status": "active",
     "experimental": false,
     "date": "2026-02-12",
-    "description": "A ValueSet comprised of RxNorm codes for contraceptive devices during postpartum clinical care, following the delivery event, or during the antepartum period. The codes in the ValueSet should be monitored for changes as they may be updated in the future.",
+    "description": "A ValueSet comprised of SNOMED CT codes for contraceptive devices during postpartum clinical care, following the delivery event, or during the antepartum period. The codes in the ValueSet should be monitored for changes as they may be updated in the future.",
     "compose": {
         "include": [
-          ~~~~
             {
                 "system": "http://snomed.info/sct",
                 "concept": [
                     {
-                        "code": "11687002",
-                        "display": "Gestational diabetes mellitus"
+                        "code": "268460000",
+                        "display": "Intrauterine contraceptive device (physical object)"
                     },
                     {
-                        "code": "199223000",
-                        "display": "Diabetes mellitus during pregnancy, childbirth and the puerperium"
+                        "code": "469606005",
+                        "display": "Intrauterine device, drug-eluting (physical object)"
                     },
                     {
-                        "code": "199230006",
-                        "display": "Pre-existing type 2 diabetes mellitus"
+                        "code": "469876008",
+                        "display": "Intrauterine device, metal-covered (physical object)"
                     },
                     {
-                        "code": "44054006",
-                        "display": "Diabetes mellitus type 2"
+                        "code": "714594000",
+                        "display": "Copper-containing intrauterine device (product)"
                     },
                     {
-                        "code": "443694000",
-                        "display": "Uncontrolled type 2 diabetes mellitus"
+                        "code": "725478000",
+                        "display": "Intrauterine device, synthetic polymer (physical object)"
                     },
                     {
-                        "code": "444073006",
-                        "display": "Uncontrolled type 1 diabetes mellitus"
-                    },
-                                       {
-                        "code": "46635009",
-                        "display": "Diabetes mellitus type 1"
+                        "code": "118373001",
+                        "display": "Implant made of silastic material, device (physical object)"
                     },
                     {
-                        "code": "46894009",
-                        "display": "Gestational diabetes mellitus class A2"
+                        "code": "118372006",
+                        "display": "Implant made of plastic material, device (physical object)"
                     },
                     {
-                        "code": "609564002",
-                        "display": "Pre-existing type 1 diabetes mellitus in pregnancy"
+                        "code": "304073005",
+                        "display": "Body cavity implant (physical object)"
                     },
                     {
-                        "code": "73211009",
-                        "display": "Diabetes mellitus"
+                        "code": "304075003",
+                        "display": "Female genital implant (physical object)"
                     },
                     {
-                        "code": "81531005",
-                        "display": "Diabetes mellitus type 2 in obese"
+                        "code": "360041000",
+                        "display": "Implanted drug delivery system (physical object)"
+                    },
+                    {
+                        "code": "40388003",
+                        "display": "Implant, device (physical object)"
+                    },
+                    {
+                        "code": "468312002",
+                        "display": "Drug-eluting contraceptive implant (physical object)"
+                    },
+                    {
+                        "code": "764179007",
+                        "display": "Drug pellet implantation cannula (physical object)"
+                    },
+                    {
+                        "code": "1141955000",
+                        "display": "Vaginal contraceptive diaphragm flat spring (physical object)"
+                    },
+                    {
+                        "code": "1141956004",
+                        "display": "Vaginal contraceptive diaphragm type B coil spring (physical object)"
+                    },
+                    {
+                        "code": "1141957008",
+                        "display": "Vaginal contraceptive diaphragm type C arcing spring (physical object)"
+                    },
+                    {
+                        "code": "20359006",
+                        "display": "Contraceptive diaphragm, device (physical object)"
+                    },
+                    {
+                        "code": "312082008",
+                        "display": "Contraceptive coil (physical object)"
+                    },
+                    {
+                        "code": "336688002",
+                        "display": "Vaginal contraceptive cap (physical object)"
+                    },
+                    {
+                        "code": "348649005",
+                        "display": "Contraceptive device (physical object)"
+                    },
+                    {
+                        "code": "368441006",
+                        "display": "Cervical contraceptive cap (physical object)"
+                    },
+                    {
+                        "code": "408114004",
+                        "display": "Vaginal contraceptive soft silicone cap (physical object)"
+                    },
+                    {
+                        "code": "450881000124106",
+                        "display": "Contraceptive patch (physical object)"
+                    },
+                    {
+                        "code": "467352002",
+                        "display": "Contraceptive sponge (physical object)"
                     }
                 ]
             }
         ]
     },
     "expansion": {
-        "timestamp" : "2026-02-09",
+        "timestamp" : "2026-02-12",
         "parameter" : [
         {
             "name" : "incomplete-ok",
