@@ -23,11 +23,6 @@
                 "strength": "extensible",
                 "valueSet": "http://fhir.org/guides/astp/mh-toc-contraceptive-medication-category-group"
                 } 
-            }, 
-            {
-                "id": "Procedure.encounter",
-                "path": "Procedure.encounter",
-                "min": 1
             }
         ]
     }
