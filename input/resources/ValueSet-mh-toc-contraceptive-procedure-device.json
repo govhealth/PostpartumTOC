@@ -1,0 +1,178 @@
+{
+    "resourceType": "ValueSet",
+    "id": "mh-toc-contraceptive-procedure-device",
+    "url": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-contraceptive-procedure-device",
+    "version": "1.0.0",
+    "name": "MHTOCContraceptiveProcedureDevice",
+    "title": "MH TOC ValueSet for Contraceptive Device Procedures",
+    "status": "active",
+    "experimental": false,
+    "date": "2026-02-14",
+    "description": "A ValueSet comprised of SNOMED CT codes for procedures related to the insertion, removal, or surveillance of female contraceptive devices. The codes in the ValueSet should be monitored for changes as they may be updated in the future.",
+    "compose": {
+        "include": [
+            {
+                "system": "http://snomed.info/sct",
+                "concept": [
+                    {
+                        "code": "169553002",
+                        "display": "Implantation of subcutaneous contraceptive"
+                    },
+                    {
+                        "code": "176837007",
+                        "display": "Intrauterine contraceptive device procedure"
+                    },
+                    {
+                        "code": "169541001",
+                        "display": "Postcoital contraceptive procedure"
+                    },
+                    {
+                        "code": "301806003",
+                        "display": "Implantation of subcutaneous contraceptive in arm"
+                    },
+                    {
+                        "code": "472837007",
+                        "display": "Insertion of hormone releasing intrauterine contraceptive device"
+                    },
+                    {
+                        "code": "65200003",
+                        "display": "Insertion of intrauterine contraceptive device"
+                    },
+                    {
+                        "code": "698972004",
+                        "display": "Implantation of etonogestrel radiopaque contraceptive implant"
+                    },
+                    {
+                        "code": "703144005",
+                        "display": "Initiation of hormone releasing contraceptive vaginal ring"
+                    },
+                    {
+                        "code": "709534006",
+                        "display": "Administration of depot contraceptive"
+                    },
+                    {
+                        "code": "308420008",
+                        "display": "Contraceptive intrauterine device check call"
+                    },
+                    {
+                        "code": "308423005",
+                        "display": "Oral contraceptive check call"
+                    },
+                    {
+                        "code": "169554008",
+                        "display": "Check of subcutaneous contraceptive"
+                    },
+                    {
+                        "code": "185633005",
+                        "display": "Contraceptive intrauterine device check - First call"
+                    },
+                    {
+                        "code": "185634004",
+                        "display": "Contraceptive intrauterine device check - Second call"
+                    },
+                    {
+                        "code": "185635003",
+                        "display": "Contraceptive intrauterine device check - third call"
+                    },
+                    {
+                        "code": "185645001",
+                        "display": "Oral contraceptive check - first call"
+                    },
+                    {
+                        "code": "185646000",
+                        "display": "Oral contraceptive check - second call"
+                    },
+                    {
+                        "code": "185647009",
+                        "display": "Oral contraceptive check - third call"
+                    },
+                    {
+                        "code": "425890004",
+                        "display": "Checking contraceptive diaphragm"
+                    },
+                    {
+                        "code": "702654003",
+                        "display": "Surveillance of subcutaneous contraceptive implant (regime/therapy)"
+                    },
+                    {
+                        "code": "702683000",
+                        "display": "Surveillance of oral contraceptive pill for non-contraceptive use (regime/therapy)"
+                    },
+                    {
+                        "code": "1263415006",
+                        "display": "Removal of intrauterine contraceptive device from endometrial cavity"
+                    },
+                    {
+                        "code": "1263416007",
+                        "display": "Removal of intrauterine contraceptive device"
+                    },
+                    {
+                        "code": "176839005",
+                        "display": "Removal of displaced intrauterine contraceptive device"
+                    },
+                    {
+                        "code": "176749004",
+                        "display": "Removal of intrauterine contraceptive device from pouch of Douglas"
+                    },
+                    {
+                        "code": "236892008",
+                        "display": "Removal of displaced intrauterine contraceptive device from peritoneal cavity"
+                    },
+                    {
+                        "code": "301807007",
+                        "display": "Removal of subcutaneous contraceptive"
+                    },
+                    {
+                        "code": "472838002",
+                        "display": "Removal of hormone releasing intrauterine contraceptive device"
+                    },
+                    {
+                        "code": "450836008",
+                        "display": "Removal of etonogestrel radiopaque contraceptive implant"
+                    },
+                    {
+                        "code": "718856002",
+                        "display": "Removal of intrauterine contraceptive device using fluoroscopic guidance"
+                    }.
+                    {
+                        "code": "225259008",
+                        "display": "Retrieval of lost thread of intrauterine contraceptive device"
+                    },
+                    {
+                        "code": "423826001",
+                        "display": "Renewal of prescription for diaphragm contraceptive"
+                    },
+                    {
+                        "code": "424016000",
+                        "display": "Change of oral contraceptive prescription"
+                    },
+                    {
+                        "code": "440668008",
+                        "display": "Replacement of implantable contraceptive capsule"
+                    },
+                    {
+                        "code": "46706006",
+                        "display": "Replacement of contraceptive intrauterine device"
+                    },
+                    {
+                        "code": "44651004",
+                        "display": "Contraceptive use education"
+                    },
+                    {
+                        "code": "171027002",
+                        "display": "Contraceptive implant education"
+                    }
+                ]
+            }                 
+        ]
+    },
+    "expansion": {
+        "timestamp" : "2026-02-14",
+        "parameter" : [
+        {
+            "name" : "incomplete-ok",
+            "valueBoolean" : true
+        }
+      ]  
+    }  
+}
