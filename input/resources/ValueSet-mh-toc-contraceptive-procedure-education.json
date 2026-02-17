@@ -1,0 +1,50 @@
+{
+    "resourceType": "ValueSet",
+    "id": "mh-toc-contraceptive-procedure-education",
+    "url": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-contraceptive-procedure-education",
+    "version": "1.0.0",
+    "name": "MHTOCContraceptiveProcedureEducation",
+    "title": "MH TOC ValueSet for Contraceptive Education",
+    "status": "active",
+    "experimental": false,
+    "date": "2026-02-14",
+    "description": "A ValueSet comprised of SNOMED CT codes for education on contraceptives (e.g., devices, medications, or procedures). The codes in the ValueSet should be monitored for changes as they may be updated in the future.",
+    "compose": {
+        "include": [
+            {
+                "system": "http://snomed.info/sct",
+                "concept": [
+                    {
+                        "code": "736806006",
+                        "display": "Education for contraceptive sheath"
+                    },
+                    {
+                        "code": "736810009",
+                        "display": "Education for spermicidal contraceptive"
+                    },
+                    {
+                        "code": "736811008",
+                        "display": "Education for transdermal contraceptive patch"
+                    },
+                    {
+                        "code": "395667001",
+                        "display": "Progestogen only oral contraceptive education"
+                    },
+                    {
+                        "code": "704116001",
+                        "display": "Education about postcoital contraceptive"
+                    }
+                ]
+            }                 
+        ]
+    },
+    "expansion": {
+        "timestamp" : "2026-02-14",
+        "parameter" : [
+        {
+            "name" : "incomplete-ok",
+            "valueBoolean" : true
+        }
+      ]  
+    }  
+}
