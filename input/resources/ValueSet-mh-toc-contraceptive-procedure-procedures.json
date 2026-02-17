@@ -1,0 +1,118 @@
+{
+    "resourceType": "ValueSet",
+    "id": "mh-toc-contraceptive-procedure-procedures",
+    "url": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-contraceptive-procedure-procedures",
+    "version": "1.0.0",
+    "name": "MHTOCContraceptiveProcedureProcedures",
+    "title": "MH TOC ValueSet for Contraceptive Procedures",
+    "status": "active",
+    "experimental": false,
+    "date": "2026-02-14",
+    "description": "A ValueSet comprised of SNOMED CT codes for female contraceptive procedures. The codes in the ValueSet should be monitored for changes as they may be updated in the future.",
+    "compose": {
+        "include": [
+            {
+                "system": "http://snomed.info/sct",
+                "concept": [
+                    {
+                        "code": "736018001",
+                        "display": "Elective upper segment cesarean section with bilateral tubal ligation"
+                    },
+                    {
+                        "code": "736020003",
+                        "display": "Emergency upper segment cesarean section with bilateral tubal ligation"
+                    },
+                    {
+                        "code": "736026009",
+                        "display": "Elective lower segment cesarean section with bilateral tubal ligation"
+                    },
+                    {
+                        "code": "736118004",
+                        "display": "Emergency lower segment cesarean section with bilateral tubal ligation"
+                    },
+                    {
+                        "code": "1010295006",
+                        "display": "Ligation of left fallopian tube"
+                    },
+                    {
+                        "code": "1010296007",
+                        "display": "Ligation of right fallopian tube"
+                    },
+                    {
+                        "code": "10516001",
+                        "display": "Postpartum ligation of fallopian tubes"
+                    },
+                    {
+                        "code": "10882000",
+                        "display": "Ligation and division of bilateral fallopian tubes"
+                    },
+                    {
+                        "code": "287664005",
+                        "display": "Ligation of bilateral fallopian tubes"
+                    },
+                    {
+                        "code": "77543007",
+                        "display": "Ligation of fallopian tube"
+                    },
+                    {
+                        "code": "4640005",
+                        "display": "Ligation of fallopian tubes by abdominal approach"
+                    },
+                    {
+                        "code": "52932002",
+                        "display": "Ligation of fallopian tubes by vaginal approach"
+                    },
+                    {
+                        "code": "63626003",
+                        "display": "Endoscopic ligation and division of bilateral fallopian tubes"
+                    },
+                    {
+                        "code": "46423003",
+                        "display": "Incidental ligation of fallopian tubes"
+                    },
+                    {
+                        "code": "6527005",
+                        "display": "Uchida fimbriectomy with tubal ligation by endoscopy"
+                    },
+                    {
+                        "code": "176937008",
+                        "display": "Open ligation of bilateral fallopian tubes"
+                    },
+                    {
+                        "code": "176948001",
+                        "display": "Open ligation of right fallopian tube"
+                    },
+                    {
+                        "code": "176949009",
+                        "display": "Open ligation of left fallopian tube"
+                    },
+                    {
+                        "code": "450636005",
+                        "display": "Open ligation of fallopian tube"
+                    },
+                    {
+                        "code": "259324000",
+                        "display": "Ligation of fallopian tube with crushing"
+                    },
+                    {
+                        "code": "40074008",
+                        "display": "Ligation and crushing of bilateral fallopian tubes"
+                    },
+                    {
+                        "code": "88872008",
+                        "display": "Endoscopic ligation and crushing of bilateral fallopian tubes"
+                    }
+                ]
+            }                 
+        ]
+    },
+    "expansion": {
+        "timestamp" : "2026-02-14",
+        "parameter" : [
+        {
+            "name" : "incomplete-ok",
+            "valueBoolean" : true
+        }
+      ]  
+    }  
+}
