@@ -92,7 +92,7 @@ The following profiles and extensions are defined for the USCDI+ Maternal Health
    </thead>
    <tbody>
       <tr>
-         <td><a href="StructureDefinition-us-core-careteam.html">CareTeam Role</a></td>
+         <td><a href="StructureDefinition-mh-toc-careteam-role.html">CareTeam Role</a></td>
          <td>
             The USCDI+ Maternal Health Postpartum TOC CareTeam Role Profile is derived from the US Core CareTeam Profile. This profile sets minimum expectations for the CareTeam resource for querying a care team participant's role in the subject's clinical care. It identifies which core elements, extensions, vocabularies, and value sets <b>SHALL</b> be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases.  It defines requirements for exchanging the documented care team members and their roles during a subject's postpartum clinical care, including care team members leading up to delivery and during the delivery event.  
          </td>
@@ -144,6 +144,91 @@ The following profiles and extensions are defined for the USCDI+ Maternal Health
    </tbody>
 </table>
 
+### Contraceptive
+
+#### Contraceptive: Base Profiles
+<table class="profile-table">
+   <thead>
+      <tr>
+         <th class="profile-table-name">Profile</th>
+         <th class= "profile-table-description">Description</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td><a href="StructureDefinition-mh-toc-contraceptive-device.html">Contraceptive Device</a></td>
+         <td>
+            This profile sets minimum expectations for the Device resource, which provides guidance on querying for a patient’s documented contraception, administered via a device. The MH TOC Contraceptive Device profile leverages the US Core Device Profile. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases. For examples and specific codes, please see the instances of the individual derivative profiles.
+         </td>
+      </tr>
+      <tr>
+         <td><a href="StructureDefinition-mh-toc-contraceptive-medication.html">Contraceptive Medication</a></td>
+         <td>
+            This profile sets minimum expectations for the Medication resource, which provides guidance on querying for a patient’s documented contraception, administered via a medication (e.g., Oral Contraceptive Pills(OCPs)). The MH TOC Contraceptive Medication profile leverages the US Core Medication Profile. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases. For examples and specific codes, please see the instances of the individual derivative profiles.
+         </td>
+      </tr>
+      <tr>
+         <td><a href="StructureDefinition-mh-toc-contraceptive-procedure.html">Contraceptive Procedure</a></td>
+         <td>
+            This profile sets minimum expectations for the Procedure resource, which provides guidance on querying for a patient’s documented contraception, administered via a procedure. The MH TOC Contraceptive Procedure profile leverages the US Core Procedure Profile. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases. For examples and specific codes, please see the instances of the individual derivative profiles.
+         </td>
+      </tr>
+   </tbody>
+</table>
+
+#### Contraceptive: Medication
+<table class="profile-table">
+   <thead>
+      <tr>
+         <th class="profile-table-name">Profile</th>
+         <th class= "profile-table-description">Description</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td><a href="StructureDefinition-mh-toc-contraceptive-medication-ocp.html">Contraceptive Medication (Oral Contraceptive Pills (OCPs))</a></td>
+         <td>
+            This profile sets minimum expectations for the Medication resource, which provides guidance on querying for a patient’s documented contraception, administered via a medication, specifically oral contraceptive pills (OCPs). The MH TOC Contraceptive Medication (Oral Contraceptive Pills (OCPs)) profile leverages the US Core Medication Profile. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases. For examples and specific codes, please see the instances of the individual derivative profiles.
+         </td>
+      </tr>
+      <tr>
+         <td><a href="StructureDefinition-mh-toc-contraceptive-medication-pop.html">Contraceptive Medication (Progestin-Only Pills (POPs))</a></td>
+         <td>
+            This profile sets minimum expectations for the Medication resource, which provides guidance on querying for a patient’s documented contraception, administered via a medication, specifically progestin-only pills (POPs). The MH TOC Contraceptive Medication profile leverages the US Core Medication (Progestin-Only Pills (POPs) Profile. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases. For examples and specific codes, please see the instances of the individual derivative profiles.
+         </td>
+      </tr>
+   </tbody>
+</table>
+
+#### Contraceptive: Procedure 
+<table class="profile-table">
+   <thead>
+      <tr>
+         <th class="profile-table-name">Profile</th>
+         <th class= "profile-table-description">Description</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td><a href="StructureDefinition-mh-toc-contraceptive-procedure-device.html">Contraceptive Procedure (Device)</a></td>
+         <td>
+            This profile sets minimum expectations for the Procedure resource, which provides guidance on querying for a patient’s documented contraception, a device as an example, administered via a procedure (e.g., implantation of subcutaneous contraceptive). The MH TOC Contraceptive Procedure (Device) profile leverages the US Core Procedure Profile. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases. For examples and specific codes, please see the instances of the individual derivative profiles.
+         </td>
+      </tr>
+      <tr>
+         <td><a href="StructureDefinition-mh-toc-contraceptive-procedure-education.html">Contraceptive Procedure (Education)</a></td>
+         <td>
+            This profile sets minimum expectations for the Medication resource, which provides guidance on querying for a patient’s documented contraception, administered via a medication, specifically progestin-only pills (POPs). The MH TOC Contraceptive Medication profile leverages the US Core Medication (Progestin-Only Pills (POPs) Profile. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases. For examples and specific codes, please see the instances of the individual derivative profiles.
+         </td>
+      </tr>
+      <tr>
+         <td><a href="StructureDefinition-mh-toc-contraceptive-procedure-procedures.html">Contraceptive Procedure (Procedures)</a></td>
+         <td>
+            This profile sets minimum expectations for the Procedure resource, which provides guidance on querying for a patient’s documented contraceptive procedures (e.g., bitubal ligation). The MH TOC Contraceptive Procedure (Procedures) profile leverages the US Core Procedure Profile. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases. For examples and specific codes, please see the instances of the individual derivative profiles.
+         </td>
+      </tr>
+   </tbody>
+</table>
 
 ### Diagnostic Imaging
 
@@ -203,7 +288,6 @@ The following profiles and extensions are defined for the USCDI+ Maternal Health
       </tr>
    </tbody>
 </table>
-
 
 ### Labor and Delivery
 
@@ -277,6 +361,54 @@ The following profiles and extensions are defined for the USCDI+ Maternal Health
 
 ### Problems
 
+#### Maternal Health Postpartum Transitions of Care Conditions 
+<table class="profile-table">
+   <thead>
+      <tr>
+         <th class="profile-table-name">Profile</th>
+         <th class= "profile-table-description">Description</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td><a href="StructureDefinition-mh-toc-conditions.html">Maternal Health Transitions of Care Conditions</a></td>
+         <td>
+            This profile sets minimum expectations for the MH TOC Conditions resource, which provides guidance on querying for a patient’s documented conditions that are relevant for postpartum clinical care, including events during the antepartum period and the delivery event. The MH TOC Conditions profile leverages the US Core Condition Encounter Diagnosis Profile and modifies it to support identified relevant conditions. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases.
+         </td>
+      </tr>
+      <tr>
+         <td><a href="StructureDefinition-mh-toc-conditions-complications.html">Maternal Health Transitions of Care Condition Complications</a></td>
+         <td>
+            The MH TOC Conditions Complications Profile is derived from the MH TOC Conditions Profile. This derived profile specifies complications related to postpartum clinical care by binding to an extension, ValueSet, and CodeSystem.
+         </td>
+      </tr>
+      <tr>
+         <td><a href="StructureDefinition-mh-toc-conditions-diabetes.html">Maternal Health Transitions of Care Condition Diabetes</a></td>
+         <td>
+            The MH TOC Conditions Diabetes Profile is derived from the MH TOC Conditions Profile. This derived profile specifies diabetes related to postpartum clinical care by binding to an extension, ValueSet, and CodeSystem.
+         </td>
+      </tr>
+      <tr>
+         <td><a href="StructureDefinition-mh-toc-conditions-hemorrhage.html">Maternal Health Transitions of Care Condition Hemorrhage</a></td>
+         <td>
+            The MH TOC Conditions Hemorrhage Profile is derived from the MH TOC Conditions Profile. This derived profile specifies hemorrhage events related to postpartum clinical care by binding to an extension, ValueSet, and CodeSystem.
+         </td>
+      </tr>
+      <tr>
+         <td><a href="StructureDefinition-mh-toc-conditions-infections.html">Maternal Health Transitions of Care Condition Infections</a></td>
+         <td>
+            The MH TOC Conditions Infections Profile is derived from the MH TOC Conditions Profile. This derived profile specifies infections related to postpartum clinical care by binding to an extension, ValueSet, and CodeSystem.
+         </td>
+      </tr>
+      <tr>
+         <td><a href="StructureDefinition-mh-toc-conditions-lacerations-perineal-trauma-oasis.html">Maternal Health Transitions of Care Condition Lacerations, Perineal, Trauma, and OASIS</a></td>
+         <td>
+            The MH TOC Conditions Lacerations, Perineal, Trauma, and OASIS Profile is derived from the MH TOC Conditions Profile. This derived profile specifies laceration, perineal, trauma, and Obstetric anal sphincter injury (OASIS) events related to postpartum clinical care by binding to an extension, ValueSet, and CodeSystem.
+         </td>
+      </tr>
+   </tbody>
+</table>
+
 #### Severe Maternal Morbidity: Base Profiles
 
 <table class="profile-table">
@@ -303,7 +435,6 @@ The following profiles and extensions are defined for the USCDI+ Maternal Health
       </tr>
    </tbody>
 </table>
-
 
 #### Severe Maternal Morbidity: Conditions
 
@@ -428,8 +559,6 @@ The following profiles and extensions are defined for the USCDI+ Maternal Health
       </tr>
    </tbody>
 </table>
-
-
 
 #### Severe Maternal Morbidity: Procedures 
 
