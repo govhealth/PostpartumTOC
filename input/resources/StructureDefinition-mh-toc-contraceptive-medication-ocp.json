@@ -4,7 +4,7 @@
     "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-contraceptive-medication-ocp",
     "version": "1.0.0",
     "name": "MHTOCContraceptiveMedicationOCP",
-    "title": "MH TOC Contraceptive Medication OCP",
+    "title": "MH TOC Contraceptive Medication Oral Contraceptive Pills (OCPs)",
     "status": "active",
     "date": "2026-02-12",
     "description": "This profile sets minimum expectations for the Medication resource, which provides guidance on querying for a patient’s documented contraception, administered via a medication, specifically oral contraceptive pills (OCPs). The MH TOC Contraceptive Medication profile leverages the US Core Medication Profile. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases. For examples and specific codes, please see the instances of the individual derivative profiles.",
