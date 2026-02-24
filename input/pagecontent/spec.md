@@ -8,6 +8,7 @@ The following profiles have been defined as part of the USCDI+ Maternal Health P
 <br>
 Data element mappings are organized in an aggregate summary format and by derivative tables that are organized by the categories previously described above in the tables below. 
 <br>
+<br>
 While not specifically called out within the USCDI+ Maternal Health Postpartum TOC use case, this FHIR IG also supports profiles and value sets to specify identified contraceptives. These are listed within the last table in this page. 
 <br>
 <br>
