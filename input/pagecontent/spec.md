@@ -8,6 +8,8 @@ The following profiles have been defined as part of the USCDI+ Maternal Health P
 <br>
 Data element mappings are organized in an aggregate summary format and by derivative tables that are organized by the categories previously described above in the tables below. 
 <br>
+While not specifically called out within the USCDI+ Maternal Health Postpartum TOC use case, this FHIR IG also supports profiles and value sets to specify identified contraceptives. These are listed within the last table in this page. 
+<br>
 <br>
 **USCDI+ Maternal Health Postpartum TOC Data Elements and Specifications Category 1: USCDI V3 Data Elements**
 
@@ -80,6 +82,7 @@ Data element mappings are organized in an aggregate summary format and by deriva
 |Problems|Date of Diagnosis|[US Core Condition Problems and Health Concerns](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-condition-problems-health-concerns.html)|Condition.onset[x]|
 |Problems|Date of Resolution|[US Core Condition Problems and Health Concerns](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-condition-problems-health-concerns.html)|Condition.abatement[x]|
 |Problems|Problems|[US Core Condition Problems and Health Concerns](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition/us-core-condition-problems-health-concerns)|Condition.code|
+|Problems|Problems|[MH TOC Conditions](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-conditions)|Condition.code|
 |Problems|SDOH Problems/Health Concerns|[SDOHCC Condition](http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-Condition)|Condition.code|
 |Procedures|Performance Time|[US Core Procedure](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-procedure.html)|Procedure.performed[x]|
 |Procedures|Procedure Status|[US Core Procedure](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-procedure.html)|Procedure.status|
@@ -239,6 +242,7 @@ Data element mappings are organized in an aggregate summary format and by deriva
 |Problems|Hypertensive Disorders of Pregnancy|[Longitudinal Maternal & Infant Health Information for Research Library for Hypertensive Disorders of Pregnancy](https://build.fhir.org/ig/HL7/fhir-mmm-ig/Library-PIHCohort.html)|Condition.code|
 |Problems|Indicators of Severe Maternal Morbidity|[Severe Maternal Morbidity](StructureDefinition-mh-toc-smm-condition.html)|Observation.code|
 |Problems|Problems|[US Core Condition Problems and Health Concerns](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition/us-core-condition-problems-health-concerns)|Condition.code|
+|Problems|Problems|[MH TOC Conditions](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-conditions)|Condition.code|
 |Problems|SDOH Problems/Health Concerns|[SDOHCC Condition](http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-Condition)|Condition.code|
 |Procedures|Performance Time|[US Core Procedure](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-procedure.html)|Procedure.performed[x]|
 |Procedures|Procedure Status|[US Core Procedure](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-procedure.html)|Procedure.status|
@@ -260,8 +264,21 @@ Data element mappings are organized in an aggregate summary format and by deriva
 |Vital Signs|Systolic Blood Pressure|[US Core Blood Pressure](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-blood-pressure.html)|Observation.component:systolic.code|
 |Vital Signs|Weight-for-length Percentile (Birth - 36 Months)|[US Core Pediatric Weight for Height Observation](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-pediatric-weight-for-height.html)|Observation.code|
 {: .grid}
+<br>
+<br>
+**Data Elements and Specifications to Support Identified Contraceptives**
 
-
+|Data Class|Data Element|FHIR Profile|Proposed FHIR Data Element|
+|---|---|---|---|
+|Device|Contraceptive Device|[MH TOC Contraceptive Device](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-contraceptive-device)|Device.type|
+|Medication|Contraceptive Medication|[MH TOC Contraceptive Medication](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-contraceptive-medication)|Medication.code|
+|Medication|Contraceptive Medication (Oral Contraceptive Pills (OCPs))|[MH TOC Contraceptive Medication (Oral Contraceptive Pills (OCPs))](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-contraceptive-medication-ocp)|Medication.code|
+|Medication|Contraceptive Medication (Progestin-Only Pills (POPs))|[MH TOC Contraceptive Medication (Progestin-Only Pills (POPs))](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-contraceptive-medication-pop)|Medication.code|
+|Procedure|Contraceptive Procedure|[MH TOC Contraceptive Procedure](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-contraceptive-procedure)|Procedure.code|
+|Procedure|Contraceptive Procedure (Device)|[MH TOC Contraceptive Procedure (Device)](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-contraceptive-procedure-device)|Procedure.code|
+|Procedure|Contraceptive Procedure (Education)|[MH TOC Contraceptive Procedure (Education)](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-contraceptive-procedure-education)|Procedure.code|
+|Procedure|Contraceptive Procedure (Procedures)|[MH TOC Contraceptive Procedure (Procedures)](http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-contraceptive-procedure-procedures)|Procedure.code|
+{: .grid}
 
 
 
