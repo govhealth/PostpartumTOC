@@ -69,7 +69,7 @@ The following profiles and extensions are defined for the USCDI+ Maternal Health
       <tr>
          <td><a href="StructureDefinition-mh-toc-breastfeeding-intent.html">Breastfeeding Intent</a></td>
          <td>
-            The USCDI+ Maternal Health Postpartum TOC Breastfeeding Intent Profile is derived from the US Core Simple Observation Profile. This profile sets minimum expectations for the Observation resource for querying an individual’s breastfeeding intention of their newborn during or after the postpartum period. It identifies which core elements, extensions, vocabularies, and value sets <b>SHALL</b> be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases.  It defines requirements for exchanging the documented breastfeeding intent which is commonly recorded during prenatal care or directly postpartum during the delivery hospitalization.
+            The USCDI+ Maternal Health Postpartum TOC Breastfeeding Intent Profile is derived from the US Core Simple Observation Profile. This profile sets minimum expectations for the Observation resource for querying an individual’s breastfeeding intention of their newborn during or after the postpartum period. 
          </td>
       </tr>
       <tr>
@@ -94,7 +94,7 @@ The following profiles and extensions are defined for the USCDI+ Maternal Health
       <tr>
          <td><a href="StructureDefinition-mh-toc-careteam-role.html">CareTeam Role</a></td>
          <td>
-            The USCDI+ Maternal Health Postpartum TOC CareTeam Role Profile is derived from the US Core CareTeam Profile. This profile sets minimum expectations for the CareTeam resource for querying a care team participant's role in the subject's clinical care. It identifies which core elements, extensions, vocabularies, and value sets <b>SHALL</b> be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases.  It defines requirements for exchanging the documented care team members and their roles during a subject's postpartum clinical care, including care team members leading up to delivery and during the delivery event.  
+            The USCDI+ Maternal Health Postpartum TOC CareTeam Role Profile is derived from the US Core CareTeam Profile. This profile sets minimum expectations for the CareTeam resource for querying a care team participant's role in the subject's clinical care.
          </td>
       </tr>
    </tbody>
@@ -158,19 +158,19 @@ The following profiles and extensions are defined for the USCDI+ Maternal Health
       <tr>
          <td><a href="StructureDefinition-mh-toc-contraceptive-device.html">Contraceptive Device</a></td>
          <td>
-            This profile sets minimum expectations for the Device resource, which provides guidance on querying for a patient’s documented contraception, administered via a device. The MH TOC Contraceptive Device profile leverages the US Core Device Profile. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases. For examples and specific codes, please see the instances of the individual derivative profiles.
+            This profile sets minimum expectations for the Device resource, which provides guidance on querying for a patient’s documented contraception, administered via a device. The MH TOC Contraceptive Device profile leverages the US Core Device Profile.
          </td>
       </tr>
       <tr>
          <td><a href="StructureDefinition-mh-toc-contraceptive-medication.html">Contraceptive Medication</a></td>
          <td>
-            This profile sets minimum expectations for the Medication resource, which provides guidance on querying for a patient’s documented contraception, administered via a medication (e.g., Oral Contraceptive Pills(OCPs)). The MH TOC Contraceptive Medication profile leverages the US Core Medication Profile. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases. For examples and specific codes, please see the instances of the individual derivative profiles.
+            This profile sets minimum expectations for the Medication resource, which provides guidance on querying for a patient’s documented contraception, administered via a medication (e.g., Oral Contraceptive Pills(OCPs)). The MH TOC Contraceptive Medication profile leverages the US Core Medication Profile. 
          </td>
       </tr>
       <tr>
          <td><a href="StructureDefinition-mh-toc-contraceptive-procedure.html">Contraceptive Procedure</a></td>
          <td>
-            This profile sets minimum expectations for the Procedure resource, which provides guidance on querying for a patient’s documented contraception, administered via a procedure. The MH TOC Contraceptive Procedure profile leverages the US Core Procedure Profile. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases. For examples and specific codes, please see the instances of the individual derivative profiles.
+            This profile sets minimum expectations for the Procedure resource, which provides guidance on querying for a patient’s documented contraception, administered via a procedure. The MH TOC Contraceptive Procedure profile leverages the US Core Procedure Profile. 
          </td>
       </tr>
    </tbody>
@@ -188,13 +188,13 @@ The following profiles and extensions are defined for the USCDI+ Maternal Health
       <tr>
          <td><a href="StructureDefinition-mh-toc-contraceptive-medication-ocp.html">Contraceptive Medication (Oral Contraceptive Pills (OCPs))</a></td>
          <td>
-            This profile sets minimum expectations for the Medication resource, which provides guidance on querying for a patient’s documented contraception, administered via a medication, specifically oral contraceptive pills (OCPs). The MH TOC Contraceptive Medication (Oral Contraceptive Pills (OCPs)) profile leverages the US Core Medication Profile. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases. For examples and specific codes, please see the instances of the individual derivative profiles.
+            This profile sets minimum expectations for the Medication resource, which provides guidance on querying for a patient’s documented contraception, administered via a medication, specifically oral contraceptive pills (OCPs). The MH TOC Contraceptive Medication (Oral Contraceptive Pills (OCPs)) profile leverages the US Core Medication Profile. 
          </td>
       </tr>
       <tr>
          <td><a href="StructureDefinition-mh-toc-contraceptive-medication-pop.html">Contraceptive Medication (Progestin-Only Pills (POPs))</a></td>
          <td>
-            This profile sets minimum expectations for the Medication resource, which provides guidance on querying for a patient’s documented contraception, administered via a medication, specifically progestin-only pills (POPs). The MH TOC Contraceptive Medication profile leverages the US Core Medication (Progestin-Only Pills (POPs) Profile. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases. For examples and specific codes, please see the instances of the individual derivative profiles.
+            This profile sets minimum expectations for the Medication resource, which provides guidance on querying for a patient’s documented contraception, administered via a medication, specifically progestin-only pills (POPs). The MH TOC Contraceptive Medication profile leverages the US Core Medication (Progestin-Only Pills (POPs) Profile. 
          </td>
       </tr>
    </tbody>
@@ -212,19 +212,19 @@ The following profiles and extensions are defined for the USCDI+ Maternal Health
       <tr>
          <td><a href="StructureDefinition-mh-toc-contraceptive-procedure-device.html">Contraceptive Procedure (Device)</a></td>
          <td>
-            This profile sets minimum expectations for the Procedure resource, which provides guidance on querying for a patient’s documented contraception, a device as an example, administered via a procedure (e.g., implantation of subcutaneous contraceptive). The MH TOC Contraceptive Procedure (Device) profile leverages the US Core Procedure Profile. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases. For examples and specific codes, please see the instances of the individual derivative profiles.
+            This profile sets minimum expectations for the Procedure resource, which provides guidance on querying for a patient’s documented contraception, a device as an example, administered via a procedure (e.g., implantation of subcutaneous contraceptive). The MH TOC Contraceptive Procedure (Device) profile leverages the US Core Procedure Profile. 
          </td>
       </tr>
       <tr>
          <td><a href="StructureDefinition-mh-toc-contraceptive-procedure-education.html">Contraceptive Procedure (Education)</a></td>
          <td>
-            This profile sets minimum expectations for the Medication resource, which provides guidance on querying for a patient’s documented contraception, administered via a medication, specifically progestin-only pills (POPs). The MH TOC Contraceptive Medication profile leverages the US Core Medication (Progestin-Only Pills (POPs) Profile. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases. For examples and specific codes, please see the instances of the individual derivative profiles.
+            This profile sets minimum expectations for the Medication resource, which provides guidance on querying for a patient’s documented contraception, administered via a medication, specifically progestin-only pills (POPs). The MH TOC Contraceptive Medication profile leverages the US Core Medication (Progestin-Only Pills (POPs) Profile. 
          </td>
       </tr>
       <tr>
          <td><a href="StructureDefinition-mh-toc-contraceptive-procedure-procedures.html">Contraceptive Procedure (Procedures)</a></td>
          <td>
-            This profile sets minimum expectations for the Procedure resource, which provides guidance on querying for a patient’s documented contraceptive procedures (e.g., bitubal ligation). The MH TOC Contraceptive Procedure (Procedures) profile leverages the US Core Procedure Profile. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases. For examples and specific codes, please see the instances of the individual derivative profiles.
+            This profile sets minimum expectations for the Procedure resource, which provides guidance on querying for a patient’s documented contraceptive procedures (e.g., bitubal ligation). The MH TOC Contraceptive Procedure (Procedures) profile leverages the US Core Procedure Profile.
          </td>
       </tr>
    </tbody>
@@ -373,7 +373,7 @@ The following profiles and extensions are defined for the USCDI+ Maternal Health
       <tr>
          <td><a href="StructureDefinition-mh-toc-conditions.html">Maternal Health Transitions of Care Conditions</a></td>
          <td>
-            This profile sets minimum expectations for the MH TOC Conditions resource, which provides guidance on querying for a patient’s documented conditions that are relevant for postpartum clinical care, including events during the antepartum period and the delivery event. The MH TOC Conditions profile leverages the US Core Condition Encounter Diagnosis Profile and modifies it to support identified relevant conditions. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases.
+            This profile sets minimum expectations for the MH TOC Conditions resource, which provides guidance on querying for a patient’s documented conditions that are relevant for postpartum clinical care, including events during the antepartum period and the delivery event. The MH TOC Conditions profile leverages the US Core Condition Encounter Diagnosis Profile and modifies it to support identified relevant conditions. 
          </td>
       </tr>
       <tr>
