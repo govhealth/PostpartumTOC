@@ -1,0 +1,34 @@
+{
+    "resourceType": "StructureDefinition",
+    "id": "mh-toc-contraceptive-procedure-device",
+    "url": "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-contraceptive-procedure-device",
+    "version": "1.0.0",
+    "name": "MHTOCContraceptiveProcedureDevice",
+    "title": "MH TOC Contraceptive Procedure (Device)",
+    "status": "active",
+    "date": "2026-02-12",
+    "description": "This profile sets minimum expectations for the Procedure resource, which provides guidance on querying for a patient’s documented contraception, a device as an example, administered via a procedure (e.g., implantation of subcutaneous contraceptive). The MH TOC Contraceptive Procedure profile leverages the US Core Procedure Profile. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases. For examples and specific codes, please see the instances of the individual derivative profiles.",
+    "fhirVersion": "4.0.1",
+    "kind": "resource",
+    "abstract": false,
+    "type": "Procedure",
+    "baseDefinition": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure",
+    "derivation": "constraint",
+    "differential": {
+        "element": [
+            {
+                "id": "Procedure.code",
+                "path": "Procedure.code",
+                "binding": {
+                "strength": "extensible",
+                "valueSet": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-contraceptive-procedure-device"
+                } 
+            }, 
+            {
+                "id": "Procedure.encounter",
+                "path": "Procedure.encounter",
+                "min": 1
+            },
+        ]
+    }
+}
