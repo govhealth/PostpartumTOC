@@ -1,0 +1,35 @@
+{
+  "resourceType" : "CareTeam",
+  "id" : "example",
+  "meta" : {
+    "profile" : [
+      "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-careteam-role"
+    ]
+  },
+  "text" : {
+    "status" : "generated"
+  },
+  "status" : "active",
+  "name" : "MH TOC CareTeam Example",
+  "subject" : {
+    "reference" : "Patient/mom"
+  },
+  "participant" : [
+    {
+      "role" : [
+        {
+          "coding" : [
+            {
+              "code" : "11935004",
+              "display" : "Obstetrician"
+            }
+          ]
+        }
+      ],
+      "member" : {
+        "reference" : "Practitioner/practitioner-1",
+        "display" : "Ronald Bone, MD"
+      }
+    }
+  ]
+}
