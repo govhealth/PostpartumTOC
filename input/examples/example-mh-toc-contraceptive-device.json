@@ -1,0 +1,33 @@
+{
+  "resourceType" : "Device",
+  "id" : "example-mh-toc-contraceptive-device",
+  "meta" : {
+    "profile" : [
+      "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-contraceptive-device"
+    ]
+  },
+  "text" : {
+    "status" : "generated"
+  },
+  "udiCarrier" : [
+    {
+      "deviceIdentifier" : "00821925032996",
+      "carrierHRF" : "(01)00821925032996(17)19D601(10)GM602097"
+    }
+  ],
+  "status" : "replaced",
+  "expirationDate" : "2019-06-01",
+  "lotNumber" : "GM602097",
+  "type" : {
+    "coding" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "code" : "118373001",
+        "display" : "Implant made of silastic material, device (physical object)"
+      }
+    ]
+  },
+  "patient" : {
+    "reference" : "Patient/mom"
+  }
+}
