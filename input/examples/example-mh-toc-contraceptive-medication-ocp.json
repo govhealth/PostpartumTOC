@@ -1,0 +1,22 @@
+{
+  "resourceType" : "Medication",
+  "id" : "example-mh-toc-contraceptive-medication-ocp",
+  "meta" : {
+    "profile" : [
+      "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-contraceptive-medication-ocp"
+    ]
+  },
+  "text" : {
+    "status" : "generated",
+  },
+  "code" : {
+    "coding" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code" : "2716397",
+        "display" : "{21 (desogestrel 0.15 MG / ethinyl estradiol 0.03 MG Oral Tablet) / 7 (ferrous bisglycinate 36.5 MG Oral Tablet) } Pack [Averi 28 Day]"
+      }
+    ],
+    "text" : "Averi 28 Day"
+  }
+}
