@@ -1,0 +1,44 @@
+{
+  "resourceType" : "Procedure",
+  "id" : "example-mh-toc-contraceptive-procedure-device",
+  "meta" : {
+    "profile" : [
+      "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-contraceptive-procedure-device"
+    ]
+  },
+  "text" : {
+    "status" : "generated",
+  },
+  "status" : "completed",
+  "code" : {
+    "coding" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "code" : "176837007",
+        "display" : "Intrauterine contraceptive device procedure"
+      }
+    ],
+    "text" : "Insertion of Falope-Ring as a contraceptive"
+  },
+  "subject" : {
+    "reference" : "Patient/mom"
+  },
+  "performedPeriod" : {
+    "start" : "2015-06-01T15:25:26-07:00",
+    "end" : "2015-06-01T16:25:26-07:00"
+  },
+  "performer" : [
+    {
+      "actor" : {
+        "reference" : "Practitioner/surgeon1"
+      }
+    }
+  ],
+  "focalDevice" : [
+    {
+      "manipulated" : {
+        "reference" : "Device/example-mh-toc-contraceptive-device"
+      }
+    }
+  ]
+}
