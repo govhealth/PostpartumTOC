@@ -1,0 +1,42 @@
+{
+  "resourceType" : "Procedure",
+  "id" : "example-mh-toc-contraceptive-procedure-education",
+  "meta" : {
+    "profile" : [
+      "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-contraceptive-procedure-education"
+    ]
+  },
+  "text" : {
+    "status" : "generated",
+  },
+  "status" : "completed",
+  "code" : {
+    "coding" : [
+      {
+        "code": "736806006",
+        "display": "Education for contraceptive sheath"
+      },
+      {
+        "code": "736810009",
+        "display": "Education for spermicidal contraceptive"
+      },
+      {
+        "code": "736811008",
+        "display": "Education for transdermal contraceptive patch"
+      },
+      {
+        "code": "395667001",
+        "display": "Progestogen only oral contraceptive education"
+      },
+      {
+        "code": "704116001",
+        "display": "Education about postcoital contraceptive"
+      }
+    ],
+    "text" : "Education provided to patient on contraceptive options"
+  },
+  "subject" : {
+    "reference" : "Patient/mom"
+  },
+  "performedDateTime" : "2015-05-23"
+}
