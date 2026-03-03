@@ -1,0 +1,59 @@
+{
+  "resourceType": "Condition",
+  "id": "example-mh-toc-conditions-infections",
+  "meta": {
+    "profile": [
+      "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-conditions-infections"
+    ]
+  },
+  "clinicalStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code": "active",
+        "display": "Active"
+      }
+    ]
+  },
+  "verificationStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+        "code": "confirmed",
+        "display": "Confirmed"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "200125006",
+        "display": "Infection of obstetric surgical wound"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "code": "O86.00",
+        "display": "Infection of obstetric surgical wound"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/mom"
+  },
+  "encounter": {
+    "reference": "Encounter/delivery-encounter-example"
+  },
+  "onsetDateTime": "2025-07-01"
+}
