@@ -1,0 +1,22 @@
+{
+  "resourceType" : "Medication",
+  "id" : "example-mh-toc-contraceptive-medication-pop",
+  "meta" : {
+    "profile" : [
+      "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-contraceptive-medication-pop"
+    ]
+  },
+  "text" : {
+    "status" : "generated",
+  },
+  "code" : {
+    "coding" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code" : "807283",
+        "display" : "{levonorgestrel 0.000833 MG/HR Intrauterine System [Mirena]"
+      }
+    ],
+    "text" : "Mirena"
+  }
+}
