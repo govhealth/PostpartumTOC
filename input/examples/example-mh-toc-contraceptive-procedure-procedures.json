@@ -23,5 +23,8 @@
   "subject" : {
     "reference" : "Patient/mom"
   },
+  "encounter": {
+    "reference": "Encounter/OBGYN-inpatient-encounter-example-mh-toc"
+  },
   "performedDateTime" : "2026-03-03"
 }
