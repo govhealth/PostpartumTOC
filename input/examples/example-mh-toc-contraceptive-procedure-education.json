@@ -12,23 +12,28 @@
   "status" : "completed",
   "code" : {
     "coding" : [
-      {
+      {        
+        "system" : "http://snomed.info/sct",
         "code": "736806006",
         "display": "Education for contraceptive sheath"
       },
-      {
+      {        
+        "system" : "http://snomed.info/sct",
         "code": "736810009",
         "display": "Education for spermicidal contraceptive"
       },
-      {
+      {        
+        "system" : "http://snomed.info/sct",
         "code": "736811008",
         "display": "Education for transdermal contraceptive patch"
       },
-      {
+      {        
+        "system" : "http://snomed.info/sct",
         "code": "395667001",
         "display": "Progestogen only oral contraceptive education"
       },
-      {
+      {        
+        "system" : "http://snomed.info/sct",
         "code": "704116001",
         "display": "Education about postcoital contraceptive"
       }
