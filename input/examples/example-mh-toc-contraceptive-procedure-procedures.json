@@ -1,0 +1,27 @@
+{
+  "resourceType" : "Procedure",
+  "id" : "example-mh-toc-contraceptive-procedure-procedures",
+  "meta" : {
+    "profile" : [
+      "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-contraceptive-procedure-procedures"
+    ]
+  },
+  "text" : {
+    "status" : "generated",
+  },
+  "status" : "completed",
+  "code" : {
+    "coding" : [
+      {        
+        "system" : "http://snomed.info/sct",
+        "code": "287664005",
+        "display": "Ligation of bilateral fallopian tubes"
+      }
+    ],
+    "text" : "Ligation of bilateral fallopian tubes as a contraceptive method"
+  },
+  "subject" : {
+    "reference" : "Patient/mom"
+  },
+  "performedDateTime" : "2026-03-03"
+}
