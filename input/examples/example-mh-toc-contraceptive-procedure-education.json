@@ -43,5 +43,8 @@
   "subject" : {
     "reference" : "Patient/mom"
   },
+  "encounter": {
+    "reference": "Encounter/example-1"
+  },
   "performedDateTime" : "2015-05-23"
 }
