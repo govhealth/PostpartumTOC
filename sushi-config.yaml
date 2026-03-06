@@ -304,7 +304,7 @@ resources:
     name: Labor Type
     description: An example of a recorded labor type conforming to the MH TOC Labor Type Profile.
     exampleBoolean: true
-  DocumentReference/mh-toc-behavioral-health-history-example:
+  DocumentReference/example-mh-toc-behavioral-health-history:
     name: Behavioral Health History Note
     description: An example of a behavioral health history note with a text attachement conforming to the MH TOC Behavioral Health History Profile.
     exampleBoolean: true
