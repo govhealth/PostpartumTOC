@@ -1,7 +1,7 @@
 
 {
   "resourceType" : "DocumentReference",
-  "id": "mh-toc-consult-note-example",
+  "id": "example-mh-toc-consult-note",
   "meta" : {
     "profile" : [
       "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-consult-note"
