@@ -5,7 +5,7 @@
       "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-discharge-summary"
     ]
   },
-  "id": "discharge-summary-example",
+  "id": "example-mh-toc-discharge-summary",
   "status": "current",
   "type": {
     "coding": [
