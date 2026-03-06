@@ -1,6 +1,6 @@
 {
   "resourceType": "ServiceRequest",
-  "id": "genetic-counseling-example",
+  "id": "example-mh-toc-genetic-counseling",
   "meta": {
     "profile": [
       "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-genetic-counseling"
