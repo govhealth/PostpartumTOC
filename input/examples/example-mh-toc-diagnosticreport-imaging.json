@@ -1,6 +1,6 @@
 {
   "resourceType": "DiagnosticReport",
-  "id": "diagnosticreport-imaging-example",
+  "id": "example-mh-toc-diagnosticreport-imaging",
   "meta": {
     "profile": [
       "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-diagnosticreport-imaging"
