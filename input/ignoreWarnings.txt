@@ -1,7 +1,7 @@
 == Suppressed Messages ==
 
 # There is currently no existing LOINC code for Behavioral Health History Note; new LOINC code will need to be requested to cover this document type
-ERROR: DocumentReference/mh-toc-behavioral-health-history-example: DocumentReference.type: None of the codings provided are in the value set 'US Core DocumentReference Type' (http://hl7.org/fhir/us/core/ValueSet/us-core-documentreference-type|6.1.0), and a coding from this value set is required) (codes = http://fhir.org/guides/astp/postpartum-toc/CodeSystem/mh-toc-postpartum-temp#mh-toc-behavioral-health-history)
+ERROR: DocumentReference/example-mh-toc-behavioral-health-history: DocumentReference.type: None of the codings provided are in the value set 'US Core DocumentReference Type' (http://hl7.org/fhir/us/core/ValueSet/us-core-documentreference-type|6.1.0), and a coding from this value set is required) (codes = http://fhir.org/guides/astp/postpartum-toc/CodeSystem/mh-toc-postpartum-temp#mh-toc-behavioral-health-history)
 
 # There is currently no existing LOINC code for Postpartum Summary Note; new LOINC code will need to be requested to cover this document type
 ERROR: DocumentReference/mh-toc-postpartum-summary-example: DocumentReference.type: None of the codings provided are in the value set 'US Core DocumentReference Type' (http://hl7.org/fhir/us/core/ValueSet/us-core-documentreference-type|6.1.0), and a coding from this value set is required) (codes = http://fhir.org/guides/astp/postpartum-toc/CodeSystem/mh-toc-postpartum-temp#mh-toc-postpartum-summary)
@@ -55,7 +55,7 @@ WARNING: ImagingStudy/imagingstudy-ob-fetal-dating: ImagingStudy.series[0].insta
 WARNING: ImplementationGuide/fhir.astp.postpartum-toc: ImplementationGuide.dependsOn[0]: The ImplementationGuide uses package hl7.fhir.us.core#6.1.0 released on 2023-06-30, but the most recent appropriate version is 8.0.0. This reference is getting old and the more recent version should be considered
 
 # The discriminator type 'pattern' is inherited from the USCore Document Reference profile
-INFORMATION: StructureDefinition/mh-toc-behavioral-health-history: StructureDefinition.snapshot.element[14].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: StructureDefinition/mh-toc--history: StructureDefinition.snapshot.element[14].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/mh-toc-consult-note: StructureDefinition.snapshot.element[14].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/mh-toc-delivery-date: StructureDefinition.snapshot.element[13].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/mh-toc-discharge-summary: StructureDefinition.snapshot.element[14].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
@@ -97,8 +97,8 @@ INFORMATION: StructureDefinition/mh-toc-smm-condition-shock: StructureDefinition
 INFORMATION: StructureDefinition/mh-toc-smm-condition-sickle-cell-crisis: StructureDefinition.snapshot.element[19].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 
 # Inherited from the USCore Document Reference profile 
-INFORMATION: StructureDefinition/mh-toc-behavioral-health-history: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
-INFORMATION: StructureDefinition/mh-toc-behavioral-health-history: StructureDefinition.snapshot.element[13].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-minValueSet|5.2.0 is deprecated
+INFORMATION: StructureDefinition/mh-toc--history: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+INFORMATION: StructureDefinition/mh-toc--history: StructureDefinition.snapshot.element[13].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-minValueSet|5.2.0 is deprecated
 
 # Use the latest extension pack version 5.2.0 
 INFORMATION: StructureDefinition.snapshot.element[8].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/condition-assertedDate to 5.2.0 from choices of 1.0.0 (hl7.fhir.uv.extensions.r4#1.0.0), 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
