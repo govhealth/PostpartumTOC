@@ -1,7 +1,7 @@
 
 {
   "resourceType" : "DocumentReference",
-  "id": "mh-toc-behavioral-health-history-example",
+  "id": "example-mh-toc-behavioral-health-history",
   "meta" : {
     "profile" : [
       "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-behavioral-health-history"
