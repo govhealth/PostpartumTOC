@@ -9,7 +9,7 @@
   "patient": {
     "reference": "Patient/example"
   },
-  "id": "family-health-history-example",
+  "id": "example-mh-toc-family-health-history",
   "relationship": {
     "coding": [
       {
