@@ -67,31 +67,31 @@ These examples demonstrate use of FHIR data that are critical to the USCDI+ Mate
          </td>
       </tr>
       <tr>
-         <td><a href="Condition-example-mh-toc-conditions-complications.html">Condition Complications</a></td>
+         <td><a href="Condition-example-mh-toc-conditions-complications.html">Condition (Complications)</a></td>
          <td>
             An example of a recorded complication relevant to postpartum clinical care conforming to the MH TOC Conditions Complications Profile.
          </td>
       </tr>
       <tr>
-         <td><a href="Condition-example-mh-toc-conditions-diabetes.html">Condition Diabetes</a></td>
+         <td><a href="Condition-example-mh-toc-conditions-diabetes.html">Condition (Diabetes)</a></td>
          <td>
             An example of a recorded incidence of diabetes relevant to postpartum clinical care conforming to the MH TOC Conditions Diabetes Profile.
          </td>
       </tr>
       <tr>
-         <td><a href="Condition-example-mh-toc-conditions-hemorrhage.html">Condition Hemorrhage</a></td>
+         <td><a href="Condition-example-mh-toc-conditions-hemorrhage.html">Condition (Hemorrhage)</a></td>
          <td>
             An example of a recorded incidence of hemorrhage relevant to postpartum clinical care conforming to the MH TOC Conditions Hemorrhage Profile.
          </td>
       </tr>
       <tr>
-         <td><a href="Condition-example-mh-toc-conditions-infections.html">Condition Infections</a></td>
+         <td><a href="Condition-example-mh-toc-conditions-infections.html">Condition (Infections)</a></td>
          <td>
             An example of a recorded incidence of infection relevant to postpartum clinical care conforming to the MH TOC Conditions Infection Profile.
          </td>
       </tr>
       <tr>
-         <td><a href="Condition-example-mh-toc-conditions-lacerations-perineal-trauma-oasis.html">Condition Lacerations, Perineal Trauma, and OASIS</a></td>
+         <td><a href="Condition-example-mh-toc-conditions-lacerations-perineal-trauma-oasis.html">Condition (Lacerations, Perineal Trauma, and OASIS)</a></td>
          <td>
             An example of a recorded incidence of perineal laceration during delivery, which is relevant to postpartum clinical care, conforming to the MH TOC Conditions Lacerations, Perineal, Trauma, and OASIS Profile.
          </td>
