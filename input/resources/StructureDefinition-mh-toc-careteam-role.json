@@ -11,7 +11,7 @@
     "kind": "resource",
     "abstract": false,
     "type": "CareTeam",
-    "baseDefinition": "http://hl7.org/fhir/us/core/StructureDefinition/StructureDefinition-us-core-careteam",
+    "baseDefinition": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-careteam",
     "derivation": "constraint",
     "differential": {
         "element": [
