@@ -37,7 +37,7 @@ These examples demonstrate use of FHIR data that are critical to the USCDI+ Mate
    </thead>
    <tbody>
       <tr>
-         <td><a href="DocumentReference-mh-toc-behavioral-health-history-example.html">Behavioral Health History Note</a></td>
+         <td><a href="DocumentReference-example-mh-toc-behavioral-health-history.html">Behavioral Health History Note</a></td>
          <td>
             An example of a behavioral health history note with a text attachment conforming to the MH TOC Behavioral Health History Profile.
          </td>
@@ -49,7 +49,7 @@ These examples demonstrate use of FHIR data that are critical to the USCDI+ Mate
          </td>
       </tr>
       <tr>
-         <td><a href="Observation-breastfeeding-status-example.html">Breastfeeding Status</a></td>
+         <td><a href="Observation-example-mh-toc-breastfeeding-status.html">Breastfeeding Status</a></td>
          <td>
             An example of a recorded breastfeeding status conforming to the MH TOC Breastfeeding Status Profile of a mother who is currently breastfeeding.
          </td>
@@ -97,7 +97,7 @@ These examples demonstrate use of FHIR data that are critical to the USCDI+ Mate
          </td>
       </tr>
       <tr>
-         <td><a href="DocumentReference-mh-toc-consult-note-example.html">Consultation Note</a></td>
+         <td><a href="DocumentReference-example-mh-toc-consult-note.html">Consultation Note</a></td>
          <td>
             An example of a consultation note conforming to the MH TOC Consult Note Profile.
          </td>
@@ -151,13 +151,13 @@ These examples demonstrate use of FHIR data that are critical to the USCDI+ Mate
          </td>
       </tr>
       <tr>
-         <td><a href="Observation-mh-toc-delivery-date-example.html">Delivery Date</a></td>
+         <td><a href="Observation-example-mh-toc-delivery-date.html">Delivery Date</a></td>
          <td>
             An example of a mother's delivery date conforming to the MH TOC Delivery Date Profile.
          </td>
       </tr>
       <tr>
-         <td><a href="DiagnosticReport-diagnosticreport-imaging-example.html">DiagnosticReport Imaging</a></td>
+         <td><a href="DiagnosticReport-example-mh-toc-diagnosticreport-imaging.html">DiagnosticReport Imaging</a></td>
          <td>
             An example of an imaging report conforming to the MH TOC Diagnostic Imaging Report Profile.
          </td>
@@ -169,7 +169,7 @@ These examples demonstrate use of FHIR data that are critical to the USCDI+ Mate
          </td>
       </tr>
       <tr>
-         <td><a href="Observation-edd-example.html">Estimated Date of Delivery</a></td>
+         <td><a href="Observation-example-mh-toc-edd.html">Estimated Date of Delivery</a></td>
          <td>
             An example of an estimated date of delivery (EDD) observation instance to the MH TOC Estimated Date of Delivery Profile.
          </td>
@@ -187,49 +187,49 @@ These examples demonstrate use of FHIR data that are critical to the USCDI+ Mate
          </td>
       </tr>
       <tr>
-         <td><a href="FamilyMemberHistory-family-health-history-example.html">Family Member Health History</a></td>
+         <td><a href="FamilyMemberHistory-example-mh-toc-family-health-history.html">Family Member Health History</a></td>
          <td>
             An example of a family member health history with conditions conforming to the MH TOC Family Health History Profile.
          </td>
       </tr>
       <tr>
-         <td><a href="ServiceRequest-genetic-counseling-example.html">Genetic Counseling</a></td>
+         <td><a href="ServiceRequest-example-mh-toc-genetic-counseling.html">Genetic Counseling</a></td>
          <td>
             An example of a service request, referring the patient to receive genetic counseling (e.g., teratogen counseling).  
          </td>
       </tr>
       <tr>
-         <td><a href="Observation-gestational-age-example.html">Gestational Age</a></td>
+         <td><a href="Observation-example-mh-toc-gestational-age.html">Gestational Age</a></td>
          <td>
             An example of a recorded gestational age in weeks conforming to the MH TOC Gestational Age Profile.
          </td>
       </tr>
       <tr>
-         <td><a href="DocumentReference-discharge-summary-example.html">Hospitalist Discharge Summary</a></td>
+         <td><a href="DocumentReference-example-mh-toc-discharge-summary.html">Hospitalist Discharge Summary</a></td>
          <td>
             An example of a hospitalists discharge summary note conforming to the MH TOC Discharge Summary Profile.
          </td>
       </tr>
       <tr>
-         <td><a href="Observation-labor-type-example.html">Labor Type</a></td>
+         <td><a href="Observation-example-mh-toc-labor-type.html">Labor Type</a></td>
          <td>
             An example of a recorded labor type conforming to the MH TOC Labor Type Profile.
          </td>
       </tr>
       <tr>
-         <td><a href="DocumentReference-mh-toc-labor-and-delivery-summary-example.html">Labor and Delivery Summary</a></td>
+         <td><a href="DocumentReference-example-mh-toc-labor-and-delivery-summary.html">Labor and Delivery Summary</a></td>
          <td>
             An example of a labor and delivery summary note conforming to the MH TOC Labor and Delivery Summary Profile.
          </td>
       </tr>
       <tr>
-         <td><a href="Observation-mh-toc-gravidity-example.html">Maternal Gravidity</a></td>
+         <td><a href="Observation-example-mh-toc-gravidity.html">Maternal Gravidity</a></td>
          <td>
             An example of a recorded maternal gravidity conforming to the MH TOC Gravidity Profile.
          </td>
       </tr>
       <tr>
-         <td><a href="Observation-mh-toc-parity-example.html">Maternal Parity</a></td>
+         <td><a href="Observation-example-mh-toc-parity.html">Maternal Parity</a></td>
          <td>
             An example of a recorded maternal parity conforming to the MH TOC Parity Profile.
          </td>
@@ -259,7 +259,7 @@ These examples demonstrate use of FHIR data that are critical to the USCDI+ Mate
          </td>
       </tr>
       <tr>
-         <td><a href="ImagingStudy-imagingstudy-ob-fetal-dating.html">OB Fetal Dating ImagingStudy</a></td>
+         <td><a href="ImagingStudy-example-mh-toc-imagingstudy-ob-fetal-dating.html">OB Fetal Dating ImagingStudy</a></td>
          <td>
             An example of an OB fetal dating Ultrasound conforming to the HL7 R4 ImagingStudy resource.
          </td>
@@ -271,7 +271,7 @@ These examples demonstrate use of FHIR data that are critical to the USCDI+ Mate
          </td>
       </tr>
       <tr>
-         <td><a href="DocumentReference-mh-toc-postpartum-summary-example.html">Postpartum Summary Note</a></td>
+         <td><a href="DocumentReference-example-mh-toc-postpartum-summary.html">Postpartum Summary Note</a></td>
          <td>
             An example of a postpartrum summary note conforming to the MH TOC Postpartum Summary Profile.
          </td>
