@@ -265,6 +265,12 @@ These examples demonstrate use of FHIR data that are critical to the USCDI+ Mate
          </td>
       </tr>
       <tr>
+         <td><a href="Encounter-OBGYN-inpatient-encounter-example-mh-toc.html">Inpatient OBGYN Encounter</a></td>
+         <td>
+            An example of an inpatient OBGYN encounter conforming to US Core Encounter Profile.
+         </td>
+      </tr>
+      <tr>
          <td><a href="Binary-example-binary.html">PDF Content of binary</a></td>
          <td>
             An example of a binary resource with contents of a labor and delivery summary note.
