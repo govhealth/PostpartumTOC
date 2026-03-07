@@ -1,6 +1,6 @@
 {
   "resourceType": "ImagingStudy",
-  "id": "imagingstudy-ob-fetal-dating",
+  "id": "example-mh-toc-imagingstudy-ob-fetal-dating",
   "status": "available",
   "subject": { "reference": "Patient/mom" },
   "started": "2025-08-05T10:15:00Z",
