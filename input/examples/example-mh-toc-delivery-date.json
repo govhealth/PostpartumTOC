@@ -1,6 +1,6 @@
 {
     "resourceType": "Observation",
-    "id": "mh-toc-delivery-date-example",
+    "id": "example-mh-toc-delivery-date",
     "meta": {
         "profile": [
             "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-delivery-date"
