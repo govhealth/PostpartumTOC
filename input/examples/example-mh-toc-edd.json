@@ -42,7 +42,7 @@
   "valueDateTime": "2025-11-20",
   "derivedFrom": [
     {
-      "reference": "ImagingStudy/imagingstudy-ob-fetal-dating"
+      "reference": "ImagingStudy/example-mh-toc-imagingstudy-ob-fetal-dating"
     }
   ]
 }
