@@ -212,7 +212,7 @@ resources:
     name: Conditions (Lacerations, Perineal, Trauma, and OASIS)
     description: An example of a recorded incidence of perineal laceration during delivery, which is relevant to postpartum clinical care, conforming to the MH TOC Conditions Lacerations, Perineal, Trauma, and OASIS Profile.
     exampleBoolean: true
-  DocumentReference/mh-toc-consult-note-example:
+  DocumentReference/example-mh-toc-consult-note:
     name: Consultation Note
     description: An example of a consultation note conforming to the MH TOC Consult Note Profile.
     exampleBoolean: true
