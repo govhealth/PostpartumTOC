@@ -1,7 +1,7 @@
 
 {
   "resourceType" : "DocumentReference",
-  "id": "mh-toc-labor-and-delivery-summary-example",
+  "id": "example-mh-toc-labor-and-delivery-summary",
   "meta" : {
     "profile" : [
       "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-labor-and-delivery-summary"
