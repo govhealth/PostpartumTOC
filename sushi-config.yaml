@@ -172,29 +172,141 @@ menu:
 #
 
 resources:
-  Binary/example-binary:
-    name: PDF Content of binary
-    description: An example of binary resource with contents of a labor and delivery summary note.
+  DocumentReference/example-mh-toc-behavioral-health-history:
+    name: Behavioral Health History Note
+    description: An example of a behavioral health history note with a text attachement conforming to the MH TOC Behavioral Health History Profile.
     exampleBoolean: true
-  DiagnosticReport/diagnosticreport-imaging-example:
+  Observation/example-breastfeeding-intent:
+    name: Breastfeeding Intent
+    description: An example of a recorded breastfeeding intent conforming to the MH TOC Breastfeeding Intent Profile of a mother who intends to bottle feed.
+    exampleBoolean: true
+  Observation/example-mh-toc-breastfeeding-status:
+    name: Breastfeeding Status
+    description: An example of a recorded breastfeeding status conforming to the MH TOC Breastfeeding Status Profile of a mother who is currently breastfeeding.
+    exampleBoolean: true
+  CareTeam/example-mh-toc-careteam-role:
+    name: Care Team Role
+    description: An example of a recorded care team member role conforming to the MH TOC CareTeam Role Profile.
+    exampleBoolean: true
+  Condition/example-mh-toc-conditions:
+    name: Conditions
+    description: An example of a recorded condition relevant to postpartum clinical care conforming to the MH TOC Conditions Profile.
+    exampleBoolean: true
+  Condition/example-mh-toc-conditions-complications:
+    name: Conditions (Complications)
+    description: An example of a recorded complication relevant to postpartum clinical care conforming to the MH TOC Conditions Complications Profile.
+    exampleBoolean: true
+  Condition/example-mh-toc-conditions-diabetes:
+    name: Conditions (Diabetes)
+    description: An example of a recorded incidence of diabetes relevant to postpartum clinical care conforming to the MH TOC Conditions Diabetes Profile.
+    exampleBoolean: true
+  Condition/example-mh-toc-conditions-hemorrhage:
+    name: Conditions (Hemorrhage)
+    description: An example of a recorded incidence of hemorrhage relevant to postpartum clinical care conforming to the MH TOC Conditions Hemorrhage Profile.
+    exampleBoolean: true
+  Condition/example-mh-toc-conditions-infections:
+    name: Conditions (Infections)
+    description: An example of a recorded incidence of infection relevant to postpartum clinical care conforming to the MH TOC Conditions Infection Profile.
+    exampleBoolean: true
+  Condition/example-mh-toc-conditions-lacerations-perineal-trauma-oasis:
+    name: Conditions (Lacerations, Perineal, Trauma, and OASIS)
+    description: An example of a recorded incidence of perineal laceration during delivery, which is relevant to postpartum clinical care, conforming to the MH TOC Conditions Lacerations, Perineal, Trauma, and OASIS Profile.
+    exampleBoolean: true
+  DocumentReference/mh-toc-consult-note-example:
+    name: Consultation Note
+    description: An example of a consultation note conforming to the MH TOC Consult Note Profile.
+    exampleBoolean: true
+  Device/example-mh-toc-contraceptive-device:
+    name: Contraceptive Device
+    description: An example of a recorded contraceptive device conforming to the MH TOC Contraceptive Device Profile.
+    exampleBoolean: true
+  Medication/example-mh-toc-contraceptive-medication:
+    name: Contraceptive Medication
+    description: An example of a recorded contraceptive medication conforming to the MH TOC Contraceptive Medication Profile.
+    exampleBoolean: true
+  Medication/example-mh-toc-contraceptive-medication-ocp:
+    name: Contraceptive Medication (Oral Contraceptive Pills (OCPs))
+    description: An example of a recorded contraceptive medication, specifically an OCP, conforming to the MH TOC Contraceptive Medication (Oral Contraceptive Pills (OCPs)) Profile.
+    exampleBoolean: true
+  Medication/example-mh-toc-contraceptive-medication-pop:
+    name: Contraceptive Medication (Progestin-Only Pills (POPs))
+    description: An example of a recorded contraceptive medication, specifically a POP, conforming to the MH TOC Contraceptive Medication (Progestin-Only Pills (POPs)) Profile.
+    exampleBoolean: true
+ Procedure/example-mh-toc-contraceptive-procedure:
+    name: Contraceptive Procedure
+    description: An example of a recorded contraceptive procedure, conforming to the MH TOC Contraceptive Procedure Profile.
+    exampleBoolean: true
+ Procedure/example-mh-toc-contraceptive-procedure-device:
+    name: Contraceptive Procedure (Device)
+    description: An example of a recorded procedure, related to a contraceptive device, conforming to the MH TOC Contraceptive Procedure (Device) Profile.
+    exampleBoolean: true
+ Procedure/example-mh-toc-contraceptive-procedure-education:
+    name: Contraceptive Procedure (Education)
+    description: An example of a recorded instance where a clinician provides contraceptive education, conforming to the MH TOC Contraceptive Procedure (Education) Profile.
+    exampleBoolean: true
+ Procedure/example-mh-toc-contraceptive-procedure-procedures:
+    name: Contraceptive Procedure (Procedures)
+    description: An example of a recorded procedure, related to contraception, conforming to the MH TOC Contraceptive Procedure (Procedures) Profile.
+    exampleBoolean: true
+  Observation/example-mh-toc-delivery-date: 
+    name: Delivery Date
+    description: An example of a mother's delivery date conforming to the MH TOC Delivery Date Profile.
+    exampleBoolean: true
+  DiagnosticReport/example-mh-toc-diagnosticreport-imaging:
     name: DiagnosticReport Imaging
     description: An example of an imaging report conforming to the  MH TOC Diagnostic Imaging Report Profile.
-    exampleBoolean: true
-  DocumentReference/discharge-summary-example:
-    name: Hospitalist Discharge Summary
-    description: An example of a hospitalists discharge summary note conforming to the MH TOC Discharge Summary Profile.
-    exampleBoolean: true
-  Observation/edd-example:
-    name: Estimated Date of Delivery
-    description: An example of an estimated date of delivery (EDD) observation instance to the MH TOC Estimated Date of Delivery Profile.
-    exampleBoolean: true
-  ServiceRequest/genetic-counseling-example:
-    name: Genetic Counseling
-    description: An example of a completed service request referral after a patient has received genetic counseling.
     exampleBoolean: true
   Procedure/example-mh-toc-education:
     name: Maternal Health Education
     description: The USCDI+ Maternal Health Postpartum TOC Education Profile is derived from the US Core Procedure Profile. It represents education as an intervention (procedure) provided on maternal health during the perinatal period.
+    exampleBoolean: true
+  Observation/example-mh-toc-edd:
+    name: Estimated Date of Delivery
+    description: An example of an estimated date of delivery (EDD) observation instance to the MH TOC Estimated Date of Delivery Profile.
+    exampleBoolean: true
+  FamilyMemberHistory/example-mh-toc-family-health-history:
+    name: Family Member Health History
+    description: An example of a family member health history with conditions conforming to the MH TOC Family Health History Profile.
+    exampleBoolean: true
+  ServiceRequest/example-mh-toc-genetic-counseling:
+    name: Genetic Counseling
+    description: An example of a completed service request referral after a patient has received genetic counseling.
+    exampleBoolean: true
+  Observation/example-mh-toc-gestational-age:
+    name: Gestational Age
+    description: An example of a recorded gestational age in weeks conforming to the MH TOC Gestational Age Profile.
+    exampleBoolean: true
+  DocumentReference/example-mh-toc-discharge-summary:
+    name: Hospitalist Discharge Summary
+    description: An example of a hospitalists discharge summary note conforming to the MH TOC Discharge Summary Profile.
+    exampleBoolean: true
+  Observation/example-mh-toc-labor-type: 
+    name: Labor Type
+    description: An example of a recorded labor type conforming to the MH TOC Labor Type Profile.
+    exampleBoolean: true
+  DocumentReference/example-mh-toc-labor-and-delivery-summary:
+    name: Labor and Delivery Summary
+    description: An example of a labor and delivery summary note conforming to the MH TOC Labor and Delivery Summary Profile.
+    exampleBoolean: true
+  Observation/example-mh-toc-gravidity:
+    name: Maternal Gravidity
+    description: An example of a recorded maternal gravidity conforming to the MH TOC Gravidity Profile.
+    exampleBoolean: true
+  Observation/example-mh-toc-parity:
+    name: Maternal Parity
+    description: An example of a recorded maternal parity conforming to the MH TOC Parity Profile.
+    exampleBoolean: true
+  ImagingStudy/example-mh-toc-imagingstudy-ob-fetal-dating:
+    name: OB Fetal Dating ImagingStudy
+    description: An example of an OB fetal dating Ultrasound conforming to the HL7 R4 ImagingStudy resource.
+    exampleBoolean: true
+  Binary/example-binary:
+    name: PDF Content of binary
+    description: An example of binary resource with contents of a labor and delivery summary note.
+    exampleBoolean: true
+  DocumentReference/example-mh-toc-postpartum-summary:
+    name: Postpartum Summary Note
+    description: An example of a post partrum summary note conforming to the MH TOC Postpartum Summary Profile.
     exampleBoolean: true
   Condition/example-smm-condition:
     name: SMM Condition 
@@ -288,64 +400,6 @@ resources:
     name: SMM Procedure Ventilation
     description: An example of an instance of the SMM Procedure Ventilation Indicator conforming to the MH TOC Severe Maternal Morbidity Procedure Ventilation Profile.
     exampleBoolean: true
-  FamilyMemberHistory/family-health-history-example:
-    name: Family Member Health History
-    description: An example of a family member health history with conditions conforming to the MH TOC Family Health History Profile.
-    exampleBoolean: true
-  Observation/gestational-age-example:
-    name: Gestational Age
-    description: An example of a recorded gestational age in weeks conforming to the MH TOC Gestational Age Profile.
-    exampleBoolean: true
-  ImagingStudy/imagingstudy-ob-fetal-dating:
-    name: OB Fetal Dating ImagingStudy
-    description: An example of an OB fetal dating Ultrasound conforming to the HL7 R4 ImagingStudy resource.
-    exampleBoolean: true
-  Observation/labor-type-example: 
-    name: Labor Type
-    description: An example of a recorded labor type conforming to the MH TOC Labor Type Profile.
-    exampleBoolean: true
-  DocumentReference/example-mh-toc-behavioral-health-history:
-    name: Behavioral Health History Note
-    description: An example of a behavioral health history note with a text attachement conforming to the MH TOC Behavioral Health History Profile.
-    exampleBoolean: true
-  DocumentReference/mh-toc-consult-note-example:
-    name: Consultation Note
-    description: An example of a consultation note conforming to the MH TOC Consult Note Profile.
-    exampleBoolean: true
-  Observation/mh-toc-delivery-date-example: 
-    name: Delivery Date
-    description: An example of a mother's delivery date conforming to the MH TOC Delivery Date Profile.
-    exampleBoolean: true
-  Observation/mh-toc-gravidity-example:
-    name: Maternal Gravidity
-    description: An example of a recorded maternal gravidity conforming to the MH TOC Gravidity Profile.
-    exampleBoolean: true
-  DocumentReference/mh-toc-labor-and-delivery-summary-example:
-    name: Labor and Delivery Summary
-    description: An example of a labor and delivery summary note conforming to the MH TOC Labor and Delivery Summary Profile.
-    exampleBoolean: true
-  Observation/mh-toc-parity-example:
-    name: Maternal Parity
-    description: An example of a recorded maternal parity conforming to the MH TOC Parity Profile.
-    exampleBoolean: true
-  DocumentReference/mh-toc-postpartum-summary-example:
-    name: Postpartum Summary Note
-    description: An example of a post partrum summary note conforming to the MH TOC Postpartum Summary Profile.
-    exampleBoolean: true
-  Observation/breastfeeding-status-example:
-    name: Breastfeeding Status
-    description: An example of a recorded breastfeeding status conforming to the MH TOC Breastfeeding Status Profile of a mother who is currently breastfeeding.
-    exampleBoolean: true
-  Observation/example-breastfeeding-intent:
-    name: Breastfeeding Intent
-    description: An example of a recorded breastfeeding intent conforming to the MH TOC Breastfeeding Intent Profile of a mother who intends to bottle feed.
-    exampleBoolean: true
-
-
-
-
-
-
 
 # resources:
 #   Patient/my-example-patient:
