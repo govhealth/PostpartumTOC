@@ -1,6 +1,6 @@
 {
     "resourceType": "Observation",
-    "id": "mh-toc-parity-example",
+    "id": "example-mh-toc-parity",
     "meta": {
         "profile": [
             "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-parity"
@@ -36,4 +36,5 @@
         }
     ],
     "valueInteger": 2
+
 }
