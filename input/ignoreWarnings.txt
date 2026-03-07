@@ -4,7 +4,7 @@
 ERROR: DocumentReference/example-mh-toc-behavioral-health-history: DocumentReference.type: None of the codings provided are in the value set 'US Core DocumentReference Type' (http://hl7.org/fhir/us/core/ValueSet/us-core-documentreference-type|6.1.0), and a coding from this value set is required) (codes = http://fhir.org/guides/astp/postpartum-toc/CodeSystem/mh-toc-postpartum-temp#mh-toc-behavioral-health-history)
 
 # There is currently no existing LOINC code for Postpartum Summary Note; new LOINC code will need to be requested to cover this document type
-ERROR: DocumentReference/mh-toc-postpartum-summary-example: DocumentReference.type: None of the codings provided are in the value set 'US Core DocumentReference Type' (http://hl7.org/fhir/us/core/ValueSet/us-core-documentreference-type|6.1.0), and a coding from this value set is required) (codes = http://fhir.org/guides/astp/postpartum-toc/CodeSystem/mh-toc-postpartum-temp#mh-toc-postpartum-summary)
+ERROR: DocumentReference/example-mh-toc-postpartum-summary: DocumentReference.type: None of the codings provided are in the value set 'US Core DocumentReference Type' (http://hl7.org/fhir/us/core/ValueSet/us-core-documentreference-type|6.1.0), and a coding from this value set is required) (codes = http://fhir.org/guides/astp/postpartum-toc/CodeSystem/mh-toc-postpartum-temp#mh-toc-postpartum-summary)
 
 # This ICD-10-PCS code is valid in older versions of the ICD-10-PCS; It is intentionally included in this IG for retrospective use
 ERROR: ValueSet/mh-toc-smm-blood-transfusion: ValueSet.compose.include[1].concept[32]: The code '30230H0' is not valid in the system http://www.cms.gov/Medicare/Coding/ICD10 (Unknown code '30230H0' in the CodeSystem 'http://www.cms.gov/Medicare/Coding/ICD10' version '2.0.1')
@@ -49,7 +49,7 @@ ERROR: ValueSet/mh-toc-smm-sepsis: ValueSet​.compose​.include[0]​.concept[
 # The table is required by the ImagingStudy resource but is not a well-defined code system; this is addressed with a resource change in R6
 WARNING: ImagingStudy/example-chest-ct: ImagingStudy.series[0].instance[0].sopClass: ValueSet 'http://dicom.nema.org/medical/dicom/current/output/chtml/part04/sect_B.5.html#table_B.5-1' not found
 WARNING: ImagingStudy/example-chest-ct: ImagingStudy.series[0].instance[1].sopClass: ValueSet 'http://dicom.nema.org/medical/dicom/current/output/chtml/part04/sect_B.5.html#table_B.5-1' not found
-WARNING: ImagingStudy/imagingstudy-ob-fetal-dating: ImagingStudy.series[0].instance[0].sopClass: ValueSet 'http://dicom.nema.org/medical/dicom/current/output/chtml/part04/sect_B.5.html#table_B.5-1' not found
+WARNING: ImagingStudy/example-mh-toc-imagingstudy-ob-fetal-dating: ImagingStudy.series[0].instance[0].sopClass: ValueSet 'http://dicom.nema.org/medical/dicom/current/output/chtml/part04/sect_B.5.html#table_B.5-1' not found
 
 # This IG is intended to build on USCore 6.1.0, which is the mandated standard for certified health IT for interoperability by federal regulations starting in 2026
 WARNING: ImplementationGuide/fhir.astp.postpartum-toc: ImplementationGuide.dependsOn[0]: The ImplementationGuide uses package hl7.fhir.us.core#6.1.0 released on 2023-06-30, but the most recent appropriate version is 8.0.0. This reference is getting old and the more recent version should be considered
@@ -110,7 +110,7 @@ INFORMATION: StructureDefinition.snapshot.element[32].binding.valueSet: Pinned t
 INFORMATION: StructureDefinition.snapshot.element[17].binding.valueSet: Pinned the version of http://terminology.hl7.org/ValueSet/v3-FamilyMember to 3.0.0 from choices of 2.0.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#7.0.0)
 
 # Inherited from the base FHIR ServiceRequest resource that servicerequest-category value set has status of draft
-INFORMATION: ServiceRequest/genetic-counseling-example: ServiceRequest.category[0]: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/servicerequest-category|4.0.1
+INFORMATION: ServiceRequest/example-mh-toc-genetic-counseling: ServiceRequest.category[0]: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/servicerequest-category|4.0.1
 
 # ICD-9-CM is labelled as a fragment on the terminology server
 INFORMATION: ValueSet/mh-toc-smm-acute-myocardial-infarction: ValueSet.compose.include[1]: The value set references CodeSystem 'http://hl7.org/fhir/sid/icd-9-cm' which has status 'fragment'
