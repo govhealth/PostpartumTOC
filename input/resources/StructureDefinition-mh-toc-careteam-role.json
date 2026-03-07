@@ -39,11 +39,6 @@
                 "mustSupport": true
             },
             {
-              "id": "CareTeam.participant.role:MH-TOC-CareTeam-Role",
-              "path": "CareTeam.participant.role",
-              "sliceName": "MH-TOC-CareTeam-Role"
-            },
-            {
                 "id": "Observation.subject",
                 "path": "Observation.subject",
                 "min": 1,
