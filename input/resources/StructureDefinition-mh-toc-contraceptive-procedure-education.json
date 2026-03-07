@@ -28,7 +28,7 @@
                 "id": "Procedure.encounter",
                 "path": "Procedure.encounter",
                 "min": 1
-            },
+            }
         ]
     }
 }
