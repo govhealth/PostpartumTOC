@@ -232,19 +232,19 @@ resources:
     name: Contraceptive Medication (Progestin-Only Pills (POPs))
     description: An example of a recorded contraceptive medication, specifically a POP, conforming to the MH TOC Contraceptive Medication (Progestin-Only Pills (POPs)) Profile.
     exampleBoolean: true
- Procedure/example-mh-toc-contraceptive-procedure:
+  Procedure/example-mh-toc-contraceptive-procedure:
     name: Contraceptive Procedure
     description: An example of a recorded contraceptive procedure, conforming to the MH TOC Contraceptive Procedure Profile.
     exampleBoolean: true
- Procedure/example-mh-toc-contraceptive-procedure-device:
+  Procedure/example-mh-toc-contraceptive-procedure-device:
     name: Contraceptive Procedure (Device)
     description: An example of a recorded procedure, related to a contraceptive device, conforming to the MH TOC Contraceptive Procedure (Device) Profile.
     exampleBoolean: true
- Procedure/example-mh-toc-contraceptive-procedure-education:
+  Procedure/example-mh-toc-contraceptive-procedure-education:
     name: Contraceptive Procedure (Education)
     description: An example of a recorded instance where a clinician provides contraceptive education, conforming to the MH TOC Contraceptive Procedure (Education) Profile.
     exampleBoolean: true
- Procedure/example-mh-toc-contraceptive-procedure-procedures:
+  Procedure/example-mh-toc-contraceptive-procedure-procedures:
     name: Contraceptive Procedure (Procedures)
     description: An example of a recorded procedure, related to contraception, conforming to the MH TOC Contraceptive Procedure (Procedures) Profile.
     exampleBoolean: true
