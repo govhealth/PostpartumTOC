@@ -34,7 +34,7 @@
     "dischargeDisposition" : {
       "coding" : [
         {
-          "system" : "http://www.nubc.org/patient-discharge",
+          "system" : "https://www.nubc.org/CodeSystem/PatDischargeStatus",
           "code" : "02",
           "display" : "Discharged / transferred to a short-term general hospital for inpatient care"
         }
