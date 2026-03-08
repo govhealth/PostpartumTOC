@@ -3,7 +3,7 @@
   "id" : "example-mh-toc-contraceptive-medication-pop",
   "meta" : {
     "profile" : [
-      "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-contraceptive-medication-pop"
+      "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-contraceptive-medication-pop"
     ]
   },
   "text" : {
