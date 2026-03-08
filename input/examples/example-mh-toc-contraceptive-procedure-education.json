@@ -3,7 +3,7 @@
   "id" : "example-mh-toc-contraceptive-procedure-education",
   "meta" : {
     "profile" : [
-      "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-contraceptive-procedure-education"
+      "http://fhir.org/guides/astp/postpartum-toc/StructureDefinition/mh-toc-contraceptive-procedure-education"
     ]
   },
   "text" : {
