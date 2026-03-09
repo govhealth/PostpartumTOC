@@ -56,11 +56,11 @@ WARNING: ImagingStudy/example-chest-ct: ImagingStudy.series[0].instance[0].sopCl
 WARNING: ImagingStudy/example-chest-ct: ImagingStudy.series[0].instance[1].sopClass: ValueSet 'http://dicom.nema.org/medical/dicom/current/output/chtml/part04/sect_B.5.html#table_B.5-1' not found
 WARNING: ImagingStudy/example-mh-toc-imagingstudy-ob-fetal-dating: ImagingStudy.series[0].instance[0].sopClass: ValueSet 'http://dicom.nema.org/medical/dicom/current/output/chtml/part04/sect_B.5.html#table_B.5-1' not found
 
-# This IG is intended to build on USCore 6.1.0, which is the mandated standard for certified health IT for interoperability by federal regulations starting in 2026
+# This IG is intended to build on US Core 6.1.0, which is the mandated standard for certified health IT for interoperability by federal regulations starting in 2026
 WARNING: ImplementationGuide/fhir.astp.postpartum-toc: The ImplementationGuide uses package hl7.fhir.us.core#6.1.0 released on 2023-06-30, but the most recent appropriate version is 8.0.1. This reference is getting old and the more recent version should be considered
 WARNING: ImplementationGuide/fhir.astp.postpartum-toc: The ImplementationGuide uses package hl7.terminology.r4#7.0.0 released on 2025-11-15, but the most recent appropriate version is 7.1.0. This reference is getting old and the more recent version should be considered
 
-# The discriminator type 'pattern' is inherited from the USCore DocumentReference profile
+# The discriminator type 'pattern' is inherited from the US Core DocumentReference profile
 INFORMATION: StructureDefinition/mh-toc--history: StructureDefinition.snapshot.element[14].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/mh-toc-consult-note: StructureDefinition.snapshot.element[14].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/mh-toc-delivery-date: StructureDefinition.snapshot.element[13].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
