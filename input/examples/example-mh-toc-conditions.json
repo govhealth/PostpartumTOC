@@ -45,7 +45,7 @@
       {
         "system": "http://hl7.org/fhir/sid/icd-10-cm",
         "code": "O26.90",
-        "display": "Complication occurring during pregnancy"
+        "display": "Pregnancy related conditions, unspecified, unspecified trimester"
       },
       {
         "system": "http://snomed.info/sct",
@@ -75,7 +75,7 @@
       {
         "system": "http://hl7.org/fhir/sid/icd-10-cm",
         "code": "O86.00",
-        "display": "Infection of obstetric surgical wound"
+        "display": "Infection of obstetric surgical wound, unspecified"
       },
       {
         "system": "http://snomed.info/sct",
@@ -85,7 +85,7 @@
       {
         "system": "http://hl7.org/fhir/sid/icd-10-cm",
         "code": "O70.9",
-        "display": "Perineal laceration during delivery"
+        "display": "Perineal laceration during delivery, unspecified"
       }
     ]
   },
