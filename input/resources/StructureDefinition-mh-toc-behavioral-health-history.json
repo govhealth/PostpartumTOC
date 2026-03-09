@@ -45,7 +45,6 @@
                             "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner",
                             "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization",
                             "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"
-              
                         ],
                         "_targetProfile": [
                             {
