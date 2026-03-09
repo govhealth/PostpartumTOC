@@ -45,7 +45,7 @@
       {
         "system": "http://hl7.org/fhir/sid/icd-10-cm",
         "code": "O86.00",
-        "display": "Infection of obstetric surgical wound"
+        "display": "Infection of obstetric surgical wound, unspecified"
       }
     ]
   },
