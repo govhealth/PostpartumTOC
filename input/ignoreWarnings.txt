@@ -6,6 +6,11 @@ ERROR: DocumentReference/example-mh-toc-behavioral-health-history: DocumentRefer
 # There is currently no existing LOINC code for Postpartum Summary Note; new LOINC code will need to be requested to cover this document type
 ERROR: DocumentReference/example-mh-toc-postpartum-summary: DocumentReference.type: None of the codings provided are in the value set 'US Core DocumentReference Type' (http://hl7.org/fhir/us/core/ValueSet/us-core-documentreference-type|6.1.0), and a coding from this value set is required) (codes = http://fhir.org/guides/astp/postpartum-toc/CodeSystem/mh-toc-postpartum-temp#mh-toc-postpartum-summary)
 
+# This RxNorm code is valid in older versions of the RxNorm; It is intentionally included in this IG for retrospective use
+ERROR: ValueSet/mh-toc-contraceptive-medication-ocp: ValueSet​.compose​.include[0]​.concept[0]: The code '2716397' is not valid in the system http://www.nlm.nih.gov/research/umls/rxnorm (Unknown code '2716397' in the CodeSystem 'http://www.nlm.nih.gov/research/umls/rxnorm' version '02032025')
+ERROR: ValueSet/mh-toc-contraceptive-medication-pop: ValueSet​.compose​.include[0]​.concept[63]: The code '2704560' is not valid in the system http://www.nlm.nih.gov/research/umls/rxnorm (Unknown code '2704560' in the CodeSystem 'http://www.nlm.nih.gov/research/umls/rxnorm' version '02032025')
+ERROR: ValueSet/mh-toc-contraceptive-medication-pop: ValueSet​.compose​.include[0]​.concept[64]: The code '2716571' is not valid in the system http://www.nlm.nih.gov/research/umls/rxnorm (Unknown code '2716571' in the CodeSystem 'http://www.nlm.nih.gov/research/umls/rxnorm' version '02032025')
+
 # This ICD-10-PCS code is valid in older versions of the ICD-10-PCS; It is intentionally included in this IG for retrospective use
 ERROR: ValueSet/mh-toc-smm-blood-transfusion: ValueSet.compose.include[1].concept[32]: The code '30230H0' is not valid in the system http://www.cms.gov/Medicare/Coding/ICD10 (Unknown code '30230H0' in the CodeSystem 'http://www.cms.gov/Medicare/Coding/ICD10' version '2.0.1')
 ERROR: ValueSet/mh-toc-smm-blood-transfusion: ValueSet.compose.include[1].concept[33]: The code '30230H1' is not valid in the system http://www.cms.gov/Medicare/Coding/ICD10 (Unknown code '30230H1' in the CodeSystem 'http://www.cms.gov/Medicare/Coding/ICD10' version '2.0.1')
@@ -104,7 +109,7 @@ INFORMATION: StructureDefinition/mh-toc-conditions-hemorrhage: StructureDefiniti
 INFORMATION: StructureDefinition/mh-toc-conditions-infections: StructureDefinition​.snapshot​.element[13]​.slicing​.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/mh-toc-conditions-lacerations-perineal-trauma-oasis: StructureDefinition​.snapshot​.element[13]​.slicing​.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 
-# Inherited from the USCore Document Reference profile 
+# Inherited from the USCore DocumentReference profile 
 INFORMATION: StructureDefinition/mh-toc--history: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
 INFORMATION: StructureDefinition/mh-toc--history: StructureDefinition.snapshot.element[13].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-minValueSet|5.2.0 is deprecated
 
