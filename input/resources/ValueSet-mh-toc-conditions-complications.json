@@ -44,24 +44,32 @@
                 "system": "http://hl7.org/fhir/sid/icd-10-cm",
                 "concept": [
                     {
-                        "code": "O46.90",
-                        "display": "Complication of procedure"
+                        "code": "O75.4",
+                        "display": "Other complications of obstetric surgery and procedures"
+                    },
+                    {
+                        "code": "O75.8",
+                        "display": "Other specified complications of labor and delivery"
+                    },
+                    {
+                        "code": "O75.9",
+                        "display": "Complication of labor and delivery, unspecified"
                     },
                     {
                         "code": "T88.9XXA",
-                        "display": "Complication of surgical and medical care, unspecified, initial encounter"
+                        "display": "Complication of surgical and medical care, unspecified, initial encounter"
                     },
                     {
                         "code": "T88.9XXD",
-                        "display": "Complication of surgical and medical care, unspecified, subsequent encounter"
+                        "display": "Complication of surgical and medical care, unspecified, subsequent encounter"
                     },
                     {
                         "code": "T88.9XXS",
-                        "display": "Complication of surgical and medical care, unspecified, sequela"
+                        "display": "Complication of surgical and medical care, unspecified, sequela"
                     },
                     {
                         "code": "T81.9XXA",
-                        "display": "Unspecified complication of procedure, initial encounter"
+                        "display": "Unspecified complication of procedure, initial encounter"
                     },
                     {
                         "code": "T81.9XXD",
@@ -73,11 +81,7 @@
                     },
                     {
                         "code": "O26.90",
-                        "display": "Complication occurring during pregnancy"
-                    },
-                    {
-                        "code": "E11.8",
-                        "display": "Complication due to diabetes mellitus"
+                        "display": "Pregnancy related conditions, unspecified, unspecified trimester"
                     }
                 ]
             }
