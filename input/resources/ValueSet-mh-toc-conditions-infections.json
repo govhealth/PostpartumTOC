@@ -217,7 +217,7 @@
                     },
                     {
                         "code": "Z87.440",
-                        "display": "Personal history of diseases of urinary system"
+                        "display": "Personal history of urinary (tract) infections"
                     },
                     {
                         "code": "O03.0",
@@ -277,7 +277,7 @@
                     },
                     {
                         "code": "O86.00",
-                        "display": "Infection of obstetric surgical wound"
+                        "display": "Infection of obstetric surgical wound, unspecified"
                     },
                     {
                         "code": "O86.1",
@@ -369,7 +369,7 @@
                     },
                     {
                         "code": "Z21",
-                        "display": "Asymptomatic human immunodeficiency virus infection"
+                        "display": "Asymptomatic human immunodeficiency virus [HIV] infection status"
                     },
                     {
                         "code": "Z20.6",
@@ -397,7 +397,7 @@
                     },
                     {
                         "code": "A49.8",
-                        "display": "Other bacterial infections of unspecified site"
+                        "display": "Other bacterial infections of unspecified site"
                     },
                     {
                         "code": "B96.20",
