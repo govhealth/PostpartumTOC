@@ -14,7 +14,7 @@
       {
         "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
         "code" : "807283",
-        "display" : "{levonorgestrel 0.000833 MG/HR Intrauterine System [Mirena]"
+        "display" : "levonorgestrel 0.000833 MG/HR Intrauterine System [Mirena]"
       }
     ],
     "text" : "Mirena"
