@@ -59,19 +59,11 @@
                         "display": "Kyleena"
                     },
                     {
-                        "code": "1856533",
-                        "display": "levonorgestrel Intrauterine System [Kyleena]"
-                    },
-                    {
                         "code": "1856536",
                         "display": "Kyleena Drug Implant Product"
                     },
                     {
-                        "code": "1856536",
-                        "display": "levonorgestrel 0.000729 MG/HR Intrauterine System [Kyleena]"
-                    },
-                    {
-                        "code": "1856546",
+                        "code": "1366335",
                         "display": "Skyla"
                     },
                     {
@@ -87,11 +79,11 @@
                         "display": "levonorgestrel Intrauterine System [Skyla]"
                     },
                     {
-                        "code": "1856517",
+                        "code": "1605253",
                         "display": "Liletta"
                     },
                     {
-                        "code": "1605253",
+                        "code": "1605256",
                         "display": "Liletta Drug Implant Product"
                     },
                     {
