@@ -8,7 +8,7 @@
     "status": "active",
     "experimental": false,
     "date": "2026-02-14",
-    "description": "A ValueSet comprised of SNOMED CT codes for procedures related to the insertion, removal, or surveillance of female contraceptive devices. The codes in the ValueSet should be monitored for changes as they may be updated in the future.",
+    "description": "A ValueSet comprised of SNOMED CT codes for procedures related to the insertion, removal, or monitoring of female contraceptive devices. The codes in the ValueSet should be monitored for changes as they may be updated in the future.",
     "compose": {
         "include": [
             {
@@ -89,14 +89,6 @@
                     {
                         "code": "425890004",
                         "display": "Checking contraceptive diaphragm"
-                    },
-                    {
-                        "code": "702654003",
-                        "display": "Surveillance of subcutaneous contraceptive implant (regime/therapy)"
-                    },
-                    {
-                        "code": "702683000",
-                        "display": "Surveillance of oral contraceptive pill for non-contraceptive use (regime/therapy)"
                     },
                     {
                         "code": "1263415006",
