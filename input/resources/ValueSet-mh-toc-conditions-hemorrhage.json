@@ -73,19 +73,19 @@
                     },
                     {
                         "code": "O44.1",
-                        "display": "Complete placenta previa with hemorrhage, unspecified trimester"
+                        "display": "Complete placenta previa with hemorrhage"
                     },
                     {
                         "code": "O44.3",
-                        "display": "Partial placenta previa with hemorrhage"
+                        "display": "Partial placenta previa with hemorrhage"
                     },
                     {
                         "code": "O44.5",
-                        "display": "Low lying placenta with hemorrhage"
+                        "display": "Low lying placenta with hemorrhage"
                     },
                     {
                         "code": "K62.5",
-                        "display": "Hemorrhage of rectum and anus"
+                        "display": "Hemorrhage of anus and rectum"
                     },
                     {
                         "code": "O67",
@@ -97,7 +97,7 @@
                     },
                     {
                         "code": "O67.8",
-                        "display": " Complication occurring during pregnancy"
+                        "display": "Other intrapartum hemorrhage"
                     },
                     {
                         "code": "O67.9",
