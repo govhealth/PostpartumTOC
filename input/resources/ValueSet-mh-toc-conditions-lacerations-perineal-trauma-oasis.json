@@ -36,7 +36,7 @@
                     },
                     {
                         "code": "417163006",
-                        "display": "Traumatic or nontraumatic injury"
+                        "display": "Traumatic AND/OR non-traumatic injury"
                     },
                     {
                         "code": "417746004",
@@ -61,19 +61,19 @@
                 "concept": [
                     {
                         "code": "O70.9",
-                        "display": "Perineal laceration during delivery"
+                        "display": "Perineal laceration during delivery, unspecified"
                     },
                     {
                         "code": "O70.0",
-                        "display": "First degree perineal laceration"
+                        "display": "First degree perineal laceration during delivery"
                     },
                     {
                         "code": "O70.1",
-                        "display": "Second degree perineal laceration"
+                        "display": "Second degree perineal laceration during delivery"
                     },
                     {
                         "code": "O70.20",
-                        "display": "Third degree perineal laceration"
+                        "display": "Third degree perineal laceration during delivery, unspecified"
                     },
                     {
                         "code": "O70.21",
@@ -97,7 +97,7 @@
                     },
                                         {
                         "code": "S73.006",
-                        "display": "Closed traumatic dislocation of hip"
+                        "display": "Unspecified dislocation of unspecified hip"
                     },
                     {
                         "code": "T14.90XA",
@@ -113,7 +113,7 @@
                     },
                     {
                         "code": "P14.3",
-                        "display": "Injury to brachial plexus as birth trauma"
+                        "display": "Other brachial plexus birth injuries"
                     },
                     {
                         "code": "S39.92XA",
@@ -129,7 +129,7 @@
                     },
                     {
                         "code": "N35.028",
-                        "display": "Traumatic urethral stricture "
+                        "display": "Other post-traumatic urethral stricture, female"
                     }
                 ]
             }
