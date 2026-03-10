@@ -20,7 +20,7 @@ While not specifically called out within the USCDI+ Maternal Health Postpartum T
 |Allergies and Intolerances|Medication Allergy Intolerance|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
 |Allergies and Intolerances|Non-Medication Allergy Intolerance|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
 |Care Team Member(s)|Care Team Member Name|[US Core CareTeam](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-careteam.html)|CareTeam.participant|
-|Care Team Member(s)|Care Team Member Role|[MH TOC CareTeam Role](StructureDefinition/mh-toc-careteam-role.html)|CareTeam.participant.role|
+|Care Team Member(s)|Care Team Member Role|[MH TOC CareTeam Role](StructureDefinition-mh-toc-careteam-role.html)|CareTeam.participant.role|
 |Clinical Notes|Consultation Note|[Consultation Note](StructureDefinition-mh-toc-consult-note.html)|DocumentReference.type|
 |Clinical Notes|Discharge Summary Note|[Discharge Summary](StructureDefinition-mh-toc-discharge-summary.html)|DocumentReference.type|
 |Clinical Notes|History & Physical|[US Core DocumentReference](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-documentreference.html)|DocumentReference.type|
@@ -83,7 +83,7 @@ While not specifically called out within the USCDI+ Maternal Health Postpartum T
 |Problems|Date of Diagnosis|[US Core Condition Problems and Health Concerns](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-condition-problems-health-concerns.html)|Condition.onset[x]|
 |Problems|Date of Resolution|[US Core Condition Problems and Health Concerns](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-condition-problems-health-concerns.html)|Condition.abatement[x]|
 |Problems|Problems|[US Core Condition Problems and Health Concerns](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition/us-core-condition-problems-health-concerns)|Condition.code|
-|Problems|Problems|[MH TOC Conditions](StructureDefinition/mh-toc-conditions.html)|Condition.code|
+|Problems|Problems|[MH TOC Conditions](StructureDefinition-mh-toc-conditions.html)|Condition.code|
 |Problems|SDOH Problems/Health Concerns|[SDOHCC Condition](http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-Condition)|Condition.code|
 |Procedures|Performance Time|[US Core Procedure](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-procedure.html)|Procedure.performed[x]|
 |Procedures|Procedure Status|[US Core Procedure](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-procedure.html)|Procedure.status|
@@ -155,7 +155,7 @@ While not specifically called out within the USCDI+ Maternal Health Postpartum T
 |Allergies and Intolerances|Medication Allergy Intolerance|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
 |Allergies and Intolerances|Non-Medication Allergy Intolerance|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
 |Care Team Member(s)|Care Team Member Name|[US Core CareTeam](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-careteam.html)|CareTeam.participant|
-|Care Team Member(s)|Care Team Member Role|[MH TOC CareTeam Role](StructureDefinition/mh-toc-careteam-role.html)|CareTeam.participant.role|
+|Care Team Member(s)|Care Team Member Role|[MH TOC CareTeam Role](StructureDefinition-mh-toc-careteam-role.html)|CareTeam.participant.role|
 |Clinical Notes|Antepartum Summary Note|[US Core DocumentReference](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-documentreference.html)|DocumentReference.type|
 |Clinical Notes|Behavioral Health History|[MH TOC Behavioral Health History](StructureDefinition-mh-toc-behavioral-health-history.html)|DocumentReference.type|
 |Clinical Notes|Consultation Note|[Consultation Note](StructureDefinition-mh-toc-consult-note.html)|DocumentReference.type|
@@ -243,7 +243,7 @@ While not specifically called out within the USCDI+ Maternal Health Postpartum T
 |Problems|Hypertensive Disorders of Pregnancy|[Longitudinal Maternal & Infant Health Information for Research Library for Hypertensive Disorders of Pregnancy](https://build.fhir.org/ig/HL7/fhir-mmm-ig/Library-PIHCohort.html)|Condition.code|
 |Problems|Indicators of Severe Maternal Morbidity|[Severe Maternal Morbidity](StructureDefinition-mh-toc-smm-condition.html)|Observation.code|
 |Problems|Problems|[US Core Condition Problems and Health Concerns](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition/us-core-condition-problems-health-concerns)|Condition.code|
-|Problems|Problems|[MH TOC Conditions](StructureDefinition/mh-toc-conditions.html)|Condition.code|
+|Problems|Problems|[MH TOC Conditions](StructureDefinition-mh-toc-conditions.html)|Condition.code|
 |Problems|SDOH Problems/Health Concerns|[SDOHCC Condition](http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-Condition)|Condition.code|
 |Procedures|Performance Time|[US Core Procedure](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-procedure.html)|Procedure.performed[x]|
 |Procedures|Procedure Status|[US Core Procedure](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-procedure.html)|Procedure.status|
@@ -267,18 +267,18 @@ While not specifically called out within the USCDI+ Maternal Health Postpartum T
 {: .grid}
 <br>
 <br>
-**Data Elements and Specifications to Support Identified Contraceptives**
+**Data Elements and Specifications to Support Identified Contraceptive Methods**
 
 |Data Class|Data Element|FHIR Profile|Proposed FHIR Data Element|
 |---|---|---|---|
-|Device|Contraceptive Device|[MH TOC Contraceptive Device](StructureDefinition/mh-toc-contraceptive-device.html)|Device.type|
-|Medication|Contraceptive Medication|[MH TOC Contraceptive Medication](StructureDefinition/mh-toc-contraceptive-medication.html)|Medication.code|
-|Medication|Contraceptive Medication (Oral Contraceptive Pills (OCPs))|[MH TOC Contraceptive Medication (Oral Contraceptive Pills (OCPs))](StructureDefinition/mh-toc-contraceptive-medication-ocp.html)|Medication.code|
-|Medication|Contraceptive Medication (Progestin-Only Pills (POPs))|[MH TOC Contraceptive Medication (Progestin-Only Pills (POPs))](StructureDefinition/mh-toc-contraceptive-medication-pop.html)|Medication.code|
-|Procedure|Contraceptive Procedure|[MH TOC Contraceptive Procedure](StructureDefinition/mh-toc-contraceptive-procedure.html)|Procedure.code|
-|Procedure|Contraceptive Procedure (Device)|[MH TOC Contraceptive Procedure (Device)](StructureDefinition/mh-toc-contraceptive-procedure-device.html)|Procedure.code|
-|Procedure|Contraceptive Procedure (Education)|[MH TOC Contraceptive Procedure (Education)](StructureDefinition/mh-toc-contraceptive-procedure-education.html)|Procedure.code|
-|Procedure|Contraceptive Procedure (Procedures)|[MH TOC Contraceptive Procedure (Procedures)](StructureDefinition/mh-toc-contraceptive-procedure-procedures.html)|Procedure.code|
+|Device|Contraceptive Device|[MH TOC Contraceptive Device](StructureDefinition-mh-toc-contraceptive-device.html)|Device.type|
+|Medication|Contraceptive Medication|[MH TOC Contraceptive Medication](StructureDefinition-mh-toc-contraceptive-medication.html)|Medication.code|
+|Medication|Contraceptive Medication (Oral Contraceptive Pills (OCPs))|[MH TOC Contraceptive Medication (Oral Contraceptive Pills (OCPs))](StructureDefinition-mh-toc-contraceptive-medication-ocp.html)|Medication.code|
+|Medication|Contraceptive Medication (Progestin-Only Pills (POPs))|[MH TOC Contraceptive Medication (Progestin-Only Pills (POPs))](StructureDefinition-mh-toc-contraceptive-medication-pop.html)|Medication.code|
+|Procedure|Contraceptive Procedure|[MH TOC Contraceptive Procedure](StructureDefinition-mh-toc-contraceptive-procedure.html)|Procedure.code|
+|Procedure|Contraceptive Procedure (Device)|[MH TOC Contraceptive Procedure (Device)](StructureDefinition-mh-toc-contraceptive-procedure-device.html)|Procedure.code|
+|Procedure|Contraceptive Procedure (Education)|[MH TOC Contraceptive Procedure (Education)](StructureDefinition-mh-toc-contraceptive-procedure-education.html)|Procedure.code|
+|Procedure|Contraceptive Procedure (Procedures)|[MH TOC Contraceptive Procedure (Procedures)](StructureDefinition-mh-toc-contraceptive-procedure-procedures.html)|Procedure.code|
 {: .grid}
 
 
