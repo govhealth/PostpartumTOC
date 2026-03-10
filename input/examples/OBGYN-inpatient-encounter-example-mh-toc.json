@@ -9,7 +9,7 @@
   "text" : {
     "status" : "generated"
   },
-  "description": "This example is an inpatient hospital enecounter example and is intended to be used to provide context for other examples within this FHIR IG.",
+  "description": "This is an inpatient hospital enecounter example and is intended to be used to provide context for other examples within this FHIR IG.",
   "status" : "finished",
   "class" : {
     "system" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
