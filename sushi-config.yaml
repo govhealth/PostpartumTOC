@@ -300,6 +300,10 @@ resources:
     name: OB Fetal Dating ImagingStudy
     description: An example of an OB fetal dating Ultrasound conforming to the HL7 R4 ImagingStudy resource.
     exampleBoolean: true
+  Encounter/OBGYN-inpatient-encounter-example-mh-toc:
+    name: OBGYN Inpatient Encounter
+    description: An example of an OBGYN inpatient encounter conforming to the HL7 R4 Encounter resource.
+    exampleBoolean: true
   Binary/example-binary:
     name: PDF Content of binary
     description: An example of binary resource with contents of a labor and delivery summary note.
