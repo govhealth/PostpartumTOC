@@ -11,8 +11,7 @@
     "coding": [
       {
         "system": "http://www.cms.gov/Medicare/Coding/ICD10",
-        "code": "30233H1",
-        "display": "Transfusion of Nonautologous Whole Blood into Peripheral Vein, Percutaneous Approach"
+        "code": "30233H1"
       }
     ]
   },
