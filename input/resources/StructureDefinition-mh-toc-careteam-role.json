@@ -16,23 +16,6 @@
     "differential": {
         "element": [
             {
-                "id": "CareTeam.participant.role",
-                "path": "CareTeam.participant.role",
-                "min": 1,
-                "max": "*",
-                "type": [
-                    {
-                        "code": "CodeableConcept"
-                    }
-                ],
-                "binding": {
-                    "strength": "preferred",
-                    "description": "Values for care team roles.",
-                    "valueSet": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-careteam-role"
-                },
-                "mustSupport": true
-            },
-            {
                 "id": "CareTeam.subject",
                 "path": "CareTeam.subject",
                 "min": 1,
@@ -55,12 +38,29 @@
                     }
                 ],
                 "mustSupport": true
-            },          
+            },
+            {
+                "id": "CareTeam.participant.role",
+                "path": "CareTeam.participant.role",
+                "min": 1,
+                "max": "1",
+                "type": [
+                    {
+                        "code": "CodeableConcept"
+                    }
+                ],
+                "binding": {
+                    "strength": "preferred",
+                    "description": "Values for care team roles.",
+                    "valueSet": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-careteam-role"
+                },
+                "mustSupport": true
+            },
             {
                 "id": "CareTeam.participant.member",
                 "path": "CareTeam.participant.member",
                 "min": 1,
-                "max": "*",
+                "max": "1",
                 "mustSupport": true
             }
         ]
