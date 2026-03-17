@@ -29,7 +29,7 @@ While this implementation guide contains profiles to specify the 21 SMM conditio
 
 - Criteria: As a clinical use case, this implementation defines the SMM events relative to the individual indicators/numerators. The CDC as well as other organizations define a set of inclusion/denominator codes that are relevant to other use cases such as regulatory reporting or quality measures. Implementers *SHOULD* consider their use case and if they would like to include any additional criteria. 
 
-- Temporal: This implementation guide covers standards for data exchange and does not define temporal relationships between events, episodes of care and their resulting codes. Implementers *SHALL* follow the definitions, temporal or otherwise, as outlined by their chosen standards organization to determine if an SMM event occurred.
+- Temporal: This implementation guide covers standards for data exchange and does not define temporal relationships between events, episodes of care, and their resulting codes. Implementers *SHALL* follow the definitions, temporal or otherwise, as outlined by their chosen standards organization to determine if an SMM event occurred.
 
 
 #### Data Model
@@ -51,7 +51,7 @@ The artifacts contained in this implementation guide do not define temporal boun
 
 - Guidelines: There are a number of organizations which define the postpartum period with varying length of time. This IG recommends the [CMS Medicaid definition](https://www.medicaid.gov/federal-policy-guidance/downloads/postpartum-ext-faqs.pdf) of one year after the patient's delivery. 
 
-- Clinical Care: The period of time considered postpartum may be related to the care provider, practice, or health systems workflow. Implementers **SHOULD** consider this definition if postpartum care is delivered during a period less than or greater one year. Please see the Delivery Encounters guidance section that may assist implementers in defining visits and associated with the patient's episode of care. 
+- Clinical Care: The period of time considered postpartum may be related to the care provider, practice, or health systems workflow. Implementers **SHOULD** consider this definition if postpartum care is delivered during a period less than or greater than one year. Please see the Delivery Encounters guidance section that may assist implementers in defining visits and associated with the patient's episode of care. 
 
 - Referenced Implementation Guides: This implementation guide references several other IGs which provide guidance on definitions of perinatal periods. Implementers **SHALL** implement a single time definition across all resources and mappings. 
 
