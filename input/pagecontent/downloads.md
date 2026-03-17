@@ -1,6 +1,6 @@
 ### Package File
 
-The following package file includes all value sets, profiles, extensions, webpages, and URLs in the IG, defined as part of this version of the implementation guide. This file **SHOULD** be the first choice whenever generating any implementation artifacts since it contains all the rules about what makes the profiles valid. Implementers must be familiar with the specification content and profiles that apply to create a conformant implementation. See the validating profiles and resources documentation in FHIR (accessible via the [Specifications tabs](spec.md)) for more information.
+The following package file includes all value sets, profiles, extensions, webpages, and URLs in the IG, defined as part of this version of the implementation guide. This file **SHOULD** be the first choice whenever generating any implementation artifacts since it contains all the rules about making the profiles valid. Implementers must be familiar with the specification content and profiles that apply to create a conformant implementation. See the validating profiles and resources documentation in FHIR (accessible via the [Specifications tabs](spec.md)) for more information.
 
 - [Package(compressed folder)](package.tgz){::download="true"}
 
@@ -19,7 +19,7 @@ All the examples in this implementation guide are available for download:
 
 ### Consolidated CSV and Excel File Representations of Profiles
 
-All the profile information for the USCDI+ Maternal Health Postpartum TOC Implementation Guide in a single CSV or Excel file, which may be helpful to testers and analysts to review element properties across profiles in a single table:
+All the profile information for the USCDI+ Maternal Health Postpartum Transitions of Care Implementation Guide in a single CSV or Excel file, which may be helpful to testers and analysts to review element properties across profiles in a single table:
 
 - [CSV(compressed folder)](csvs.zip)
 - [Excel(compressed folder)](excels.zip)
