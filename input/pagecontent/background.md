@@ -14,7 +14,7 @@ This approach addresses the critical need for coordinated maternal health clinic
 
 The Alliance for Innovation on Maternal Health (AIM), funded by HRSA, began developing and disseminating maternal safety bundles in 2015 to improve outcomes across the perinatal spectrum. Among the six priority use cases identified, postpartum care was recognized as critical, leading to the revision of the Postpartum Discharge Transition Patient Safety Bundle in 2021, which outlines evidence-based practices to enhance care transitions and reduce maternal morbidity and mortality. 
 
-While many resources and AIM Bundles provide guidance to support postpartum transitions of care, the ASTP USCDI+ Maternal Health Postpartum TOC Use Case focuses specifically on interoperable data exchange between health IT solutions that support obstetric care providers in caring for pregnant and postpartum patients and associated federal quality and reporting programs with electronic measures and datasets pertaining to postpartum outcomes.  
+While many resources and AIM Bundles provide guidance to support postpartum transitions of care, the ASTP USCDI+ Maternal Health Postpartum TOC use case focuses specifically on interoperable data exchange between health IT solutions that support obstetric care providers in caring for pregnant and postpartum patients and associated federal quality and reporting programs with electronic measures and datasets pertaining to postpartum outcomes.  
 
 Given the concentration of deaths that occur in the postpartum period, it is critical to support providers who care for patients in this stage by equipping them with the necessary information from antepartum (before birth) and intrapartum (during birth) period. However, gaps in standardized and interoperable data exchange between health IT systems prevent care providers from accessing the most up to date and accurate care information to provide effective and safe postpartum care. 
 
@@ -38,7 +38,7 @@ Key considerations include, but are not limited to:
 - Format and structure of documented data; and 
 - Custom and/or site-specific data dictionaries.  
 
-This presents an opportunity for the USCDI+ Maternal Health domain to develop HL7 FHIR implementation guidance for the Postpartum TOC Use Case. Such guidance would specify the relevant postpartum data elements and value sets, enabling the capture and exchange of structure, and potentially codified, postpartum data. This standardization supports emerging health IT use cases in postpartum care, including remote patient monitoring, clinical decision support, and third-party mobile applications. 
+This presents an opportunity for the USCDI+ Maternal Health domain to develop HL7 FHIR implementation guidance for the Postpartum TOC use case. Such guidance would specify the relevant postpartum data elements and value sets, enabling the capture and exchange of structure, and potentially codified, postpartum data. This standardization supports emerging health IT use cases in postpartum care, including remote patient monitoring, clinical decision support, and third-party mobile applications. 
 
 <figure align="center">
 <img src="data_flow_diagram_updated.png" width="100%">
