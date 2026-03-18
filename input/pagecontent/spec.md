@@ -1,6 +1,6 @@
 ### Data Element Mapping
 
-The following profiles have been defined as part of the USCDI+ Maternal Health Postpartum TOC FHIR IG. A registry of US Core profiles may be found within the [US Core FHIR IG](https://hl7.org/fhir/us/core/STU6.1). A registry of standard profiles can be found in the FHIR specification, and additional profiles may be registered on the HL7 FHIR registry at [http://hl7.org/fhir/registry](http://hl7.org/fhir/registry). 
+The following profiles have been defined as part of the USCDI+ Maternal Health Postpartum TOC FHIR IG. A registry of US Core profiles may be found within the [US Core FHIR IG](https://hl7.org/fhir/us/core/STU6.1). A registry of standard profiles can be found in the FHIR specification, and additional profiles may be registered on the [HL7 FHIR registry](http://hl7.org/fhir/registry). 
 <br> <br> This implementation guide used a tiered approach with an emphasized focus on organizing the vetted data elements and mappings based on three categories:
   1) USCDI Version 3 (V3) data elements;
   2) Non-USCDI V3 data elements; and
@@ -19,8 +19,8 @@ While not specifically called out within the USCDI+ Maternal Health Postpartum T
 |Allergies and Intolerances|Drug Class Allergy Intolerance|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
 |Allergies and Intolerances|Medication Allergy Intolerance|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
 |Allergies and Intolerances|Non-Medication Allergy Intolerance|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
-|Care Team Member(s)|Care Team Member Name|[US Core CareTeam](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-careteam.html)|CareTeam.participant|
-|Care Team Member(s)|Care Team Member Role|[MH TOC CareTeam Role](StructureDefinition-mh-toc-careteam-role.html)|CareTeam.participant.role|
+|Care Team Member(s)|CareTeam Member Name|[US Core CareTeam](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-careteam.html)|CareTeam.participant|
+|Care Team Member(s)|CareTeam Role|[MH TOC CareTeam Role](StructureDefinition-mh-toc-careteam-role.html)|CareTeam.participant.role|
 |Clinical Notes|Consultation Note|[Consultation Note](StructureDefinition-mh-toc-consult-note.html)|DocumentReference.type|
 |Clinical Notes|Discharge Summary Note|[Discharge Summary](StructureDefinition-mh-toc-discharge-summary.html)|DocumentReference.type|
 |Clinical Notes|History & Physical|[US Core DocumentReference](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-documentreference.html)|DocumentReference.type|
