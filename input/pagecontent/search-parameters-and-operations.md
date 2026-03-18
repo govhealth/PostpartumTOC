@@ -1,9 +1,9 @@
-The following search parameters have been defined for the USCDI+ Maternal Health Postpartum TOC Implementation Guide. This implementation guide's search parameters and operations are in addition to those defined by US Core 6.1.0. Implementers **SHALL** reference the [US Core Search Parameters and Operations](http://hl7.org/fhir/us/core/STU6.1/search-parameters-and-operations.html) to ensure all search parameters and operations are properly supported. For more information on the [FHIR RESTful search api](http://hl7.org/fhir/R4/http.html#search) and the standard [Search Parameter Registry](http://hl7.org/fhir/R4/searchparameter-registry.html) see the FHIR specification. 
+The following search parameters have been defined for the USCDI+ Maternal Health Postpartum TOC Implementation Guide. This implementation guide's search parameters and operations are in addition to those defined by [US Core 6.1.0](https://hl7.org/fhir/us/core/STU6.1/). Implementers **SHALL** reference the [US Core Search Parameters and Operations](http://hl7.org/fhir/us/core/STU6.1/search-parameters-and-operations.html) to ensure all search parameters and operations are properly supported. For more information on the [FHIR RESTful search API](http://hl7.org/fhir/R4/http.html#search) and the standard [Search Parameter Registry](http://hl7.org/fhir/R4/searchparameter-registry.html), see the FHIR specification. 
 
 
 ### Operations
 
-No new operations have been defined for this IG. For more information on the [FHIR RESTful operations](http://hl7.org/fhir/R4/operations.html) please reference the FHIR specification and the [US Core Search Parameters and Operations](http://hl7.org/fhir/us/core/STU6.1/search-parameters-and-operations.html) specification.
+No new operations have been defined for this IG. For more information on the [FHIR RESTful operations](http://hl7.org/fhir/R4/operations.html), please reference the FHIR specification and the [US Core Search Parameters and Operations](http://hl7.org/fhir/us/core/STU6.1/search-parameters-and-operations.html) specification.
 
 
 ### Search Parameters
