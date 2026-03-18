@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
-  "id": "mh-toc-smm-breastfeeding-intent",
-  "url": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-breastfeeding-intent",
+  "id": "mh-toc-breastfeeding-intent",
+  "url": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-breastfeeding-intent",
   "name" : "ValueSetMHTOCVentilation",
   "title": "MH TOC Breast Feeding Intent ValueSet",
   "status": "active",
