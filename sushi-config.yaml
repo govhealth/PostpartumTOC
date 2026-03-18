@@ -280,7 +280,7 @@ resources:
     name: Hospitalist Discharge Summary
     description: An example of a hospitalists discharge summary note conforming to the MH TOC Discharge Summary Profile.
     exampleBoolean: true
-  Observation/example-mh-toc-labor-type: 
+  Observation/example-mh-toc-labor-delivery-type: 
     name: Labor Type
     description: An example of a recorded labor type conforming to the MH TOC Labor Type Profile.
     exampleBoolean: true
