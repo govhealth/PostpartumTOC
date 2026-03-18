@@ -1,4 +1,4 @@
-These examples demonstrate use of FHIR data that are critical to the USCDI+ Maternal Health Postpartum Transitions of Care use case and many demonstrate how to use CodeSystems, ValueSets, and StructureDefintions defined as part of this guide. Artifacts conform to [US Core 6.1.0](http://hl7.org/fhir/us/core/STU6.1/index.html) whenever possible which is strongly recommended by this IG. Please note that while these examples have been validated for conformance they are not normative and may not be clinically accurate.
+These examples demonstrate use of USCDI+ Maternal Health Postpartum Transitions of Care data elements. Many demonstrate how to use CodeSystems, ValueSets, and StructureDefintions defined as part of this guide. Artifacts conform to [US Core 6.1.0](http://hl7.org/fhir/us/core/STU6.1/index.html) whenever possible, which is strongly recommended by this IG. Please note that while these examples have been validated for conformance they are not normative and may not be clinically accurate.
 
 <style>
    .examples-table {
@@ -43,7 +43,7 @@ These examples demonstrate use of FHIR data that are critical to the USCDI+ Mate
          </td>
       </tr>
       <tr>
-         <td><a href="Observation-example-breastfeeding-intent.html">Breastfeeding Intent</a></td>
+         <td><a href="Observation-example--mh-toc-breastfeeding-intent.html">Breastfeeding Intent</a></td>
          <td>
             An example of a recorded breastfeeding intent conforming to the MH TOC Breastfeeding Intent Profile of a mother who intends to bottle feed.
          </td>
@@ -211,7 +211,7 @@ These examples demonstrate use of FHIR data that are critical to the USCDI+ Mate
          </td>
       </tr>
       <tr>
-         <td><a href="Observation-example-mh-toc-labor-type.html">Labor Type</a></td>
+         <td><a href="Observation-example-mh-toc-labor-delivery-type.html">Labor Type</a></td>
          <td>
             An example of a recorded labor type conforming to the MH TOC Labor Type Profile.
          </td>
@@ -381,12 +381,6 @@ These examples demonstrate use of FHIR data that are critical to the USCDI+ Mate
       <td><a href="Procedure-example-smm-procedure.html">SMM Procedure</a></td>
          <td>
             An example of an instance of the SMM Procedure Indicator conforming to the MH TOC Severe Maternal Morbidity Procedure Profile - in this example, hysterectomy is the example SMM Procedure.
-         </td>
-      </tr>
-      <tr>
-         <td><a href="Procedure-example-smm-procedure-hysterectomy.html">SMM Procedure Hysterectomy</a></td>
-         <td>
-            An example of an instance of the SMM Procedure Hysterectomy Indicator conforming to the MH TOC Severe Maternal Procedure Morbidity Hysterectomy Profile.
          </td>
       </tr>
       <tr>
