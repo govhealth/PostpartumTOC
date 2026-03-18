@@ -1,19 +1,19 @@
 
 ### Use of US Core
 
-This implementation guide adopts [US Core 6.1.0](http://hl7.org/fhir/us/core/STU6.1/) as the base for profiles to align with the latest ONC-certified interoperability standards required under the 21st Century Cures Act. US Core 6.1.0 provides a consistent, well-tested foundation for common clinical data elements, such as vital signs, conditions, observations, and encounters, and ensures compatibility with federal certification requirements and EHR vendor implementations. Implementers may review [US Core’s Must Support Definition](http://hl7.org/fhir/us/core/STU6.1/general-guidance.html#must-support) for a more detailed explanation on relevant Must Support capabilities related to US Core. For General Guidance, implementers may review [US Core General Guidance](https://build.fhir.org/ig/HL7/US-Core/general-guidance.html) to review US Core conformance guidance, supported application programming interface (API) query functionality, and interaction with ontological terminology standards. 
+This implementation guide adopts [US Core 6.1.0](http://hl7.org/fhir/us/core/STU6.1/) as the base for profiles to align with the latest ONC-certified interoperability standards required under the 21st Century Cures Act. US Core 6.1.0 provides a consistent, well-tested foundation for common clinical data elements, such as vital signs, conditions, observations, and encounters, and ensures compatibility with federal certification requirements and EHR vendor implementations. Implementers may review [US Core’s Must Support Definition](http://hl7.org/fhir/us/core/STU6.1/general-guidance.html#must-support) for a more detailed explanation on relevant Must Support capabilities related to US Core. For general guidance, implementers may review [US Core General Guidance](https://build.fhir.org/ig/HL7/US-Core/general-guidance.html) to review US Core conformance guidance, supported application programming interface (API) query functionality, and interaction with ontological terminology standards. 
 
-In alignment with US Core, implementers **SHALL** meet *Must Support* requirement flag as it applies to 
-- Data elements – Systems must support sending and receiving the specified element if it exists
-- Terminology bindings – Where a CodeableConcept is bound to a ValueSet, systems must support sending at least one code from the required set
+In alignment with US Core, implementers **SHALL** meet *Must Support* requirement flag as it applies to: 
+- Data Elements – Systems must support sending and receiving the specified element if it exists
+- Terminology Bindings – Where a CodeableConcept is bound to a ValueSet, systems must support sending at least one code from the required set
 - References – Elements that must reference specific resource types or profiles
-- Interactions and searches – Required search parameters and operations specified in the [US Core Capability Statements](https://hl7.org/fhir/us/core/STU6.1/capability-statements.html)
+- Interactions and Searches – Required search parameters and operations specified in the [US Core Capability Statements](https://hl7.org/fhir/us/core/STU6.1/capability-statements.html)
 
-This FHIR IG intentionally aligns with [US Core 6.1.0](http://hl7.org/fhir/us/core/STU6.1/) to minimize the implementation delta and burden for users who's EHR is Certified Health IT. Future versions of this FHIR IG will be updated to align with future versions of USCDI and US Core, especially to versions that are referenced within federal regulations.
+This FHIR IG intentionally aligns with [US Core 6.1.0](http://hl7.org/fhir/us/core/STU6.1/) to minimize the implementation delta and burden for users who's EHR is classified as Certified Health IT. Future versions of this FHIR IG will be updated to align with future versions of USCDI and US Core, especially to versions that are referenced within federal regulations.
 
 ### Capability Statements
 
-This implementation guide relies exclusively on the US Core Capability Statements for conformance expectations. Rather than defining new Capability Statements, implementers should reference the existing [US Core Capability Statements](https://hl7.org/fhir/us/core/STU6.1/capability-statements.html) to ensure requirements are met for relevant interactions, searches, and must-support elements.  
+This implementation guide relies exclusively on the US Core Capability Statements for conformance expectations. Rather than defining new capability statements, implementers should reference the existing [US Core Capability Statements](https://hl7.org/fhir/us/core/STU6.1/capability-statements.html) to ensure requirements are met for relevant interactions, searches, and must-support elements.  
 
 ### Delivery Encounters
 
@@ -23,7 +23,7 @@ Implementers **SHOULD** explicitly identify any delivery encounter by specifying
 
 #### Considerations
 
-While this implementation guide contains profiles to specify the 21 SMM conditions and procedures as defined by the IG's artifacts and the data model described below, implementers should consider the following: 
+While this implementation guide contains profiles to specify the 21 SMM conditions and procedures as defined by the implementation guide's artifacts and the data model described below, implementers should consider the following: 
 
 - Organizations and definitions: This implementation guide follows the CDC SMM definitions for condition and procedure codes. There are a number of other organizations that also define SMM indicator groups and associated terminologies. Implementers *SHOULD* carefully consider which organization and purpose of their own implementation. 
 
@@ -49,7 +49,7 @@ For SMM, we elected to model diagnoses and procedures as separate but related pr
 
 The artifacts contained in this implementation guide do not define temporal bounds for the postpartum period. Implementers **SHALL** consider the following:
 
-- Guidelines: There are a number of organizations which define the postpartum period with varying length of time. This IG recommends the [CMS Medicaid definition](https://www.medicaid.gov/federal-policy-guidance/downloads/postpartum-ext-faqs.pdf) of one year after the patient's delivery. 
+- Guidelines: There are a number of organizations who define the postpartum period with varying length of time. This IG recommends the [CMS Medicaid definition](https://www.medicaid.gov/federal-policy-guidance/downloads/postpartum-ext-faqs.pdf) of one year after the patient's delivery. 
 
 - Clinical Care: The period of time considered postpartum may be related to the care provider, practice, or health systems workflow. Implementers **SHOULD** consider this definition if postpartum care is delivered during a period less than or greater than one year. Please see the Delivery Encounters guidance section that may assist implementers in defining visits and associated with the patient's episode of care. 
 
@@ -58,7 +58,7 @@ The artifacts contained in this implementation guide do not define temporal boun
 
 ### Terminology Updates and Maintenance
 
-Terminology bindings in this guide reference authoritative sources such as [SNOMED CT](https://browser.ihtsdotools.org/), [LOINC](https://loinc.org/search-app/), and [ICD-10-CM](https://icd10cmtool.cdc.gov/). Implementers **SHOULD** monitor these source vocabularies for new releases or changes and update any ValueSets accordingly. 
+Terminology bindings in this guide reference authoritative sources such as [SNOMED CT](https://browser.ihtsdotools.org/), [LOINC](https://loinc.org/search-app/), [RxNorm](https://www.nlm.nih.gov/research/umls/rxnorm/index.html), and [ICD-10-CM](https://icd10cmtool.cdc.gov/). Implementers **SHOULD** monitor these source vocabularies for new releases or changes and update any ValueSets accordingly. 
 
 
 ### Global Profile Declarations
