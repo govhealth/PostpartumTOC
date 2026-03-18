@@ -48,7 +48,7 @@
                 "binding": {
                     "strength": "preferred",
                     "description": "Values for breastfeeding intent.",
-                    "valueSet": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-smm-breastfeeding-intent"
+                    "valueSet": "http://fhir.org/guides/astp/postpartum-toc/ValueSet/mh-toc-breastfeeding-intent"
                 },
                 "mustSupport": true
             }
