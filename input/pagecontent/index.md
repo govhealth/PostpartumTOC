@@ -1,9 +1,9 @@
 
 ### Purpose
-The United States Core Data for Interoperability (USCDI) Plus Maternal Health (USCDI+ Maternal Health) is an extension of the USCDI, created to address crucial gaps in electronic health data standards supporting maternal and postpartum health. The USCDI+ Maternal Health Postpartum Transition of Care (TOC) aims to standardize and enhance electronic information exchange during the transition from delivery to postpartum care and primary care, addressing the fragmentation that commonly affects postpartum individuals as they transition between different providers and care settings. This FAST Healthcare Interoperability Resource Implementation Guide (FHIR IG) specifies the USCDI+ Maternal Health Postpartum TOC data elements based on Health Level 7 (HL7) [FHIR Release 4](https://hl7.org/fhir/R4/) (R4). 
+The United States Core Data for Interoperability (USCDI) Plus Maternal Health (USCDI+ Maternal Health) is an extension of the USCDI, created to address crucial gaps in electronic health data standards supporting maternal and postpartum health. The USCDI+ Maternal Health Postpartum Transition of Care (TOC) use case aims to standardize and enhance electronic information exchange during the transition from delivery to postpartum and primary care, addressing the fragmentation that commonly affects postpartum individuals as they transition between different providers and care settings. This FAST Healthcare Interoperability Resource Implementation Guide (FHIR IG) specifies the USCDI+ Maternal Health Postpartum TOC data elements based on [Health Level 7 (HL7) FHIR Release 4 (R4)](https://hl7.org/fhir/R4/). 
 
 ### Scope and Boundaries - Data Element Identification
-During the development of the USCDI+ Maternal Health Postpartum TOC dataset, the following sources were reviewed to inform dataset curation: 
+During the development of the USCDI+ Maternal Health Postpartum TOC dataset, the following sources were reviewed to inform data element curation: 
 - [Centers for Disease Control and Prevention (CDC) Perinatal Quality Collaboratives](https://www.cdc.gov/maternal-infant-health/pqc/index.html); 
 - [Centers for Medicare & Medicaid Services (CMS) Electronic Clinical Quality Measures (eCQMs)](https://ecqi.healthit.gov/ecqms/about-ecqms);
 - [CMS Healthcare Effectiveness Data and Information Set (HEDIS)](https://www.cms.gov/medicare/enrollment-renewal/special-needs-plans/data-information-set); 
@@ -12,26 +12,26 @@ During the development of the USCDI+ Maternal Health Postpartum TOC dataset, the
 - [Health Resources and Services Administration (HRSA) Uniform Data System (UDS)](https://data.hrsa.gov/topics/healthcenters/uds);
 - [HRSA Uniform Data System Plus (UDS+)](https://www.fhir.org/guides/hrsa/uds-plus/). 
 
-Through the completion of a federal measure scan white paper and in conversation with clinical and data informatics subject matter experts (SMEs), measures and data elements identified support a Postpartum TOC use case. This supports the objective of the USCDI+ Maternal Health domain, and the USCDI+ program more broadly, and existing Federal reporting programs and measures. 
+These sources were supplemented with a federal measure environment scan and discussions with clinical and data informatics subject matter experts (SMEs) to ensure data elements identified supported a Postpartum TOC use case. This supports the objective of the USCDI+ Maternal Health domain, and the USCDI+ program more broadly, and existing Federal reporting programs and measures. 
 
-Developing use cases for the USCDI+ MH domain with the inputs described above will help to establish data standards for data elements that are readily available and captured, for exchange via health IT in a clinical setting. With established use cases, the evaluation and validation of new data elements can occur through federal and industry engagement and pilots. Use cases will also include user guides and implementation guidance to provide directions on how to utilize the data elements for data capture and exchange. Currently, the USCDI+ Maternal Health domain only contains the Postpartum TOC use case, however, additional use cases may be developed in the future to support maternal health clinical care, research, and billing. 
+Developing use cases for the USCDI+ MH domain with the inputs described above will help to establish data standards for data elements that are readily available and captured for exchange via health IT in a clinical setting. With established use cases, the evaluation and validation of new data elements can occur through federal and industry engagement and pilots. Use cases will also include user guides and implementation guidance to provide directions on how to utilize the data elements for data capture and exchange. Currently, the USCDI+ Maternal Health domain only contains the Postpartum TOC use case, however, additional use cases may be developed in the future to support maternal health clinical care, research, and billing. 
 
 ### How to Read This Guide
 This IG is divided into several sub-pages which are listed at the top of each page in the menu bar. Alternatively, users may access the FHIR IG table of contents in the footer of the webpage in the links menu. 
 - [Home](index.md): Introduction and supplemental information, such as relationships with other FHIR IGs and intended audience
-- [Background](background.md): Background on the Postpartum TOC Use Case
-- [Specifications](spec.md): Summary tables of USCDI+ Maternal Health data elements and mappings to HL7 FHIR profiles and FHIR endpoints
+- [Background](background.md): Background on the Postpartum TOC use case
+- [Specifications](spec.md): Summary tables of USCDI+ Maternal Health data elements and mappings to HL7 FHIR profiles and FHIR data elements
 - [Guidance](guidance.md): Information on the library’s relation to US Core, conformance, and specific use cases pertaining to the FHIR IG 
 - [FHIR Artifacts](profiles-extensions.md): A list of the FHIR artifacts (profiles, extensions, value sets, code systems, and examples) defined as part of this guide
-- [Use Case Examples](examples.md): Examples using FHIR resources specified by the FHIR IG
+- [Examples](examples.md): Examples using FHIR resources specified by the FHIR IG
 - [Downloads](downloads.md): Links to downloadable artifacts
 - [Change Log](change-log.md): Log of FHIR IG changes between versions
 
 ### Relationships with Other FHIR IGs 
-This IG builds upon the [US Core FHIR IG 6.1.0](https://hl7.org/fhir/us/core/STU6.1/) when possible to ensure alignment with national interoperability standards and regulatory requirements. US Core FHIR IG 6.1.0, which defines standardized FHIR profiles for data elements required by the U.S. Core Data for Interoperability (USCDI), is foundational for Certified Health Information Technology (IT) exchange under the 21st Century Cures Act.
+This IG builds upon the [US Core FHIR IG 6.1.0](https://hl7.org/fhir/us/core/STU6.1/) when feasible to ensure alignment with national interoperability standards and regulatory requirements. US Core FHIR IG 6.1.0, which defines standardized FHIR profiles for data elements required by the U.S. Core Data for Interoperability (USCDI), is foundational for Certified Health Information Technology (IT) exchange under the [21st Century Cures Act](https://www.federalregister.gov/documents/2020/05/01/2020-07419/21st-century-cures-act-interoperability-information-blocking-and-the-onc-health-it-certification).
 
 By leveraging US Core profiles when possible:
-- It ensures that the majority of profiles within this FHIR IG are compatibility with Office of the National Coordinator for Health Information Technology (ONC) -certified health IT systems; and
+- It ensures that the majority of profiles within this FHIR IG are compatibility with Office of the National Coordinator for Health Information Technology (ONC) Certified Health IT - note: ONC was renamed The Assistant Secretary for Technology Policy (ASTP); and
 - It minimizes the need for custom development by adopting widely implemented FHIR patterns.
 
 For USCDI+ Maternal Health Postpartum TOC data elements that are not supported by the US Core FHIR IG 6.1.0, the FHIR IG either a) leverages an existing non-US Core FHIR IG or b) specifies new implementation guidance that is unique to this FHIR IG. Readers should review the Specifications tab to identify if an USCDI+ Maternal Health Postpartum TOC data element is mapped as a:
@@ -43,11 +43,11 @@ Users should navigate to [Specifications](spec.md) to review data element FHIR m
 ### Intended Audience
 There are three intended audiences for this FHIR IG: 
 - **Data Users:** Users of the USCDI+ Maternal Health Postpartum TOC FHIR IG, including but not limited to clinicians and researchers
-	- This FHIR IG may be used by clinicians and researchers to better understand a) data elements that are contained within the dataset and b) FHIR endpoints required to access the data elements for either clinical care or measures/metric reporting use cases.
+	- This FHIR IG may be used by clinicians and researchers to better understand a) data elements that are contained within the dataset and b) FHIR data elements required to access the data elements for either clinical care or measures/metric reporting use cases.
 - **Implementers:** Implementers of the USCDI+ Maternal Health Postpartum TOC FHIR IG, including but not limited to electronic health record (EHR) vendors, third-party app developers, and health information exchanges (HIEs)/qualified health information networks (QHINs)
  	- This FHIR IG may be used by EHR vendors, third-party app developers, and HIEs/QHINs to understand a) FHIR IG implementation and configuration requirements, including the technical conformance requirements to ensure data sent is consistent and in an expected format. 
 - **Executive Decision Makers:** Decision makers who "green-light" the implementation of the USCDI+ Maternal Health Postpartum TOC FHIR IG
-	- This FHIR IG may be used by EHR vendors to identify gaps between this FHIR IG and the US Core FHIR IG, which should be already supported by the decision maker's Certified Health IT (i.e., certified EHR) (Note: US Core 6.1.0 must be supported by Certified Health IT by 1/1/2026, as mandated in the [Assistant Secretary for Technology Policy (ASTP) HTI-1 Final Rule](https://www.healthit.gov/topic/laws-regulation-and-policy/health-data-technology-and-interoperability-certification-program)).
+	- This FHIR IG may be used by decision makers to identify gaps between this FHIR IG and the US Core FHIR IG, which should be already supported by the decision maker's Certified Health IT (i.e., certified EHR) (Note: US Core 6.1.0 must be supported by Certified Health IT by 1/1/2026, as mandated in the [Assistant Secretary for Technology Policy (ASTP) HTI-1 Final Rule](https://www.healthit.gov/topic/laws-regulation-and-policy/health-data-technology-and-interoperability-certification-program)).
 
 ### Limitations and Challenges
 (Limitations and Challenges will be updated as known issues arise)
@@ -58,7 +58,7 @@ This section outlines the limitations and challenges encountered when developing
  	- Implication for Data Element Representation in FHIR: Intra-facility and inter-provider variation complicates data mapping to FHIR resources and extraction, potentially contributing to lower-than-expected reporting rates, despite data availability and standardized queries.
   	- Data Element Example: Intention to Breastfeed: This data element is typically captured during prenatal visits and may also be documented at the time of labor and delivery. However, if a patient presents for imminent delivery without prior prenatal care in the system, this information may not be captured in structured fields, even though it could be documented in the sending system’s information.
 - Limitations with Data Mapping
-	- Finding: Data elements that were captured in structured data fields during clinical care were not consistently mapped to data standards. The lack of mapped data standards could be due to the limited awareness of the standards, no current standard exists, or the data standard has challenges meeting clinical needs.
+	- Finding: Data elements that were captured in structured data fields during clinical care were not consistently mapped to data standards. The lack of mapped data standards could be due to the limited awareness of the standards, the lack of an existing applicable standard, or the data standard has challenges meeting clinical needs.
  	- Implications for Data Element Representation in FHIR: The process of aligning data to standards like LOINC or SNOMED can be complex and time-consuming. However, without dedicated terminology or pre-expanded value sets, coded elements cannot be reliably exchanged.
   	- Data Element Example: Clinical Risk Assessments: Assessments, such as the Edinburgh Postpartum Depression Scale (EPDS), will have the total score mapped to the appropriate LOINC code. The components that make up the total score have LOINC codes, but they were not mapped in the EHR. Due to this the total EPDS score could be mapped to FHIR but the individual components of the score were not mapped.
 - Unspecified USCDI+ Maternal Health Postpartum TOC data elements
@@ -80,7 +80,7 @@ Implementers SHOULD be familiar and adhere primarily to any security and privacy
 - [Security Labels](http://hl7.org/fhir/R4/security-labels.html); and
 - [Narrative](http://hl7.org/fhir/R4/security.html#narrative).
 
-Security conformance requirements specifically related to US Core 6.1.0 may be found here: https://build.fhir.org/ig/HL7/US-Core/security.html. Additionally, implementers SHOULD be familiar and adhere to security and privacy guidance outlined by the base FHIR R4 standards for data elements specified in the FHIR IG. This guidance may found within the base FHIR R4 specification here: https://hl7.org/fhir/R4/security.html#http. 
+Security conformance requirements specifically related to US Core 6.1.0 may be found [here](https://hl7.org/fhir/us/core/STU6.1/security.html). Additionally, implementers SHOULD be familiar and adhere to security and privacy guidance outlined by the base FHIR R4 standards for data elements specified in the FHIR IG. This guidance may found within the base FHIR R4 specification [here](https://hl7.org/fhir/R4/security.html). 
 
 ### Authors and Contributors
 
@@ -114,11 +114,13 @@ Health Level Seven, HL7, CDA, CCD, and FHIR are registered trademarks of Health 
 
 This guide includes CPT content, CPT copyright © 2014 American Medical Association. All rights reserved. This agreement does not cover the implementer's use of SNOMED CT.
 
-This specification includes content from DICOM, which is copyright NEMA, and distributed by agreement between NEMA/DICOM and HL7. Implementer use of DICOM is not covered by this agreement
+This guide includes content from DICOM, which is copyright NEMA, and distributed by agreement between NEMA/DICOM and HL7. Implementer use of DICOM is not covered by this agreement
 
 This guide includes ICD-10-CM content. ICD-10-CM is a clinical modification of the World Health Organization (WHO) ICD, and it is managed by the National Center for Health Statistics, located within the Center for Disease Control and Prevention. This agreement does not cover the implementer's use of ICD-10-CM.
 
-This material contains content from [LOINC](http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc.
+This guide contains content from [LOINC](http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc.
+
+This guide includes RxNorm content. This product uses publicly available data courtesy of the U.S. National Library of Medicine (NLM), National Institutes of Health, Department of Health and Human Services; NLM is not responsible for the product and does not endorse or recommend this or any other product.
 
 This guide includes SNOMED CT content, copyright © 2002+ International Health Terminology Standards Development Organization (IHTSDO), and distributed by agreement between IHTSDO and HL7. This agreement does not cover the implementer's use of SNOMED CT.
 
