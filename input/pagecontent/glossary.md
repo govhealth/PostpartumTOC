@@ -96,7 +96,7 @@ This page contains a summary table of key terms and data element definitions.
             <tr>
          <td>Antepartum Summary Note</td>
          <td>
-            The aggregation of significant events, diagnoses, and plans of care derived from the visits over the course of the antepartum period. It is a summary of the most critical information antepartum care providers capture and share regarding the status of a patient’s pregnancy.
+            The aggregation of significant events, diagnoses, and plans of care derived from the visits over the course of the antepartum period. It is a summary of the most critical information antepartum care providers capture and share regarding the status of a patient’s pregnancy. [IHE Patient Care Coordination]
          </td>
       </tr>
               <tr>
@@ -114,7 +114,7 @@ This page contains a summary table of key terms and data element definitions.
               <tr>
          <td>Labor and Delivery Summary Note</td>
          <td>
-            A labor and delivery summary (LDS) document represents a summary of the most critical information concerning the labor and delivery care in a birthing facility.
+            A labor and delivery summary (LDS) document represents a summary of the most critical information concerning the labor and delivery care in a birthing facility. [LOINC]
          </td>
       </tr>
               <tr>
@@ -210,13 +210,13 @@ This page contains a summary table of key terms and data element definitions.
                   <tr>
          <td>Genetic Screening</td>
          <td>
-           Screenings on the mother's genome to determine newborn's risk of being birthed with a congenital disorder
+           Screenings on the mother's genome to determine newborn's risk of being birthed with a congenital disorder.
          </td>
       </tr>
                   <tr>
          <td>Genetic Counseling</td>
          <td>
-           A type of counseling that focuses focuses on congenital and developmental abnormalities associated with pregnancies, for the purposes of this implementation guide
+           A type of counseling that focuses focuses on congenital and developmental abnormalities associated with pregnancies, for the purposes of this implementation guide. [CDC]
          </td>
       </tr>
                   <tr>
@@ -228,7 +228,7 @@ This page contains a summary table of key terms and data element definitions.
                   <tr>
          <td>Clinical Risk Assessment Results</td>
          <td>
-           Results based on clinical risk assessments (e.g., hemorrhagic risk screens, sepsis risk screens, EPDS, PHQ-9, GAD-7)  
+           Results based on clinical risk assessments (e.g., hemorrhagic risk screens, sepsis risk screens, EPDS, PHQ-9, GAD-7).  
          </td>
       </tr>
                   <tr>
@@ -258,7 +258,7 @@ This page contains a summary table of key terms and data element definitions.
                   <tr>
          <td>Immunization Status</td>
          <td>
-           Indicates the current status (i.e., completed, entered in error, not done) of the immunization event.
+           Indicates the current status (i.e., completed, entered in error, not done) of the immunization event. [USCDI]
          </td>
       </tr>
                   <tr>
@@ -270,19 +270,19 @@ This page contains a summary table of key terms and data element definitions.
                   <tr>
          <td>Reason Immunization Not Performed</td>
          <td>
-           Indicates the reason the immunization event was not performed.
+           Indicates the reason the immunization event was not performed. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Delivery Type</td>
          <td>
-           Delivery Type is the method of how the baby was born and the outcome (e.g., vaginal birth, C-section, vacuum assisted delivery, or forceps assisted delivery)
+           The outcome of the labor process and method of how the baby was born, as characterized by the final and most acute intervention performed if multiple delivery modes are used; for example: vaginal unassisted, vaginal vacuum-assisted, or C-section. [Cleveland Clinic]
          </td>
       </tr>
                   <tr>
          <td>Labor Type</td>
          <td>
-           Labor type is the journey to birth: namely, spontaneous, induction, or scheduled C-section
+           The labor process, as characterized by its highest level of acuity if multiple types occur; for example, spontaneous (labor begins and ends naturally), augmented (labor starts naturally and is medically assisted), induced (labor is medically initiated), and scheduled C-section. [Cleveland Clinic]
          </td>
       </tr>
                   <tr>
@@ -330,19 +330,19 @@ This page contains a summary table of key terms and data element definitions.
                   <tr>
          <td>Breastfeeding Intention</td>
          <td>
-           Indication that patient intends to breastfeed or express breastmilk, even if not current breastfeeding in prenatal period or due to a pause in breastfeeding
+           Indication that patient intends to breastfeed or express breastmilk, even if not current breastfeeding in prenatal period or due to a pause in breastfeeding.
          </td>
       </tr>
                   <tr>
          <td>Breastfeeding Status</td>
          <td>
-           Documented breastfeeding status: for example, exclusively at the breast, exclusively expressed breastmilk, a mix, unsure, or not applicable (e.g., exclusively formula)
+           Documented breastfeeding status: for example, exclusively at the breast, exclusively expressed breastmilk, a mix, unsure, or not applicable (e.g., exclusively formula).
          </td>
       </tr>
                   <tr>
          <td>Discharge Medications</td>
          <td>
-           Indication that a medication should be taken by or given to the patient after being discharged from an encounter.
+           Indication that a medication should be taken by or given to the patient after being discharged from an encounter. [USCDI]
          </td>
       </tr>
                   <tr>
@@ -366,7 +366,7 @@ This page contains a summary table of key terms and data element definitions.
                   <tr>
          <td>Apgar Score</td>
          <td>
-           Apgar Score post-birth is a measure of the physical condition of a newborn infant, including scores at 1, 5 and 10 minutes.
+           Apgar Score post-birth is a measure of the physical condition of a newborn infant, including scores at 1, 5 and 10 minutes. [ACOG]
          </td>
       </tr>
                   <tr>
@@ -420,7 +420,7 @@ This page contains a summary table of key terms and data element definitions.
                   <tr>
          <td>Multiple Birth Order</td>
          <td>
-           The sequence in which the baby was born, if part of a Delivery having multiple births. If not a single birth then the order born in the delivery, live born or fetal death (1st, 2nd, 3rd, 4th, 5th, 6th, 7th, etc.).
+           The sequence in which the baby was born, if part of a Delivery having multiple births. If not a single birth then the order born in the delivery, live born or fetal death (1st, 2nd, 3rd, 4th, 5th, 6th, 7th, etc.). [Cleveland Clinic]
          </td>
       </tr>
                   <tr>
@@ -492,79 +492,79 @@ This page contains a summary table of key terms and data element definitions.
                   <tr>
          <td>Delivery Date</td>
          <td>
-           The patient's date of delivery
+           The patient's date of delivery. [ACOG]
          </td>
       </tr>
                   <tr>
          <td>Estimated Date of Delivery</td>
          <td>
-           The estimated due date (EDD) is the date that spontaneous onset of labor is expected to occur.
+           The estimated due date (EDD) is the date that spontaneous onset of labor is expected to occur. [ACOG]
          </td>
       </tr>
                   <tr>
          <td>Estimated Date of Delivery Determination Method</td>
          <td>
-           Method used to estimate the date of delivery, e.g., data from LMP, ultrasound etc.
+           Method used to estimate the date of delivery, e.g., data from LMP, ultrasound etc. [ACOG]
          </td>
       </tr>
                   <tr>
          <td>Gestational Age</td>
          <td>
-           The estimated gestational age (in weeks, or weeks and fraction of week) of the pregnancy at the time of the health care encounter (in contrast to the gestational age at birth), beginning from the time of fertilization. Needs to be correlated with the date the gestational age was documented. Gestational age (written with both weeks and days) is calculated using the best obstetrical estimated delivery date (EDD) based on the following formula: Gestational Age = (280 - (EDD - Reference Date))/ 7.
+           The estimated gestational age (in weeks, or weeks and fraction of week) of the pregnancy at the time of the health care encounter (in contrast to the gestational age at birth), beginning from the time of fertilization. Needs to be correlated with the date the gestational age was documented. Gestational age (written with both weeks and days) is calculated using the best obstetrical estimated delivery date (EDD) based on the following formula: Gestational Age = (280 - (EDD - Reference Date))/ 7. [ACOG]
          </td>
       </tr>
                   <tr>
          <td>Gestational Age at Delivery</td>
          <td>
-           Gestational age at delivery refers to how far along the pregnancy is at delivery, generally expressed as a combination of weeks and days.
+           Gestational age at delivery refers to how far along the pregnancy is at delivery, generally expressed as a combination of weeks and days. [ACOG] 
          </td>
       </tr>
    <tr>
          <td>Gestational Age Determination Date</td>
          <td>
-           Represents the date on which the estimated gestational age of pregnancy was determined.
+           Represents the date on which the estimated gestational age of pregnancy was determined. [ACOG]
          </td>
       </tr>
                   <tr>
          <td>Gestational Age Determination Method</td>
          <td>
-           Method for estimating gestational age, e.g., ultrasound, date of LMP.
+           Method for estimating gestational age, e.g., ultrasound, date of LMP. [ACOG]
          </td>
       </tr>
                   <tr>
          <td>Gravidity</td>
          <td>
-           The number of pregnancies, current and past, regardless of the pregnancy outcome, including the present pregnancy (ACOG) 
+           The number of pregnancies, current and past, regardless of the pregnancy outcome, including the present pregnancy. [ACOG] 
          </td>
       </tr>
                   <tr>
          <td>Last Menstrual Period (LMP)</td>
          <td>
-           Date of the first day of the last menstrual period.
+           Date of the first day of the last menstrual period. [ACOG]
          </td>
       </tr>
                   <tr>
          <td>Multiple Gestation</td>
          <td>
-           Represents a pregnancy with two or more fetuses. Multiple pregnancy may result from one zygote (fertilized ovum) that divides into two or more embryos (twins/multiple births from a single egg are called monozygotic), or it may result from the fertilization of two or more ova (dizygotic twins/multiples)
+           Represents a pregnancy with two or more fetuses. Multiple pregnancy may result from one zygote (fertilized ovum) that divides into two or more embryos (twins/multiple births from a single egg are called monozygotic), or it may result from the fertilization of two or more ova (dizygotic twins/multiples). [ACOG]
          </td>
       </tr>
                   <tr>
          <td>Parity</td>
          <td>
-           Parity is defined as the number of pregnancies reaching 20 weeks and 0 days of gestation or beyond, including the present pregnancy (ACOG).
+           Parity is defined as the number of pregnancies reaching 20 weeks and 0 days of gestation or beyond, including the present pregnancy. [ACOG]
          </td>
       </tr>
                   <tr>
          <td>Postpartum Status</td>
          <td>
-           The postpartum status of a patient. If the template is present, the patient is in the postpartum period.
+           The postpartum status of a patient. If the template is present, the patient is in the postpartum period. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Pregnancy Outcome</td>
          <td>
-           The result of the subject’s delivery, such as live birth or not a live birth.
+           The result of the subject’s delivery, such as live birth or not a live birth. [USCDI]
          </td>
       </tr>
                   <tr>
@@ -594,13 +594,13 @@ This page contains a summary table of key terms and data element definitions.
                   <tr>
          <td>Hypertensive Disorders of Pregnancy</td>
          <td>
-           Pre-pregnancy (chronic) or pregnancy-associated hypertension including pre-existing hypertension, chronic hypertension, hypertensive chronic kidney disease, essential hypertension, hypertension diagnosed during the course of pregnancy and diagnoses of pre-eclampsia and eclampsia.
+           Pre-pregnancy (chronic) or pregnancy-associated hypertension including pre-existing hypertension, chronic hypertension, hypertensive chronic kidney disease, essential hypertension, hypertension diagnosed during the course of pregnancy and diagnoses of pre-eclampsia and eclampsia. [American Academy of Family Physicians (AAFP)]
          </td>
       </tr>
                   <tr>
          <td>Indicators of Severe Maternal Morbidity</td>
          <td>
-           Severe maternal morbidity (SMM) includes unexpected outcomes of labor and delivery that result in significant short- or long-term consequences to a woman’s health (CDC). 21 indicators- https://www.cdc.gov/maternal-infant-health/php/severe-maternal-morbidity/icd.html
+           Severe maternal morbidity (SMM) includes unexpected outcomes of labor and delivery that result in significant short- or long-term consequences to a woman’s health - [21 indicators](https://www.cdc.gov/maternal-infant-health/php/severe-maternal-morbidity/icd.html). [CDC]
          </td>
       </tr>
                   <tr>
@@ -624,7 +624,7 @@ This page contains a summary table of key terms and data element definitions.
                   <tr>
          <td>Procedure Status</td>
          <td>
-           The status of the procedure (e.g., planned, completed).
+           The status of the procedure (e.g., planned, completed). [USCDI]
          </td>
       </tr>
                   <tr>
@@ -654,7 +654,7 @@ This page contains a summary table of key terms and data element definitions.
                   <tr>
          <td>Perinatal Education</td>
          <td>
-           Education provided on maternal health care during and after the pregnancy. 
+           Education provided on maternal health care during and after the pregnancy. [Mayo Clinic]
          </td>
       </tr>
    <tr>
@@ -738,43 +738,43 @@ This page contains a summary table of key terms and data element definitions.
                  <tr>
          <td>Postpartum</td>
          <td>
-           Postpartum is defined as 12 months following the delivery of the newborn, which is in alignment with CMS's Medicaid Postpartum Coverage for all states and the District of Columbia, except Wisconsin and Arkansas. 
+           Postpartum is defined as 12 months following the delivery of the newborn, which is in alignment with CMS's Medicaid Postpartum Coverage for all states and the District of Columbia, except Wisconsin and Arkansas. [CMS]
          </td>
       </tr>
                       <tr>
          <td>Antepartum</td>
          <td>
-           Antepartum period is the time frame beginning from conception to the end of the pregnancy (e.g., live birth or non-live birth)
+           Antepartum period is the time frame beginning from conception to the end of the pregnancy (e.g., live birth or non-live birth). [ACOG]
          </td>
       </tr>
                       <tr>
          <td>Perinatal</td>
          <td>
-           The time frame in childbearing women’s lives that includes the whole duration of pregnancy and the first 4 weeks (Diagnostic and Statistical Manual of Mental Disorders, 5th edition [DSM-5] criteria) 
+           The time frame in childbearing women’s lives that includes the whole duration of pregnancy and the first 4 weeks. [Diagnostic and Statistical Manual of Mental Disorders, 5th edition [DSM-5] criteria]
          </td>
       </tr>
                  <tr>
          <td>Triple Screen</td>
          <td>
-           The maternal serum screen is a blood test used to identify increased risk for certain birth defects. For alpha-fetoprotein (AFP), human chorionic gonadotropin (hCG), and unconjugated estriol (uE3)
+           The maternal serum screen is a blood test used to identify increased risk for certain birth defects. For alpha-fetoprotein (AFP), human chorionic gonadotropin (hCG), and unconjugated estriol (uE3). [CDC]
          </td>
       </tr>
                  <tr>
          <td>Quad Screen</td>
          <td>
-           The maternal serum screen is a blood test used to identify increased risk for certain birth defects. The screen tests four proteins: alpha-fetoprotein (AFP), human chorionic gonadotropin (hCG), unconjugated estriol (uE3), and inhibin-A (CDC). 
+           The maternal serum screen is a blood test used to identify increased risk for certain birth defects. The screen tests four proteins: alpha-fetoprotein (AFP), human chorionic gonadotropin (hCG), unconjugated estriol (uE3), and inhibin-A. [CDC] 
          </td>
       </tr>
                  <tr>
          <td>Penta Screen</td>
          <td>
-           The maternal serum screen is a blood test used to identify increased risk for certain birth defects. For alpha-fetoprotein (AFP), human chorionic gonadotropin (hCG), unconjugated estriol (uE3), Dimeric Inhibin A, and ITA (hyperglycosylated hCG) (Quest).
+           The maternal serum screen is a blood test used to identify increased risk for certain birth defects. For alpha-fetoprotein (AFP), human chorionic gonadotropin (hCG), unconjugated estriol (uE3), Dimeric Inhibin A, and ITA (hyperglycosylated hCG). [Quest]
          </td>
       </tr>
                  <tr>
          <td>Labor</td>
          <td>
-            Contractions of the uterus that move the fetus down into the pelvis and cause the cervix to open, thin, and stretch before delivery (ACOG).
+            Contractions of the uterus that move the fetus down into the pelvis and cause the cervix to open, thin, and stretch before delivery. [ACOG]
          </td>
       </tr>
    </tbody>
