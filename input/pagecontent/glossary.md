@@ -66,31 +66,31 @@ This page contains a summary table of key terms and data element definitions.
       <tr>
          <td>Drug Class Allergy Intolerance</td>
          <td>
-            Pharmacologic category for an agent believed to cause a harmful or undesired physiologic response following exposure.
+            Pharmacologic category for an agent believed to cause a harmful or undesired physiologic response following exposure. [USCDI]
          </td>
       </tr>
       <tr>
          <td>Medication Allergy Intolerance</td>
          <td>
-            Pharmacologic agent believed to cause a harmful or undesired physiologic response following exposure.
+            Pharmacologic agent believed to cause a harmful or undesired physiologic response following exposure. [USCDI]
          </td>
       </tr>
       <tr>
          <td>Non-Medication Allergy Intolerance</td>
          <td>
-            Non-pharmacologic agent believed to cause a harmful or undesired physiologic response following exposure. <br><br> Examples include but are not limited to latex, eggs, pollen, and peanuts.
+            Non-pharmacologic agent believed to cause a harmful or undesired physiologic response following exposure. <br><br> Examples include but are not limited to latex, eggs, pollen, and peanuts. [USCDI]
          </td>
       </tr>
             <tr>
          <td>Care Team Member Name</td>
          <td>
-            Identifying characteristics of the person who participates or is expected to participate in the care of a patient.
+            Name of the person who participates or is expected to participate in the care of a patient. [USCDI]
          </td>
       </tr>
             <tr>
          <td>Care Team Member Role</td>
          <td>
-            Responsibility of an individual within the care team. Examples include but are not limited to primary care physician and caregiver.
+            Responsibility of an individual within the care team. Examples include but are not limited to primary care physician and caregiver. [USCDI]
          </td>
       </tr>
             <tr>
@@ -102,13 +102,13 @@ This page contains a summary table of key terms and data element definitions.
               <tr>
          <td>Behavioral Health History</td>
          <td>
-            Documentation on the subject's previous behavioral health events
+            Documentation on the subject's previous behavioral health events.
          </td>
       </tr>
               <tr>
          <td>Consultation Note</td>
          <td>
-            Response to request from a clinician for an opinion, advice, or service from another clinician. Examples include but are not limited to dermatology, dentistry, and acupuncture.
+            Response to request from a clinician for an opinion, advice, or service from another clinician. Examples include but are not limited to dermatology, dentistry, and acupuncture. [USCDI]
          </td>
       </tr>
               <tr>
@@ -120,13 +120,13 @@ This page contains a summary table of key terms and data element definitions.
               <tr>
          <td>Discharge Summary Note</td>
          <td>
-            Narrative summary of a patient’s admission and course in a hospital or post-acute care setting. <br><br>Usage note: Must contain admission and discharge dates and locations, discharge instructions, and reason(s) for hospitalization. <br><br>Examples include but are not limited to dermatology discharge summary, hematology discharge summary, and neurology discharge summary.
+            Narrative summary of a patient’s admission and course in a hospital or post-acute care setting. <br><br>Usage note: Must contain admission and discharge dates and locations, discharge instructions, and reason(s) for hospitalization. <br><br>Examples include but are not limited to dermatology discharge summary, hematology discharge summary, and neurology discharge summary. [USCDI]
          </td>
       </tr>
               <tr>
          <td>History & Physical</td>
          <td>
-            Summary of current and past conditions and observations used to inform an episode of care. Examples include but are not limited to admissions, surgeries, and other procedures.
+            Summary of current and past conditions and observations used to inform an episode of care. Examples include but are not limited to admissions, surgeries, and other procedures. [USCDI]
          </td>
       </tr>
               <tr>
@@ -138,73 +138,73 @@ This page contains a summary table of key terms and data element definitions.
               <tr>
          <td>Procedure Note</td>
          <td>
-            Narrative summary of non-operative procedure. <br><br>Examples include but are not limited to interventional cardiology, gastrointestinal endoscopy, and osteopathic manipulation.
+            Narrative summary of non-operative procedure. <br><br>Examples include but are not limited to interventional cardiology, gastrointestinal endoscopy, and osteopathic manipulation. [USCDI]
          </td>
       </tr>
               <tr>
          <td>Progress Note</td>
          <td>
-            Summary of a patient’s interval status during an encounter.<br><br>Examples include but are not limited to hospitalization, outpatient visit, and treatment with a post-acute care provider, or other healthcare encounter.
+            Summary of a patient’s interval status during an encounter.<br><br>Examples include but are not limited to hospitalization, outpatient visit, and treatment with a post-acute care provider, or other healthcare encounter. [USCDI]
          </td>
       </tr>
               <tr>
          <td>Clinical Test</td>
          <td>
-            Non-imaging or non-laboratory test. <br><br>Examples include but are not limited to electrocardiogram (ECG), visual acuity exam, macular exam, and graded exercise testing (GXT).
+            Non-imaging or non-laboratory test. <br><br>Examples include but are not limited to electrocardiogram (ECG), visual acuity exam, macular exam, and graded exercise testing (GXT). [USCDI]
          </td>
       </tr>
               <tr>
          <td>Clinical Test Result/Report</td>
          <td>
-            Findings of clinical tests.
+            Findings of clinical tests. [USCDI]
          </td>
       </tr>
               <tr>
          <td>Diagnostic Imaging Report</td>
          <td>
-            Interpreted results of imaging tests.<br><br>Usage Note: Includes both structured and unstructured (narrative) components.
+            Interpreted results of imaging tests.<br><br>Usage Note: Includes both structured and unstructured (narrative) components. [USCDI]
          </td>
       </tr>
               <tr>
          <td>Diagnostic Imaging Test</td>
          <td>
-            Tests that generate visual images and require interpretation by qualified professionals. <br><br>Examples include but are not limited to computed tomography-head, radiograph-chest, and ultrasound-pelvis.
+            Tests that generate visual images and require interpretation by qualified professionals. <br><br>Examples include but are not limited to computed tomography-head, radiograph-chest, and ultrasound-pelvis. [USCDI]
          </td>
       </tr>
               <tr>
          <td>Encounter Diagnosis</td>
          <td>
-            Coded diagnoses associated with an episode of care.
+            Coded diagnoses associated with an episode of care. [USCDI]
          </td>
       </tr>
               <tr>
          <td>Encounter Location</td>
          <td>
-            Place where a patient’s care is delivered.
+            Place where a patient’s care is delivered. [USCDI]
          </td>
       </tr>
               <tr>
          <td>Encounter Type</td>
          <td>
-            Category of health care service. <br><br> Examples include but are not limited to office visit, telephone assessment, and home visit.
+            Category of health care service. <br><br> Examples include but are not limited to office visit, telephone assessment, and home visit. [USCDI]
          </td>
       </tr>
                 <tr>
          <td>Facility Name</td>
          <td>
-           Word or words by which a facility is known.
+           Word or words by which a facility is known. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Facility Type</td>
          <td>
-           Category describing available services or resources. <br><br> Examples include but are not limited to laboratory, pharmacy, hospital, ambulatory providers, long-term and post-acute care, and pharmacy.
+           Category describing available services or resources. <br><br> Examples include but are not limited to laboratory, pharmacy, hospital, ambulatory providers, long-term and post-acute care, and pharmacy. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Family Health History</td>
          <td>
-           Family Health History is an element of patient health data capturing relevant coded health data of a patient's family.
+           Family Health History is an element of patient health data capturing relevant coded health data of a patient's family. [USCDI]
          </td>
       </tr>
                   <tr>
@@ -222,37 +222,37 @@ This page contains a summary table of key terms and data element definitions.
                   <tr>
          <td>Alcohol Use</td>
          <td>
-           Evaluation of a patient's consumption of alcohol. Examples include but are not limited to history of alcohol use, alcohol use disorder identification test and alcohol intake assessment.
+           Evaluation of a patient's consumption of alcohol. Examples include but are not limited to history of alcohol use, alcohol use disorder identification test and alcohol intake assessment. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Clinical Risk Assessment Results</td>
          <td>
-           Results based on clinical risk assessments (e.g., hemorrhagic risk screens, sepsis risk screens) 
+           Results based on clinical risk assessments (e.g., hemorrhagic risk screens, sepsis risk screens, EPDS, PHQ-9, GAD-7)  
          </td>
       </tr>
                   <tr>
          <td>Mental/ Cognitive Status</td>
          <td>
-           Assessment or screening for the presence of a mental or behavioral problem. <br><br> Examples include but are not limited to Confusion Assessment Method (CAM) and Patient Health Questionnaire (PHQ).
+           Assessment or screening for the presence of a mental or behavioral problem. <br><br> Examples include but are not limited to Confusion Assessment Method (CAM) and Patient Health Questionnaire (PHQ). [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Pregnancy Status</td>
          <td>
-           State or condition of being pregnant or intent to become pregnant. <br><br> Examples include but are not limited to pregnant, not pregnant, and unknown.
+           State or condition of being pregnant or intent to become pregnant. <br><br> Examples include but are not limited to pregnant, not pregnant, and unknown. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Smoking Status</td>
          <td>
-           Assessment of a patient’s smoking behaviors.<br><br> Examples include but are not limited to pack-years and current use.
+           Assessment of a patient’s smoking behaviors.<br><br> Examples include but are not limited to pack-years and current use. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Substance Use</td>
          <td>
-           Evaluation of a patient's reported use of drugs or other substances for non-medical purposes or in excess of a valid prescription. Examples include but are not limited to substance use disorder score, and substance use knowledge assessment.
+           Evaluation of a patient's reported use of drugs or other substances for non-medical purposes or in excess of a valid prescription. Examples include but are not limited to substance use disorder score, and substance use knowledge assessment. [USCDI]
          </td>
       </tr>
                   <tr>
@@ -264,7 +264,7 @@ This page contains a summary table of key terms and data element definitions.
                   <tr>
          <td>Immunizations</td>
          <td>
-           Vaccine product administered, planned, or reported.
+           Vaccine product administered, planned, or reported. [USCDI]
          </td>
       </tr>
                   <tr>
@@ -288,43 +288,43 @@ This page contains a summary table of key terms and data element definitions.
                   <tr>
          <td>Result Reference Range</td>
          <td>
-           Upper and lower limit of quantitative test values expected for a designated population of individuals. <br><br> Usage note: Reference range values may differ by patient characteristics, laboratory test manufacturer, and laboratory test performer.
+           Upper and lower limit of quantitative test values expected for a designated population of individuals. <br><br> Usage note: Reference range values may differ by patient characteristics, laboratory test manufacturer, and laboratory test performer. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Result Status</td>
          <td>
-           State or condition of a laboratory test.
+           State or condition of a laboratory test. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Specimen Identifier</td>
          <td>
-           Sequence of characters assigned by a laboratory for an individual specimen. <br><br>Example includes but is not limited to accession number.
+           Sequence of characters assigned by a laboratory for an individual specimen. <br><br>Example includes but is not limited to accession number. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Specimen Source Site</td>
          <td>
-           Body location from where a specimen was obtained. <br><br>Examples include but are not limited to right internal jugular, left arm, and right eye.
+           Body location from where a specimen was obtained. <br><br>Examples include but are not limited to right internal jugular, left arm, and right eye. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Specimen Type</td>
          <td>
-           Substance being sampled or tested.<br><br>Examples include but are not limited to nasopharyngeal swab, whole blood, serum, urine, and wound swab.
+           Substance being sampled or tested.<br><br>Examples include but are not limited to nasopharyngeal swab, whole blood, serum, urine, and wound swab. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Tests</td>
          <td>
-           Analysis of specimens derived from humans which provide information for the diagnosis, prevention, treatment of disease, or assessment of health.
+           Analysis of specimens derived from humans which provide information for the diagnosis, prevention, treatment of disease, or assessment of health. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Values/Results</td>
          <td>
-           Documented findings of a tested specimen including structured and unstructured components.
+           Documented findings of a tested specimen including structured and unstructured components. [USCDI]
          </td>
       </tr>
                   <tr>
@@ -348,19 +348,19 @@ This page contains a summary table of key terms and data element definitions.
                   <tr>
          <td>Dose</td>
          <td>
-           Amount of a medication for each administration.
+           Amount of a medication for each administration. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Dose Unit of Measure</td>
          <td>
-           Units of measure of a medication.<br><br>Examples include but are not limited to milligram (mg) and milliliter (mL).
+           Units of measure of a medication.<br><br>Examples include but are not limited to milligram (mg) and milliliter (mL). [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Medications</td>
          <td>
-           Pharmacologic agent used in the diagnosis, cure, mitigation, treatment, or prevention of disease.
+           Pharmacologic agent used in the diagnosis, cure, mitigation, treatment, or prevention of disease. [USCDI]
          </td>
       </tr>
                   <tr>
@@ -378,43 +378,43 @@ This page contains a summary table of key terms and data element definitions.
                   <tr>
          <td>Current Address</td>
          <td>
-           Place where a person is located or may be contacted.<br><br>Usage note: If the address pattern is not supported in the standard, implementations should align as closely as possible and avoid truncating any values.
+           Place where a person is located or may be contacted.<br><br>Usage note: If the address pattern is not supported in the standard, implementations should align as closely as possible and avoid truncating any values. [USCDI]
          </td>
       </tr>
    <tr>
          <td>Date of Birth</td>
          <td>
-           Known or estimated year, month, and day of the patient's birth.
+           Known or estimated year, month, and day of the patient's birth. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Email Address</td>
          <td>
-           Unique identifier of an individual's email account that is used to send and receive email messages.
+           Unique identifier of an individual's email account that is used to send and receive email messages. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Ethnicity</td>
          <td>
-           Patient's self-identification as Hispanic/ Latino or Non- Hispanic/ Non-Latino.
+           Patient's self-identification as Hispanic/ Latino or Non- Hispanic/ Non-Latino. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>First Name</td>
          <td>
-           A personal name used before a family name.
+           A personal name used before a family name. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Last Name</td>
          <td>
-           Portion of one's personal name indicating familial or communal ties.
+           Portion of one's personal name indicating familial or communal ties. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Middle Name(Including middle initial)</td>
          <td>
-           A second or subsequent given name, between the first given name and the family name or surname.
+           A second or subsequent given name, between the first given name and the family name or surname. [USCDI]
          </td>
       </tr>
                   <tr>
@@ -426,67 +426,67 @@ This page contains a summary table of key terms and data element definitions.
                   <tr>
          <td>Name Suffix</td>
          <td>
-           Name component following family name that may be used to describe a person's position in a family.
+           Name component following family name that may be used to describe a person's position in a family. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Phone Number</td>
          <td>
-           Numbers and symbols to contact an individual when using a phone.
+           Numbers and symbols to contact an individual when using a phone. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Phone Number Type</td>
          <td>
-           Contact point when using a phone. <br><br>Examples include but are not limited to home, work, and mobile.
+           Contact point when using a phone. <br><br>Examples include but are not limited to home, work, and mobile. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Preferred Language</td>
          <td>
-           Documented language that the patient would like to use when discussing health care.
+           Documented language that the patient would like to use when discussing health care. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Previous Address</td>
          <td>
-           Prior place where a person may have been located or could have been contacted.<br><br> Usage note: If the address pattern is not supported in the standard, implementations should align as closely as possible and avoid truncating any values.
+           Prior place where a person may have been located or could have been contacted.<br><br> Usage note: If the address pattern is not supported in the standard, implementations should align as closely as possible and avoid truncating any values. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Previous Name</td>
          <td>
-           Any first and last name an individual may have used in the past for any reason.
+           Any first and last name an individual may have used in the past for any reason. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Race</td>
          <td>
-           An individual’s response to the race question based upon self-identification.
+           An individual’s response to the race question based upon self-identification. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Related Person's Name</td>
          <td>
-           Name of a person with a legal or familial relationship to a patient.
+           Name of a person with a legal or familial relationship to a patient. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Relationship Type</td>
          <td>
-           Relationship of a person to a patient. <br><br> Examples include but are not limited to parent, next-of-kin, guardian, and custodian.
+           Relationship of a person to a patient. <br><br> Examples include but are not limited to parent, next-of-kin, guardian, and custodian. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Tribal Affiliation</td>
          <td>
-           Tribe or band with which an individual associates.
+           Tribe or band with which an individual associates. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Assessment and Plan of Treatment</td>
          <td>
-           Health professional’s conclusions and working assumptions that will guide treatment of the patient.
+           Health professional’s conclusions and working assumptions that will guide treatment of the patient. [USCDI]
          </td>
       </tr>
                   <tr>
@@ -582,13 +582,13 @@ This page contains a summary table of key terms and data element definitions.
                   <tr>
          <td>Date of Diagnosis</td>
          <td>
-           Date of first determination by a qualified professional of the presence of a problem or condition affecting a patient.
+           Date of first determination by a qualified professional of the presence of a problem or condition affecting a patient. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Date of Resolution</td>
          <td>
-           Date of subsiding or termination of a symptom, problem or condition.
+           Date of subsiding or termination of a symptom, problem or condition. [USCDI]
          </td>
       </tr>
                   <tr>
@@ -606,19 +606,19 @@ This page contains a summary table of key terms and data element definitions.
                   <tr>
          <td>Problems</td>
          <td>
-           Condition, diagnosis, or reason for seeking medical attention.
+           Condition, diagnosis, or reason for seeking medical attention. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>SDOH Problems/Health Concerns</td>
          <td>
-           Social Determinants of Health-related health concerns, conditions, or diagnoses.<br><br>Examples include but are not limited to homelessness and food insecurity.
+           Social Determinants of Health-related health concerns, conditions, or diagnoses.<br><br>Examples include but are not limited to homelessness and food insecurity. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Performance Time</td>
          <td>
-           Time and/or date a procedure is performed.<br><br>Examples include but are not limited to vaccine or medication administration times, surgery start time, time ultrasound performed, and laboratory specimen collection time.
+           Time and/or date a procedure is performed.<br><br>Examples include but are not limited to vaccine or medication administration times, surgery start time, time ultrasound performed, and laboratory specimen collection time. [USCDI]
          </td>
       </tr>
                   <tr>
@@ -630,29 +630,29 @@ This page contains a summary table of key terms and data element definitions.
                   <tr>
          <td>Procedures</td>
          <td>
-           Activity performed for or on a patient as part of the provision of care.
+           Activity performed for or on a patient as part of the provision of care. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Reason for Referral</td>
          <td>
-           Explanation or justification for a referral or consultation.
+           Explanation or justification for a referral or consultation. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Author Organization</td>
          <td>
-           Organization associated with author.
+           Organization associated with author. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Author Time Stamp</td>
          <td>
-           Date and time of author action.
+           Date and time of author action. [USCDI]
          </td>
       </tr>
                   <tr>
-         <td>Education (Maternal Health)</td>
+         <td>Perinatal Education</td>
          <td>
            Education provided on maternal health care during and after the pregnancy. 
          </td>
@@ -660,7 +660,7 @@ This page contains a summary table of key terms and data element definitions.
    <tr>
          <td>Average Blood Pressure</td>
          <td>
-           Arithmetic average of systolic and diastolic components of two of more blood pressure readings in a specified time period or according to a specified algorithm or protocol. <br><br>Examples include but are not limited to 3-day morning and evening home monitoring, clinical encounter repeat average, and 24-hour ambulatory measurement.
+           Arithmetic average of systolic and diastolic components of two of more blood pressure readings in a specified time period or according to a specified algorithm or protocol. <br><br>Examples include but are not limited to 3-day morning and evening home monitoring, clinical encounter repeat average, and 24-hour ambulatory measurement. [USCDI]
          </td>
       </tr>
                   <tr>
@@ -672,67 +672,67 @@ This page contains a summary table of key terms and data element definitions.
                   <tr>
          <td>Body Height</td>
          <td>
-           The vertical measurement of an individual's stature from the feet to the top of the head when standing upright.
+           The vertical measurement of an individual's stature from the feet to the top of the head when standing upright. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Body Temperature</td>
          <td>
-           Temperature is a measure of the patient's ability to generate and get rid of heat.
+           Temperature is a measure of the patient's ability to generate and get rid of heat. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Body Weight</td>
          <td>
-           The measurement of weight without heavy items located on the person.
+           The measurement of weight without heavy items located on the person. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Diastolic Blood Pressure</td>
          <td>
-           Diastolic Blood Pressure
+           Diastolic Blood Pressure. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Head Occipital-frontal Circumference Percentile (Birth - 36 Months)</td>
          <td>
-           Measurement of head circumference, or OFC (occipital frontal circumference), is a reflection of head growth and is a useful tool in tracking and monitoring childhood growth and development.
+           Measurement of head circumference, or OFC (occipital frontal circumference), is a reflection of head growth and is a useful tool in tracking and monitoring childhood growth and development. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Heart Rate</td>
          <td>
-           Number of times the heart beats each minute.
+           Number of times the heart beats each minute. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Inhaled Oxygen Concentration</td>
          <td>
-           Inhaled oxygen concentration is the percent of oxygen inhaled (FIO2).
+           Inhaled oxygen concentration is the percent of oxygen inhaled (FIO2). [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Pulse Oximetry</td>
          <td>
-           Pulse oximetry is a test used to measure the oxygen level (oxygen saturation) of the blood.
+           Pulse oximetry is a test used to measure the oxygen level (oxygen saturation) of the blood. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Respiratory Rate</td>
          <td>
-           The respiration rate is the number of breaths a person takes per minute.
+           The respiration rate is the number of breaths a person takes per minute. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Systolic Blood Pressure</td>
          <td>
-           Systolic Blood Pressure
+           Systolic Blood Pressure. [USCDI]
          </td>
       </tr>
                   <tr>
          <td>Weight-for-length Percentile (Birth - 36 Months)</td>
          <td>
-           The higher the percentile number, the bigger a child is compared with other kids of the same age and gender, whether it's for height or weight.
+           The higher the percentile number, the bigger a child is compared with other kids of the same age and gender, whether it's for height or weight. [USCDI]
          </td>
       </tr>
                  <tr>
