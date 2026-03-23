@@ -600,7 +600,7 @@ This page contains a summary table of key terms and data element definitions.
                   <tr>
          <td>Indicators of Severe Maternal Morbidity</td>
          <td>
-           Severe maternal morbidity (SMM) includes unexpected outcomes of labor and delivery that result in significant short- or long-term consequences to a woman’s health - [21 indicators](https://www.cdc.gov/maternal-infant-health/php/severe-maternal-morbidity/icd.html). [CDC]
+           Severe maternal morbidity (SMM) includes unexpected outcomes of labor and delivery that result in significant short- or long-term consequences to a woman’s health. 21 indicators - https://www.cdc.gov/maternal-infant-health/php/severe-maternal-morbidity/icd.html. [CDC]
          </td>
       </tr>
                   <tr>
