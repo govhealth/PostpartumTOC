@@ -7,7 +7,7 @@
   "title": "MH TOC Breastfeeding Status",
   "status": "active",
   "date": "2025-09-15",
-  "description": "The MH TOC Breastfeeding Status Profile is derived from the US Core Simple Observation Profile. It sets minimum expectations for capturing and exchanging whether the mother is currently breastfeeding. Breastfeeding status is documented during the directly postpartum inpatient admission and/or during postpartum care ambulatory care.",
+  "description": "This profile sets minimum expectations for the Observation resource for querying an individual’s breastfeeding status. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases. Breastfeeding status is documented during the directly postpartum inpatient admission and/or during postpartum care ambulatory care. The MH TOC Breastfeeding Status Profile is derived from the [US Core Simple Observation Profile](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-simple-observation.html).",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
