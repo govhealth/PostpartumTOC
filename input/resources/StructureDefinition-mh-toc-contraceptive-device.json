@@ -7,7 +7,7 @@
     "title": "MH TOC Contraceptive Device",
     "status": "active",
     "date": "2026-02-12",
-    "description": "This profile sets minimum expectations for the Device resource, which provides guidance on querying for a patient’s documented contraception, administered via a device. The MH TOC Contraceptive Device profile leverages the US Core Device Profile. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases. For examples and specific codes, please see the instances of the individual derivative profiles.",
+    "description": "This profile sets minimum expectations for the Device resource, which provides guidance on querying for a patient’s documented contraception, administered via a device. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases. The MH TOC Contraceptive Device profile leverages the [US Core Device Profile](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-implantable-device.html).",
     "fhirVersion": "4.0.1",
     "kind": "resource",
     "abstract": false,
