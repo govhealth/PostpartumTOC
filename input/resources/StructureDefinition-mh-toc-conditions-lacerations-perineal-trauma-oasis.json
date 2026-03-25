@@ -7,7 +7,7 @@
   "title": "MH TOC Conditions (Lacerations, Perineal, Trauma, and OASIS)",
   "status": "active",
   "date": "2026-02-09",
-  "description": "The MH TOC Conditions Lacerations, Perineal, Trauma, and OASIS Profile is derived from the MH TOC Conditions Profile. This derived profile specifies laceration, perineal, trauma, and Obstetric anal sphincter injury (OASIS) events related to postpartum clinical care by binding to an extension, ValueSet, and CodeSystem.",
+  "description": "This profile sets minimum expectations for the Condition resource for querying an individual’s record for laceration, perineal, trauma, and Obstetric anal sphincter injury (OASIS) -related data, as it relates to postpartum clinical care. It identifies which core elements, extensions, vocabularies, and value sets **SHALL** be present in the resource and constrains the way the elements are used when using this profile. It provides the floor for standards development for specific use cases. The MH TOC Conditions Lacerations, Perineal, Trauma, and OASIS Profile is derived from the MH TOC Conditions Profile."
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
