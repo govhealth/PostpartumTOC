@@ -44,6 +44,44 @@ For SMM, we elected to model diagnoses and procedures as separate but related pr
 
 - Support for future updates: By organizing SMM codes into modular sub- value sets and referencing them, implementers can update a single indicator's ValueSet when CDC codes change without having to modify the profiles individually.
 
+### Maternal Health Conditions
+
+#### Considerations
+
+While this implementation guide contains profiles to specify identified relevant maternal health conditions, as noted within the ACOG Antepartum Record and the ACOG Postpartum Care Plan, implementers should consider the following: 
+
+- Organizations and definitions: This implementation guide specified conditions identified within the ACOG Antepartum Record and the ACOG Postpartum Care Plan. Identified conditions include: complications, diabetes, hemorrhages, infections, lacerations, perineal trauma, and obstetric anal sphincter injuries (OASIS). Individual implementation sites may deem other conditions not specified within this implementation guide as relevant to a patient's pregnancy and/or postpartum care. For conditions not specified within this implementation guide, users should reference VSAC to identify valid codes within this [VSAC ValueSet](https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1018.240/expansion/Latest). Additionally, this implementation guide uses SNOMED and ICD-10 codes. Implementers *SHOULD* carefully consider which standards and purpose of their own implementation. 
+
+- Temporal: This implementation guide covers standards for data exchange and does not define temporal relationships between events, episodes of care, and their resulting codes. Implementers *SHALL* follow the definitions, temporal or otherwise, as outlined by their chosen standards organization to determine if a condition is deemed relevant to the pregnancy or postpartum care.
+
+
+#### Data Model
+
+For maternal health conditions, we elected to create separate profiles for each sub-group, rather than as a composite profile, so that it is easier for implementation guide users to locate relevant values. This approach follows the FHIR principle of reusing existing resources and profiles while applying use case–specific constraints. Advantages to this model include:
+
+- Improved organization and information location: For each identified maternal health condition (i.e., complications, diabetes, hemorrhages, infections, lacerations, perineal trauma, and obstetric anal sphincter injuries (OASIS)), there exists more than one specified value, each of which may be applicable depending on the specific circumstances of the diagnosis. As a result, profiles were created for each identified conditions, so that it is easier for implementation guide users to locate the information they are seeking.  
+
+- Strong terminology binding: Each derived profile binds to a specific ValueSet for that maternal health conditions sub-group, ensuring that only valid maternal health conditions -related codes can be used. 
+
+- Support for future updates: By organizing maternal health conditions codes into modular sub- value sets and referencing them, implementers can update a single condition's ValueSet when ValueSets must be updated without needing to modify profiles individually.
+
+### Contraceptives
+
+#### Considerations
+
+While this implementation guide contains profiles to specify identified contraceptive methods, implementers should consider the following: 
+
+- Organizations and definitions: This implementation guide specified contraceptives in three main categories: devices, medications, and procedures. For medications and procedures, additional sub-categories were created to organize values by logical grouping. For medications, two sub-categories were created: oral contraceptive pills (OCPs) and progestin-only pills (POPs). For procedures, three sub-categories were created: devices, education, and procedures. For contraceptive methods not specified within this implementation guide, users should reference relevant ValueSets within this implementation guide and VSAC to identify valid codes. Implementers *SHOULD* carefully consider which standards and purpose of their own implementation.
+
+- Contraceptive devices: For this implementation guide, the contraceptive device ValueSet is bound to select values from this [VSAC ValueSet](http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1267.36). Three search terms were used to identify values applicable for this implementation guide: intrauterine, implant, and contraceptive. For contraceptive devices not specified within this implementation guide, users should navigate to the linked VSAC ValueSet to identify applicable codes that are of interest. 
+
+- Contraceptive medications: For this implementation guide, the contraceptive medications ValueSet is bound to select values from this [VSAC ValueSet](https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1010.4/expansion). OCPs were identified from [Straight Healthcare](https://www.straighthealthcare.com/oral-contraceptive-chart.html). POPs were identified after cross-referencing multiple online resources, including online pharmacies. For contraceptive medications not specified within this implementation guide, users should navigate to the linked VSAC ValueSet to identify applicable codes that are of interest.
+
+- Contraceptive procedures: For this implementation guide, the contraceptive procedure ValueSet is bound to select values from this [VSAC ValueSet](http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.88.12.80.28). For contraceptive devices not specified within this implementation guide, users should navigate to the linked VSAC ValueSet to identify applicable codes that are of interest. 
+
+#### Data Model
+
+For contraceptives, we elected to create separate profiles for each sub-category, rather than as a composite profile, as each sub-category references a different pre-existing US Core profile. This approach follows the FHIR principle of reusing existing resources and profiles while applying use case–specific constraints. Advantages to this model include the factors listed under Severe Maternal Morbidity and Maternal Health Conditions.
 
 ### Postpartum Temporal Definition
 
