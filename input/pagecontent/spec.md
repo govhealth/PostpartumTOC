@@ -14,7 +14,7 @@ While not specifically called out within the USCDI+ Maternal Health Postpartum T
 <br>
 **USCDI+ Maternal Health Postpartum TOC Data Elements and Specifications Category 1: USCDI V3 Data Elements**
 
-|Data Class|Postpartum TOC Data Element|FHIR Profile|Proposed FHIR Data Element|
+|Data Class|Postpartum TOC Data Element|FHIR Profile|FHIR Data Element|
 |---|---|---|---|
 |Allergies and Intolerances|Drug Class Allergy Intolerance|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
 |Allergies and Intolerances|Medication Allergy Intolerance|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
@@ -109,7 +109,7 @@ While not specifically called out within the USCDI+ Maternal Health Postpartum T
 <br>
 **USCDI+ Maternal Health Postpartum TOC Data Elements and Specifications Category 2: Non-USCDI V3 Data Elements**
 
-|Data Class|Postpartum TOC Data Element|FHIR Profile|Proposed FHIR Data Element|
+|Data Class|Postpartum TOC Data Element|FHIR Profile|FHIR Data Element|
 |---|---|---|---|
 |Clinical Notes|Antepartum Summary Note|[US Core DocumentReference](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-documentreference.html)|DocumentReference.type|
 |Clinical Notes|Pregnancy History Note|[US Core DocumentReference](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-documentreference.html)|DocumentReference.type|
@@ -131,7 +131,7 @@ While not specifically called out within the USCDI+ Maternal Health Postpartum T
 <br>
 **USCDI+ Maternal Health Postpartum TOC Data Elements and Specifications Category 3: Data Elements Unique to USCDI+ MH Postpartum TOC FHIR IG**
 
-|Data Class|Postpartum TOC Data Element|FHIR Profile|Proposed FHIR Data Element|
+|Data Class|Postpartum TOC Data Element|FHIR Profile|FHIR Data Element|
 |---|---|---|---|
 |Clinical Notes|Behavioral Health History|[Behavioral Health History](StructureDefinition-mh-toc-behavioral-health-history.html)|DocumentReference.type|
 |Clinical Notes|Labor and Delivery Summary Note|[Labor and Delivery Summary](StructureDefinition-mh-toc-labor-and-delivery-summary.html)|DocumentReference.type|
@@ -149,7 +149,7 @@ While not specifically called out within the USCDI+ Maternal Health Postpartum T
 <br>
 **Summary Table of USCDI+ Maternal Health Postpartum TOC Data Elements and Specifications**
 
-|Data Class|Postpartum TOC Data Element|FHIR Profile|Proposed FHIR Data Element|
+|Data Class|Postpartum TOC Data Element|FHIR Profile|FHIR Data Element|
 |---|---|---|---|
 |Allergies and Intolerances|Drug Class Allergy Intolerance|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
 |Allergies and Intolerances|Medication Allergy Intolerance|[US Core AllergyIntolerance](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-allergyintolerance.html)|AllergyIntolerance.category|
@@ -269,7 +269,7 @@ While not specifically called out within the USCDI+ Maternal Health Postpartum T
 <br>
 **Data Elements and Specifications to Support Identified Contraceptive Methods**
 
-|Data Class|Data Element|FHIR Profile|Proposed FHIR Data Element|
+|Data Class|Data Element|FHIR Profile|FHIR Data Element|
 |---|---|---|---|
 |Device|Contraceptive Device|[MH TOC Contraceptive Device](StructureDefinition-mh-toc-contraceptive-device.html)|Device.type|
 |Medication|Contraceptive Medication|[MH TOC Contraceptive Medication](StructureDefinition-mh-toc-contraceptive-medication.html)|Medication.code|
