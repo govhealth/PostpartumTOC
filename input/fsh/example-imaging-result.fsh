@@ -5,7 +5,7 @@ Description: "An example observation representing the textual result of a chest 
 Usage: #example
 
 * status = #final
-* category[0].coding[0].system = "http://terminology.hl7.org/CodeSystem/observation-category"
+* category[0].coding[0].system = "http://hl7.org/fhir/ValueSet/observation-category"
 * category[0].coding[0].code = #imaging
 * category[0].coding[0].display = "Imaging"
 * code.coding[0].system = "http://loinc.org"
