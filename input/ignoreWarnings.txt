@@ -128,7 +128,18 @@ INFORMATION: StructureDefinition.snapshot.element[17].binding.valueSet: Pinned t
 # Inherited from the base FHIR ServiceRequest resource that servicerequest-category value set has status of draft
 INFORMATION: ServiceRequest/example-mh-toc-genetic-counseling: ServiceRequest.category[0]: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/servicerequest-category|4.0.1
 
-# ICD-9-CM is labelled as a fragment on the terminology server
+# Observation-Category is labeled as a draft CodeSystem on the terminology server, however, it is a production CodeSystem, as it is used within US Core
+INFORMATION: Observation/example-imaging-result: Observation.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|0.1.0
+INFORMATION: Observation/example-mh-toc-breastfeeding-intent: Observation.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|0.1.0
+INFORMATION: Observation/example-mh-toc-breastfeeding-status: Observation.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|0.1.0
+INFORMATION: Observation/example-mh-toc-delivery-date: Observation.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|0.1.0
+INFORMATION: Observation/example-mh-toc-edd: Observation.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|0.1.0
+INFORMATION: Observation/example-mh-toc-gestational-age: Observation.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|0.1.0
+INFORMATION: Observation/example-mh-toc-gravidity: Observation.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|0.1.0
+INFORMATION: Observation/example-mh-toc-labor-delivery-type: Observation.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|0.1.0
+INFORMATION: Observation/example-mh-toc-parity: Observation.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|0.1.0
+
+# ICD-9-CM is labeled as a fragment on the terminology server
 INFORMATION: ValueSet/mh-toc-smm-acute-myocardial-infarction: ValueSet.compose.include[1]: The value set references CodeSystem 'http://hl7.org/fhir/sid/icd-9-cm' which has status 'fragment'
 INFORMATION: ValueSet/mh-toc-smm-acute-renal-failure: ValueSet.compose.include[1]: The value set references CodeSystem 'http://hl7.org/fhir/sid/icd-9-cm' which has status 'fragment'
 INFORMATION: ValueSet/mh-toc-smm-acute-respiratory-distress: ValueSet.compose.include[1]: The value set references CodeSystem 'http://hl7.org/fhir/sid/icd-9-cm' which has status 'fragment'
