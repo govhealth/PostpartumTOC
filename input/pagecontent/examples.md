@@ -43,7 +43,7 @@ These examples demonstrate use of USCDI+ Maternal Health Postpartum Transitions 
          </td>
       </tr>
       <tr>
-         <td><a href="Observation-example--mh-toc-breastfeeding-intent.html">Breastfeeding Intent</a></td>
+         <td><a href="Observation-example-mh-toc-breastfeeding-intent.html">Breastfeeding Intent</a></td>
          <td>
             An example of a recorded breastfeeding intent conforming to the MH TOC Breastfeeding Intent Profile of a mother who intends to bottle feed.
          </td>
